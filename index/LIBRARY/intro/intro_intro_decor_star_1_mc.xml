@@ -1,0 +1,9 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="intro/intro_intro_decor_star_1_mc" itemID="e952529f-217a-44b3-bdf4-0b3925ea0917" lastModified="1793135008" lastUniqueIdentifier="1">
+  <timeline><DOMTimeline name="intro/intro_intro_decor_star_1_mc" layerDepthEnabled="true"><layers>
+        <DOMLayer name="content" color="#00FFFF" current="true" isSelected="true" autoNamed="false">
+          <frames><DOMFrame index="0" keyMode="9728"><elements>
+            <DOMBitmapInstance libraryItemName="intro/intro_intro_star_png"><matrix><Matrix a="0.66666667" d="0.66666667"/></matrix></DOMBitmapInstance>
+          </elements></DOMFrame></frames>
+        </DOMLayer>
+  </layers></DOMTimeline></timeline>
+</DOMSymbolItem>

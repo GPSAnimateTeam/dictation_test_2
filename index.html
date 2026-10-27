@@ -22,7 +22,7 @@
   }
 </style>
 <script src="libs/1.0.0/createjs.min.js"></script>
-<script src="index.js?1790710151103"></script>
+<script src="index.js?1793131887878"></script>
 <script>
 // Global Scripts
 	var jsonData;
@@ -355,6 +355,12 @@ Promise.all([
     weight: "600",
   }).load(),
   new FontFace("Outfit", "url(fonts/Outfit-Bold.ttf)", {
+    weight: "700",
+  }).load(),
+ new FontFace("PlaypenSansArabic", "url(fonts/PlaypenSansArabic.ttf)", {
+    weight: "700",
+  }).load(),
+ new FontFace("ReadexPro-Arabic", "url(fonts/ReadexPro-Arabic.ttf)", {
     weight: "700",
   }).load(),
 ]).then(function(fonts) {
@@ -1297,11 +1303,11 @@ function handleComplete(evt,comp) {
 <!-- write your code here -->
 </head>
 <body onload="init();" style="margin:0px;">
-	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:1800px; height:1200px">
-		<canvas id="canvas" width="1800" height="1200" style="position: absolute; display: none; background-color:rgba(255, 255, 255, 1.00);"></canvas>
+	<div id="animation_container" style="background-color:rgba(51, 102, 51, 1.00); width:1800px; height:1200px">
+		<canvas id="canvas" width="1800" height="1200" style="position: absolute; display: none; background-color:rgba(51, 102, 51, 1.00);"></canvas>
 		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:1800px; height:1200px; position: absolute; left: 0px; top: 0px; display: none;">
 		</div>
 	</div>
-    <div id='_preload_div_' style='position:absolute; top:0; left:0; display: inline-block; height:1200px; width: 1800px; text-align: center;'>	<span style='display: inline-block; height: 100%; vertical-align: middle;'></span>	<img src=images/_preloader.gif?1790710151104 style='vertical-align: middle; max-height: 100%'/></div>
+    <div id='_preload_div_' style='position:absolute; top:0; left:0; display: inline-block; height:1200px; width: 1800px; text-align: center;'>	<span style='display: inline-block; height: 100%; vertical-align: middle;'></span>	<img src=images/_preloader.gif?1793131887880 style='vertical-align: middle; max-height: 100%'/></div>
 </body>
 </html>

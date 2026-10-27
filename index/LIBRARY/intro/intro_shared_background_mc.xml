@@ -1,0 +1,9 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="intro/intro_shared_background_mc" itemID="9e09a7f1-efb6-4e91-a468-7ff7d02b7369" lastModified="1793135008" lastUniqueIdentifier="1">
+  <timeline><DOMTimeline name="intro/intro_shared_background_mc" layerDepthEnabled="true"><layers>
+        <DOMLayer name="content" color="#00FFFF" current="true" isSelected="true" autoNamed="false">
+          <frames><DOMFrame index="0" keyMode="9728"><elements>
+            <DOMBitmapInstance libraryItemName="intro/intro_bg_plate_jpg"><matrix><Matrix a="1" d="1"/></matrix></DOMBitmapInstance>
+          </elements></DOMFrame></frames>
+        </DOMLayer>
+  </layers></DOMTimeline></timeline>
+</DOMSymbolItem>

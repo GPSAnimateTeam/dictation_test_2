@@ -1,4 +1,4 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="1800" height="1200" currentTimeline="1" xflVersion="22.02" creatorInfo="Adobe Animate" platform="Windows" versionInfo="Saved by Animate Windows 22.0 build 185" majorVersion="22" buildNumber="185" timelineLabelWidth="224" viewAngle3D="119.17696310377" vanishingPoint3DX="900" vanishingPoint3DY="600" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="3CE50BB6-55CF-47A6-B591-01286DDDC64C" fileGUID="9E2AB8B2788A474EA2C4FB06EB19399D">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#336633" width="1800" height="1200" currentTimeline="1" xflVersion="22.02" creatorInfo="Adobe Animate" platform="Windows" versionInfo="Saved by Animate Windows 22.0 build 185" majorVersion="22" buildNumber="185" timelineLabelWidth="325" viewAngle3D="119.17696310377" vanishingPoint3DX="900" vanishingPoint3DY="600" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="3CE50BB6-55CF-47A6-B591-01286DDDC64C" fileGUID="9E2AB8B2788A474EA2C4FB06EB19399D">
      <folders>
           <DOMFolderItem name="Duplicate Items Folder" itemID="6a844732-00001336"/>
           <DOMFolderItem name="flash0.ai" itemID="6a830279-00000192" isExpanded="true"/>
@@ -196,10 +196,35 @@
           <DOMFolderItem name="flash0.ai Assets_85/08" itemID="6abb85a6-00092a6c"/>
           <DOMFolderItem name="flash0.ai Assets/05" itemID="6a84354f-000002ba"/>
           <DOMFolderItem name="flash0.ai/01" itemID="6a830279-00000193" isExpanded="true"/>
+          <DOMFolderItem name="intro" itemID="00000000-00000000" isExpanded="true"/>
      </folders>
      <media>
           <DOMBitmapItem name="flash0.ai_1/03/&lt;Image&gt;" itemID="6a830e21-000008c6" sourceLastImported="1786973729" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="flash0.ai_1/03/&amp;#060Image&amp;#062" bitmapDataHRef="M 2 1786973729.dat" frameRight="31020" frameBottom="16720"/>
           <DOMBitmapItem name="flash0.ai Assets_23/Isolation Mode/&lt;Path&gt;" itemID="6a8af8dc-00002902" sourceLastImported="1787492572" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="flash0.ai Assets_23/Isolation Mode/&amp;#060Path&amp;#062" bitmapDataHRef="M 16 1787507017.dat" frameRight="1020" frameBottom="100"/>
+          <DOMBitmapItem name="bg_light_rays.png" itemID="9209ff80-93027b15" sourceLastImported="1793131775" externalFileSize="375077" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="bg_light_rays.png" bitmapDataHRef="M 9301 1793129121.dat" frameRight="18000" frameBottom="12000"/>
+          <DOMBitmapItem name="bg_plate.jpg" itemID="bab2869f-bfe6bf6e" sourceLastImported="1793131775" externalFileSize="671032" allowSmoothing="true" quality="50" href="bg_plate.jpg" bitmapDataHRef="M 9300 1793129121.dat" frameRight="54000" frameBottom="36000" isJPEG="true"/>
+          <DOMBitmapItem name="intro_bg_light_rays_png" itemID="6ae11286-00013388" sourceLastImported="1793135008" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="intro_bg_light_rays_png.png" bitmapDataHRef="M 16000 1793135008.dat" frameLeft="8388607" frameTop="-8388607" frameRight="8388607" frameBottom="8388607"/>
+          <DOMBitmapItem name="intro_bg_plate_jpg" itemID="6ae11286-00013389" sourceLastImported="1793135008" allowSmoothing="true" quality="50" href="intro_bg_plate_jpg.jpg" bitmapDataHRef="M 16001 1793135008.dat" frameLeft="-8388607" frameTop="-8388607" frameRight="8388607" frameBottom="-8388607" isJPEG="true"/>
+          <DOMBitmapItem name="intro_intro_star_png" itemID="6ae11286-0001338a" sourceLastImported="1793135008" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="intro_intro_star_png.png" bitmapDataHRef="M 16002 1793135008.dat" frameLeft="8388607" frameTop="8388607" frameRight="8388607" frameBottom="8388607"/>
+          <DOMBitmapItem name="intro_shared_box_front_png" itemID="6ae11286-0001338b" sourceLastImported="1793135008" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="intro_shared_box_front_png.png" bitmapDataHRef="M 16003 1793135008.dat" frameLeft="8388607" frameTop="8388607" frameRight="8388607" frameBottom="8388607"/>
+          <DOMBitmapItem name="intro_shared_btn_plaque_png" itemID="6ae11286-0001338c" sourceLastImported="1793135008" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="intro_shared_btn_plaque_png.png" bitmapDataHRef="M 16004 1793135008.dat" frameLeft="8388607" frameTop="8388607" frameRight="8388607" frameBottom="-8388607"/>
+          <DOMBitmapItem name="intro_shared_glass_shine_png" itemID="6ae11286-0001338d" sourceLastImported="1793135008" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="intro_shared_glass_shine_png.png" bitmapDataHRef="M 16005 1793135008.dat" frameLeft="8388607" frameTop="8388607" frameRight="8388607" frameBottom="-8388607"/>
+          <DOMBitmapItem name="intro_star.png" itemID="f63f8a0a-6187c9fd" sourceLastImported="1793131775" externalFileSize="6884" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="intro_star.png" bitmapDataHRef="M 9500 1793130331.dat" frameRight="1800" frameBottom="1680"/>
+          <DOMBitmapItem name="intro_ui_btn_close_png" itemID="6ae11286-0001338e" sourceLastImported="1793135008" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="intro_ui_btn_close_png.png" bitmapDataHRef="M 16006 1793135008.dat" frameLeft="8388607" frameTop="8388607" frameRight="8388607" frameBottom="8388607"/>
+          <DOMBitmapItem name="intro_ui_btn_info_png" itemID="6ae11286-0001338f" sourceLastImported="1793135008" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="intro_ui_btn_info_png.png" bitmapDataHRef="M 16007 1793135008.dat" frameLeft="8388607" frameTop="8388607" frameRight="8388607" frameBottom="8388607"/>
+          <DOMBitmapItem name="intro_ui_btn_mute_off_png" itemID="6ae11286-00013391" sourceLastImported="1793135008" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="intro_ui_btn_mute_off_png.png" bitmapDataHRef="M 16009 1793135008.dat" frameLeft="8388607" frameTop="8388607" frameRight="8388607" frameBottom="8388607"/>
+          <DOMBitmapItem name="intro_ui_btn_mute_png" itemID="6ae11286-00013390" sourceLastImported="1793135008" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="intro_ui_btn_mute_png.png" bitmapDataHRef="M 16008 1793135008.dat" frameLeft="8388607" frameTop="8388607" frameRight="8388607" frameBottom="8388607"/>
+          <DOMBitmapItem name="intro_ui_logo_png" itemID="6ae11286-00013392" sourceLastImported="1793135008" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="intro_ui_logo_png.png" bitmapDataHRef="M 16010 1793135008.dat" frameLeft="8388607" frameTop="-8388607" frameRight="8388607" frameBottom="8388607"/>
+          <DOMBitmapItem name="shared_box_front.png" itemID="76b20a71-568cf308" sourceLastImported="1793131775" externalFileSize="141261" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="shared_box_front.png" bitmapDataHRef="M 9302 1793129121.dat" frameRight="12000" frameBottom="7340"/>
+          <DOMBitmapItem name="shared_btn_plaque.png" itemID="6b1cc6de-9ba5fe95" sourceLastImported="1793131775" externalFileSize="61513" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="shared_btn_plaque.png" bitmapDataHRef="M 9304 1793129121.dat" frameRight="7180" frameBottom="2580"/>
+          <DOMBitmapItem name="shared_glass_shine.png" itemID="c7f56c0d-39c4d006" sourceLastImported="1793131775" externalFileSize="131686" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="shared_glass_shine.png" bitmapDataHRef="M 9303 1793129121.dat" frameRight="12000" frameBottom="8000"/>
+          <DOMBitmapItem name="shared_kite.png" itemID="e0816f9a-ba5bd420" sourceLastImported="1793131775" externalFileSize="5340" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="shared_kite.png" bitmapDataHRef="M 9501 1793130331.dat" frameRight="1360" frameBottom="1000"/>
+          <DOMBitmapItem name="shared_notebook.png" itemID="1dadd730-f5fc79b5" sourceLastImported="1793131775" externalFileSize="1034869" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="shared_notebook.png" bitmapDataHRef="M 9506 1793130331.dat" frameRight="20000" frameBottom="13780"/>
+          <DOMBitmapItem name="ui_btn_close.png" itemID="1961bfb1-6ca77a64" sourceLastImported="1793131775" externalFileSize="8822" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="ui_btn_close.png" bitmapDataHRef="M 9502 1793130331.dat" frameRight="1200" frameBottom="1200"/>
+          <DOMBitmapItem name="ui_btn_info.png" itemID="5cbcb568-0a01d1c8" sourceLastImported="1793131775" externalFileSize="8935" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="ui_btn_info.png" bitmapDataHRef="M 9503 1793130331.dat" frameRight="1200" frameBottom="1200"/>
+          <DOMBitmapItem name="ui_btn_mute.png" itemID="324bb141-8104bae1" sourceLastImported="1793131775" externalFileSize="8592" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="ui_btn_mute.png" bitmapDataHRef="M 9504 1793130331.dat" frameRight="1200" frameBottom="1200"/>
+          <DOMBitmapItem name="ui_btn_mute_off.png" itemID="f12fd414-f6f82fc6" sourceLastImported="1793131775" externalFileSize="7797" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="ui_btn_mute_off.png" bitmapDataHRef="M 9505 1793130331.dat" frameRight="1200" frameBottom="1200"/>
+          <DOMBitmapItem name="ui_logo.png" itemID="a2b53cbf-5c5448d8" sourceLastImported="1793131775" externalFileSize="19443" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="ui_logo.png" bitmapDataHRef="M 9305 1793129121.dat" frameRight="4840" frameBottom="1240"/>
           <DOMBitmapItem name="WhatsApp Image 2026-08-19 at 4.22.12 PM.jpeg" itemID="6a85ae23-00012683" sourceLastImported="1787145741" allowSmoothing="true" quality="50" href="WhatsApp Image 2026-08-19 at 4.22.12 PM.jpeg" bitmapDataHRef="M 11 1787226652.dat" frameRight="5000" frameBottom="840" isJPEG="true"/>
      </media>
      <symbols>
@@ -208,10 +233,8 @@
           <Include href="counting_1_mc.xml" loadImmediate="false" itemID="6ab00001-00000001" lastModified="1790707758"/>
           <Include href="counting_2_mc.xml" loadImmediate="false" itemID="6ab00002-00000002" lastModified="1790708216"/>
           <Include href="counting_3_mc.xml" loadImmediate="false" itemID="6ab00003-00000003" lastModified="1790708506"/>
-          <Include href="counting_4_mc.xml" loadImmediate="false" itemID="6ab00004-00000004" lastModified="1790673521"/>
           <Include href="counting_4_mc copy.xml" loadImmediate="false" itemID="6abb8397-00091961" lastModified="1790708540"/>
           <Include href="counting_4_mc copy 2.xml" loadImmediate="false" itemID="6abb84df-00092a37" lastModified="1790708886"/>
-          <Include href="counting_5_mc.xml" loadImmediate="false" itemID="6ab00005-00000005" lastModified="1788435860"/>
           <Include href="Duplicate Items Folder/&amp;#060Clip Group&amp;#062.xml" loadImmediate="false" itemID="6a8b28a0-0000639a" lastModified="1787485014"/>
           <Include href="Duplicate Items Folder/&amp;#060Clip Group&amp;#062_0.xml" loadImmediate="false" itemID="6a8b28a0-00006399" lastModified="1786973729"/>
           <Include href="Duplicate Items Folder/&amp;#060Ellipse&amp;#062 copy.xml" loadImmediate="false" itemID="6aa2ac63-00009c5e" lastModified="1786970745"/>
@@ -357,22 +380,6 @@
           <Include href="flash0.ai_7/01/&amp;#060Path&amp;#062_1_0.xml" loadImmediate="false" itemID="6ab8c401-0000d8ea" lastModified="1790493697"/>
           <Include href="flash0.ai Assets_0/05/&amp;#060Clip Group&amp;#062.xml" loadImmediate="false" itemID="6a843597-000002ce" lastModified="1787049367"/>
           <Include href="flash0.ai Assets_0/05/&amp;#060Clip Group&amp;#062_0.xml" loadImmediate="false" itemID="6a843597-000002d0" lastModified="1787049367"/>
-          <Include href="flash0.ai Assets_1/06/&amp;#060Clip Group&amp;#062.xml" loadImmediate="false" itemID="6a854ded-00000318" lastModified="1787121133"/>
-          <Include href="flash0.ai Assets_2/06/&amp;#060Clip Group&amp;#062.xml" loadImmediate="false" itemID="6a854e03-0000031c" lastModified="1787121155"/>
-          <Include href="flash0.ai Assets_3/06/&amp;#060Clip Group&amp;#062.xml" loadImmediate="false" itemID="6a854e1b-00000320" lastModified="1787121179"/>
-          <Include href="flash0.ai Assets_4/07/&amp;#060Clip Group&amp;#062.xml" loadImmediate="false" itemID="6a855316-00000811" lastModified="1787122454"/>
-          <Include href="flash0.ai Assets_4/07/&amp;#060Clip Group&amp;#062_1.xml" loadImmediate="false" itemID="6a855316-0000080f" lastModified="1787122454"/>
-          <Include href="flash0.ai Assets_5/07/&amp;#060Clip Group&amp;#062.xml" loadImmediate="false" itemID="6a85532e-00000817" lastModified="1787122478"/>
-          <Include href="flash0.ai Assets_5/07/&amp;#060Clip Group&amp;#062_1.xml" loadImmediate="false" itemID="6a85532e-00000815" lastModified="1787122478"/>
-          <Include href="flash0.ai Assets_6/07/&amp;#060Clip Group&amp;#062.xml" loadImmediate="false" itemID="6a85533c-0000081d" lastModified="1787122492"/>
-          <Include href="flash0.ai Assets_6/07/&amp;#060Clip Group&amp;#062_1.xml" loadImmediate="false" itemID="6a85533c-0000081b" lastModified="1787122492"/>
-          <Include href="flash0.ai Assets_7/08/&amp;#060Clip Group&amp;#062.xml" loadImmediate="false" itemID="6a85548a-00000821" lastModified="1787122826"/>
-          <Include href="flash0.ai Assets_8/08/&amp;#060Clip Group&amp;#062.xml" loadImmediate="false" itemID="6a855499-00000825" lastModified="1787122841"/>
-          <Include href="flash0.ai Assets_9/08/&amp;#060Clip Group&amp;#062.xml" loadImmediate="false" itemID="6a8554a6-00000829" lastModified="1787122854"/>
-          <Include href="flash0.ai Assets_10/09/&amp;#060Path&amp;#062.xml" loadImmediate="false" itemID="6a8554e3-0000082d" lastModified="1787122915"/>
-          <Include href="flash0.ai Assets_10/09/&amp;#060Path&amp;#062_0.xml" loadImmediate="false" itemID="6a8554e3-0000082f" lastModified="1787122915"/>
-          <Include href="flash0.ai Assets_17/09/&amp;#060Path&amp;#062.xml" loadImmediate="false" itemID="6a95631f-000082d0" lastModified="1788175135"/>
-          <Include href="flash0.ai Assets_17/09/&amp;#060Path&amp;#062_0.xml" loadImmediate="false" itemID="6a95631f-000082d2" lastModified="1788175135"/>
           <Include href="flash0.ai Assets_21/05/&amp;#060Clip Group&amp;#062.xml" loadImmediate="false" itemID="6a8adfc2-000014a3" lastModified="1787486146"/>
           <Include href="flash0.ai Assets_21/05/&amp;#060Clip Group&amp;#062_0.xml" loadImmediate="false" itemID="6a8adfc2-000014bf" lastModified="1787486146"/>
           <Include href="flash0.ai Assets_21/05/&amp;#060Clip Group&amp;#062_1.xml" loadImmediate="false" itemID="6a8adfc2-000014d3" lastModified="1787486146"/>
@@ -678,7 +685,6 @@
           <Include href="flash0.ai Assets_54/Isolation Mode/&amp;#060Path&amp;#062_46.xml" loadImmediate="false" itemID="6ab8f774-00021a92" lastModified="1790506868"/>
           <Include href="flash0.ai Assets_54/Isolation Mode/&amp;#060Path&amp;#062_47.xml" loadImmediate="false" itemID="6ab8f774-00021a94" lastModified="1790506868"/>
           <Include href="flash0.ai Assets_54/Isolation Mode/&amp;#060Path&amp;#062_48.xml" loadImmediate="false" itemID="6ab8f774-00021a96" lastModified="1790506868"/>
-          <Include href="flash0.ai Assets_58/04/&amp;#060Path&amp;#062.xml" loadImmediate="false" itemID="6aba4f4c-0005bc53" lastModified="1790594892"/>
           <Include href="flash0.ai Assets_59/04/&amp;#060Path&amp;#062.xml" loadImmediate="false" itemID="6aba4fb4-0005bc65" lastModified="1790594996"/>
           <Include href="flash0.ai Assets_60/04/&amp;#060Path&amp;#062.xml" loadImmediate="false" itemID="6aba4fbe-0005bc69" lastModified="1790595006"/>
           <Include href="flash0.ai Assets_61/Safe area/&amp;#060Clip Group&amp;#062.xml" loadImmediate="false" itemID="6aba5b3f-00066a44" lastModified="1790597976"/>
@@ -750,406 +756,18 @@
           <Include href="flash0.ai Assets_62/08/&amp;#060Path&amp;#062_29.xml" loadImmediate="false" itemID="6ab902b7-000004b5" lastModified="1790509751"/>
           <Include href="flash0.ai Assets_63/05/&amp;#060Path&amp;#062.xml" loadImmediate="false" itemID="6abb7920-0008cf49" lastModified="1790671136"/>
           <Include href="flash0.ai Assets_63/05/&amp;#060Path&amp;#062_1.xml" loadImmediate="false" itemID="6abb7920-0008cf47" lastModified="1790671136"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Clip Group&amp;#062.xml" loadImmediate="false" itemID="6abb7936-0008cf4d" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Clip Group&amp;#062_0.xml" loadImmediate="false" itemID="6abb7936-0008cfa5" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Group&amp;#062.xml" loadImmediate="false" itemID="6abb7936-0008cfa3" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Group&amp;#062_0.xml" loadImmediate="false" itemID="6abb7936-0008cfb3" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Group&amp;#062_1.xml" loadImmediate="false" itemID="6abb7936-0008cfaf" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Group&amp;#062_2.xml" loadImmediate="false" itemID="6abb7936-0008cfc5" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Group&amp;#062_5.xml" loadImmediate="false" itemID="6abb7936-0008cfa7" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062.xml" loadImmediate="false" itemID="6abb7936-0008cfa1" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_0.xml" loadImmediate="false" itemID="6abb7936-0008cfc3" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_1.xml" loadImmediate="false" itemID="6abb7936-0008cf9f" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_1_0.xml" loadImmediate="false" itemID="6abb7936-0008cfc1" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_1_1.xml" loadImmediate="false" itemID="6abb7936-0008cfc9" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_1_2.xml" loadImmediate="false" itemID="6abb7936-0008cfcd" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_1_3.xml" loadImmediate="false" itemID="6abb7936-0008cfd1" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_1_4.xml" loadImmediate="false" itemID="6abb7936-0008cfd5" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_1_5.xml" loadImmediate="false" itemID="6abb7936-0008cfd9" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_1_6.xml" loadImmediate="false" itemID="6abb7936-0008cfdd" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_1_7.xml" loadImmediate="false" itemID="6abb7936-0008cfe1" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_2.xml" loadImmediate="false" itemID="6abb7936-0008cf9d" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_2_0.xml" loadImmediate="false" itemID="6abb7936-0008cfa9" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_2_1.xml" loadImmediate="false" itemID="6abb7936-0008cfab" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_2_2.xml" loadImmediate="false" itemID="6abb7936-0008cfad" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_2_3.xml" loadImmediate="false" itemID="6abb7936-0008cfb1" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_3.xml" loadImmediate="false" itemID="6abb7936-0008cf9b" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_4.xml" loadImmediate="false" itemID="6abb7936-0008cf99" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_5.xml" loadImmediate="false" itemID="6abb7936-0008cf97" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_6.xml" loadImmediate="false" itemID="6abb7936-0008cf95" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_7.xml" loadImmediate="false" itemID="6abb7936-0008cf93" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_8.xml" loadImmediate="false" itemID="6abb7936-0008cf91" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_9.xml" loadImmediate="false" itemID="6abb7936-0008cf8f" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_9_0.xml" loadImmediate="false" itemID="6abb7936-0008cfbf" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_10.xml" loadImmediate="false" itemID="6abb7936-0008cf8d" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_11.xml" loadImmediate="false" itemID="6abb7936-0008cf8b" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_12.xml" loadImmediate="false" itemID="6abb7936-0008cf89" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_12_0.xml" loadImmediate="false" itemID="6abb7936-0008cfbd" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_13.xml" loadImmediate="false" itemID="6abb7936-0008cf87" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_13_0.xml" loadImmediate="false" itemID="6abb7936-0008cfbb" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_14.xml" loadImmediate="false" itemID="6abb7936-0008cf85" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_14_0.xml" loadImmediate="false" itemID="6abb7936-0008cfb9" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_15.xml" loadImmediate="false" itemID="6abb7936-0008cf83" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_15_0.xml" loadImmediate="false" itemID="6abb7936-0008cfb7" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_16.xml" loadImmediate="false" itemID="6abb7936-0008cf81" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_16_0.xml" loadImmediate="false" itemID="6abb7936-0008cfb5" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_17.xml" loadImmediate="false" itemID="6abb7936-0008cf7f" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_18.xml" loadImmediate="false" itemID="6abb7936-0008cf7d" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_19.xml" loadImmediate="false" itemID="6abb7936-0008cf7b" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_20.xml" loadImmediate="false" itemID="6abb7936-0008cf79" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_21.xml" loadImmediate="false" itemID="6abb7936-0008cf77" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_22.xml" loadImmediate="false" itemID="6abb7936-0008cf75" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_23.xml" loadImmediate="false" itemID="6abb7936-0008cf73" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_24.xml" loadImmediate="false" itemID="6abb7936-0008cf71" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_25.xml" loadImmediate="false" itemID="6abb7936-0008cf6f" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_26.xml" loadImmediate="false" itemID="6abb7936-0008cf6d" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_27.xml" loadImmediate="false" itemID="6abb7936-0008cf6b" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_28.xml" loadImmediate="false" itemID="6abb7936-0008cf69" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_29.xml" loadImmediate="false" itemID="6abb7936-0008cf67" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_30.xml" loadImmediate="false" itemID="6abb7936-0008cf65" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_31.xml" loadImmediate="false" itemID="6abb7936-0008cf63" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_32.xml" loadImmediate="false" itemID="6abb7936-0008cf61" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_33.xml" loadImmediate="false" itemID="6abb7936-0008cf5f" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_34.xml" loadImmediate="false" itemID="6abb7936-0008cf5d" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_35.xml" loadImmediate="false" itemID="6abb7936-0008cf5b" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_36.xml" loadImmediate="false" itemID="6abb7936-0008cf59" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_37.xml" loadImmediate="false" itemID="6abb7936-0008cf57" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_38.xml" loadImmediate="false" itemID="6abb7936-0008cf55" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_39.xml" loadImmediate="false" itemID="6abb7936-0008cf53" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_40.xml" loadImmediate="false" itemID="6abb7936-0008cf51" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_41.xml" loadImmediate="false" itemID="6abb7936-0008cf4f" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_42.xml" loadImmediate="false" itemID="6abb7936-0008cfc7" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_43.xml" loadImmediate="false" itemID="6abb7936-0008cfcb" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_44.xml" loadImmediate="false" itemID="6abb7936-0008cfcf" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_45.xml" loadImmediate="false" itemID="6abb7936-0008cfd3" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_46.xml" loadImmediate="false" itemID="6abb7936-0008cfd7" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_47.xml" loadImmediate="false" itemID="6abb7936-0008cfdb" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_48.xml" loadImmediate="false" itemID="6abb7936-0008cfdf" lastModified="1790671158"/>
-          <Include href="flash0.ai Assets_64/05/&amp;#060Path&amp;#062_49.xml" loadImmediate="false" itemID="6abb7936-0008cfe3" lastModified="1790671158"/>
           <Include href="flash0.ai Assets_65/05/&amp;#060Path&amp;#062.xml" loadImmediate="false" itemID="6abb796a-0008cff1" lastModified="1790671210"/>
           <Include href="flash0.ai Assets_65/05/&amp;#060Path&amp;#062_1.xml" loadImmediate="false" itemID="6abb796a-0008cfef" lastModified="1790671210"/>
-          <Include href="flash0.ai Assets_66/05/&amp;#060Path&amp;#062.xml" loadImmediate="false" itemID="6abb7a6b-0008d087" lastModified="1790671467"/>
-          <Include href="flash0.ai Assets_66/05/&amp;#060Path&amp;#062_1.xml" loadImmediate="false" itemID="6abb7a6b-0008d085" lastModified="1790671467"/>
-          <Include href="flash0.ai Assets_67/05/&amp;#060Path&amp;#062.xml" loadImmediate="false" itemID="6abb7a7b-0008d08d" lastModified="1790671483"/>
-          <Include href="flash0.ai Assets_67/05/&amp;#060Path&amp;#062_1.xml" loadImmediate="false" itemID="6abb7a7b-0008d08b" lastModified="1790671483"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Clip Group&amp;#062.xml" loadImmediate="false" itemID="6abb7abd-0008d0a1" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Clip Group&amp;#062_0.xml" loadImmediate="false" itemID="6abb7abd-0008d0f9" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Group&amp;#062.xml" loadImmediate="false" itemID="6abb7abd-0008d0f7" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Group&amp;#062_0.xml" loadImmediate="false" itemID="6abb7abd-0008d107" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Group&amp;#062_1.xml" loadImmediate="false" itemID="6abb7abd-0008d103" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Group&amp;#062_2.xml" loadImmediate="false" itemID="6abb7abd-0008d119" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Group&amp;#062_5.xml" loadImmediate="false" itemID="6abb7abd-0008d0fb" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062.xml" loadImmediate="false" itemID="6abb7abd-0008d0f5" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_0.xml" loadImmediate="false" itemID="6abb7abd-0008d117" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_1.xml" loadImmediate="false" itemID="6abb7abd-0008d0f3" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_1_0.xml" loadImmediate="false" itemID="6abb7abd-0008d115" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_1_1.xml" loadImmediate="false" itemID="6abb7abd-0008d11d" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_1_2.xml" loadImmediate="false" itemID="6abb7abd-0008d121" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_1_3.xml" loadImmediate="false" itemID="6abb7abd-0008d125" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_1_4.xml" loadImmediate="false" itemID="6abb7abd-0008d129" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_1_5.xml" loadImmediate="false" itemID="6abb7abd-0008d12d" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_1_6.xml" loadImmediate="false" itemID="6abb7abd-0008d131" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_1_7.xml" loadImmediate="false" itemID="6abb7abd-0008d135" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_2.xml" loadImmediate="false" itemID="6abb7abd-0008d0f1" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_2_0.xml" loadImmediate="false" itemID="6abb7abd-0008d0fd" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_2_1.xml" loadImmediate="false" itemID="6abb7abd-0008d0ff" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_2_2.xml" loadImmediate="false" itemID="6abb7abd-0008d101" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_2_3.xml" loadImmediate="false" itemID="6abb7abd-0008d105" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_3.xml" loadImmediate="false" itemID="6abb7abd-0008d0ef" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_4.xml" loadImmediate="false" itemID="6abb7abd-0008d0ed" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_5.xml" loadImmediate="false" itemID="6abb7abd-0008d0eb" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_6.xml" loadImmediate="false" itemID="6abb7abd-0008d0e9" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_7.xml" loadImmediate="false" itemID="6abb7abd-0008d0e7" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_8.xml" loadImmediate="false" itemID="6abb7abd-0008d0e5" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_9.xml" loadImmediate="false" itemID="6abb7abd-0008d0e3" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_9_0.xml" loadImmediate="false" itemID="6abb7abd-0008d113" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_10.xml" loadImmediate="false" itemID="6abb7abd-0008d0e1" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_11.xml" loadImmediate="false" itemID="6abb7abd-0008d0df" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_12.xml" loadImmediate="false" itemID="6abb7abd-0008d0dd" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_12_0.xml" loadImmediate="false" itemID="6abb7abd-0008d111" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_13.xml" loadImmediate="false" itemID="6abb7abd-0008d0db" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_13_0.xml" loadImmediate="false" itemID="6abb7abd-0008d10f" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_14.xml" loadImmediate="false" itemID="6abb7abd-0008d0d9" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_14_0.xml" loadImmediate="false" itemID="6abb7abd-0008d10d" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_15.xml" loadImmediate="false" itemID="6abb7abd-0008d0d7" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_15_0.xml" loadImmediate="false" itemID="6abb7abd-0008d10b" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_16.xml" loadImmediate="false" itemID="6abb7abd-0008d0d5" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_16_0.xml" loadImmediate="false" itemID="6abb7abd-0008d109" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_17.xml" loadImmediate="false" itemID="6abb7abd-0008d0d3" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_18.xml" loadImmediate="false" itemID="6abb7abd-0008d0d1" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_19.xml" loadImmediate="false" itemID="6abb7abd-0008d0cf" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_20.xml" loadImmediate="false" itemID="6abb7abd-0008d0cd" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_21.xml" loadImmediate="false" itemID="6abb7abd-0008d0cb" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_22.xml" loadImmediate="false" itemID="6abb7abd-0008d0c9" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_23.xml" loadImmediate="false" itemID="6abb7abd-0008d0c7" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_24.xml" loadImmediate="false" itemID="6abb7abd-0008d0c5" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_25.xml" loadImmediate="false" itemID="6abb7abd-0008d0c3" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_26.xml" loadImmediate="false" itemID="6abb7abd-0008d0c1" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_27.xml" loadImmediate="false" itemID="6abb7abd-0008d0bf" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_28.xml" loadImmediate="false" itemID="6abb7abd-0008d0bd" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_29.xml" loadImmediate="false" itemID="6abb7abd-0008d0bb" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_30.xml" loadImmediate="false" itemID="6abb7abd-0008d0b9" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_31.xml" loadImmediate="false" itemID="6abb7abd-0008d0b7" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_32.xml" loadImmediate="false" itemID="6abb7abd-0008d0b5" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_33.xml" loadImmediate="false" itemID="6abb7abd-0008d0b3" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_34.xml" loadImmediate="false" itemID="6abb7abd-0008d0b1" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_35.xml" loadImmediate="false" itemID="6abb7abd-0008d0af" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_36.xml" loadImmediate="false" itemID="6abb7abd-0008d0ad" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_37.xml" loadImmediate="false" itemID="6abb7abd-0008d0ab" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_38.xml" loadImmediate="false" itemID="6abb7abd-0008d0a9" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_39.xml" loadImmediate="false" itemID="6abb7abd-0008d0a7" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_40.xml" loadImmediate="false" itemID="6abb7abd-0008d0a5" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_41.xml" loadImmediate="false" itemID="6abb7abd-0008d0a3" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_42.xml" loadImmediate="false" itemID="6abb7abd-0008d11b" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_43.xml" loadImmediate="false" itemID="6abb7abd-0008d11f" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_44.xml" loadImmediate="false" itemID="6abb7abd-0008d123" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_45.xml" loadImmediate="false" itemID="6abb7abd-0008d127" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_46.xml" loadImmediate="false" itemID="6abb7abd-0008d12b" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_47.xml" loadImmediate="false" itemID="6abb7abd-0008d12f" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_48.xml" loadImmediate="false" itemID="6abb7abd-0008d133" lastModified="1790671549"/>
-          <Include href="flash0.ai Assets_68/05/&amp;#060Path&amp;#062_49.xml" loadImmediate="false" itemID="6abb7abd-0008d137" lastModified="1790671549"/>
           <Include href="flash0.ai Assets_69/06/&amp;#060Path&amp;#062.xml" loadImmediate="false" itemID="6abb7dbf-0008f98c" lastModified="1790672319"/>
           <Include href="flash0.ai Assets_70/06/&amp;#060Path&amp;#062.xml" loadImmediate="false" itemID="6abb7dd1-0008f990" lastModified="1790672337"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Clip Group&amp;#062.xml" loadImmediate="false" itemID="6abb7de9-0008f994" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Clip Group&amp;#062_0.xml" loadImmediate="false" itemID="6abb7de9-0008f9ec" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Group&amp;#062.xml" loadImmediate="false" itemID="6abb7de9-0008f9ea" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Group&amp;#062_0.xml" loadImmediate="false" itemID="6abb7de9-0008f9fa" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Group&amp;#062_1.xml" loadImmediate="false" itemID="6abb7de9-0008f9f6" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Group&amp;#062_2.xml" loadImmediate="false" itemID="6abb7dea-0008fa0c" lastModified="1790672362"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Group&amp;#062_5.xml" loadImmediate="false" itemID="6abb7de9-0008f9ee" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062.xml" loadImmediate="false" itemID="6abb7de9-0008f9e8" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_0.xml" loadImmediate="false" itemID="6abb7dea-0008fa0a" lastModified="1790672362"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_1.xml" loadImmediate="false" itemID="6abb7de9-0008f9e6" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_1_0.xml" loadImmediate="false" itemID="6abb7dea-0008fa08" lastModified="1790672362"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_2.xml" loadImmediate="false" itemID="6abb7de9-0008f9e4" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_2_0.xml" loadImmediate="false" itemID="6abb7de9-0008f9f0" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_2_1.xml" loadImmediate="false" itemID="6abb7de9-0008f9f2" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_2_2.xml" loadImmediate="false" itemID="6abb7de9-0008f9f4" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_2_3.xml" loadImmediate="false" itemID="6abb7de9-0008f9f8" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_3.xml" loadImmediate="false" itemID="6abb7de9-0008f9e2" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_4.xml" loadImmediate="false" itemID="6abb7de9-0008f9e0" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_5.xml" loadImmediate="false" itemID="6abb7de9-0008f9de" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_6.xml" loadImmediate="false" itemID="6abb7de9-0008f9dc" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_7.xml" loadImmediate="false" itemID="6abb7de9-0008f9da" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_8.xml" loadImmediate="false" itemID="6abb7de9-0008f9d8" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_9.xml" loadImmediate="false" itemID="6abb7de9-0008f9d6" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_9_0.xml" loadImmediate="false" itemID="6abb7dea-0008fa06" lastModified="1790672362"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_10.xml" loadImmediate="false" itemID="6abb7de9-0008f9d4" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_11.xml" loadImmediate="false" itemID="6abb7de9-0008f9d2" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_12.xml" loadImmediate="false" itemID="6abb7de9-0008f9d0" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_12_0.xml" loadImmediate="false" itemID="6abb7dea-0008fa04" lastModified="1790672362"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_13.xml" loadImmediate="false" itemID="6abb7de9-0008f9ce" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_13_0.xml" loadImmediate="false" itemID="6abb7dea-0008fa02" lastModified="1790672362"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_14.xml" loadImmediate="false" itemID="6abb7de9-0008f9cc" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_14_0.xml" loadImmediate="false" itemID="6abb7de9-0008fa00" lastModified="1790672362"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_15.xml" loadImmediate="false" itemID="6abb7de9-0008f9ca" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_15_0.xml" loadImmediate="false" itemID="6abb7de9-0008f9fe" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_16.xml" loadImmediate="false" itemID="6abb7de9-0008f9c8" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_16_0.xml" loadImmediate="false" itemID="6abb7de9-0008f9fc" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_17.xml" loadImmediate="false" itemID="6abb7de9-0008f9c6" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_18.xml" loadImmediate="false" itemID="6abb7de9-0008f9c4" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_19.xml" loadImmediate="false" itemID="6abb7de9-0008f9c2" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_20.xml" loadImmediate="false" itemID="6abb7de9-0008f9c0" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_21.xml" loadImmediate="false" itemID="6abb7de9-0008f9be" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_22.xml" loadImmediate="false" itemID="6abb7de9-0008f9bc" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_23.xml" loadImmediate="false" itemID="6abb7de9-0008f9ba" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_24.xml" loadImmediate="false" itemID="6abb7de9-0008f9b8" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_25.xml" loadImmediate="false" itemID="6abb7de9-0008f9b6" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_26.xml" loadImmediate="false" itemID="6abb7de9-0008f9b4" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_27.xml" loadImmediate="false" itemID="6abb7de9-0008f9b2" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_28.xml" loadImmediate="false" itemID="6abb7de9-0008f9b0" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_29.xml" loadImmediate="false" itemID="6abb7de9-0008f9ae" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_30.xml" loadImmediate="false" itemID="6abb7de9-0008f9ac" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_31.xml" loadImmediate="false" itemID="6abb7de9-0008f9aa" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_32.xml" loadImmediate="false" itemID="6abb7de9-0008f9a8" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_33.xml" loadImmediate="false" itemID="6abb7de9-0008f9a6" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_34.xml" loadImmediate="false" itemID="6abb7de9-0008f9a4" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_35.xml" loadImmediate="false" itemID="6abb7de9-0008f9a2" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_36.xml" loadImmediate="false" itemID="6abb7de9-0008f9a0" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_37.xml" loadImmediate="false" itemID="6abb7de9-0008f99e" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_38.xml" loadImmediate="false" itemID="6abb7de9-0008f99c" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_39.xml" loadImmediate="false" itemID="6abb7de9-0008f99a" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_40.xml" loadImmediate="false" itemID="6abb7de9-0008f998" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_41.xml" loadImmediate="false" itemID="6abb7de9-0008f996" lastModified="1790672361"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_42.xml" loadImmediate="false" itemID="6abb7dea-0008fa0e" lastModified="1790672362"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_43.xml" loadImmediate="false" itemID="6abb7dea-0008fa10" lastModified="1790672362"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_44.xml" loadImmediate="false" itemID="6abb7dea-0008fa12" lastModified="1790672362"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_45.xml" loadImmediate="false" itemID="6abb7dea-0008fa14" lastModified="1790672362"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_46.xml" loadImmediate="false" itemID="6abb7dea-0008fa16" lastModified="1790672362"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_47.xml" loadImmediate="false" itemID="6abb7dea-0008fa18" lastModified="1790672362"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_48.xml" loadImmediate="false" itemID="6abb7dea-0008fa1a" lastModified="1790672362"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_49.xml" loadImmediate="false" itemID="6abb7dea-0008fa1c" lastModified="1790672362"/>
-          <Include href="flash0.ai Assets_71/06/&amp;#060Path&amp;#062_50.xml" loadImmediate="false" itemID="6abb7dea-0008fa1e" lastModified="1790672362"/>
-          <Include href="flash0.ai Assets_72/06/&amp;#060Path&amp;#062.xml" loadImmediate="false" itemID="6abb7e6f-0008fa8a" lastModified="1790672495"/>
-          <Include href="flash0.ai Assets_73/06/&amp;#060Path&amp;#062.xml" loadImmediate="false" itemID="6abb7e93-0008fa8e" lastModified="1790672531"/>
           <Include href="flash0.ai Assets_74/07/&amp;#060Path&amp;#062.xml" loadImmediate="false" itemID="6abb8181-00090c8a" lastModified="1790673281"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Clip Group&amp;#062.xml" loadImmediate="false" itemID="6abb8194-00090c8e" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Clip Group&amp;#062_0.xml" loadImmediate="false" itemID="6abb8194-00090ce6" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Group&amp;#062.xml" loadImmediate="false" itemID="6abb8194-00090ce4" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Group&amp;#062_0.xml" loadImmediate="false" itemID="6abb8194-00090cf4" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Group&amp;#062_1.xml" loadImmediate="false" itemID="6abb8194-00090cf0" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Group&amp;#062_2.xml" loadImmediate="false" itemID="6abb8194-00090d06" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Group&amp;#062_5.xml" loadImmediate="false" itemID="6abb8194-00090ce8" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062.xml" loadImmediate="false" itemID="6abb8194-00090ce2" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_0.xml" loadImmediate="false" itemID="6abb8194-00090d04" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_1.xml" loadImmediate="false" itemID="6abb8194-00090ce0" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_1_0.xml" loadImmediate="false" itemID="6abb8194-00090d02" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_2.xml" loadImmediate="false" itemID="6abb8194-00090cde" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_2_0.xml" loadImmediate="false" itemID="6abb8194-00090cea" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_2_1.xml" loadImmediate="false" itemID="6abb8194-00090cec" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_2_2.xml" loadImmediate="false" itemID="6abb8194-00090cee" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_2_3.xml" loadImmediate="false" itemID="6abb8194-00090cf2" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_3.xml" loadImmediate="false" itemID="6abb8194-00090cdc" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_4.xml" loadImmediate="false" itemID="6abb8194-00090cda" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_5.xml" loadImmediate="false" itemID="6abb8194-00090cd8" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_6.xml" loadImmediate="false" itemID="6abb8194-00090cd6" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_7.xml" loadImmediate="false" itemID="6abb8194-00090cd4" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_8.xml" loadImmediate="false" itemID="6abb8194-00090cd2" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_9.xml" loadImmediate="false" itemID="6abb8194-00090cd0" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_9_0.xml" loadImmediate="false" itemID="6abb8194-00090d00" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_10.xml" loadImmediate="false" itemID="6abb8194-00090cce" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_11.xml" loadImmediate="false" itemID="6abb8194-00090ccc" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_12.xml" loadImmediate="false" itemID="6abb8194-00090cca" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_12_0.xml" loadImmediate="false" itemID="6abb8194-00090cfe" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_13.xml" loadImmediate="false" itemID="6abb8194-00090cc8" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_13_0.xml" loadImmediate="false" itemID="6abb8194-00090cfc" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_14.xml" loadImmediate="false" itemID="6abb8194-00090cc6" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_14_0.xml" loadImmediate="false" itemID="6abb8194-00090cfa" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_15.xml" loadImmediate="false" itemID="6abb8194-00090cc4" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_15_0.xml" loadImmediate="false" itemID="6abb8194-00090cf8" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_16.xml" loadImmediate="false" itemID="6abb8194-00090cc2" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_16_0.xml" loadImmediate="false" itemID="6abb8194-00090cf6" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_17.xml" loadImmediate="false" itemID="6abb8194-00090cc0" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_18.xml" loadImmediate="false" itemID="6abb8194-00090cbe" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_19.xml" loadImmediate="false" itemID="6abb8194-00090cbc" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_20.xml" loadImmediate="false" itemID="6abb8194-00090cba" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_21.xml" loadImmediate="false" itemID="6abb8194-00090cb8" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_22.xml" loadImmediate="false" itemID="6abb8194-00090cb6" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_23.xml" loadImmediate="false" itemID="6abb8194-00090cb4" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_24.xml" loadImmediate="false" itemID="6abb8194-00090cb2" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_25.xml" loadImmediate="false" itemID="6abb8194-00090cb0" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_26.xml" loadImmediate="false" itemID="6abb8194-00090cae" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_27.xml" loadImmediate="false" itemID="6abb8194-00090cac" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_28.xml" loadImmediate="false" itemID="6abb8194-00090caa" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_29.xml" loadImmediate="false" itemID="6abb8194-00090ca8" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_30.xml" loadImmediate="false" itemID="6abb8194-00090ca6" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_31.xml" loadImmediate="false" itemID="6abb8194-00090ca4" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_32.xml" loadImmediate="false" itemID="6abb8194-00090ca2" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_33.xml" loadImmediate="false" itemID="6abb8194-00090ca0" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_34.xml" loadImmediate="false" itemID="6abb8194-00090c9e" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_35.xml" loadImmediate="false" itemID="6abb8194-00090c9c" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_36.xml" loadImmediate="false" itemID="6abb8194-00090c9a" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_37.xml" loadImmediate="false" itemID="6abb8194-00090c98" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_38.xml" loadImmediate="false" itemID="6abb8194-00090c96" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_39.xml" loadImmediate="false" itemID="6abb8194-00090c94" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_40.xml" loadImmediate="false" itemID="6abb8194-00090c92" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_41.xml" loadImmediate="false" itemID="6abb8194-00090c90" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_42.xml" loadImmediate="false" itemID="6abb8194-00090d08" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_43.xml" loadImmediate="false" itemID="6abb8194-00090d0a" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_44.xml" loadImmediate="false" itemID="6abb8194-00090d0c" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_45.xml" loadImmediate="false" itemID="6abb8194-00090d0e" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_46.xml" loadImmediate="false" itemID="6abb8194-00090d10" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_47.xml" loadImmediate="false" itemID="6abb8194-00090d12" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_48.xml" loadImmediate="false" itemID="6abb8194-00090d14" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_49.xml" loadImmediate="false" itemID="6abb8194-00090d16" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_50.xml" loadImmediate="false" itemID="6abb8194-00090d18" lastModified="1790673300"/>
-          <Include href="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_51.xml" loadImmediate="false" itemID="6abb8194-00090d1a" lastModified="1790673300"/>
           <Include href="flash0.ai Assets_76/07/&amp;#060Path&amp;#062.xml" loadImmediate="false" itemID="6abb81c8-00090d25" lastModified="1790673352"/>
-          <Include href="flash0.ai Assets_77/04/&amp;#060Path&amp;#062.xml" loadImmediate="false" itemID="6abb83c5-00091965" lastModified="1790673861"/>
-          <Include href="flash0.ai Assets_78/04/&amp;#060Path&amp;#062.xml" loadImmediate="false" itemID="6abb83e1-00091977" lastModified="1790673889"/>
-          <Include href="flash0.ai Assets_79/07/&amp;#060Path&amp;#062.xml" loadImmediate="false" itemID="6abb8429-00091e32" lastModified="1790673961"/>
-          <Include href="flash0.ai Assets_80/07/&amp;#060Path&amp;#062.xml" loadImmediate="false" itemID="6abb8441-00091e3d" lastModified="1790673985"/>
           <Include href="flash0.ai Assets_81/08/&amp;#060Path&amp;#062.xml" loadImmediate="false" itemID="6abb850a-00092a57" lastModified="1790674186"/>
           <Include href="flash0.ai Assets_82/08/&amp;#060Path&amp;#062.xml" loadImmediate="false" itemID="6abb8518-00092a5b" lastModified="1790674200"/>
-          <Include href="flash0.ai Assets_83/08/&amp;#060Path&amp;#062.xml" loadImmediate="false" itemID="6abb8565-00092a5f" lastModified="1790674277"/>
-          <Include href="flash0.ai Assets_84/08/&amp;#060Path&amp;#062.xml" loadImmediate="false" itemID="6abb8587-00092a6a" lastModified="1790674311"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Clip Group&amp;#062.xml" loadImmediate="false" itemID="6abb85a6-00092a6e" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Clip Group&amp;#062_0.xml" loadImmediate="false" itemID="6abb85a6-00092ac6" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Group&amp;#062.xml" loadImmediate="false" itemID="6abb85a6-00092ac4" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Group&amp;#062_0.xml" loadImmediate="false" itemID="6abb85a6-00092ad4" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Group&amp;#062_1.xml" loadImmediate="false" itemID="6abb85a6-00092ad0" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Group&amp;#062_2.xml" loadImmediate="false" itemID="6abb85a6-00092ae6" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Group&amp;#062_5.xml" loadImmediate="false" itemID="6abb85a6-00092ac8" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062.xml" loadImmediate="false" itemID="6abb85a6-00092ac2" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_0.xml" loadImmediate="false" itemID="6abb85a6-00092ae4" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_1.xml" loadImmediate="false" itemID="6abb85a6-00092ac0" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_1_0.xml" loadImmediate="false" itemID="6abb85a6-00092ae2" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_2.xml" loadImmediate="false" itemID="6abb85a6-00092abe" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_2_0.xml" loadImmediate="false" itemID="6abb85a6-00092aca" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_2_1.xml" loadImmediate="false" itemID="6abb85a6-00092acc" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_2_2.xml" loadImmediate="false" itemID="6abb85a6-00092ace" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_2_3.xml" loadImmediate="false" itemID="6abb85a6-00092ad2" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_3.xml" loadImmediate="false" itemID="6abb85a6-00092abc" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_4.xml" loadImmediate="false" itemID="6abb85a6-00092aba" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_5.xml" loadImmediate="false" itemID="6abb85a6-00092ab8" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_6.xml" loadImmediate="false" itemID="6abb85a6-00092ab6" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_7.xml" loadImmediate="false" itemID="6abb85a6-00092ab4" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_8.xml" loadImmediate="false" itemID="6abb85a6-00092ab2" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_9.xml" loadImmediate="false" itemID="6abb85a6-00092ab0" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_9_0.xml" loadImmediate="false" itemID="6abb85a6-00092ae0" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_10.xml" loadImmediate="false" itemID="6abb85a6-00092aae" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_11.xml" loadImmediate="false" itemID="6abb85a6-00092aac" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_12.xml" loadImmediate="false" itemID="6abb85a6-00092aaa" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_12_0.xml" loadImmediate="false" itemID="6abb85a6-00092ade" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_13.xml" loadImmediate="false" itemID="6abb85a6-00092aa8" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_13_0.xml" loadImmediate="false" itemID="6abb85a6-00092adc" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_14.xml" loadImmediate="false" itemID="6abb85a6-00092aa6" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_14_0.xml" loadImmediate="false" itemID="6abb85a6-00092ada" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_15.xml" loadImmediate="false" itemID="6abb85a6-00092aa4" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_15_0.xml" loadImmediate="false" itemID="6abb85a6-00092ad8" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_16.xml" loadImmediate="false" itemID="6abb85a6-00092aa2" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_16_0.xml" loadImmediate="false" itemID="6abb85a6-00092ad6" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_17.xml" loadImmediate="false" itemID="6abb85a6-00092aa0" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_18.xml" loadImmediate="false" itemID="6abb85a6-00092a9e" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_19.xml" loadImmediate="false" itemID="6abb85a6-00092a9c" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_20.xml" loadImmediate="false" itemID="6abb85a6-00092a9a" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_21.xml" loadImmediate="false" itemID="6abb85a6-00092a98" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_22.xml" loadImmediate="false" itemID="6abb85a6-00092a96" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_23.xml" loadImmediate="false" itemID="6abb85a6-00092a94" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_24.xml" loadImmediate="false" itemID="6abb85a6-00092a92" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_25.xml" loadImmediate="false" itemID="6abb85a6-00092a90" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_26.xml" loadImmediate="false" itemID="6abb85a6-00092a8e" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_27.xml" loadImmediate="false" itemID="6abb85a6-00092a8c" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_28.xml" loadImmediate="false" itemID="6abb85a6-00092a8a" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_29.xml" loadImmediate="false" itemID="6abb85a6-00092a88" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_30.xml" loadImmediate="false" itemID="6abb85a6-00092a86" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_31.xml" loadImmediate="false" itemID="6abb85a6-00092a84" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_32.xml" loadImmediate="false" itemID="6abb85a6-00092a82" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_33.xml" loadImmediate="false" itemID="6abb85a6-00092a80" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_34.xml" loadImmediate="false" itemID="6abb85a6-00092a7e" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_35.xml" loadImmediate="false" itemID="6abb85a6-00092a7c" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_36.xml" loadImmediate="false" itemID="6abb85a6-00092a7a" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_37.xml" loadImmediate="false" itemID="6abb85a6-00092a78" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_38.xml" loadImmediate="false" itemID="6abb85a6-00092a76" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_39.xml" loadImmediate="false" itemID="6abb85a6-00092a74" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_40.xml" loadImmediate="false" itemID="6abb85a6-00092a72" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_41.xml" loadImmediate="false" itemID="6abb85a6-00092a70" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_42.xml" loadImmediate="false" itemID="6abb85a6-00092ae8" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_43.xml" loadImmediate="false" itemID="6abb85a6-00092aea" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_44.xml" loadImmediate="false" itemID="6abb85a6-00092aec" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_45.xml" loadImmediate="false" itemID="6abb85a6-00092aee" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_46.xml" loadImmediate="false" itemID="6abb85a6-00092af0" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_47.xml" loadImmediate="false" itemID="6abb85a6-00092af2" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_48.xml" loadImmediate="false" itemID="6abb85a6-00092af4" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_49.xml" loadImmediate="false" itemID="6abb85a6-00092af6" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_50.xml" loadImmediate="false" itemID="6abb85a6-00092af8" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_51.xml" loadImmediate="false" itemID="6abb85a6-00092afa" lastModified="1790674342"/>
-          <Include href="flash0.ai Assets_85/08/&amp;#060Path&amp;#062_52.xml" loadImmediate="false" itemID="6abb85a6-00092afc" lastModified="1790674342"/>
           <Include href="flower.xml" loadImmediate="false" itemID="6a84351c-000002b1" lastModified="1790708059"/>
-          <Include href="flower copy.xml" loadImmediate="false" itemID="6a84edcd-0000200c" lastModified="1788267099"/>
           <Include href="flower copy 2.xml" loadImmediate="false" itemID="6a84edd3-0000201c" lastModified="1790673384"/>
           <Include href="flower copy 3.xml" loadImmediate="false" itemID="6a84edd8-0000202c" lastModified="1790672343"/>
           <Include href="flower copy 4.xml" loadImmediate="false" itemID="6a84edde-0000203c" lastModified="1790671920"/>
-          <Include href="flower copy 5.xml" loadImmediate="false" itemID="6a86b3c0-0000157c" lastModified="1787214446"/>
-          <Include href="flower copy 6.xml" loadImmediate="false" itemID="6a86bb20-00001da3" lastModified="1787214670"/>
-          <Include href="flower copy 7.xml" loadImmediate="false" itemID="6a86bc66-00001db8" lastModified="1787214973"/>
-          <Include href="flower copy 8.xml" loadImmediate="false" itemID="6a86bc9a-00001dce" lastModified="1788267105"/>
-          <Include href="flower copy 9.xml" loadImmediate="false" itemID="6a86bd0f-00001de4" lastModified="1787215201"/>
-          <Include href="flower copy 10.xml" loadImmediate="false" itemID="6a86bd7f-00001df7" lastModified="1787215251"/>
-          <Include href="flower copy 11.xml" loadImmediate="false" itemID="6a86bd82-00001e0a" lastModified="1787215390"/>
-          <Include href="flower copy 12.xml" loadImmediate="false" itemID="6a86bda3-00001e20" lastModified="1788267111"/>
-          <Include href="flower copy 13.xml" loadImmediate="false" itemID="6a86bda6-00001e36" lastModified="1788267117"/>
-          <Include href="flower copy 14.xml" loadImmediate="false" itemID="6a86bda9-00001e4c" lastModified="1788267123"/>
           <Include href="flower copy 15.xml" loadImmediate="false" itemID="6abb84f3-00092a53" lastModified="1790674239"/>
           <Include href="flower copy 16.xml" loadImmediate="false" itemID="6aba62db-0006dcaf" lastModified="1790708068"/>
           <Include href="flower copy 17.xml" loadImmediate="false" itemID="6aba62e6-0006dce2" lastModified="1790600733"/>
@@ -1157,7 +775,53 @@
           <Include href="flower copy 19.xml" loadImmediate="false" itemID="6aba6300-0006dd48" lastModified="1790600770"/>
           <Include href="flower copy 20.xml" loadImmediate="false" itemID="6aba6310-0006dd7b" lastModified="1790600784"/>
           <Include href="good.xml" loadImmediate="false" itemID="6a8581a1-00004b00" lastModified="1790500189"/>
-          <Include href="nums.xml" loadImmediate="false" itemID="6a845066-00002603" lastModified="1788246420"/>
+          <Include href="instructions_line_1_mc.xml" loadImmediate="false" itemID="18906c32-d3511ba9" lastModified="1793130331"/>
+          <Include href="instructions_line_2_mc.xml" loadImmediate="false" itemID="4048ec7f-f9b8fce0" lastModified="1793130331"/>
+          <Include href="instructions_line_3_mc.xml" loadImmediate="false" itemID="09b0f532-d835c8e3" lastModified="1793130331"/>
+          <Include href="instructions_notebook_mc.xml" loadImmediate="false" itemID="d75e996f-059039a1" lastModified="1793130331"/>
+          <Include href="instructions_number_1_mc.xml" loadImmediate="false" itemID="767a0702-486c6a69" lastModified="1793130331"/>
+          <Include href="instructions_number_2_mc.xml" loadImmediate="false" itemID="3a4289d7-7c028cf0" lastModified="1793130331"/>
+          <Include href="instructions_number_3_mc.xml" loadImmediate="false" itemID="6217c43c-09741084" lastModified="1793130331"/>
+          <Include href="instructions_title_mc.xml" loadImmediate="false" itemID="a8d910f4-bec4eb60" lastModified="1793130331"/>
+          <Include href="instructions_understood_button_mc.xml" loadImmediate="false" itemID="bdd801a4-23b06d7b" lastModified="1793130331"/>
+          <Include href="instructions_understood_label_mc.xml" loadImmediate="false" itemID="ca7c7572-2b6bbcf7" lastModified="1793130331"/>
+          <Include href="intro_background_mc.xml" loadImmediate="false" itemID="a5c23a5b-151544db" lastModified="1793129121"/>
+          <Include href="intro_box_glass_shine_mc.xml" loadImmediate="false" itemID="a687f6ac-f5de28d1" lastModified="1793129121"/>
+          <Include href="intro_close_button_mc.xml" loadImmediate="false" itemID="e5b1a95e-1518baba" lastModified="1793130331"/>
+          <Include href="intro_deco_star_1_mc.xml" loadImmediate="false" itemID="5fd13a09-8e550492" lastModified="1793130331"/>
+          <Include href="intro_deco_star_2_mc.xml" loadImmediate="false" itemID="0b271998-286dd0f5" lastModified="1793130331"/>
+          <Include href="intro_deco_star_3_mc.xml" loadImmediate="false" itemID="9a94d946-fdcc7a39" lastModified="1793130331"/>
+          <Include href="intro_deco_star_4_mc.xml" loadImmediate="false" itemID="22daf4c6-e271cd2e" lastModified="1793130331"/>
+          <Include href="intro_deco_star_5_mc.xml" loadImmediate="false" itemID="0b8324cf-e2d18015" lastModified="1793130331"/>
+          <Include href="intro_deco_star_6_mc.xml" loadImmediate="false" itemID="b597e904-c65bafef" lastModified="1793130331"/>
+          <Include href="intro_dream_box_mc.xml" loadImmediate="false" itemID="e3b67f3b-a2375eb6" lastModified="1793129121"/>
+          <Include href="intro_info_button_mc.xml" loadImmediate="false" itemID="05e6d87d-3b6eda6a" lastModified="1793130331"/>
+          <Include href="intro_kite_mc.xml" loadImmediate="false" itemID="e984c2ab-05512cff" lastModified="1793130331"/>
+          <Include href="intro_logo_mc.xml" loadImmediate="false" itemID="b4e1aeb9-216df139" lastModified="1793129121"/>
+          <Include href="intro_mute_off_mc.xml" loadImmediate="false" itemID="5f5b72db-daf8397d" lastModified="1793130331"/>
+          <Include href="intro_mute_on_mc.xml" loadImmediate="false" itemID="bee1b3f8-9695de5c" lastModified="1793130331"/>
+          <Include href="intro_rays_mc.xml" loadImmediate="false" itemID="80399dd4-fdbf0cf9" lastModified="1793129121"/>
+          <Include href="intro_start_button_mc.xml" loadImmediate="false" itemID="3765ea26-2e3a21b7" lastModified="1793129121"/>
+          <Include href="intro_start_label_mc.xml" loadImmediate="false" itemID="c4741980-9d4adeab" lastModified="1793129121"/>
+          <Include href="intro_title_text_mc.xml" loadImmediate="false" itemID="a0e10b4f-22afb73a" lastModified="1793130867"/>
+          <Include href="intro/intro_intro_decor_star_1_mc.xml" loadImmediate="false" itemID="6ae11286-00013379" lastModified="1793135008"/>
+          <Include href="intro/intro_intro_decor_star_2_mc.xml" loadImmediate="false" itemID="6ae11286-0001337a" lastModified="1793135008"/>
+          <Include href="intro/intro_intro_decor_star_3_mc.xml" loadImmediate="false" itemID="6ae11286-0001337b" lastModified="1793135008"/>
+          <Include href="intro/intro_intro_decor_star_4_mc.xml" loadImmediate="false" itemID="6ae11286-0001337c" lastModified="1793135008"/>
+          <Include href="intro/intro_intro_decor_star_5_mc.xml" loadImmediate="false" itemID="6ae11286-0001337d" lastModified="1793135008"/>
+          <Include href="intro/intro_intro_decor_star_6_mc.xml" loadImmediate="false" itemID="6ae11286-0001337e" lastModified="1793135008"/>
+          <Include href="intro/intro_intro_start_button_mc.xml" loadImmediate="false" itemID="6ae11286-00013377" lastModified="1793135008"/>
+          <Include href="intro/intro_intro_start_label_txt_mc.xml" loadImmediate="false" itemID="6ae11286-00013378" lastModified="1793135008"/>
+          <Include href="intro/intro_intro_title_txt_mc.xml" loadImmediate="false" itemID="6ae11286-00013376" lastModified="1793135008"/>
+          <Include href="intro/intro_shared_background_mc.xml" loadImmediate="false" itemID="6ae11286-0001337f" lastModified="1793135008"/>
+          <Include href="intro/intro_shared_close_button_mc.xml" loadImmediate="false" itemID="6ae11286-00013384" lastModified="1793135008"/>
+          <Include href="intro/intro_shared_dream_box_front_mc.xml" loadImmediate="false" itemID="6ae11286-00013381" lastModified="1793135008"/>
+          <Include href="intro/intro_shared_dream_box_shine_mc.xml" loadImmediate="false" itemID="6ae11286-00013382" lastModified="1793135008"/>
+          <Include href="intro/intro_shared_info_button_mc.xml" loadImmediate="false" itemID="6ae11286-00013385" lastModified="1793135008"/>
+          <Include href="intro/intro_shared_light_rays_mc.xml" loadImmediate="false" itemID="6ae11286-00013380" lastModified="1793135008"/>
+          <Include href="intro/intro_shared_logo_mc.xml" loadImmediate="false" itemID="6ae11286-00013383" lastModified="1793135008"/>
+          <Include href="intro/intro_shared_mute_off_mc.xml" loadImmediate="false" itemID="6ae11286-00013387" lastModified="1793135008"/>
+          <Include href="intro/intro_shared_mute_on_mc.xml" loadImmediate="false" itemID="6ae11286-00013386" lastModified="1793135008"/>
           <Include href="overlay.xml" loadImmediate="false" itemID="6a843845-000009ac" lastModified="1787504795"/>
           <Include href="pointer.xml" loadImmediate="false" itemID="6a857474-00001c29" lastModified="1790581212"/>
           <Include href="squirrel copy 4.xml" loadImmediate="false" itemID="6aa2968e-0000040b" lastModified="1789642536"/>
@@ -1168,7 +832,7 @@
           <Include href="Symbol 3 copy 3.xml" loadImmediate="false" itemID="6aba4b46-0005934a" lastModified="1790594170"/>
           <Include href="Symbol 3 copy 4.xml" loadImmediate="false" itemID="6aba4bd4-00059fd8" lastModified="1790594121"/>
           <Include href="Symbol 3 copy 5.xml" loadImmediate="false" itemID="6aba4bff-0005a022" lastModified="1790594047"/>
-          <Include href="Symbol 4.xml" loadImmediate="false" itemID="6a992714-0000691f" lastModified="1788876061"/>
+          <Include href="Symbol 4.xml" loadImmediate="false" itemID="6ae105ad-00012f95" lastModified="1793131949"/>
           <Include href="Symbol 5.xml" loadImmediate="false" itemID="6ab91375-0003123e" lastModified="1790516604"/>
           <Include href="Symbol 5 copy.xml" loadImmediate="false" itemID="6ab91655-00031257" lastModified="1790516612"/>
           <Include href="Symbol 5 copy 2.xml" loadImmediate="false" itemID="6ab9165b-0003125b" lastModified="1790516619"/>
@@ -1180,18 +844,11 @@
           <Include href="Symbol 7.xml" loadImmediate="false" itemID="6abc0815-000006c5" lastModified="1790709380"/>
           <Include href="Symbol 8.xml" itemIcon="0" loadImmediate="false" itemID="6ab9169e-00031261" lastModified="1790514856"/>
           <Include href="Symbol 9.xml" loadImmediate="false" itemID="6abc097f-000007a5" lastModified="1790709369"/>
-          <Include href="Symbol 10.xml" loadImmediate="false" itemID="6aba4f33-0005bc49" lastModified="1790707746"/>
-          <Include href="Symbol 10 copy.xml" loadImmediate="false" itemID="6abb8416-00091e2e" lastModified="1790673991"/>
-          <Include href="Symbol 10 copy 2.xml" loadImmediate="false" itemID="6abb84e7-00092a45" lastModified="1790674318"/>
           <Include href="Symbol 11.xml" loadImmediate="false" itemID="6abc0aa6-0000085a" lastModified="1790709360"/>
           <Include href="Symbol 12.xml" loadImmediate="false" itemID="6abc0b3c-000008f9" lastModified="1790709329"/>
           <Include href="Symbol 13.xml" loadImmediate="false" itemID="6abc0c95-00000961" lastModified="1790709307"/>
           <Include href="Symbol 17.xml" loadImmediate="false" itemID="6a85062c-000071a6" lastModified="1790508771"/>
           <Include href="Symbol 18.xml" loadImmediate="false" itemID="6a850648-000071ad" lastModified="1787102843"/>
-          <Include href="Symbol 25.xml" loadImmediate="false" itemID="6a992803-000071dc" lastModified="1790671952"/>
-          <Include href="Symbol 30.xml" loadImmediate="false" itemID="6a992a05-00007fed" lastModified="1790672864"/>
-          <Include href="Symbol 31.xml" loadImmediate="false" itemID="6a992ad9-0000878f" lastModified="1788876099"/>
-          <Include href="Symbol 32.xml" loadImmediate="false" itemID="6a992be4-00008fa3" lastModified="1788876108"/>
           <Include href="Symbol 53.xml" loadImmediate="false" itemID="69ae8035-0000826e" lastModified="1790498697"/>
           <Include href="Symbol 59 copy 2.xml" loadImmediate="false" itemID="6aa29883-000008f8" lastModified="1789040835"/>
           <Include href="Symbol 61 copy 3.xml" loadImmediate="false" itemID="6aa2988c-000008fc" lastModified="1789040790"/>
@@ -1248,59 +905,18 @@
           <Include href="Symbol 138.xml" loadImmediate="false" itemID="6ab8ef8a-0001f18a" lastModified="1790710007"/>
           <Include href="Symbol 139.xml" itemIcon="0" loadImmediate="false" itemID="6ab8efce-0001f1d9" lastModified="1790504922"/>
           <Include href="Symbol 140.xml" loadImmediate="false" itemID="6ab8f142-0001f2fb" lastModified="1790710077"/>
-          <Include href="Tween 1.xml" itemIcon="1" loadImmediate="false" itemID="6abb6113-00082d60" lastModified="1790664979"/>
           <Include href="Tween 2.xml" itemIcon="1" loadImmediate="false" itemID="6abb6113-00082d64" lastModified="1790664979"/>
           <Include href="Tween 3.xml" itemIcon="1" loadImmediate="false" itemID="6a85747f-00001c2e" lastModified="1787131007"/>
-          <Include href="Tween 4.xml" itemIcon="1" loadImmediate="false" itemID="6a99271d-00006928" lastModified="1788421917"/>
-          <Include href="Tween 5.xml" itemIcon="1" loadImmediate="false" itemID="6a99271d-00006930" lastModified="1788421917"/>
-          <Include href="Tween 6.xml" itemIcon="1" loadImmediate="false" itemID="6abb6193-00082d68" lastModified="1790665107"/>
-          <Include href="Tween 7.xml" itemIcon="1" loadImmediate="false" itemID="6aba4f8e-0005bc5c" lastModified="1790594958"/>
           <Include href="Tween 8.xml" itemIcon="1" loadImmediate="false" itemID="6abb6193-00082d6c" lastModified="1790665107"/>
-          <Include href="Tween 9.xml" itemIcon="1" loadImmediate="false" itemID="6abb61f5-00082d70" lastModified="1790665205"/>
-          <Include href="Tween 10.xml" itemIcon="1" loadImmediate="false" itemID="6a9928a3-00007210" lastModified="1788422307"/>
-          <Include href="Tween 11.xml" itemIcon="1" loadImmediate="false" itemID="6a9928a3-00007217" lastModified="1788422307"/>
-          <Include href="Tween 12.xml" itemIcon="1" loadImmediate="false" itemID="6a9928a3-0000721e" lastModified="1788422307"/>
-          <Include href="Tween 13.xml" itemIcon="1" loadImmediate="false" itemID="6a9928a3-00007225" lastModified="1788422307"/>
-          <Include href="Tween 14.xml" itemIcon="1" loadImmediate="false" itemID="6a992a31-00008010" lastModified="1788422705"/>
-          <Include href="Tween 15.xml" itemIcon="1" loadImmediate="false" itemID="6a992a31-00008018" lastModified="1789638180"/>
-          <Include href="Tween 16.xml" itemIcon="1" loadImmediate="false" itemID="6a992a31-00008020" lastModified="1788422705"/>
-          <Include href="Tween 17.xml" itemIcon="1" loadImmediate="false" itemID="6a992a31-00008028" lastModified="1789638192"/>
-          <Include href="Tween 18.xml" itemIcon="1" loadImmediate="false" itemID="6a992a31-00008030" lastModified="1788422705"/>
-          <Include href="Tween 19.xml" itemIcon="1" loadImmediate="false" itemID="6a992a31-00008038" lastModified="1788422705"/>
-          <Include href="Tween 20.xml" itemIcon="1" loadImmediate="false" itemID="6a992b1c-000087b5" lastModified="1788422940"/>
-          <Include href="Tween 21.xml" itemIcon="1" loadImmediate="false" itemID="6a992b1c-000087bc" lastModified="1788422940"/>
-          <Include href="Tween 22.xml" itemIcon="1" loadImmediate="false" itemID="6a992b1c-000087c3" lastModified="1788422940"/>
-          <Include href="Tween 23.xml" itemIcon="1" loadImmediate="false" itemID="6a992b1c-000087ca" lastModified="1788422940"/>
-          <Include href="Tween 24.xml" itemIcon="1" loadImmediate="false" itemID="6a992b1c-000087d1" lastModified="1788422940"/>
-          <Include href="Tween 25.xml" itemIcon="1" loadImmediate="false" itemID="6a992b1c-000087d8" lastModified="1788422940"/>
-          <Include href="Tween 26.xml" itemIcon="1" loadImmediate="false" itemID="6a992b1d-000087df" lastModified="1788422941"/>
-          <Include href="Tween 27.xml" itemIcon="1" loadImmediate="false" itemID="6a992b1d-000087e6" lastModified="1788422941"/>
-          <Include href="Tween 28.xml" itemIcon="1" loadImmediate="false" itemID="6a992c15-00008fb4" lastModified="1788423189"/>
-          <Include href="Tween 29.xml" itemIcon="1" loadImmediate="false" itemID="6a992c16-00008fbc" lastModified="1788423190"/>
-          <Include href="Tween 30.xml" itemIcon="1" loadImmediate="false" itemID="6a992c16-00008fc4" lastModified="1788423190"/>
-          <Include href="Tween 31.xml" itemIcon="1" loadImmediate="false" itemID="6a992c16-00008fcc" lastModified="1788423190"/>
-          <Include href="Tween 32.xml" itemIcon="1" loadImmediate="false" itemID="6a992c16-00008fd4" lastModified="1788423190"/>
-          <Include href="Tween 33.xml" itemIcon="1" loadImmediate="false" itemID="6a992c16-00008fdc" lastModified="1788423190"/>
-          <Include href="Tween 34.xml" itemIcon="1" loadImmediate="false" itemID="6a992c16-00008fe4" lastModified="1788423190"/>
-          <Include href="Tween 35.xml" itemIcon="1" loadImmediate="false" itemID="6a992c16-00008fec" lastModified="1788423190"/>
-          <Include href="Tween 36.xml" itemIcon="1" loadImmediate="false" itemID="6a992c16-00008ff4" lastModified="1788423190"/>
-          <Include href="Tween 37.xml" itemIcon="1" loadImmediate="false" itemID="6a992c16-00008ffc" lastModified="1788423190"/>
           <Include href="Tween 38.xml" itemIcon="1" loadImmediate="false" itemID="6abb61f5-00082d74" lastModified="1790665205"/>
-          <Include href="Tween 39.xml" itemIcon="1" loadImmediate="false" itemID="6abb623f-00082d78" lastModified="1790665279"/>
           <Include href="Tween 40.xml" itemIcon="1" loadImmediate="false" itemID="6abb623f-00082d7c" lastModified="1790665279"/>
-          <Include href="Tween 41.xml" itemIcon="1" loadImmediate="false" itemID="6abb62c0-00082d80" lastModified="1790665408"/>
           <Include href="Tween 42.xml" itemIcon="1" loadImmediate="false" itemID="6abb62c0-00082d84" lastModified="1790665408"/>
           <Include href="Tween 43.xml" itemIcon="1" loadImmediate="false" itemID="6ab8f1d8-0001f3f6" lastModified="1790505432"/>
           <Include href="Tween 44.xml" itemIcon="1" loadImmediate="false" itemID="6ab8f1d8-0001f3fa" lastModified="1790505432"/>
-          <Include href="Tween 45.xml" itemIcon="1" loadImmediate="false" itemID="6abb630e-00082d88" lastModified="1790665486"/>
           <Include href="Tween 46.xml" itemIcon="1" loadImmediate="false" itemID="6abb630e-00082d8c" lastModified="1790665486"/>
-          <Include href="Tween 47.xml" itemIcon="1" loadImmediate="false" itemID="6abb636f-00082d90" lastModified="1790665583"/>
           <Include href="Tween 48.xml" itemIcon="1" loadImmediate="false" itemID="6abb636f-00082d94" lastModified="1790665583"/>
-          <Include href="Tween 49.xml" itemIcon="1" loadImmediate="false" itemID="6abb669e-00082d98" lastModified="1790666398"/>
           <Include href="Tween 50.xml" itemIcon="1" loadImmediate="false" itemID="6abb669e-00082d9c" lastModified="1790666398"/>
-          <Include href="Tween 51.xml" itemIcon="1" loadImmediate="false" itemID="6abb672d-00082da0" lastModified="1790666541"/>
           <Include href="Tween 52.xml" itemIcon="1" loadImmediate="false" itemID="6abb672d-00082da4" lastModified="1790666541"/>
-          <Include href="Tween 53.xml" itemIcon="1" loadImmediate="false" itemID="6abb679b-00082da8" lastModified="1790666651"/>
           <Include href="Tween 54.xml" itemIcon="1" loadImmediate="false" itemID="6abb679b-00082dac" lastModified="1790666651"/>
           <Include href="Tween 55.xml" itemIcon="1" loadImmediate="false" itemID="6abc08be-0000071c" lastModified="1790707902"/>
           <Include href="Tween 56.xml" itemIcon="1" loadImmediate="false" itemID="6abc08bf-00000723" lastModified="1790707903"/>
@@ -1365,9 +981,9 @@
           <Include href="Tween 115.xml" itemIcon="1" loadImmediate="false" itemID="6abc0ca8-000009a9" lastModified="1790708904"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="10" layerDepthEnabled="true">
+          <DOMTimeline name="Scene 1" currentFrame="6" layerDepthEnabled="true">
                <layers>
-                    <DOMLayer name="Layer_1" color="#00FFFF">
+                    <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -1390,21 +1006,9 @@
                               <DOMFrame index="6" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="7" keyMode="9728">
-                                   <elements/>
-                              </DOMFrame>
-                              <DOMFrame index="8" keyMode="9728">
-                                   <elements/>
-                              </DOMFrame>
-                              <DOMFrame index="9" keyMode="9728">
-                                   <elements/>
-                              </DOMFrame>
-                              <DOMFrame index="10" keyMode="9728">
-                                   <elements/>
-                              </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Layer_2" color="#9933CC" current="true" isSelected="true">
+                    <DOMLayer name="Layer_2" color="#9933CC">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <Framescript language="JavaScript">
@@ -1431,7 +1035,7 @@ console.log("start")
 
 	let nextFrame = root.currentFrame + 1;
 
-	root.gotoAndStop(nextFrame);
+	root.gotoAndStop("d_intro");
 }
 
 if (root._startBtnShakeTimer) {
@@ -2782,33 +2386,9 @@ window.scormHandlerReady.then(function () {
                                    </Framescript>
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="7" name="d_intro" labelType="name" keyMode="9728">
-                                   <Framescript language="JavaScript">
-                                        <script><![CDATA[this.stop()]]></script>
-                                   </Framescript>
-                                   <elements/>
-                              </DOMFrame>
-                              <DOMFrame index="8" name="d_instruction" labelType="name" keyMode="9728">
-                                   <Framescript language="JavaScript">
-                                        <script><![CDATA[this.stop()]]></script>
-                                   </Framescript>
-                                   <elements/>
-                              </DOMFrame>
-                              <DOMFrame index="9" name="d_quiz" labelType="name" keyMode="9728">
-                                   <Framescript language="JavaScript">
-                                        <script><![CDATA[this.stop()]]></script>
-                                   </Framescript>
-                                   <elements/>
-                              </DOMFrame>
-                              <DOMFrame index="10" name="d_result" labelType="name" keyMode="9728">
-                                   <Framescript language="JavaScript">
-                                        <script><![CDATA[this.stop()]]></script>
-                                   </Framescript>
-                                   <elements/>
-                              </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="logo" color="#9933CC" autoNamed="false">
+                    <DOMLayer name="logo" color="#9933CC" autoNamed="false" visible="false">
                          <frames>
                               <DOMFrame index="0" duration="7" keyMode="9728" rigPropagationMatrix='{"a":45224,"b":0,"c":0,"d":57697,"tx":0,"ty":0}'>
                                    <elements>
@@ -2824,7 +2404,7 @@ window.scormHandlerReady.then(function () {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="new_overly" color="#00FFFF" autoNamed="false">
+                    <DOMLayer name="new_overly" color="#00FFFF" autoNamed="false" visible="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -2894,7 +2474,7 @@ window.scormHandlerReady.then(function () {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="pointer" color="#FF800A" autoNamed="false">
+                    <DOMLayer name="pointer" color="#FF800A" autoNamed="false" visible="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -2907,7 +2487,7 @@ window.scormHandlerReady.then(function () {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="side_btns" color="#00FFFF" autoNamed="false">
+                    <DOMLayer name="side_btns" color="#00FFFF" autoNamed="false" visible="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -2945,7 +2525,7 @@ window.scormHandlerReady.then(function () {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="progress_bar" color="#00FFFF" autoNamed="false">
+                    <DOMLayer name="progress_bar" color="#00FFFF" autoNamed="false" visible="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -2989,7 +2569,7 @@ window.scormHandlerReady.then(function () {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="squirrel" color="#FF4FFF" autoNamed="false">
+                    <DOMLayer name="squirrel" color="#FF4FFF" autoNamed="false" visible="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -3011,7 +2591,7 @@ window.scormHandlerReady.then(function () {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="idel_squirrel" color="#FF4FFF" autoNamed="false">
+                    <DOMLayer name="idel_squirrel" color="#FF4FFF" autoNamed="false" visible="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -3033,7 +2613,7 @@ window.scormHandlerReady.then(function () {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="count_items" color="#009999" autoNamed="false">
+                    <DOMLayer name="count_items" color="#009999" autoNamed="false" visible="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -3100,7 +2680,7 @@ window.scormHandlerReady.then(function () {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="ten_frame" color="#009999" autoNamed="false">
+                    <DOMLayer name="ten_frame" color="#009999" autoNamed="false" visible="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -3192,7 +2772,7 @@ window.scormHandlerReady.then(function () {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="animation" color="#FF4FFF" autoNamed="false">
+                    <DOMLayer name="animation" color="#FF4FFF" autoNamed="false" visible="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
@@ -3214,7 +2794,7 @@ window.scormHandlerReady.then(function () {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="flash0_ai" color="#00FFFF" autoNamed="false">
+                    <DOMLayer name="flash0_ai" color="#00FFFF" autoNamed="false" visible="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -3227,7 +2807,7 @@ window.scormHandlerReady.then(function () {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="flash0_ai" color="#00FFFF" autoNamed="false">
+                    <DOMLayer name="flash0_ai" color="#00FFFF" autoNamed="false" visible="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -3535,9 +3115,9 @@ window.scormHandlerReady.then(function () {
                                                                  </fills>
                                                                  <edges>
                                                                       <Edge fillStyle1="1" edges="
-!731 736[791 736 827 691!827 691[864 645 864 576!864 576[864 529 847 492!847 492[830 456 801 435!801 435[770 415 731 415!731 415[692 415 663 435!663 435[632 457 616 492!616 492[599 526 599 576!599 576[599 625 616 659!616 659[632 695 663
- 716!663 716[692 736 731 736!857 840|857 782.5!857 782.5[#345.01 #328.55 809 825!809 825[766 851 714 851!714 851[649 851 599 814!599 814[548 778 518 716!518 716[489 652 489 577!489 577[489 500 518 436!518 436[548 375 599 337!599 337[650
- 301 714 301!714 301[768 301 809 326!809 326[#345.53 #158.E2 857 370.5!857 370.5|857 312!857 312|964 312!964 312|964 840!964 840|857 840"/>
+!857 840|857 782.5!857 782.5[#345.01 #328.55 809 825!809 825[766 851 714 851!714 851[649 851 599 814!599 814[548 778 518 716!518 716[489 652 489 577!489 577[489 500 518 436!518 436[548 375 599 337!599 337[650 301 714 301!714 301[768 301
+ 809 326!809 326[#345.53 #158.E2 857 370.5!857 370.5|857 312!857 312|964 312!964 312|964 840!964 840|857 840!731 736[791 736 827 691!827 691[864 645 864 576!864 576[864 529 847 492!847 492[830 456 801 435!801 435[770 415 731 415!731 415
+[692 415 663 435!663 435[632 457 616 492!616 492[599 526 599 576!599 576[599 625 616 659!616 659[632 695 663 716!663 716[692 736 731 736"/>
                                                                       <Edge cubics="!857 840(;857,840 857,783 857,783q857 840 857 783);"/>
                                                                       <Edge cubics="!857 371(;857,371 857,312 857,312q857 371 857 312);"/>
                                                                       <Edge cubics="!857 312(;857,312 964,312 964,312q857 312 964 312);"/>
@@ -3577,9 +3157,10 @@ window.scormHandlerReady.then(function () {
                                                                  </fills>
                                                                  <edges>
                                                                       <Edge fillStyle1="1" edges="
-!1315 736[1353 736 1384 716!1384 716[1412 696 1431 659!1431 659[1448 622 1448 576!1448 576[1448 529 1431 492!1431 492[1412 455 1384 435!1384 435[1353 415 1315 415!1315 415[1277 415 1246 435!1246 435[1217 456 1200 492!1200 492[1183 526
- 1183 576!1183 576[1183 625 1200 659!1200 659[1217 696 1246 716!1246 716[1277 736 1315 736!1333 851[1280 851 1237 825!1237 825[#4B9.BE #327.B7 1190 782!1190 782|1190 1060!1190 1060|1083 1060!1083 1060|1083 312!1083 312|1190 312!1190 312
-|1190 369.5!1190 369.5[#4B9.54 #158.E6 1238 326!1238 326[1279 301 1333 301!1333 301[1396 301 1447 337!1447 337[1498 375 1528 436!1528 436[1558 499 1558 577!1558 577[1558 653 1528 716!1528 716[1498 778 1447 814!1447 814[1397 851 1333 851"/>
+!1333 851[1280 851 1237 825!1237 825[#4B9.BE #327.B7 1190 782!1190 782|1190 1060!1190 1060|1083 1060!1083 1060|1083 312!1083 312|1190 312!1190 312|1190 369.5!1190 369.5[#4B9.54 #158.E6 1238 326!1238 326[1279 301 1333 301!1333 301[1396
+ 301 1447 337!1447 337[1498 375 1528 436!1528 436[1558 499 1558 577!1558 577[1558 653 1528 716!1528 716[1498 778 1447 814!1447 814[1397 851 1333 851!1315 736[1353 736 1384 716!1384 716[1412 696 1431 659!1431 659[1448 622 1448 576!1448
+ 576[1448 529 1431 492!1431 492[1412 455 1384 435!1384 435[1353 415 1315 415!1315 415[1277 415 1246 435!1246 435[1217 456 1200 492!1200 492[1183 526 1183 576!1183 576[1183 625 1200 659!1200 659[1217 696 1246 716!1246 716[1277 736 1315
+ 736"/>
                                                                       <Edge cubics="!1315 736(;1341,736 1364,729 1384,716q1315 736Q1353 736q1384 716);"/>
                                                                       <Edge cubics="!1384 716(;1404,702 1419,683 1431,659q1384 716Q1412 696q1431 659);"/>
                                                                       <Edge cubics="!1431 659(;1442,635 1448,607 1448,576q1431 659Q1448 622q1448 576);"/>
@@ -3620,10 +3201,10 @@ window.scormHandlerReady.then(function () {
                                                                  </fills>
                                                                  <edges>
                                                                       <Edge fillStyle1="1" edges="
-!2059 851[1989 851 1933 815!1933 815[1876 778 1845 716!1845 716[1812 655 1812 576!1812 576[1812 499 1844 435!1844 435[1875 374 1931 337!1931 337[1987 301 2053 301!2053 301[2119 301 2169 335!2169 335[2217 367 2248 428!2248 428[2276 487
- 2276 564!2276 564|2275 590!2275 590|2270 621!2270 621|1922 621!1922 621[#786.78 #281.76 1935 659!1935 659[1951 695 1984 717!1984 717[2015 737 2058 737!2058 737[2096 737 2125 723!2125 723[2157 709 2177 681!2177 681|2245 759!2245 759[2210
- 805 2162 828!2162 828[2113 851 2059 851!2171 522[#877.31 #1F3.A8 2159 480!2159 480[2144 447 2117 429!2117 429[2089 412 2051 412!2051 412[2009 412 1980 432!1980 432[1950 451 1934 487!1934 487[#786.75 #1F7.6B 1922.5 522!1922.5 522|2171
- 522"/>
+!2171 522[#877.31 #1F3.A8 2159 480!2159 480[2144 447 2117 429!2117 429[2089 412 2051 412!2051 412[2009 412 1980 432!1980 432[1950 451 1934 487!1934 487[#786.75 #1F7.6B 1922.5 522!1922.5 522|2171 522!2059 851[1989 851 1933 815!1933 815
+[1876 778 1845 716!1845 716[1812 655 1812 576!1812 576[1812 499 1844 435!1844 435[1875 374 1931 337!1931 337[1987 301 2053 301!2053 301[2119 301 2169 335!2169 335[2217 367 2248 428!2248 428[2276 487 2276 564!2276 564|2275 590!2275 590
+|2270 621!2270 621|1922 621!1922 621[#786.78 #281.76 1935 659!1935 659[1951 695 1984 717!1984 717[2015 737 2058 737!2058 737[2096 737 2125 723!2125 723[2157 709 2177 681!2177 681|2245 759!2245 759[2210 805 2162 828!2162 828[2113 851 2059
+ 851"/>
                                                                       <Edge cubics="!2059 851(;2012,851 1970,839 1933,815q2059 851Q1989 851q1933 815);"/>
                                                                       <Edge cubics="!1933 815(;1896,791 1866,758 1845,716q1933 815Q1876 778q1845 716);"/>
                                                                       <Edge cubics="!1845 716(;1823,675 1812,628 1812,576q1845 716Q1812 655q1812 576);"/>
@@ -3951,9 +3532,9 @@ window.scormHandlerReady.then(function () {
                                                                  </fills>
                                                                  <edges>
                                                                       <Edge fillStyle1="1" edges="
-!7054 734[7093 734 7124 714!7124 714[7156 693 7172 657!7172 657[7189 620 7189 575!7189 575[7189 530 7172 493!7172 493[7153 457 7124 438!7124 438[7094 417 7054 417!7054 417[7016 417 6984 438!6984 438[6954 458 6937 493!6937 493[6919 529
- 6919 575!6919 575[6919 621 6937 657!6937 657[6953 693 6984 714!6984 714[7016 734 7054 734!7054 851[6987 851 6930 814!6930 814[6875 777 6842 714!6842 714[6809 651 6809 575!6809 575[6809 498 6842 436!6842 436[6875 374 6930 337!6930 337
-[6986 301 7054 301!7054 301[7123 301 7178 337!7178 337[7234 373 7267 435!7267 435[7299 499 7299 575!7299 575[7299 650 7267 714!7267 714[7235 776 7178 814!7178 814[7121 851 7054 851"/>
+!7054 851[6987 851 6930 814!6930 814[6875 777 6842 714!6842 714[6809 651 6809 575!6809 575[6809 498 6842 436!6842 436[6875 374 6930 337!6930 337[6986 301 7054 301!7054 301[7123 301 7178 337!7178 337[7234 373 7267 435!7267 435[7299 499
+ 7299 575!7299 575[7299 650 7267 714!7267 714[7235 776 7178 814!7178 814[7121 851 7054 851!7054 734[7093 734 7124 714!7124 714[7156 693 7172 657!7172 657[7189 620 7189 575!7189 575[7189 530 7172 493!7172 493[7153 457 7124 438!7124 438
+[7094 417 7054 417!7054 417[7016 417 6984 438!6984 438[6954 458 6937 493!6937 493[6919 529 6919 575!6919 575[6919 621 6937 657!6937 657[6953 693 6984 714!6984 714[7016 734 7054 734"/>
                                                                       <Edge cubics="!7054 734(;7080,734 7104,727 7124,714q7054 734Q7093 734q7124 714);"/>
                                                                       <Edge cubics="!7124 714(;7145,700 7161,681 7172,657q7124 714Q7156 693q7172 657);"/>
                                                                       <Edge cubics="!7172 657(;7183,633 7189,605 7189,575q7172 657Q7189 620q7189 575);"/>
@@ -4029,9 +3610,9 @@ window.scormHandlerReady.then(function () {
                                                                  </fills>
                                                                  <edges>
                                                                       <Edge fillStyle1="1" edges="
-!8261 734[8300 734 8332 714!8332 714[8363 693 8379 657!8379 657[8396 623 8396 575!8396 575[8396 527 8379 493!8379 493[8360 457 8331 438!8331 438[8301 417 8261 417!8261 417[8223 417 8191 438!8191 438[8161 458 8144 493!8144 493[8127 527
- 8127 575!8127 575[8127 623 8144 657!8144 657[8160 693 8191 714!8191 714[8223 734 8261 734!8261 851[8194 851 8137 814!8137 814[8082 777 8049 714!8049 714[8017 650 8017 575!8017 575[8017 499 8049 436!8049 436[8082 374 8137 337!8137 337
-[8193 301 8261 301!8261 301[8331 301 8386 337!8386 337[8440 372 8474 435!8474 435[8506 496 8506 575!8506 575[8506 653 8474 714!8474 714[8441 777 8386 814!8386 814[8329 851 8261 851"/>
+!8261 851[8194 851 8137 814!8137 814[8082 777 8049 714!8049 714[8017 650 8017 575!8017 575[8017 499 8049 436!8049 436[8082 374 8137 337!8137 337[8193 301 8261 301!8261 301[8331 301 8386 337!8386 337[8440 372 8474 435!8474 435[8506 496
+ 8506 575!8506 575[8506 653 8474 714!8474 714[8441 777 8386 814!8386 814[8329 851 8261 851!8261 734[8300 734 8332 714!8332 714[8363 693 8379 657!8379 657[8396 623 8396 575!8396 575[8396 527 8379 493!8379 493[8360 457 8331 438!8331 438
+[8301 417 8261 417!8261 417[8223 417 8191 438!8191 438[8161 458 8144 493!8144 493[8127 527 8127 575!8127 575[8127 623 8144 657!8144 657[8160 693 8191 714!8191 714[8223 734 8261 734"/>
                                                                       <Edge cubics="!8261 734(;8288,734 8311,727 8332,714q8261 734Q8300 734q8332 714);"/>
                                                                       <Edge cubics="!8332 714(;8352,700 8368,681 8379,657q8332 714Q8363 693q8379 657);"/>
                                                                       <Edge cubics="!8379 657(;8391,633 8396,605 8396,575q8379 657Q8396 623q8396 575);"/>
@@ -4216,9 +3797,9 @@ window.scormHandlerReady.then(function () {
                                                                  </fills>
                                                                  <edges>
                                                                       <Edge fillStyle1="1" edges="
-!731 688[791 688 827 643!827 643[864 597 864 528!864 528[864 481 847 444!847 444[830 407 801 388!801 388[771 367 731 367!731 367[692 367 663 388!663 388[633 408 616 444!616 444[599 478 599 528!599 528[599 577 616 611!616 611[631 646 663
- 668!663 668[690 688 731 688!857 792|857 734.5!857 734.5[#345.01 #2F8.55 809 777!809 777[766 803 714 803!714 803[649 803 599 766!599 766[548 730 518 668!518 668[489 605 489 529!489 529[489 452 518 389!518 389[548 326 599 290!599 290[649
- 253 714 253!714 253[769 253 809 279!809 279[#344.F4 #128.BA 857 323.5!857 323.5|857 264!857 264|964 264!964 264|964 792!964 792|857 792"/>
+!857 792|857 734.5!857 734.5[#345.01 #2F8.55 809 777!809 777[766 803 714 803!714 803[649 803 599 766!599 766[548 730 518 668!518 668[489 605 489 529!489 529[489 452 518 389!518 389[548 326 599 290!599 290[649 253 714 253!714 253[769 253
+ 809 279!809 279[#344.F4 #128.BA 857 323.5!857 323.5|857 264!857 264|964 264!964 264|964 792!964 792|857 792!731 688[791 688 827 643!827 643[864 597 864 528!864 528[864 481 847 444!847 444[830 407 801 388!801 388[771 367 731 367!731 367
+[692 367 663 388!663 388[633 408 616 444!616 444[599 478 599 528!599 528[599 577 616 611!616 611[631 646 663 668!663 668[690 688 731 688"/>
                                                                       <Edge cubics="!857 792(;857,792 857,735 857,735q857 792 857 735);"/>
                                                                       <Edge cubics="!857 324(;857,324 857,264 857,264q857 324 857 264);"/>
                                                                       <Edge cubics="!857 264(;857,264 964,264 964,264q857 264 964 264);"/>
@@ -4258,9 +3839,9 @@ window.scormHandlerReady.then(function () {
                                                                  </fills>
                                                                  <edges>
                                                                       <Edge fillStyle1="1" edges="
-!1315 688[1355 688 1384 668!1384 668[1414 647 1431 611!1431 611[1448 574 1448 528!1448 528[1448 481 1431 444!1431 444[1412 406 1384 388!1384 388[1354 367 1315 367!1315 367[1276 367 1246 388!1246 388[1217 407 1200 444!1200 444[1183 478
- 1183 528!1183 528[1183 577 1200 611!1200 611[1216 647 1246 668!1246 668[1275 688 1315 688!1333 803[1280 803 1237 777!1237 777[#4B9.BE #2F7.B7 1190 734!1190 734|1190 1012!1190 1012|1083 1012!1083 1012|1083 264!1083 264|1190 264!1190 264
-|1190 322.5!1190 322.5[#4B9.FF 297 1238 279!1238 279[1278 253 1333 253!1333 253[1397 253 1447 290!1447 290[1498 326 1528 389!1528 389[1558 451 1558 529!1558 529[1558 607 1528 668!1528 668[1498 730 1447 766!1447 766[1397 803 1333 803"/>
+!1333 803[1280 803 1237 777!1237 777[#4B9.BE #2F7.B7 1190 734!1190 734|1190 1012!1190 1012|1083 1012!1083 1012|1083 264!1083 264|1190 264!1190 264|1190 322.5!1190 322.5[#4B9.FF 297 1238 279!1238 279[1278 253 1333 253!1333 253[1397 253
+ 1447 290!1447 290[1498 326 1528 389!1528 389[1558 451 1558 529!1558 529[1558 607 1528 668!1528 668[1498 730 1447 766!1447 766[1397 803 1333 803!1315 688[1355 688 1384 668!1384 668[1414 647 1431 611!1431 611[1448 574 1448 528!1448 528
+[1448 481 1431 444!1431 444[1412 406 1384 388!1384 388[1354 367 1315 367!1315 367[1276 367 1246 388!1246 388[1217 407 1200 444!1200 444[1183 478 1183 528!1183 528[1183 577 1200 611!1200 611[1216 647 1246 668!1246 668[1275 688 1315 688"/>
                                                                       <Edge cubics="!1315 688(;1341,688 1364,682 1384,668q1315 688Q1355 688q1384 668);"/>
                                                                       <Edge cubics="!1384 668(;1404,654 1419,636 1431,611q1384 668Q1414 647q1431 611);"/>
                                                                       <Edge cubics="!1431 611(;1442,587 1448,559 1448,528q1431 611Q1448 574q1448 528);"/>
@@ -4301,10 +3882,10 @@ window.scormHandlerReady.then(function () {
                                                                  </fills>
                                                                  <edges>
                                                                       <Edge fillStyle1="1" edges="
-!2059 803[1989 803 1933 767!1933 767[1876 730 1845 669!1845 669[1812 606 1812 528!1812 528[1812 451 1844 388!1844 388[1875 327 1931 289!1931 289[1987 253 2053 253!2053 253[2119 253 2169 287!2169 287[2218 321 2248 380!2248 380[2276 439
- 2276 516!2276 516|2275 543!2275 543|2270 573!2270 573|1922 573!1922 573[#786.78 #251.76 1935 611!1935 611[1952 649 1984 669!1984 669[2015 689 2058 689!2058 689[2096 689 2125 675!2125 675[2157 661 2177 633!2177 633|2245 711!2245 711[2212
- 756 2162 780!2162 780[2113 803 2059 803!2171 474[#877.31 #1C3.A8 2159 432!2159 432[2144 399 2117 381!2117 381[2089 364 2051 364!2051 364[2009 364 1980 384!1980 384[1950 403 1934 439!1934 439[#786.75 #1C7.6B 1922.5 474!1922.5 474|2171
- 474"/>
+!2171 474[#877.31 #1C3.A8 2159 432!2159 432[2144 399 2117 381!2117 381[2089 364 2051 364!2051 364[2009 364 1980 384!1980 384[1950 403 1934 439!1934 439[#786.75 #1C7.6B 1922.5 474!1922.5 474|2171 474!2059 803[1989 803 1933 767!1933 767
+[1876 730 1845 669!1845 669[1812 606 1812 528!1812 528[1812 451 1844 388!1844 388[1875 327 1931 289!1931 289[1987 253 2053 253!2053 253[2119 253 2169 287!2169 287[2218 321 2248 380!2248 380[2276 439 2276 516!2276 516|2275 543!2275 543
+|2270 573!2270 573|1922 573!1922 573[#786.78 #251.76 1935 611!1935 611[1952 649 1984 669!1984 669[2015 689 2058 689!2058 689[2096 689 2125 675!2125 675[2157 661 2177 633!2177 633|2245 711!2245 711[2212 756 2162 780!2162 780[2113 803 2059
+ 803"/>
                                                                       <Edge cubics="!2059 803(;2012,803 1970,791 1933,767q2059 803Q1989 803q1933 767);"/>
                                                                       <Edge cubics="!1933 767(;1896,743 1866,710 1845,669q1933 767Q1876 730q1845 669);"/>
                                                                       <Edge cubics="!1845 669(;1823,627 1812,580 1812,528q1845 669Q1812 606q1812 528);"/>
@@ -4632,9 +4213,9 @@ window.scormHandlerReady.then(function () {
                                                                  </fills>
                                                                  <edges>
                                                                       <Edge fillStyle1="1" edges="
-!7054 686[7093 686 7124 666!7124 666[7156 645 7172 609!7172 609[7189 572 7189 527!7189 527[7189 482 7172 445!7172 445[7153 409 7124 390!7124 390[7094 369 7054 369!7054 369[7016 369 6984 390!6984 390[6954 410 6937 445!6937 445[6919 481
- 6919 527!6919 527[6919 573 6937 609!6937 609[6953 645 6984 666!6984 666[7016 686 7054 686!7054 803[6985 803 6930 766!6930 766[6875 729 6842 666!6842 666[6809 605 6809 527!6809 527[6809 450 6842 388!6842 388[6876 325 6930 290!6930 290
-[6985 253 7054 253!7054 253[7123 253 7178 289!7178 289[7234 326 7267 388!7267 388[7299 451 7299 527!7299 527[7299 604 7267 666!7267 666[7235 728 7178 766!7178 766[7123 803 7054 803"/>
+!7054 803[6985 803 6930 766!6930 766[6875 729 6842 666!6842 666[6809 605 6809 527!6809 527[6809 450 6842 388!6842 388[6876 325 6930 290!6930 290[6985 253 7054 253!7054 253[7123 253 7178 289!7178 289[7234 326 7267 388!7267 388[7299 451
+ 7299 527!7299 527[7299 604 7267 666!7267 666[7235 728 7178 766!7178 766[7123 803 7054 803!7054 686[7093 686 7124 666!7124 666[7156 645 7172 609!7172 609[7189 572 7189 527!7189 527[7189 482 7172 445!7172 445[7153 409 7124 390!7124 390
+[7094 369 7054 369!7054 369[7016 369 6984 390!6984 390[6954 410 6937 445!6937 445[6919 481 6919 527!6919 527[6919 573 6937 609!6937 609[6953 645 6984 666!6984 666[7016 686 7054 686"/>
                                                                       <Edge cubics="!7054 686(;7080,686 7104,679 7124,666q7054 686Q7093 686q7124 666);"/>
                                                                       <Edge cubics="!7124 666(;7145,652 7161,633 7172,609q7124 666Q7156 645q7172 609);"/>
                                                                       <Edge cubics="!7172 609(;7183,585 7189,557 7189,527q7172 609Q7189 572q7189 527);"/>
@@ -4710,9 +4291,9 @@ window.scormHandlerReady.then(function () {
                                                                  </fills>
                                                                  <edges>
                                                                       <Edge fillStyle1="1" edges="
-!8261 686[8300 686 8332 666!8332 666[8363 645 8379 609!8379 609[8396 575 8396 527!8396 527[8396 479 8379 445!8379 445[8360 409 8331 390!8331 390[8301 369 8261 369!8261 369[8223 369 8191 390!8191 390[8161 410 8144 445!8144 445[8127 479
- 8127 527!8127 527[8127 575 8144 609!8144 609[8160 645 8191 666!8191 666[8223 686 8261 686!8261 803[8192 803 8137 766!8137 766[8082 729 8049 666!8049 666[8017 604 8017 527!8017 527[8017 451 8049 388!8049 388[8083 325 8137 290!8137 290
-[8192 253 8261 253!8261 253[8331 253 8386 289!8386 289[8441 325 8474 388!8474 388[8506 448 8506 527!8506 527[8506 606 8474 666!8474 666[8441 729 8386 766!8386 766[8331 803 8261 803"/>
+!8261 803[8192 803 8137 766!8137 766[8082 729 8049 666!8049 666[8017 604 8017 527!8017 527[8017 451 8049 388!8049 388[8083 325 8137 290!8137 290[8192 253 8261 253!8261 253[8331 253 8386 289!8386 289[8441 325 8474 388!8474 388[8506 448
+ 8506 527!8506 527[8506 606 8474 666!8474 666[8441 729 8386 766!8386 766[8331 803 8261 803!8261 686[8300 686 8332 666!8332 666[8363 645 8379 609!8379 609[8396 575 8396 527!8396 527[8396 479 8379 445!8379 445[8360 409 8331 390!8331 390
+[8301 369 8261 369!8261 369[8223 369 8191 390!8191 390[8161 410 8144 445!8144 445[8127 479 8127 527!8127 527[8127 575 8144 609!8144 609[8160 645 8191 666!8191 666[8223 686 8261 686"/>
                                                                       <Edge cubics="!8261 686(;8288,686 8311,679 8332,666q8261 686Q8300 686q8332 666);"/>
                                                                       <Edge cubics="!8332 666(;8352,652 8368,633 8379,609q8332 666Q8363 645q8379 609);"/>
                                                                       <Edge cubics="!8379 609(;8391,585 8396,557 8396,527q8379 609Q8396 575q8396 527);"/>
@@ -5165,9 +4746,9 @@ window.scormHandlerReady.then(function () {
                                                        </fills>
                                                        <edges>
                                                             <Edge fillStyle1="1" edges="
-!731 688[791 688 827 643!827 643[864 597 864 528!864 528[864 481 847 444!847 444[830 407 801 388!801 388[771 367 731 367!731 367[692 367 663 388!663 388[633 408 616 444!616 444[599 478 599 528!599 528[599 577 616 611!616 611[631 646 663
- 668!663 668[690 688 731 688!857 792|857 734.5!857 734.5[#345.01 #2F8.55 809 777!809 777[766 803 714 803!714 803[649 803 599 766!599 766[548 730 518 668!518 668[489 605 489 529!489 529[489 452 518 389!518 389[548 326 599 290!599 290[649
- 253 714 253!714 253[769 253 809 279!809 279[#344.F4 #128.BA 857 323.5!857 323.5|857 264!857 264|964 264!964 264|964 792!964 792|857 792"/>
+!857 792|857 734.5!857 734.5[#345.01 #2F8.55 809 777!809 777[766 803 714 803!714 803[649 803 599 766!599 766[548 730 518 668!518 668[489 605 489 529!489 529[489 452 518 389!518 389[548 326 599 290!599 290[649 253 714 253!714 253[769 253
+ 809 279!809 279[#344.F4 #128.BA 857 323.5!857 323.5|857 264!857 264|964 264!964 264|964 792!964 792|857 792!731 688[791 688 827 643!827 643[864 597 864 528!864 528[864 481 847 444!847 444[830 407 801 388!801 388[771 367 731 367!731 367
+[692 367 663 388!663 388[633 408 616 444!616 444[599 478 599 528!599 528[599 577 616 611!616 611[631 646 663 668!663 668[690 688 731 688"/>
                                                             <Edge cubics="!857 792(;857,792 857,735 857,735q857 792 857 735);"/>
                                                             <Edge cubics="!857 324(;857,324 857,264 857,264q857 324 857 264);"/>
                                                             <Edge cubics="!857 264(;857,264 964,264 964,264q857 264 964 264);"/>
@@ -5207,9 +4788,9 @@ window.scormHandlerReady.then(function () {
                                                        </fills>
                                                        <edges>
                                                             <Edge fillStyle1="1" edges="
-!1315 688[1355 688 1384 668!1384 668[1414 647 1431 611!1431 611[1448 574 1448 528!1448 528[1448 481 1431 444!1431 444[1412 406 1384 388!1384 388[1354 367 1315 367!1315 367[1276 367 1246 388!1246 388[1218 406 1199 444!1199 444[1183 479
- 1183 528!1183 528[1183 576 1199 611!1199 611[1216 647 1246 668!1246 668[1275 688 1315 688!1333 803[1280 803 1237 777!1237 777[#4B9.BE #2F7.B7 1190 734!1190 734|1190 1012!1190 1012|1083 1012!1083 1012|1083 264!1083 264|1190 264!1190 264
-|1190 322.5!1190 322.5[#4B9.FF 297 1238 279!1238 279[1278 253 1333 253!1333 253[1397 253 1447 290!1447 290[1498 326 1528 389!1528 389[1558 451 1558 529!1558 529[1558 607 1528 668!1528 668[1498 730 1447 766!1447 766[1397 803 1333 803"/>
+!1333 803[1280 803 1237 777!1237 777[#4B9.BE #2F7.B7 1190 734!1190 734|1190 1012!1190 1012|1083 1012!1083 1012|1083 264!1083 264|1190 264!1190 264|1190 322.5!1190 322.5[#4B9.FF 297 1238 279!1238 279[1278 253 1333 253!1333 253[1397 253
+ 1447 290!1447 290[1498 326 1528 389!1528 389[1558 451 1558 529!1558 529[1558 607 1528 668!1528 668[1498 730 1447 766!1447 766[1397 803 1333 803!1315 688[1355 688 1384 668!1384 668[1414 647 1431 611!1431 611[1448 574 1448 528!1448 528
+[1448 481 1431 444!1431 444[1412 406 1384 388!1384 388[1354 367 1315 367!1315 367[1276 367 1246 388!1246 388[1218 406 1199 444!1199 444[1183 479 1183 528!1183 528[1183 576 1199 611!1199 611[1216 647 1246 668!1246 668[1275 688 1315 688"/>
                                                             <Edge cubics="!1315 688(;1341,688 1364,682 1384,668q1315 688Q1355 688q1384 668);"/>
                                                             <Edge cubics="!1384 668(;1404,654 1419,636 1431,611q1384 668Q1414 647q1431 611);"/>
                                                             <Edge cubics="!1431 611(;1442,587 1448,559 1448,528q1431 611Q1448 574q1448 528);"/>
@@ -5250,10 +4831,10 @@ window.scormHandlerReady.then(function () {
                                                        </fills>
                                                        <edges>
                                                             <Edge fillStyle1="1" edges="
-!2059 803[1989 803 1933 767!1933 767[1876 730 1845 669!1845 669[1812 606 1812 528!1812 528[1812 451 1844 388!1844 388[1876 325 1931 289!1931 289[1987 253 2053 253!2053 253[2119 253 2169 287!2169 287[2218 321 2248 380!2248 380[2276 439
- 2276 516!2276 516|2275 543!2275 543|2270 573!2270 573|1922 573!1922 573[#786.78 #251.76 1935 611!1935 611[1952 649 1984 669!1984 669[2015 689 2058 689!2058 689[2096 689 2125 675!2125 675[2157 661 2177 633!2177 633|2245 711!2245 711[2212
- 756 2162 780!2162 780[2113 803 2059 803!2171 474[#876.EE #1C2.FA 2158 432!2158 432[2145 399 2117 381!2117 381[2089 364 2051 364!2051 364[2009 364 1980 384!1980 384[1950 403 1934 439!1934 439[#786.75 #1C7.6B 1922.5 474!1922.5 474|2171
- 474"/>
+!2171 474[#876.EE #1C2.FA 2158 432!2158 432[2145 399 2117 381!2117 381[2089 364 2051 364!2051 364[2009 364 1980 384!1980 384[1950 403 1934 439!1934 439[#786.75 #1C7.6B 1922.5 474!1922.5 474|2171 474!2059 803[1989 803 1933 767!1933 767
+[1876 730 1845 669!1845 669[1812 606 1812 528!1812 528[1812 451 1844 388!1844 388[1876 325 1931 289!1931 289[1987 253 2053 253!2053 253[2119 253 2169 287!2169 287[2218 321 2248 380!2248 380[2276 439 2276 516!2276 516|2275 543!2275 543
+|2270 573!2270 573|1922 573!1922 573[#786.78 #251.76 1935 611!1935 611[1952 649 1984 669!1984 669[2015 689 2058 689!2058 689[2096 689 2125 675!2125 675[2157 661 2177 633!2177 633|2245 711!2245 711[2212 756 2162 780!2162 780[2113 803 2059
+ 803"/>
                                                             <Edge cubics="!2059 803(;2012,803 1970,791 1933,767q2059 803Q1989 803q1933 767);"/>
                                                             <Edge cubics="!1933 767(;1896,743 1866,710 1845,669q1933 767Q1876 730q1845 669);"/>
                                                             <Edge cubics="!1845 669(;1823,627 1812,580 1812,528q1845 669Q1812 606q1812 528);"/>
@@ -5635,9 +5216,9 @@ window.scormHandlerReady.then(function () {
                                                        </fills>
                                                        <edges>
                                                             <Edge fillStyle1="1" edges="
-!7444 686[7483 686 7515 666!7515 666[7545 645 7563 609!7563 609[7580 572 7580 527!7580 527[7580 481 7562 445!7562 445[7543 409 7514 390!7514 390[7484 369 7444 369!7444 369[7405 369 7375 390!7375 390[7344 409 7327 445!7327 445[7310 482
- 7310 527!7310 527[7310 572 7327 609!7327 609[7344 645 7375 666!7375 666[7406 686 7444 686!7444 803[7376 803 7321 766!7321 766[7264 728 7232 666!7232 666[7200 604 7200 527!7200 527[7200 451 7232 388!7232 388[7265 326 7321 290!7321 290
-[7376 253 7444 253!7444 253[7514 253 7569 289!7569 289[7624 325 7657 388!7657 388[7690 450 7690 527!7690 527[7690 605 7657 666!7657 666[7624 729 7569 766!7569 766[7514 803 7444 803"/>
+!7444 803[7376 803 7321 766!7321 766[7264 728 7232 666!7232 666[7200 604 7200 527!7200 527[7200 451 7232 388!7232 388[7265 326 7321 290!7321 290[7376 253 7444 253!7444 253[7514 253 7569 289!7569 289[7624 325 7657 388!7657 388[7690 450
+ 7690 527!7690 527[7690 605 7657 666!7657 666[7624 729 7569 766!7569 766[7514 803 7444 803!7444 686[7483 686 7515 666!7515 666[7545 645 7563 609!7563 609[7580 572 7580 527!7580 527[7580 481 7562 445!7562 445[7543 409 7514 390!7514 390
+[7484 369 7444 369!7444 369[7405 369 7375 390!7375 390[7344 409 7327 445!7327 445[7310 482 7310 527!7310 527[7310 572 7327 609!7327 609[7344 645 7375 666!7375 666[7406 686 7444 686"/>
                                                             <Edge cubics="!7444 686(;7471,686 7494,679 7515,666q7444 686Q7483 686q7515 666);"/>
                                                             <Edge cubics="!7515 666(;7535,652 7551,633 7563,609q7515 666Q7545 645q7563 609);"/>
                                                             <Edge cubics="!7563 609(;7574,585 7580,557 7580,527q7563 609Q7580 572q7580 527);"/>
@@ -5713,9 +5294,9 @@ window.scormHandlerReady.then(function () {
                                                        </fills>
                                                        <edges>
                                                             <Edge fillStyle1="1" edges="
-!8651 686[8691 686 8722 666!8722 666[8751 647 8770 609!8770 609[8787 572 8787 527!8787 527[8787 481 8769 445!8769 445[8752 410 8722 390!8722 390[8691 369 8651 369!8651 369[8612 369 8582 390!8582 390[8554 408 8534 445!8534 445[8517 482
- 8517 527!8517 527[8517 572 8534 609!8534 609[8553 647 8582 666!8582 666[8613 686 8651 686!8651 803[8583 803 8528 766!8528 766[8471 727 8440 666!8440 666[8407 605 8407 527!8407 527[8407 450 8440 388!8440 388[8471 327 8528 290!8528 290
-[8583 253 8651 253!8651 253[8721 253 8776 289!8776 289[8831 325 8864 388!8864 388[8897 450 8897 527!8897 527[8897 605 8864 666!8864 666[8831 729 8776 766!8776 766[8721 803 8651 803"/>
+!8651 803[8583 803 8528 766!8528 766[8471 727 8440 666!8440 666[8407 605 8407 527!8407 527[8407 450 8440 388!8440 388[8471 327 8528 290!8528 290[8583 253 8651 253!8651 253[8721 253 8776 289!8776 289[8831 325 8864 388!8864 388[8897 450
+ 8897 527!8897 527[8897 605 8864 666!8864 666[8831 729 8776 766!8776 766[8721 803 8651 803!8651 686[8691 686 8722 666!8722 666[8751 647 8770 609!8770 609[8787 572 8787 527!8787 527[8787 481 8769 445!8769 445[8752 410 8722 390!8722 390
+[8691 369 8651 369!8651 369[8612 369 8582 390!8582 390[8554 408 8534 445!8534 445[8517 482 8517 527!8517 527[8517 572 8534 609!8534 609[8553 647 8582 666!8582 666[8613 686 8651 686"/>
                                                             <Edge cubics="!8651 686(;8678,686 8702,679 8722,666q8651 686Q8691 686q8722 666);"/>
                                                             <Edge cubics="!8722 666(;8743,652 8758,633 8770,609q8722 666Q8751 647q8770 609);"/>
                                                             <Edge cubics="!8770 609(;8781,585 8787,557 8787,527q8770 609Q8787 572q8787 527);"/>
@@ -9558,7 +9139,7 @@ window.scormHandlerReady.then(function () {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Layer_3" color="#FF800A">
+                    <DOMLayer name="Layer_3" color="#FF800A" visible="false">
                          <frames>
                               <DOMFrame index="0" duration="6" keyMode="9728">
                                    <elements/>
@@ -9577,7 +9158,7 @@ window.scormHandlerReady.then(function () {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="safe_area" color="#FF800A" locked="true" autoNamed="false" layerType="guide">
+                    <DOMLayer name="safe_area" color="#FF800A" locked="true" autoNamed="false" visible="false" layerType="guide">
                          <frames>
                               <DOMFrame index="0" duration="7" keyMode="9728">
                                    <elements>
@@ -9604,7 +9185,7 @@ window.scormHandlerReady.then(function () {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="flash0_ai" color="#00FFFF" locked="true" autoNamed="false">
+                    <DOMLayer name="flash0_ai" color="#00FFFF" locked="true" autoNamed="false" visible="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>

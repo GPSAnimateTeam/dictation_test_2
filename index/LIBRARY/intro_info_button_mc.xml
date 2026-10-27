@@ -1,0 +1,17 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="intro_info_button_mc" itemID="05e6d87d-3b6eda6a" lastModified="1793130331" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="intro_info_button_mc" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="content" color="#00FFFF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="ui_btn_info.png"/>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

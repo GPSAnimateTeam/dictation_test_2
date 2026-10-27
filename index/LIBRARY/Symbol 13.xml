@@ -59,7 +59,7 @@ if (window.onEntryAnimDone) {
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="14" duration="8" keyMode="15872">
+            <DOMFrame index="14" duration="8" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="Tween 106" symbolType="graphic" centerPoint3DX="635.4" centerPoint3DY="204.1" loop="loop">
                   <matrix>
@@ -99,7 +99,7 @@ if (window.onEntryAnimDone) {
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="13" duration="9" keyMode="15872">
+            <DOMFrame index="13" duration="9" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="Tween 107" symbolType="graphic" centerPoint3DX="488.8" centerPoint3DY="204.1" loop="loop">
                   <matrix>
@@ -139,7 +139,7 @@ if (window.onEntryAnimDone) {
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="12" duration="10" keyMode="15872">
+            <DOMFrame index="12" duration="10" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="Tween 108" symbolType="graphic" centerPoint3DX="341.35" centerPoint3DY="204.15" loop="loop">
                   <matrix>
@@ -179,7 +179,7 @@ if (window.onEntryAnimDone) {
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="11" duration="11" keyMode="15872">
+            <DOMFrame index="11" duration="11" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="Tween 109" symbolType="graphic" centerPoint3DX="199" centerPoint3DY="204.15" loop="loop">
                   <matrix>
@@ -219,7 +219,7 @@ if (window.onEntryAnimDone) {
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="10" duration="12" keyMode="15872">
+            <DOMFrame index="10" duration="12" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="Tween 110" symbolType="graphic" centerPoint3DX="41.7" centerPoint3DY="204.1" loop="loop">
                   <matrix>
@@ -259,7 +259,7 @@ if (window.onEntryAnimDone) {
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="9" duration="13" keyMode="15872">
+            <DOMFrame index="9" duration="13" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="Tween 111" symbolType="graphic" centerPoint3DX="635.4" centerPoint3DY="56.55" loop="loop">
                   <matrix>
@@ -293,7 +293,7 @@ if (window.onEntryAnimDone) {
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="8" duration="14" keyMode="15872">
+            <DOMFrame index="8" duration="14" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="Tween 112" symbolType="graphic" centerPoint3DX="488.8" centerPoint3DY="56.55" loop="loop">
                   <matrix>
@@ -327,7 +327,7 @@ if (window.onEntryAnimDone) {
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="7" duration="15" keyMode="15872">
+            <DOMFrame index="7" duration="15" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="Tween 113" symbolType="graphic" centerPoint3DX="341.35" centerPoint3DY="56.1" loop="loop">
                   <matrix>
@@ -361,7 +361,7 @@ if (window.onEntryAnimDone) {
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="6" duration="16" keyMode="15872">
+            <DOMFrame index="6" duration="16" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="Tween 114" symbolType="graphic" centerPoint3DX="199" centerPoint3DY="56.55" loop="loop">
                   <matrix>
@@ -392,7 +392,7 @@ if (window.onEntryAnimDone) {
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="5" duration="17" keyMode="15872">
+            <DOMFrame index="5" duration="17" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="Tween 115" symbolType="graphic" centerPoint3DX="42.15" centerPoint3DY="54.4" loop="loop">
                   <matrix>

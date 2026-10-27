@@ -1,0 +1,9 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="intro/intro_shared_close_button_mc" itemID="c8fc74be-018b-4af8-b297-ec9d02185cb5" lastModified="1793135008" lastUniqueIdentifier="1">
+  <timeline><DOMTimeline name="intro/intro_shared_close_button_mc" layerDepthEnabled="true"><layers>
+        <DOMLayer name="content" color="#00FFFF" current="true" isSelected="true" autoNamed="false">
+          <frames><DOMFrame index="0" keyMode="9728"><elements>
+            <DOMBitmapInstance libraryItemName="intro/intro_ui_btn_close_png"><matrix><Matrix a="1" d="1"/></matrix></DOMBitmapInstance>
+          </elements></DOMFrame></frames>
+        </DOMLayer>
+  </layers></DOMTimeline></timeline>
+</DOMSymbolItem>

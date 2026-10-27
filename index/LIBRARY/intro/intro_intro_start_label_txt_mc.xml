@@ -1,0 +1,26 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="intro/intro_intro_start_label_txt_mc" itemID="6ae11286-00013378" lastModified="1793135008" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="intro/intro_intro_start_label_txt_mc" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="content" color="#00FFFF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="intro_start_label_txt" fontRenderingMode="standard" width="309" height="86" isSelectable="false" lineType="multiline">
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>ابدأ</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" autoKern="false" bold="true" lineHeight="77.2" size="44" bitmapSize="880" face="ReadexPro-Regular" fillColor="#4A2208"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

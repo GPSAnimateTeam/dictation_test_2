@@ -1,0 +1,26 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="intro/intro_intro_title_txt_mc" itemID="6ae11286-00013376" lastModified="1793135008" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="intro/intro_intro_title_txt_mc" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="content" color="#00FFFF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="intro_title_txt" fontRenderingMode="standard" width="1097" height="274" isSelectable="false" lineType="multiline">
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>صندوق الأحلام</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" autoKern="false" lineHeight="231.35" size="126.55" bitmapSize="2531" face="PlaypenSansArabic-Regular" fillColor="#F5F2E8"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,35 @@
+{
+  "intro": {
+    "title": "صندوق الأحلام",
+    "startButton": "ابدأ",
+    "aria": {
+      "logo": "الامتحان",
+      "info": "تعليمات النشاط",
+      "close": "إغلاق النشاط",
+      "mute": "كتم الصوت",
+      "unmute": "تشغيل الصوت"
+    }
+  },
+  "instructions": {
+    "title": "كيف تلعب؟",
+    "lines": [
+      "اضغط زر التشغيل لتسمع الجملة، والسلحفاة لتسمع الكلمة ببطء.",
+      "اختر الورقة المكتوبة كتابة صحيحة؛ لديك محاولتان.",
+      "كل إجابة تضع حلمًا جديدًا في الصندوق."
+    ],
+    "numbers": ["١", "٢", "٣"],
+    "understoodButton": "فهمت"
+  },
+  "fieldBindings": {
+    "intro_title_text_mc": "intro.title",
+    "intro_start_label_mc": "intro.startButton",
+    "instructions_title_mc": "instructions.title",
+    "instructions_line_1_mc": "instructions.lines[0]",
+    "instructions_line_2_mc": "instructions.lines[1]",
+    "instructions_line_3_mc": "instructions.lines[2]",
+    "instructions_number_1_mc": "instructions.numbers[0]",
+    "instructions_number_2_mc": "instructions.numbers[1]",
+    "instructions_number_3_mc": "instructions.numbers[2]",
+    "instructions_understood_label_mc": "instructions.understoodButton"
+  }
+}

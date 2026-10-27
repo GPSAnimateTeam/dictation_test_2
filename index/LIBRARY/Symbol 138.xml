@@ -6,7 +6,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/Symbol 1" name="block_overly" selected="true">
+                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/Symbol 1" name="block_overly">
                   <matrix>
                     <Matrix a="0.797271728515625" d="0.934951782226562" tx="444.5" ty="307"/>
                   </matrix>

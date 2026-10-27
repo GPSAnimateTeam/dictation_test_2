@@ -87,7 +87,7 @@
     <Property name="scaleStage">true</Property>
     <Property name="soundsPath">sounds/</Property>
     <Property name="templateTitle">Default Template</Property>
-    <Property name="textureConversion">true</Property>
+    <Property name="textureConversion">false</Property>
     <Property name="useStageGL">false</Property>
     <Property name="version">0.1</Property>
     <Property name="webfontEmbedCode">null</Property>

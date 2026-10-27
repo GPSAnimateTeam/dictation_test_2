@@ -1,0 +1,62 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Duplicate Items Folder/&amp;#060Clip Group&amp;#062" itemID="6a8b28a0-0000639a" lastModified="1787485014">
+  <timeline>
+    <DOMTimeline name="&amp;#060Clip Group&amp;#062" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_4" color="#FF4FFF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_2" color="#9933CC" layerType="mask">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FF0000"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!19629 10736|306 10736!306 10736[220 10736 159 10675!159 10675[98 10614 98 10528!98 10528|98 211!98 211[98 125 159 64!159 64[220 3 306 3!306 3|19629 3!19629 3[19715 3 19776 64!19776 64[19837 125 19837 211!19837 211|19837 10528!19837 10528
+[19837 10614 19776 10675!19776 10675[19715 10736 19629 10736"/>
+                    <Edge cubics="!19629 10736(;19629,10736 306,10736 306,10736q19629 10736 306 10736);"/>
+                    <Edge cubics="!306 10736(;191,10736 98,10643 98,10528q306 10736Q220 10736q159 10675Q98 10614q98 10528);"/>
+                    <Edge cubics="!98 10528(;98,10528 98,211 98,211q98 10528 98 211);"/>
+                    <Edge cubics="!98 211(;98,96 191,3 306,3q98 211Q98 125q159 64Q220 3q306 3);"/>
+                    <Edge cubics="!306 3(;306,3 19629,3 19629,3q306 3 19629 3);"/>
+                    <Edge cubics="!19629 3(;19744,3 19837,96 19837,211q19629 3Q19715 3q19776 64Q19837 125q19837 211);"/>
+                    <Edge cubics="!19837 211(;19837,211 19837,10528 19837,10528q19837 211 19837 10528);"/>
+                    <Edge cubics="!19837 10528(;19837,10643 19744,10736 19629,10736q19837 10528Q19837 10614q19776 10675Q19715 10736q19629 10736);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_3" color="#FF800A" parentLayerIndex="1" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="flash0.ai_1/03/&lt;Image&gt;">
+                  <matrix>
+                    <Matrix a="0.638748168945312" d="0.638748168945312" tx="-6"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_1" color="#00FFFF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

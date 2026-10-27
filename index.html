@@ -1,0 +1,1307 @@
+<!DOCTYPE html>
+<!--
+	NOTES:
+	1. All tokens are represented by '$' sign in the template.
+	2. You can write your code only wherever mentioned.
+	3. All occurrences of existing tokens will be replaced by their appropriate values.
+	4. Blank lines will be removed automatically.
+	5. Remove unnecessary comments before creating your template.
+-->
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="authoring-tool" content="Adobe_Animate_CC">
+<title>index</title>
+<!-- write your code here -->
+<style>
+  #animation_container, #_preload_div_ {
+	position:absolute;
+	margin:auto;
+	left:0;right:0;
+	top:0;bottom:0;
+  }
+</style>
+<script src="libs/1.0.0/createjs.min.js"></script>
+<script src="index.js?1790710151103"></script>
+<script>
+// Global Scripts
+	var jsonData;
+var dataLoaded = false;
+var percent = 0
+var dotsNo = 0
+var expectedCount;
+var currentTheme;
+var fontFamily
+var currentPath;
+var mediaPath = "../library/";
+var scriptsPath =  "../library/scripts/";
+var loaded = false
+var templateDataURL
+var isFirstLoad 
+var boxOriginalX = {};
+var NO_IMAGE_OFFSET = -250;
+// Pause all sounds when app/tab loses focus
+var bgMusicInstance = null;
+var musicEnabled = true;
+var pendingIOSResume = false;
+// سجل مركزي للأصوات اللي بنحتاج نوقفها من أي مكان
+window.soundInstances = {};
+function resumeIOSAudioOnGesture() {
+    if (!pendingIOSResume) return;
+    pendingIOSResume = false;
+    if (window.createjs && createjs.WebAudioPlugin && createjs.WebAudioPlugin.context) {
+        var ctx = createjs.WebAudioPlugin.context;
+        if (ctx.state !== "running") {
+            ctx.resume();
+        }
+    }
+    if (!bgMusicInstance) {
+        bgMusicInstance = createjs.Sound.play("bgMusic", { loop: -1, volume: 0.02 });
+    }
+    bgMusicInstance.paused = !musicEnabled;
+}
+document.addEventListener("touchend", resumeIOSAudioOnGesture, true);
+document.addEventListener("click", resumeIOSAudioOnGesture, true);
+document.addEventListener("visibilitychange", function () {
+    if (document.hidden) {
+        createjs.Sound.muted = true;    // 👈 اكتم كل الأصوات
+    } else {
+        createjs.Sound.muted = false;   // 👈 رجّع الصوت
+    }
+    // منطق الـ bgMusic الموجود عندك زي ما هو
+    if (!bgMusicInstance) return;
+    if (document.hidden) {
+        bgMusicInstance.paused = true;
+    } else {
+        if (isIOS && /iPhone|iPod/.test(navigator.userAgent)) {
+            bgMusicInstance.paused = true;
+            pendingIOSResume = true;
+        } else if (isIOS) {
+            bgMusicInstance.paused = false;
+            createjs.Sound.resume();
+            bgMusicInstance.paused = true;
+            bgMusicInstance.paused = false;
+        } else {
+            bgMusicInstance.paused = !musicEnabled;
+        }
+    }
+});
+window.addEventListener("blur", function () {
+    createjs.Sound.muted = true;        // 👈
+    if (bgMusicInstance) {
+        bgMusicInstance.paused = true;
+    }
+});
+window.addEventListener("focus", function () {   // 👈 handler جديد
+    createjs.Sound.muted = false;
+    if (bgMusicInstance) {
+        bgMusicInstance.paused = !musicEnabled;
+    }
+});
+window.addEventListener("pagehide", function () {
+    createjs.Sound.muted = true;        // 👈
+    if (bgMusicInstance) {
+        bgMusicInstance.paused = true;
+    }
+});
+window.addEventListener("DOMContentLoaded", function () {
+  var preloadDiv = document.getElementById("_preload_div_");
+  if (preloadDiv) {
+    var preloaderImg = preloadDiv.querySelector("img");
+    if (preloaderImg && preloaderImg.src.includes("_preloader.gif")) {
+      // Update the src to the new file path
+      preloaderImg.src = "./preloader.gif";
+    }
+  }
+});
+// =================================================
+// OPTIONAL ACTIVITY API - LOGO ONLY
+// =================================================
+var logoURL = null;
+var logoApiStarted = false;
+var logoApiFinished = false;
+var logoActivityID = null;
+var logoUserToken = null;
+var logoScriptsPath = "../../../../library/scripts/";
+// =================================================
+// READ ACTIVITY PARAMETERS
+// =================================================
+(function initLogoApi() {
+    try {
+        var params = new URLSearchParams(window.location.search);
+        logoActivityID = params.get("id");
+        logoUserToken = params.get("token");
+        console.log("🟢 Logo API - activityID:", logoActivityID);
+        // No activity ID = local/direct launch
+        // Do absolutely nothing.
+        if (!logoActivityID) {
+            console.log("ℹ️ Logo API skipped: no activity ID.");
+            logoApiFinished = true;
+            return;
+        }
+        loadLogoActivityLoader();
+    } catch (error) {
+        console.warn(
+            "⚠️ Logo API initialization failed. Activity will continue normally.",
+            error
+        );
+        logoApiFinished = true;
+    }
+})();
+// =================================================
+// LOAD ACTIVITY LOADER - LOGO ONLY
+// =================================================
+function loadLogoActivityLoader() {
+    if (logoApiStarted) return;
+    logoApiStarted = true;
+    var script = document.createElement("script");
+    script.type = "module";
+    script.src = logoScriptsPath + "activity-loader.js";
+    script.onload = function () {
+        console.log(
+            "✅ Activity Loader loaded for logo:",
+            script.src
+        );
+        loadLogoFromAPI();
+    };
+    script.onerror = function (error) {
+        console.warn(
+            "⚠️ Activity Loader failed to load. Continuing without logo.",
+            error
+        );
+        logoApiFinished = true;
+    };
+    document.head.appendChild(script);
+}
+// =================================================
+// GET LOGO FROM ACTIVITY API
+// =================================================
+async function loadLogoFromAPI() {
+    if (!logoActivityID) {
+        logoApiFinished = true;
+        return;
+    }
+    if (typeof getActivityData !== "function") {
+        console.warn(
+            "⚠️ getActivityData is not available. Continuing without logo."
+        );
+        logoApiFinished = true;
+        return;
+    }
+    try {
+        console.log("🔄 Loading activity data for logo...");
+        var data = await getActivityData(
+            logoActivityID,
+            logoUserToken
+        );
+        console.log("📦 Activity API response:", data);
+        if (!data || !data.status) {
+            console.warn(
+                "⚠️ Activity API returned no valid data. Continuing without logo."
+            );
+            logoApiFinished = true;
+            return;
+        }
+        // We ONLY care about the logo.
+        logoURL = data.logo || null;
+        logoApiFinished = true;
+        if (!logoURL) {
+            console.warn(
+                "⚠️ Activity has no logo URL. Continuing without logo."
+            );
+            return;
+        }
+        console.log("🖼️ Logo URL received:", logoURL);
+        waitForLogoStageAndLoad();
+    } catch (error) {
+        console.warn(
+            "⚠️ Logo API request failed. Activity will continue normally.",
+            error
+        );
+        logoApiFinished = true;
+    }
+}
+// =================================================
+// WAIT FOR ANIMATE LOGO TARGET
+// =================================================
+function waitForLogoStageAndLoad() {
+    if (!logoURL) return;
+    if (
+        typeof exportRoot !== "undefined" &&
+        exportRoot &&
+        exportRoot.logo_mc
+    ) {
+        loadLogoIntoMC(
+            exportRoot.logo_mc,
+            logoURL
+        );
+        return;
+    }
+    setTimeout(
+        waitForLogoStageAndLoad,
+        50
+    );
+}
+// =================================================
+// LOAD REMOTE LOGO INTO logo_mc
+// =================================================
+function loadLogoIntoMC(mc, url) {
+    if (!mc || !url) {
+        return;
+    }
+    var container = mc.getChildAt(0);
+    if (!container) {
+        container = mc;
+    }
+    var bounds = container.nominalBounds || {
+        width: 100,
+        height: 120
+    };
+    // Remove existing logo content
+    if (container.removeAllChildren) {
+        container.removeAllChildren();
+    } else {
+        mc.removeAllChildren();
+        container = mc;
+    }
+    var img = new Image();
+    img.onload = function () {
+        try {
+            var bitmap = new createjs.Bitmap(img);
+            bitmap.scaleX =
+                bounds.width / img.width;
+            bitmap.scaleY =
+                bounds.height / img.height;
+            bitmap.x = 0;
+            bitmap.y = 0;
+            container.addChild(bitmap);
+            stage.update();
+            console.log(
+                "✅ Logo loaded successfully."
+            );
+        } catch (error) {
+            console.warn(
+                "⚠️ Failed to render logo.",
+                error
+            );
+        }
+    };
+    img.onerror = function () {
+        console.warn(
+            "⚠️ Logo image failed to load:",
+            url
+        );
+        // IMPORTANT:
+        // Do not stop or affect the activity.
+    };
+    img.src = url;
+}
+// ios fix margin
+var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) &&
+            !/Android/.test(navigator.userAgent) &&
+            navigator.vendor === 'Apple Computer, Inc.';
+if (!isIOS && navigator.maxTouchPoints > 1 && /Mac/.test(navigator.userAgent) && navigator.vendor === 'Apple Computer, Inc.') {
+  isIOS = true;
+}
+if (window.iosFixApplied === undefined) {
+  window.iosFixApplied = false;
+}
+function fixIOSText(element, offset, ignoreFlag) { 
+offset = offset || 30; 
+if (isIOS && (!window.iosFixApplied || ignoreFlag)) 
+{ element.y -= offset; 
+} }
+const params = new URLSearchParams(window.location.search);
+window.activityLoaderReady = new Promise(function(resolve, reject) {
+    var script = document.createElement('script');
+	script.type = 'module';
+    script.src = scriptsPath + "activity-loader.js";
+    script.onload = function() {
+        console.log(
+            'Activity Loader loaded from:',
+            script.src
+        );
+        resolve();
+    };
+    script.onerror = function() {
+        console.error(
+            'Failed to load from:',
+            script.src
+        );
+        reject();
+    };
+    document.head.appendChild(script);
+});
+var activityID = params.get('id') 
+var userToken = params.get('token') 
+console.log('activityID',activityID)
+if(activityID != null){
+    window.activityLoaderReady.then(function(){
+        loadURLFromAPI();
+    });
+}else{
+    setDefaults();
+}
+var fontFamily = "Outfit";
+var fontReady = false;
+Promise.all([
+  new FontFace("Outfit", "url(fonts/Outfit-Regular.ttf)", {
+    weight: "400",
+  }).load(),
+  new FontFace("Outfit", "url(fonts/Outfit-Medium.ttf)", {
+    weight: "500",
+  }).load(),
+  new FontFace("Outfit", "url(fonts/Outfit-SemiBold.ttf)", {
+    weight: "600",
+  }).load(),
+  new FontFace("Outfit", "url(fonts/Outfit-Bold.ttf)", {
+    weight: "700",
+  }).load(),
+]).then(function(fonts) {
+  fonts.forEach(function(f) { document.fonts.add(f); });
+  fontReady = true;
+}).catch(function(err) {
+  console.warn("Font load error:", err);
+  fontReady = true;
+});
+// sounds
+var soundsArray = [
+  { id: "bgMusic", src: mediaPath + "sfx/bgMusic.mp3" },
+  { id: "ClickSound", src: mediaPath + "sfx/ClickSound.mp3" },
+  { id: "ClickSound2", src: mediaPath + "sfx/ClickSound2.mp3" },
+  { id: "color", src: mediaPath + "sfx/color.mp3" },
+  { id: "confirm", src: mediaPath + "sfx/confirm.mp3" },
+  { id: "count", src: mediaPath + "sfx/count.mp3" },
+  { id: "count_and_color", src: mediaPath + "sfx/count_and_color.mp3" },
+  { id: "five", src: mediaPath + "sfx/five.mp3" },
+  { id: "four", src: mediaPath + "sfx/four.mp3" },
+  { id: "one", src: mediaPath + "sfx/one.mp3" },
+  { id: "success", src: mediaPath + "sfx/success.mp3" },
+  { id: "three", src: mediaPath + "sfx/three.mp3" },
+  { id: "two", src: mediaPath + "sfx/two.mp3" },
+  { id: "pop", src: mediaPath + "sfx/pop.mp3" },
+  { id: "success_option_1", src: mediaPath + "sfx/success_option_1.mp3" },
+  { id: "six", src: mediaPath + "sfx/six.mp3" },
+ { id: "seven", src: mediaPath + "sfx/seven.mp3" },
+ { id: "eight", src: mediaPath + "sfx/eight.mp3" },
+ { id: "nine", src: mediaPath + "sfx/nine.mp3" },
+ { id: "ten", src: mediaPath + "sfx/ten.mp3" },
+  { id: "v0001_hello_my_little_star", src: mediaPath + "sfx/vo001_hello_my_little_star.mp3" },
+  { id: "v0002_hello_superstar", src: mediaPath + "sfx/vo002_hello_superstar.mp3" },
+  { id: "v0004_ready", src: mediaPath + "sfx/vo004_ready.mp3" },
+  { id: "v0005_lets_play", src: mediaPath + "sfx/vo005_lets_play.mp3" },
+  { id: "v0006_lets_begin_our_adventure", src: mediaPath + "sfx/vo006_lets_begin_our_adventure.mp3" },
+  { id: "v0007_lets_start", src: mediaPath + "sfx/vo007_lets_start.mp3" },
+  { id: "v0009_great", src: mediaPath + "sfx/vo009_great.mp3" },
+  { id: "v0010_awesome", src: mediaPath + "sfx/vo010_awesome.mp3" },
+  { id: "v0011_bravo", src: mediaPath + "sfx/vo011_bravo.mp3" },
+  { id: "v0012_correct", src: mediaPath + "sfx/vo012_correct.mp3" },
+  { id: "v0013_excellent", src: mediaPath + "sfx/vo013_excellent.mp3" },
+  { id: "v0017_fantastic", src: mediaPath + "sfx/vo017_fantastic.mp3" },
+  { id: "v0017_fantastic_opt2", src: mediaPath + "sfx/vo017_fantastic_opt2.mp3" },
+  { id: "v0018_super_superstar", src: mediaPath + "sfx/vo018_super_superstar.mp3" },
+  { id: "v0021_amazing", src: mediaPath + "sfx/vo021_amazing.mp3" },
+  { id: "v0023_youre_doing_great", src: mediaPath + "sfx/vo023_youre_doing_great.mp3" },
+  { id: "v0026_youre_a_superstar", src: mediaPath + "sfx/vo026_youre_a_superstar.mp3" },
+  { id: "v0028_yay_you_did_it", src: mediaPath + "sfx/vo028_yay_you_did_it.mp3" },
+  { id: "v0030_im_proud_of_you", src: mediaPath + "sfx/vo030_im_proud_of_you.mp3" },
+  { id: "v0031_oops_opt1", src: mediaPath + "sfx/vo031_oops_opt1.mp3" },
+  { id: "v0032_hmmm_try_again", src: mediaPath + "sfx/vo032_hmmm_try_again.mp3" },
+  { id: "v0036_look_carefully", src: mediaPath + "sfx/vo036_look_carefully.mp3" },
+  { id: "v0037_lets_think", src: mediaPath + "sfx/vo037_lets_think.mp3" },
+  { id: "v0039_come_on_you_can_do_it", src: mediaPath + "sfx/vo039_come_on_you_can_do_it.mp3" },
+  { id: "v0042_come_on_almost_there", src: mediaPath + "sfx/vo042_come_on_almost_there.mp3" },
+  { id: "v0043_lets_do_it_together_opt1", src: mediaPath + "sfx/vo043_lets_do_it_together_opt1.mp3" },
+  { id: "v0043_lets_do_it_together_opt2", src: mediaPath + "sfx/vo043_lets_do_it_together_opt2.mp3" },
+  { id: "v0044_one_more_try", src: mediaPath + "sfx/vo044_one_more_try.mp3" },
+  { id: "v0045_great_job_superstar", src: mediaPath + "sfx/vo045_great_job_superstar.mp3" },
+  { id: "v0046_you_earned_a_star", src: mediaPath + "sfx/vo046_you_earned_a_star.mp3" },
+  { id: "v0047_great_job_you_finished", src: mediaPath + "sfx/vo047_great_job_you_finished.mp3" },
+  { id: "v0048_lets_play_again_you_can_do_it", src: mediaPath + "sfx/vo048_lets_play_again_you_can_do_it.mp3" },
+  { id: "v0049_good_lets_play_again", src: mediaPath + "sfx/vo049_good_lets_play_again.mp3" },
+  { id: "tap_each_book", src: mediaPath + "sfx/tap_each_book.mp3" },
+  { id: "tap_each_pencil", src: mediaPath + "sfx/tap_each_pencil.mp3" },
+  { id: "tap_each_bag", src: mediaPath + "sfx/tap_each_bag.mp3" },
+  { id: "tap_each_ruler", src: mediaPath + "sfx/tap_each_ruler.mp3" },
+  { id: "tap_each_eraser", src: mediaPath + "sfx/tap_each_eraser.mp3" },
+  { id: "choose_the_correct_number_of_bags", src: mediaPath + "sfx/choose_the_correct_number_of_bags.mp3" },
+  { id: "choose_the_correct_number_of_books", src: mediaPath + "sfx/choose_the_correct_number_of_books.mp3" },
+  { id: "choose_the_correct_number_of_erasers", src: mediaPath + "sfx/choose_the_correct_number_of_erasers.mp3" },
+  { id: "choose_the_correct_number_of_pencils", src: mediaPath + "sfx/choose_the_correct_number_of_pencils.mp3" },
+  { id: "choose_the_correct_number_of_rulers", src: mediaPath + "sfx/choose_the_correct_number_of_rulers.mp3" },
+  { id: "then_choose_the_correct_number", src: mediaPath + "sfx/then_choose_the_correct_number.mp3" }
+];
+createjs.Sound.registerSounds(soundsArray, "");
+createjs.Sound.on("fileload", function(e){
+  //console.log("✅ Sound loaded:", e.id);
+});
+createjs.Sound.on("fileerror", function(event) {
+    console.warn(
+        "⚠️ Static sound failed:",
+        event.id,
+        event.src || ""
+    );
+});
+/* =================================================
+   RANDOM SUCCESS VOICES PER QUESTION
+================================================= */
+var successVoicesMap = {
+  1: [
+    "v0013_excellent",
+  ],
+  2: [
+    "v0021_amazing"
+  ],
+  3: [
+    "v0023_youre_doing_great"
+  ],
+  4: [
+    "v0026_youre_a_superstar"
+  ],
+  5: [
+    "v0028_yay_you_did_it",
+  ]
+};
+var currentSuccessVoiceInstance = null;
+function playRandomSuccessVoice(questionNumber, onComplete) {
+  if (typeof questionNumber === "undefined") {
+    questionNumber = window.currentQuestionNumber;
+  }
+  var voices = successVoicesMap[questionNumber];
+  if (!voices || !voices.length) {
+    console.warn("🔇 No success voices for question:", questionNumber);
+    if (onComplete) onComplete();
+    return;
+  }
+  var readyVoices = voices.filter(function (id) {
+    return createjs.Sound.loadComplete(id);
+  });
+  // كله جاهز؟ شغّل واحد عشوائي على طول
+  if (readyVoices.length) {
+    playSuccessVoiceNow(
+      readyVoices[Math.floor(Math.random() * readyVoices.length)],
+      questionNumber,
+      onComplete
+    );
+    return;
+  }
+  // مفيش حاجة جاهزة: استنى أول صوت من القايمة يخلص تحميل
+  console.warn("⏳ Voices still loading for question:", questionNumber, "- waiting...");
+  var played = false;
+  function onVoiceLoaded(e) {
+    if (played) return;
+    if (voices.indexOf(e.id) === -1) return;
+    played = true;
+    createjs.Sound.off("fileload", onVoiceLoaded);
+    playSuccessVoiceNow(e.id, questionNumber, onComplete);
+  }
+  createjs.Sound.on("fileload", onVoiceLoaded);
+  // مهلة قصوى: لو عدت ثانيتين ومفيش حاجة اتحملت، بلاش الصوت خالص
+  setTimeout(function () {
+    if (!played) {
+      played = true;
+      createjs.Sound.off("fileload", onVoiceLoaded);
+      console.warn("🔇 Gave up waiting for voices, question:", questionNumber);
+      if (onComplete) onComplete();
+    }
+  }, 2000);
+}
+function playSuccessVoiceNow(soundId, questionNumber, onComplete) {
+  if (currentErrorVoiceInstance) {          // 👈
+    currentErrorVoiceInstance.stop();
+    currentErrorVoiceInstance = null;
+  }
+  if (currentSuccessVoiceInstance) {
+    currentSuccessVoiceInstance.stop();
+    currentSuccessVoiceInstance = null;
+  }
+  if (window.currentVoiceInstance) {          // 👇 اقطع صوت العنوان/الأرقام لو شغال
+    window.currentVoiceInstance.stop();
+    window.currentVoiceInstance = null;
+  }
+  currentSuccessVoiceInstance = createjs.Sound.play(soundId);
+  window.currentSuccessVoiceInstance = currentSuccessVoiceInstance;
+  if (onComplete && currentSuccessVoiceInstance) {
+    currentSuccessVoiceInstance.on("complete", function handler() {
+      currentSuccessVoiceInstance && currentSuccessVoiceInstance.off && currentSuccessVoiceInstance.off("complete", handler);
+      onComplete();
+    });
+  }
+  console.log("🎉 Playing success voice:", soundId, "for question", questionNumber);
+}
+/* =================================================
+   RANDOM ERROR VOICES (مصفوفة واحدة لكل الأسئلة)
+================================================= */
+var errorVoices = [
+  "v0031_oops_opt1",
+  "v0032_hmmm_try_again",
+  "v0036_look_carefully",
+  "v0037_lets_think",
+  "v0039_come_on_you_can_do_it",
+  "v0043_lets_do_it_together_opt1",
+  "v0044_one_more_try",
+  "v0042_come_on_almost_there"
+];
+var currentErrorVoiceInstance = null;
+var lastErrorVoiceId = null;
+function playRandomErrorVoice() {
+  var readyVoices = errorVoices.filter(function (id) {
+    return createjs.Sound.loadComplete(id);
+  });
+  if (readyVoices.length) {
+    // استبعد آخر صوت اتنده عشان مايتكررش ورا بعضه
+    var pool = readyVoices.filter(function (id) {
+      return id !== lastErrorVoiceId;
+    });
+    if (!pool.length) {
+      pool = readyVoices;
+    }
+    playErrorVoiceNow(pool[Math.floor(Math.random() * pool.length)]);
+    return;
+  }
+  console.warn("⏳ Error voices still loading - waiting...");
+  var played = false;
+  function onVoiceLoaded(e) {
+    if (played) return;
+    if (errorVoices.indexOf(e.id) === -1) return;
+    played = true;
+    createjs.Sound.off("fileload", onVoiceLoaded);
+    playErrorVoiceNow(e.id);
+  }
+  createjs.Sound.on("fileload", onVoiceLoaded);
+  setTimeout(function () {
+    if (!played) {
+      played = true;
+      createjs.Sound.off("fileload", onVoiceLoaded);
+      console.warn("🔇 Gave up waiting for error voices");
+    }
+  }, 2000);
+}
+function playErrorVoiceNow(soundId) {
+  if (currentSuccessVoiceInstance) {
+    currentSuccessVoiceInstance.stop();
+    currentSuccessVoiceInstance = null;
+  }
+  if (currentErrorVoiceInstance) {
+    currentErrorVoiceInstance.stop();
+    currentErrorVoiceInstance = null;
+  }
+  if (window.currentVoiceInstance) {          // 👇 اقطع صوت العنوان/الأرقام لو شغال
+    window.currentVoiceInstance.stop();
+    window.currentVoiceInstance = null;
+  }
+  lastErrorVoiceId = soundId;
+  currentErrorVoiceInstance = createjs.Sound.play(soundId);
+  window.currentErrorVoiceInstance = currentErrorVoiceInstance;
+  console.log("❌ Playing error voice:", soundId);
+}
+// =================================================
+// DYNAMIC OPTION SOUNDS
+// =================================================
+window.optionSoundsMap = {};
+window.currentOptionSoundInstance = null;
+function registerOptionSounds(data) {
+  if (!data || !data.elements) return;
+  window.optionSoundsMap = {};
+  data.elements.forEach(function (element) {
+    if (!element.options) return;
+    element.options.forEach(function (option, optionIndex) {
+      if (!option.audio) return;
+      var soundId =
+        "option_" +
+        element.id +
+        "_" +
+        (optionIndex + 1);
+      var soundPath = templateDataURL
+        ? templateDataURL + option.audio
+        : option.audio;
+      try {
+        var registerResult = createjs.Sound.registerSound(
+          soundPath,
+          soundId
+        );
+        // لو CreateJS رفض الملف مباشرة
+        if (!registerResult) {
+          console.warn(
+            "⚠️ Sound skipped:",
+            soundId,
+            soundPath
+          );
+          return;
+        }
+        // نسجله Pending لحد ما يتحمل فعلياً
+        window.optionSoundsMap[soundId] = {
+          id: soundId,
+          src: soundPath,
+          loaded: false
+        };
+        console.log(
+          "🔄 Registering option sound:",
+          soundId,
+          soundPath
+        );
+      } catch (error) {
+        // أي مشكلة في الملف أو الـ type
+        // نتجاهل الصوت ونكمل عادي
+        delete window.optionSoundsMap[soundId];
+        console.warn(
+          "⚠️ Invalid sound skipped:",
+          soundId,
+          soundPath,
+          error.message
+        );
+      }
+    });
+  });
+}
+createjs.Sound.on("fileload", function (event) {
+  var soundData =
+    window.optionSoundsMap[event.id];
+  if (!soundData) return;
+  soundData.loaded = true;
+  console.log(
+    "✅ Option sound ready:",
+    event.id
+  );
+});
+createjs.Sound.on("fileerror", function (event) {
+  var soundData =
+    window.optionSoundsMap[event.id];
+  if (!soundData) return;
+  console.warn(
+    "⚠️ Option sound failed and skipped:",
+    event.id,
+    soundData.src
+  );
+  delete window.optionSoundsMap[event.id];
+});
+function stopCurrentOptionSound() {
+  if (window.currentOptionSoundInstance) {
+    window.currentOptionSoundInstance.stop();
+    window.currentOptionSoundInstance = null;
+  }
+}
+function playOptionSound(questionId, optionIndex) {
+  stopCurrentOptionSound();
+  var soundId =
+    "option_" +
+    questionId +
+    "_" +
+    optionIndex;
+  var soundData =
+    window.optionSoundsMap[soundId];
+  // الصوت مش موجود أو فشل
+  if (!soundData) {
+    console.warn(
+      "🔇 No sound for option:",
+      soundId
+    );
+    return;
+  }
+  // الصوت لسه بيتحمل
+  if (!soundData.loaded) {
+    console.warn(
+      "⏳ Sound not ready:",
+      soundId
+    );
+    return;
+  }
+  try {
+    window.currentOptionSoundInstance =
+      createjs.Sound.play(soundId);
+  } catch (error) {
+    console.warn(
+      "⚠️ Sound play failed:",
+      soundId,
+      error.message
+    );
+    window.currentOptionSoundInstance = null;
+  }
+}
+//var bgMusicInstance = null;
+//var musicEnabled = true;
+function startBgMusic() {
+// console.log("function called");
+  if (bgMusicInstance) return;
+  // لو اتحمل العب على طول
+  if (createjs.Sound.loadComplete("bgMusic")) {
+	  console.log("bg music played");
+    bgMusicInstance = createjs.Sound.play("bgMusic", {
+        loop: -1,
+        volume: 0.05
+    });
+    // حافظ على حالة الميوت
+    bgMusicInstance.paused = !musicEnabled;
+} else {
+    // لو لسه بيتحمل - استنى الحدث
+    createjs.Sound.on("fileload", function onLoaded(e) {
+      if (e.id === "bgMusic") {
+        createjs.Sound.off("fileload", onLoaded);
+        if (!bgMusicInstance) {
+    bgMusicInstance = createjs.Sound.play("bgMusic", {
+        loop: -1,
+        volume: 0.04
+    });
+    bgMusicInstance.paused = !musicEnabled;
+}
+      }
+    });
+  }
+}
+window.stopAllActivitySounds = function () {
+    // أوقف أصوات الفويس أوفر لو شغالة
+    if (currentSuccessVoiceInstance) {
+        currentSuccessVoiceInstance.stop();
+        currentSuccessVoiceInstance = null;
+    }
+    if (currentErrorVoiceInstance) {
+        currentErrorVoiceInstance.stop();
+        currentErrorVoiceInstance = null;
+    }
+    stopCurrentOptionSound();
+    // أوقف كل حاجة (بما فيها أصوات التايملاين اللي ملناش مرجع ليها)
+    createjs.Sound.stop();
+    // رجّع موسيقى الخلفية
+    bgMusicInstance = null;
+    startBgMusic();
+};
+//for toggle music
+function toggleMusic(){
+ console.log("🔇 toggleMusic pressed");
+  if(!bgMusicInstance){
+      console.log("❌ no bgMusicInstance");
+      return;
+  }
+  musicEnabled = !musicEnabled;
+  console.log("musicEnabled:", musicEnabled);
+  bgMusicInstance.paused = !musicEnabled;
+}
+//safe area
+// ===== Inject CSS =====
+(function() {
+  var style = document.createElement('style');
+  style.innerHTML = [
+    'body, html {',
+    ' margin: 0; padding: 0;',
+    ' overflow: hidden;',
+    ' width: 100%; height: 100%;',
+    ' background: #fff;',
+    '}',
+    '#animation_container, #_preload_div_ {',
+    ' position: fixed;',
+    ' top: 0; left: 0;',
+    ' width: 100% !important; height: 100% !important;',
+    ' overflow: hidden;',
+    '}',
+    '#canvas {',
+    ' display: block;',
+    ' position: absolute;',
+    '}'
+  ].join('\n');
+  document.head.appendChild(style);
+})();
+// ===== Custom Resize Logic =====
+(function waitForStage() {
+  if (typeof stage === 'undefined' || !stage) {
+    setTimeout(waitForStage, 50);
+    return;
+  }
+  var safeW = 1550,
+      safeH = 835,
+      safeX = 120,
+      safeY = 190,
+      canvasEl      = document.getElementById('canvas'),
+      animContainer = document.getElementById('animation_container'),
+      domOverlay    = document.getElementById('dom_overlay_container');
+  function resizeCanvas() {
+    var iw     = window.innerWidth,
+        ih     = window.innerHeight,
+        pRatio = window.devicePixelRatio || 1,
+        sRatio = Math.min(iw / safeW, ih / safeH);
+    var scaledCanvasW = 1800 * sRatio;
+    var scaledCanvasH = 1200 * sRatio;
+    if (iw > ih) {
+      if (scaledCanvasW < iw) sRatio = sRatio * (iw / scaledCanvasW);
+      if (scaledCanvasH < ih) sRatio = sRatio * (ih / scaledCanvasH);
+    }
+    sRatio = sRatio * 1.005;
+    canvasEl.width  = iw * pRatio;
+    canvasEl.height = ih * pRatio;
+    canvasEl.style.width  = iw + 'px';
+    canvasEl.style.height = ih + 'px';
+    if (animContainer) {
+      animContainer.style.width  = iw + 'px';
+      animContainer.style.height = ih + 'px';
+    }
+    if (domOverlay) {
+      domOverlay.style.width  = iw + 'px';
+      domOverlay.style.height = ih + 'px';
+    }
+    stage.scaleX = stage.scaleY = sRatio * pRatio;
+    stage.x = (iw * pRatio - safeW * sRatio * pRatio) / 2
+              - (safeX * sRatio * pRatio);
+    stage.y = (ih * pRatio - safeH * sRatio * pRatio) / 2
+              - (safeY * sRatio * pRatio);
+    stage.tickOnUpdate = false;
+    var visibleOriginX = -stage.x / (sRatio * pRatio);
+    var visibleOriginY = -stage.y / (sRatio * pRatio);
+    visibleOriginX = Math.max(0, visibleOriginX);
+    visibleOriginY = Math.max(0, visibleOriginY);
+   if (exportRoot.logo_mc) {
+	var visibleWidth = stage.canvas.width / (sRatio * pRatio);
+	exportRoot.logo_mc.x = visibleOriginX + visibleWidth - 200 - (exportRoot.logo_mc.nominalBounds ? exportRoot.logo_mc.nominalBounds.width : 0);
+	exportRoot.logo_mc.y = visibleOriginY + 15;
+    }
+    stage.update();
+    stage.tickOnUpdate = true;
+  }
+  // Resize event
+  window.removeEventListener('resize', window._animResize);
+  window._animResize = resizeCanvas;
+  window.addEventListener('resize', window._animResize);
+  // Safari iPad sidebar fix فقط
+  var _lastIW = window.innerWidth;
+  var _lastIH = window.innerHeight;
+  setInterval(function() {
+    if (window.innerWidth !== _lastIW || window.innerHeight !== _lastIH) {
+      _lastIW = window.innerWidth;
+      _lastIH = window.innerHeight;
+      resizeCanvas();
+    }
+  }, 300);
+  resizeCanvas();
+})();
+//for scorm object 
+//var basePath = window.location.origin + '/'; 
+//var basePath = ""; 
+window.scormHandlerReady = new Promise(function(resolve, reject) {
+    var script = document.createElement('script');
+    // استخدام الـ base path
+    script.src = scriptsPath + "scorm-handler.js";
+    script.onload = function() {
+        console.log('SCORM Handler loaded from:', script.src);
+        resolve();
+    };
+    script.onerror = function() {
+        console.error('Failed to load from:', script.src);
+        reject();
+    };
+    document.head.appendChild(script);
+});
+function setDefaults(){
+	// for local search-  add pics,logo and sfx folders-also add json data file
+	currentPath = "data.json"
+	mediaPath = ""
+	templateDataURL = ""
+	loaded = true;
+	scriptsPath = ""
+	callJsonFromFile()
+	}
+//////// load json functions ///////
+var logoURL;
+async function loadURLFromAPI() {
+    try {
+        const data = await getActivityData(
+            activityID,
+            userToken
+        );
+        console.log("data.status", data.status);
+        if (data.status) {
+            currentPath =
+                data.templateDataURL + "/data.json";
+            templateDataURL =
+                data.templateDataURL;
+            logoURL = data.logo;
+            callJsonFromFile();
+        } else {
+            loaded = false;
+            function showError() {
+                if (typeof exportRoot !== "undefined") {
+                    exportRoot.loaded_mc.visible = true;
+                    exportRoot.loaded_mc.error_masg.text =
+                        data.message;
+                } else {
+                    setTimeout(showError, 50);
+                }
+            }
+            showError();
+        }
+    } catch (error) {
+        console.error(
+            "loadURLFromAPI Error:",
+            error
+        );
+    }
+}
+function callJsonFromFile() {
+	console.log(currentPath)
+  fetch(currentPath)
+    .then(r => r.json())
+    .then(async data => {
+      jsonData = data;
+      currentTheme = data.theme;
+      //fontFamily = data.themeGraphics[currentTheme].font;
+      loaded = true;
+		document.title = data.titleText;
+		preloadGameImages(jsonData);
+		// 🔊 Register dynamic option sounds
+registerOptionSounds(jsonData);
+console.log(
+  "🔊 Registered option sounds:",
+  window.optionSoundsMap
+);
+		console.log("data-----8888888888888888-------", jsonData)
+      try {
+       // await document.fonts.load(`20px "${fontFamily}"`);
+      } catch (e) {
+        console.warn("⚠️ Font load failed:", e);
+      }
+      function tryInit() {
+        if (typeof exportRoot !== "undefined") {
+          exportRoot.gotoAndStop("game_start");
+          var root = exportRoot;
+          //root.loaded_mc.visible = false;
+          loadLogoIntoMC(exportRoot.logo_mc, logoURL);
+        } else {
+          setTimeout(tryInit, 50);
+        }
+      }
+      tryInit();
+    });
+}
+////////////// load images code ///////////
+function loadImageIntoBox(dragBox, path){
+  const txt = dragBox.getChildByName("drag_txt");
+  const dragShape = dragBox.drag1;
+  const b = dragShape.nominalBounds 
+  dragShape.removeAllChildren();
+  if(path){
+    const img = new Image();
+    img.onload = function(){
+      const bmp = new createjs.Bitmap(img);
+      bmp.scaleX = b.width  / img.width;
+      bmp.scaleY = b.height / img.height;
+      bmp.x = 0;
+      bmp.y = 0;
+      dragShape.addChild(bmp);
+      stage.update();
+    };
+    img.src = path;
+  }
+}
+function loadLogoIntoMC(mc, url, forcedSize = { width: 250, height: 42 }) {
+    if (!mc || !url) return;
+    mc.removeAllChildren();
+    var img = new Image();
+    img.onload = function () {
+        try {
+            var pixelRatio = window.devicePixelRatio || 1;
+            var off = document.createElement("canvas");
+            off.width = forcedSize.width * pixelRatio;
+            off.height = forcedSize.height * pixelRatio;
+            var ctx = off.getContext("2d");
+            ctx.imageSmoothingEnabled = true;
+            ctx.imageSmoothingQuality = "high";
+            ctx.drawImage(img, 0, 0, off.width, off.height);
+            var bitmap = new createjs.Bitmap(off);
+            bitmap.scaleX = forcedSize.width / off.width;
+            bitmap.scaleY = forcedSize.height / off.height;
+            bitmap.x = 0;
+            bitmap.y = 0;
+            mc.addChild(bitmap);
+            stage.update();
+        } catch (error) {
+            console.warn(":warning: Failed to render logo.", error);
+        }
+    };
+    img.onerror = function () {
+        console.warn(":warning: Logo image failed to load:", url);
+    };
+    img.src = url;
+}
+function loadImageIntoMC(dragBox, path, type=""){
+  if(!dragBox) return;
+  const dragShape = dragBox.getChildAt(0);
+  if(!dragShape) return;
+  const b = dragShape.nominalBounds || {width:100, height:120};
+  dragShape.removeAllChildren();
+  if(path){
+    // 1. Resolve target path format precisely
+    var finalSrc = "";
+    if(type == "logo"){
+        finalSrc = logoURL;
+    } else {
+        finalSrc = templateDataURL ? templateDataURL + "/" + path : path;
+    }
+    // ⚡ 2. CACHE HIT: Check if this file is sitting loaded in our memory heap
+    if (window.preloadedImagesCache[finalSrc]) {
+        console.log("⚡ Instant Cache Render for URL: " + finalSrc);
+        var cachedImg = window.preloadedImagesCache[finalSrc];
+        var bmp = new createjs.Bitmap(cachedImg);
+        bmp.scaleX = b.width / cachedImg.width;
+        bmp.scaleY = b.height / cachedImg.height;
+        bmp.x = 0;
+        bmp.y = 0;
+        dragShape.addChild(bmp);
+        stage.update();
+        return; // Break execution out completely!
+    }
+    // 3. CACHE MISS Fallback: Load manually if not ready yet
+    console.log("⏳ Cache Miss. Loading file normally: " + finalSrc);
+    const img = new Image();
+    img.onload = function(){
+      const bmp = new createjs.Bitmap(img);
+      bmp.scaleX = b.width / img.width;
+      bmp.scaleY = b.height / img.height;
+      bmp.x = 0;
+      bmp.y = 0;
+      dragShape.addChild(bmp);
+      stage.update();
+    };
+    img.src = finalSrc;
+  }
+}
+//for scorm object 
+window.interactions = [];
+function addInteraction(id, type, response, result){
+  const existing = window.interactions.find(i => i.id === id);
+  if(existing){
+    existing.response = response;
+    existing.result = result;
+  }else{
+    window.interactions.push({
+      id: id,
+      type: type,
+      response: response,
+      result: result
+    });
+  }
+}
+function loadOptionImage(mc, path) {
+    if (!mc || !path) return;
+    var bounds = mc.nominalBounds || mc.getBounds();
+    if (!bounds) {
+        bounds = {
+            width: mc.getTransformedBounds().width,
+            height: mc.getTransformedBounds().height
+        };
+    }
+    mc.removeAllChildren();
+    // 1. توحيد المسار بنفس طريقة الكاش بالظبط (بإضافة علامة /)
+    var finalSrc = templateDataURL ? templateDataURL + "/" + path : path;
+    // 2. التحقق من الكاش أولاً قبل التحميل!
+    if (window.preloadedImagesCache[finalSrc]) {
+        console.log("⚡ Instant Cache Render for Option Image: " + finalSrc);
+        var cachedImg = window.preloadedImagesCache[finalSrc];
+        var bmp = new createjs.Bitmap(cachedImg);
+        var scale = Math.max(
+            bounds.width / cachedImg.width,
+            bounds.height / cachedImg.height
+        );
+        bmp.scaleX = bmp.scaleY = scale;
+        bmp.x = (bounds.width - cachedImg.width * scale) / 2;
+        bmp.y = (bounds.height - cachedImg.height * scale) / 2;
+        mc.addChild(bmp);
+        stage.update();
+        return; // 👈 الخروج فوراً عشان مانكملش تحميل من النت
+    }
+    // 3. لو الصورة مش موجودة في الكاش، حملها بالطريقة العادية
+    var img = new Image();
+    img.onload = function () {
+        console.log("loaded from network/disk", img.src);
+        var bmp = new createjs.Bitmap(img);
+        // cover
+        var scale = Math.max(
+            bounds.width / img.width,
+            bounds.height / img.height
+        );
+        bmp.scaleX = bmp.scaleY = scale;
+        bmp.x = (bounds.width - img.width * scale) / 2;
+        bmp.y = (bounds.height - img.height * scale) / 2;
+        mc.addChild(bmp);
+        stage.update();
+    };
+    img.onerror = function(){
+        console.error("FAILED", img.src);
+    };
+    img.src = finalSrc;
+}
+/* =================================================
+   GLOBAL IMAGE PRELOADER ENGINE (FIXED CACHE PATHS)
+================================================= */
+window.preloadedImagesCache = {}; 
+window.isAssetsLoadingComplete = false;
+window.preloadGameImages = function (jsonData, onCompleteCallback) {
+    if (!jsonData || !jsonData.elements) {
+        console.warn("⚠️ Preloader: Missing game elements array.");
+        if (onCompleteCallback) onCompleteCallback();
+        return;
+    }
+var imageUrls = [];
+function addUrl(rawUrl) {
+    if (!rawUrl || !rawUrl.trim()) return;
+    rawUrl = rawUrl.trim();
+    var resolvedUrl = window.templateDataURL ? window.templateDataURL + "/" + rawUrl : rawUrl;
+    if (imageUrls.indexOf(resolvedUrl) === -1) {
+        imageUrls.push(resolvedUrl);
+    }
+}
+jsonData.elements.forEach(function (element) {
+    // صورة السؤال
+    if (element.question && element.question.img) {
+        addUrl(element.question.img);
+    }
+    // صور الاختيارات
+    if (element.options && element.options.length) {
+        element.options.forEach(function (opt) {
+            if (opt && opt.img) {
+                addUrl(opt.img);
+            }
+        });
+    }
+});
+    var totalImages = imageUrls.length;
+    console.log("📦 Preloader: Found " + totalImages + " unique formatted images to cache.");
+    if (totalImages === 0) {
+        window.isAssetsLoadingComplete = true;
+        if (onCompleteCallback) onCompleteCallback();
+        return;
+    }
+    var loadedCount = 0;
+    imageUrls.forEach(function (url) {
+        // If already cached for some reason, skip download
+        if (window.preloadedImagesCache[url]) {
+            loadedCount++;
+            if (loadedCount === totalImages) {
+                window.isAssetsLoadingComplete = true;
+                if (onCompleteCallback) onCompleteCallback();
+            }
+            return;
+        }
+        var imgAsset = new Image();
+        imgAsset.onload = function () {
+            loadedCount++;
+            window.preloadedImagesCache[url] = imgAsset; // Store under the fully resolved path string
+            console.log("✅ Cached [" + loadedCount + "/" + totalImages + "]: " + url);
+            if (loadedCount === totalImages) {
+                window.isAssetsLoadingComplete = true;
+                console.log("🎉 All assets cached completely!");
+                if (onCompleteCallback) onCompleteCallback();
+            }
+        };
+        imgAsset.onerror = function () {
+            loadedCount++;
+            console.error("❌ Failed to preload target path: " + url);
+            if (loadedCount === totalImages) {
+                window.isAssetsLoadingComplete = true;
+                if (onCompleteCallback) onCompleteCallback();
+            }
+        };
+        imgAsset.src = url;
+    });
+};
+// بتتنده من فريمات ten2..ten5 وآخر فريم جوه ten_frame_duplicate
+window.checkAndReset = function (mc) {
+  var isLastFrame = mc.currentFrame >= mc.totalFrames - 1;
+  if (dotsNo != expectedCount && !isLastFrame) {
+    return;
+  }
+  mc.stop();
+  window.cancelTenHold(mc);
+  // وقفة نص ثانية بعد آخر نقطة — بتتعد بفريمات الـ Ticker مش setTimeout
+  var holdFrames = Math.round((createjs.Ticker.framerate || 24) * 0.5);
+  mc._tenHoldListener = createjs.Ticker.on("tick", function () {
+    holdFrames -= 1;
+    if (holdFrames > 0) {
+      return;
+    }
+    window.cancelTenHold(mc);
+    mc.gotoAndStop(0);
+    var done = window.onTenAnimDone;
+    window.onTenAnimDone = null;
+    if (done) {
+      done(mc);
+    }
+  });
+};
+window.cancelTenHold = function (mc) {
+  if (mc && mc._tenHoldListener) {
+    createjs.Ticker.off("tick", mc._tenHoldListener);
+    mc._tenHoldListener = null;
+  }
+};
+function shake(target, intensity) {
+	if (!target) {
+		return;
+	}
+	intensity = intensity || 8;
+	// خزّن المكان الأصلي أول مرة بس
+	if (typeof target._shakeHomeX === "undefined") {
+		target._shakeHomeX = target.x;
+	}
+	var originalX = target._shakeHomeX;
+	createjs.Tween.removeTweens(target);
+	target.x = originalX;   // رجّعه لمكانه قبل ما تبدأ
+	createjs.Tween.get(target)
+		.to({ x: originalX - intensity }, 45)
+		.to({ x: originalX + intensity }, 90)
+		.to({ x: originalX - Math.round(intensity * 0.6) }, 70)
+		.to({ x: originalX + Math.round(intensity * 0.6) }, 70)
+		.to({ x: originalX }, 45);
+}</script>
+<script>
+var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
+function init() {
+	canvas = document.getElementById("canvas");
+	anim_container = document.getElementById("animation_container");
+	dom_overlay_container = document.getElementById("dom_overlay_container");
+	var comp=AdobeAn.getComposition("9E2AB8B2788A474EA2C4FB06EB19399D");
+	var lib=comp.getLibrary();
+	var loader = new createjs.LoadQueue(false);
+	loader.addEventListener("fileload", function(evt){handleFileLoad(evt,comp)});
+	loader.addEventListener("complete", function(evt){handleComplete(evt,comp)});
+	var lib=comp.getLibrary();
+	loader.loadManifest(lib.properties.manifest);
+}
+function handleFileLoad(evt, comp) {
+	var images=comp.getImages();	
+	if (evt && (evt.item.type == "image")) { images[evt.item.id] = evt.result; }	
+}
+function handleComplete(evt,comp) {
+	//This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
+	var lib=comp.getLibrary();
+	var ss=comp.getSpriteSheet();
+	var queue = evt.target;
+	var ssMetadata = lib.ssMetadata;
+	for(i=0; i<ssMetadata.length; i++) {
+		ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
+	}
+	var preloaderDiv = document.getElementById("_preload_div_");
+	preloaderDiv.style.display = 'none';
+	canvas.style.display = 'block';
+	exportRoot = new lib.index();
+	stage = new lib.Stage(canvas);
+	stage.enableMouseOver();	
+	//Registers the "tick" event listener.
+	fnStartAnimation = function() {
+		stage.addChild(exportRoot);
+		createjs.Ticker.framerate = lib.properties.fps;
+		createjs.Ticker.addEventListener("tick", stage);
+	}	    
+	//Code to support hidpi screens and responsive scaling.
+	AdobeAn.makeResponsive(true,'both',true,1,[canvas,preloaderDiv,anim_container,dom_overlay_container]);	
+	AdobeAn.compositionLoaded(lib.properties.id);
+	fnStartAnimation();
+}
+</script>
+<!-- write your code here -->
+</head>
+<body onload="init();" style="margin:0px;">
+	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:1800px; height:1200px">
+		<canvas id="canvas" width="1800" height="1200" style="position: absolute; display: none; background-color:rgba(255, 255, 255, 1.00);"></canvas>
+		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:1800px; height:1200px; position: absolute; left: 0px; top: 0px; display: none;">
+		</div>
+	</div>
+    <div id='_preload_div_' style='position:absolute; top:0; left:0; display: inline-block; height:1200px; width: 1800px; text-align: center;'>	<span style='display: inline-block; height: 100%; vertical-align: middle;'></span>	<img src=images/_preloader.gif?1790710151104 style='vertical-align: middle; max-height: 100%'/></div>
+</body>
+</html>

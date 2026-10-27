@@ -1,0 +1,75 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="flash0.ai_3/05/&amp;#060Clip Group&amp;#062" itemID="6a84350f-000002ad" lastModified="1787049231">
+  <timeline>
+    <DOMTimeline name="&amp;#060Clip Group&amp;#062" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_4" color="#FF4FFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_2" color="#9933CC" locked="true" layerType="mask">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FF0000"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!1462 676[1462 402 1248 209!1248 209[1034 15 731 15!731 15[428 15 214 209!214 209[0 402 0 676!0 676[0 949 214 1143!214 1143[428 1336 731 1336!731 1336[1034 1336 1248 1143!1248 1143[1462 949 1462 676"/>
+                    <Edge cubics="!1462 676(;1462,311 1135,15 731,15q1462 676Q1462 402q1248 209Q1034 15q731 15);"/>
+                    <Edge cubics="!731 15(;327,15 0,311 0,676q731 15Q428 15q214 209Q0 402q0 676);"/>
+                    <Edge cubics="!0 676(;0,1040 327,1336 731,1336q0 676Q0 949q214 1143Q428 1336q731 1336);"/>
+                    <Edge cubics="!731 1336(;1135,1336 1462,1040 1462,676q731 1336Q1034 1336q1248 1143Q1462 949q1462 676);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_3" color="#FF800A" parentLayerIndex="1" locked="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="flash0.ai_3/05/&amp;#060Clip Group&amp;#062_0">
+                  <matrix>
+                    <Matrix tx="3.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="37.55" y="35.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_1" color="#00FFFF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#F71672"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!1462 676[1462 402 1248 209!1248 209[1034 15 731 15!731 15[428 15 214 209!214 209[0 402 0 676!0 676[0 949 214 1143!214 1143[428 1336 731 1336!731 1336[1034 1336 1248 1143!1248 1143[1462 949 1462 676"/>
+                    <Edge cubics="!1462 676(;1462,311 1135,15 731,15q1462 676Q1462 402q1248 209Q1034 15q731 15);"/>
+                    <Edge cubics="!731 15(;327,15 0,311 0,676q731 15Q428 15q214 209Q0 402q0 676);"/>
+                    <Edge cubics="!0 676(;0,1040 327,1336 731,1336q0 676Q0 949q214 1143Q428 1336q731 1336);"/>
+                    <Edge cubics="!731 1336(;1135,1336 1462,1040 1462,676q731 1336Q1034 1336q1248 1143Q1462 949q1462 676);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

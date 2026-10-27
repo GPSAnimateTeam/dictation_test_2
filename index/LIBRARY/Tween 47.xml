@@ -1,0 +1,43 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Tween 47" itemID="6abb636f-00082d90" symbolType="graphic" lastModified="1790665583">
+  <timeline>
+    <DOMTimeline name="Tween 47" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <matrix>
+                    <Matrix tx="-14.05" ty="-21"/>
+                  </matrix>
+                  <members>
+                    <DOMShape selected="true" isDrawingObject="true">
+                      <matrix>
+                        <Matrix tx="-14.05" ty="-21"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FFFFFF"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!120 840|410 124!410 124|0 124!0 124|0 0!0 0|563 0!563 0|563 84!563 84|264 840!264 840|120 840"/>
+                        <Edge cubics="!563 84(;563,84 264,840 264,840q563 84 264 840);"/>
+                        <Edge cubics="!264 840(;264,840 120,840 120,840q264 840 120 840);"/>
+                        <Edge cubics="!0 124(;0,124 0,0 0,0q0 124 0 0);"/>
+                        <Edge cubics="!0 0(;0,0 563,0 563,0q0 0 563 0);"/>
+                        <Edge cubics="!563 0(;563,0 563,84 563,84q563 0 563 84);"/>
+                        <Edge cubics="!410 124(;410,124 0,124 0,124q410 124 0 124);"/>
+                        <Edge cubics="!120 840(;120,840 410,124 410,124q120 840 410 124);"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

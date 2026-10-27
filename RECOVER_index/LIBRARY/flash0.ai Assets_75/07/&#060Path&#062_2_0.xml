@@ -1,0 +1,34 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="flash0.ai Assets_75/07/&amp;#060Path&amp;#062_2_0" itemID="6abb8194-00090cea" lastModified="1790673300">
+  <timeline>
+    <DOMTimeline name="&amp;#060Path&amp;#062_2_0" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#F0FCFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!1767 4[1503 430 1002 644!1002 644[507 855 0 767!0 767[89 893 249 952!249 952[548 1063 878 1032!878 1032[1258 996 1464 774!1464 774|1478 801!1478 801[1497 833 1526 862!1526 862[1618 953 1770 974!1770 974[1921 994 1999 874!1999 874[2080
+ 748 1983 596!1983 596|2099 585!2099 585[2222 552 2254 439!2254 439[2273 371 2248 290!2248 290[2223 207 2161 140!2161 140[2011 -24 1767 4"/>
+                    <Edge cubics="!1767 4(;1413,576 671,884 0,767q1767 4Q1503 430q1002 644Q507 855q0 767);"/>
+                    <Edge cubics="!0 767(;54,843 136,910 249,952q0 767Q89 893q249 952);"/>
+                    <Edge cubics="!249 952(;603,1084 1168,1092 1464,774q249 952Q548 1063q878 1032Q1258 996q1464 774);"/>
+                    <Edge cubics="!1464 774(;1464,774 1527,941 1770,974q1464 774Q1464 774q1478 801Q1497 833q1526 862Q1618 953q1770 974);"/>
+                    <Edge cubics="!1770 974(;1962,999 2117,807 1983,596q1770 974Q1921 994q1999 874Q2080 748q1983 596);"/>
+                    <Edge cubics="!1983 596(;1983,596 2203,619 2254,439q1983 596Q1983 596q2099 585Q2222 552q2254 439);"/>
+                    <Edge cubics="!2254 439(;2303,261 2119,-36 1767,4q2254 439Q2273 371q2248 290Q2223 207q2161 140Q2011 -24q1767 4);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

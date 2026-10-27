@@ -1,0 +1,94 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="flash0.ai Assets_1/06/&amp;#060Clip Group&amp;#062" itemID="6a854ded-00000318" lastModified="1787121133">
+  <timeline>
+    <DOMTimeline name="&amp;#060Clip Group&amp;#062" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_4" color="#FF4FFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_2" color="#9933CC" locked="true" layerType="mask">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FF0000"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!1284 1588[1151 1748 879 1840!879 1840[792 1870 704 1887!704 1887[633 1901 630 1898!630 1898[625 1898 577 1844!577 1844[519 1777 467 1700!467 1700[308 1462 300 1253!300 1253[289 939 445 305!445 305[458 253 501 226!501 226[545 199 590
+ 214!590 214|1688 588!1688 588[1734 604 1751 652!1751 652[1769 699 1748 748!1748 748[1486 1345 1284 1588"/>
+                    <Edge cubics="!1284 1588(;1072,1843 634,1902 630,1898q1284 1588Q1151 1748q879 1840Q792 1870q704 1887Q633 1901q630 1898);"/>
+                    <Edge cubics="!630 1898(;623,1898 312,1585 300,1253q630 1898Q625 1898q577 1844Q519 1777q467 1700Q308 1462q300 1253);"/>
+                    <Edge cubics="!300 1253(;290,973 391,524 445,305q300 1253Q289 939q445 305);"/>
+                    <Edge cubics="!445 305(;462,236 530,194 590,214q445 305Q458 253q501 226Q545 199q590 214);"/>
+                    <Edge cubics="!590 214(;590,214 1688,588 1688,588q590 214 1688 588);"/>
+                    <Edge cubics="!1688 588(;1749,609 1776,683 1748,748q1688 588Q1734 604q1751 652Q1769 699q1748 748);"/>
+                    <Edge cubics="!1748 748(;1657,955 1463,1372 1284,1588q1748 748Q1486 1345q1284 1588);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_3" color="#FF800A" parentLayerIndex="1" locked="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#8B8B8C"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="
+!990 1936[846 1907 706 1803!706 1803[426 1595 447 1223!447 1223[468 852 540 451!540 451[576 251 608 125!608 125|451 0!451 0|0 266!0 266[99 2010 103 2031!103 2031[106 2044 349 2173!349 2173[470 2237 591 2299!591 2299|990 1936"/>
+                    <Edge cubics="!990 1936(;990,1936 414,1818 447,1223q990 1936Q846 1907q706 1803Q426 1595q447 1223);"/>
+                    <Edge cubics="!447 1223(;480,629 608,125 608,125q447 1223Q468 852q540 451Q576 251q608 125);"/>
+                    <Edge cubics="!608 125(;608,125 451,0 451,0q608 125 451 0);"/>
+                    <Edge cubics="!451 0(;451,0 0,266 0,266q451 0 0 266);"/>
+                    <Edge cubics="!0 266(;0,266 99,2010 103,2031q0 266Q99 2010q103 2031);"/>
+                    <Edge cubics="!103 2031(;107,2052 591,2299 591,2299q103 2031Q106 2044q349 2173Q470 2237q591 2299);"/>
+                    <Edge cubics="!591 2299(;591,2299 990,1936 990,1936q591 2299 990 1936);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_1" color="#00FFFF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#ADADAD"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="
+!1284 1588[1151 1748 879 1840!879 1840[792 1870 704 1887!704 1887[633 1901 630 1898!630 1898[625 1898 577 1844!577 1844[519 1777 467 1700!467 1700[308 1462 300 1253!300 1253[289 939 445 305!445 305[458 253 501 226!501 226[545 199 590
+ 214!590 214|1688 588!1688 588[1734 604 1751 652!1751 652[1769 699 1748 748!1748 748[1486 1345 1284 1588"/>
+                    <Edge cubics="!1284 1588(;1072,1843 634,1902 630,1898q1284 1588Q1151 1748q879 1840Q792 1870q704 1887Q633 1901q630 1898);"/>
+                    <Edge cubics="!630 1898(;623,1898 312,1585 300,1253q630 1898Q625 1898q577 1844Q519 1777q467 1700Q308 1462q300 1253);"/>
+                    <Edge cubics="!300 1253(;290,973 391,524 445,305q300 1253Q289 939q445 305);"/>
+                    <Edge cubics="!445 305(;462,236 530,194 590,214q445 305Q458 253q501 226Q545 199q590 214);"/>
+                    <Edge cubics="!590 214(;590,214 1688,588 1688,588q590 214 1688 588);"/>
+                    <Edge cubics="!1688 588(;1749,609 1776,683 1748,748q1688 588Q1734 604q1751 652Q1769 699q1748 748);"/>
+                    <Edge cubics="!1748 748(;1657,955 1463,1372 1284,1588q1748 748Q1486 1345q1284 1588);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

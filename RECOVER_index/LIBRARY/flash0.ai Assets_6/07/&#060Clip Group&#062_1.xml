@@ -1,0 +1,93 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="flash0.ai Assets_6/07/&amp;#060Clip Group&amp;#062_1" itemID="6a85533c-0000081b" lastModified="1787122492">
+  <timeline>
+    <DOMTimeline name="&amp;#060Clip Group&amp;#062_1" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_4" color="#FF4FFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_2" color="#9933CC" locked="true" layerType="mask">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FF0000"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!1897 507[1817 259 1587 121!1587 121[1370 -8 1099 1!1099 1[825 11 531 176!531 176[352 277 41 524!41 524[0 557 0 601!0 601[0 640 33 673!33 673[66 705 111 711!111 711[162 718 206 689!206 689[739 335 1110 379!1110 379[1272 398 1375 493!1375
+ 493[1474 586 1502 734!1502 734[1563 1051 1304 1426!1304 1426[1012 1848 435 2128!435 2128[387 2151 377 2196!377 2196[369 2236 392 2277!392 2277[416 2317 458 2333!458 2333[504 2351 552 2329!552 2329[897 2170 1123 2022!1123 2022[1418 1827
+ 1606 1594!1606 1594[1802 1350 1885 1082!1885 1082[1982 773 1897 507"/>
+                    <Edge cubics="!1897 507(;1787,164 1445,-11 1099,1q1897 507Q1817 259q1587 121Q1370 -8q1099 1);"/>
+                    <Edge cubics="!1099 1(;687,16 350,279 41,524q1099 1Q825 11q531 176Q352 277q41 524);"/>
+                    <Edge cubics="!41 524(;-76,618 82,771 206,689q41 524Q0 557q0 601Q0 640q33 673Q66 705q111 711Q162 718q206 689);"/>
+                    <Edge cubics="!206 689(;1717,-314 2075,1331 435,2128q206 689Q739 335q1110 379Q1272 398q1375 493Q1474 586q1502 734Q1563 1051q1304 1426Q1012 1848q435 2128);"/>
+                    <Edge cubics="!435 2128(;300,2194 417,2392 552,2329q435 2128Q387 2151q377 2196Q369 2236q392 2277Q416 2317q458 2333Q504 2351q552 2329);"/>
+                    <Edge cubics="!552 2329(;942,2149 1332,1934 1606,1594q552 2329Q897 2170q1123 2022Q1418 1827q1606 1594);"/>
+                    <Edge cubics="!1606 1594(;1842,1300 2018,886 1897,507q1606 1594Q1802 1350q1885 1082Q1982 773q1897 507);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_3" color="#FF800A" parentLayerIndex="1" locked="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#085BAA"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="
+!499 54|903 2267!903 2267|593 2366!593 2366|212 71!212 71|499 54"/>
+                    <Edge cubics="!499 54(;499,54 903,2267 903,2267q499 54 903 2267);"/>
+                    <Edge cubics="!903 2267(;903,2267 593,2366 593,2366q903 2267 593 2366);"/>
+                    <Edge cubics="!593 2366(;593,2366 212,71 212,71q593 2366 212 71);"/>
+                    <Edge cubics="!212 71(;212,71 499,54 499,54q212 71 499 54);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_1" color="#00FFFF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#006EBC"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="
+!1897 507[1817 259 1587 121!1587 121[1370 -8 1099 1!1099 1[825 11 531 176!531 176[352 277 41 524!41 524[0 557 0 601!0 601[0 640 33 673!33 673[66 705 111 711!111 711[162 718 206 689!206 689[739 335 1110 379!1110 379[1272 398 1375 493!1375
+ 493[1474 586 1502 734!1502 734[1563 1051 1304 1426!1304 1426[1012 1848 435 2128!435 2128[387 2151 377 2196!377 2196[369 2236 392 2277!392 2277[416 2317 458 2333!458 2333[504 2351 552 2329!552 2329[897 2170 1123 2022!1123 2022[1418 1827
+ 1606 1594!1606 1594[1802 1350 1885 1082!1885 1082[1982 773 1897 507"/>
+                    <Edge cubics="!1897 507(;1787,164 1445,-11 1099,1q1897 507Q1817 259q1587 121Q1370 -8q1099 1);"/>
+                    <Edge cubics="!1099 1(;687,16 350,279 41,524q1099 1Q825 11q531 176Q352 277q41 524);"/>
+                    <Edge cubics="!41 524(;-76,618 82,771 206,689q41 524Q0 557q0 601Q0 640q33 673Q66 705q111 711Q162 718q206 689);"/>
+                    <Edge cubics="!206 689(;1717,-314 2075,1331 435,2128q206 689Q739 335q1110 379Q1272 398q1375 493Q1474 586q1502 734Q1563 1051q1304 1426Q1012 1848q435 2128);"/>
+                    <Edge cubics="!435 2128(;300,2194 417,2392 552,2329q435 2128Q387 2151q377 2196Q369 2236q392 2277Q416 2317q458 2333Q504 2351q552 2329);"/>
+                    <Edge cubics="!552 2329(;942,2149 1332,1934 1606,1594q552 2329Q897 2170q1123 2022Q1418 1827q1606 1594);"/>
+                    <Edge cubics="!1606 1594(;1842,1300 2018,886 1897,507q1606 1594Q1802 1350q1885 1082Q1982 773q1897 507);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

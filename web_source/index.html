@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<link rel="icon" href="images/shared_star_gold.png">
+<title></title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-screen="intro">
+<!-- No on-screen text lives in this file: every text is written into the page by activity.js from animate-data.js. -->
+<div id="actViewport">
+<div id="actStage">
+
+  <!-- SHARED ELEMENTS (background, light rays, kite, box, ui row, fx) -->
+  <img id="actBg" alt="" src="images/bg_plate.jpg">
+  <img id="actRays" alt="" src="images/bg_light_rays.png">
+  <canvas id="actKiteCanvas" width="1800" height="1200"></canvas>
+  <div id="actBox"></div>
+  <div id="actKite"><img alt="" src="images/shared_kite.png"></div>
+
+  <!-- SCREEN 1: INTRO -->
+  <section id="actScreenIntro" class="act-screen" hidden>
+    <!-- the title and its underline are filled with the chalk texture (an SVG pattern made from images/shared_chalk_white.png) -->
+    <svg id="actTitle" viewBox="0 0 520 130" role="img">
+      <defs>
+        <path id="actTitleArc" d="M 30,88 Q 260,40 490,88"/>
+        <pattern id="actChalkPat" patternUnits="userSpaceOnUse" width="156" height="156"><image href="images/shared_chalk_white.png" x="0" y="0" width="156" height="156"/></pattern>
+        <mask id="actTitleMask" maskUnits="userSpaceOnUse" x="-20" y="-20" width="560" height="170"><path id="actTitleMaskPath" d="M 505,92 Q 260,36 15,92" pathLength="1" stroke="#fff" stroke-width="120" fill="none" stroke-dasharray="1" stroke-dashoffset="1"/></mask>
+      </defs>
+      <g mask="url(#actTitleMask)"><text font-size="60" text-anchor="middle" fill="url(#actChalkPat)"><textPath id="actTitleText" href="#actTitleArc" startOffset="50%"></textPath></text></g>
+      <!-- the underline is drawn from the right end to the left end -->
+      <path id="actTitleUnder" d="M 424,116 Q 260,86 96,116" pathLength="1" stroke="url(#actChalkPat)" stroke-width="4.6" stroke-linecap="round" fill="none" stroke-dasharray="1" stroke-dashoffset="1"/>
+    </svg>
+    <div id="actDeco"></div>
+    <button class="act-plaque act-pulse" id="actStartBtn"><span></span></button>
+  </section>
+
+  <!-- SCREEN 2: QUIZ -->
+  <section id="actScreenQuiz" class="act-screen" hidden>
+    <div id="actProgress"></div>
+    <div id="actSticky">
+      <div class="act-st-paper"><img class="act-st-cream" alt="" src="images/quiz_hint_cream.png"><img class="act-st-pink" alt="" src="images/quiz_hint_pink.png"><img class="act-st-mint" alt="" src="images/quiz_hint_mint.png"></div>
+      <div id="actStickyText"></div>
+      <img class="act-st-tape" id="actStickyTape" alt="" src="images/quiz_hint_tape.png">
+    </div>
+    <div id="actStem" class="act-chalk" aria-live="polite"></div>
+    <img id="actChalkPiece" alt="" src="images/quiz_chalk_piece.png">
+    <button class="act-round-btn" id="actBtnPlay"><img alt="" src="images/quiz_btn_play.png"></button>
+    <button class="act-round-btn" id="actBtnSlow"><img alt="" src="images/quiz_btn_slow.png"></button>
+    <div id="actPapers"></div>
+    <div id="actEq"></div>
+    <!-- Next: a desk calendar on the table. Its blank top sheet flips up and shows the live «التالي» label when the button is active. -->
+    <button id="actNext" disabled>
+      <img class="act-next-base" alt="" src="images/quiz_next_calendar.png">
+      <span class="act-next-label"></span>
+      <div id="actNextShade"></div>
+      <img id="actNextPage" alt="" src="images/quiz_next_page.png">
+    </button>
+    <div id="actNote"><img alt="" id="actNoteImg"><div id="actNoteInk"></div></div>
+  </section>
+
+  <!-- SCREEN 3: RESULT -->
+  <section id="actScreenResult" class="act-screen" hidden>
+    <h1 id="actResultTitle" class="act-chalk"></h1>
+    <div id="actResultStars"></div>
+    <div id="actScore"></div>
+    <p id="actReminder" class="act-chalk"></p>
+    <div id="actResultButtons">
+      <button class="act-plaque" id="actBtnAgain"><span></span></button>
+      <button class="act-plaque" id="actBtnAnswers"><span></span></button>
+      <button class="act-plaque" id="actBtnHome"><span></span></button>
+    </div>
+  </section>
+
+  <!-- TOP-RIGHT ROW (from the right): close, info, sound. Logo at the top-left. -->
+  <div id="actUi">
+    <img id="actLogo" alt="" src="images/ui_logo.png">
+    <button class="act-ui-btn act-quiz-only" id="actBtnClose"><img alt="" src="images/ui_btn_close.png"></button>
+    <button class="act-ui-btn act-quiz-only" id="actBtnInfo"><img alt="" src="images/ui_btn_info.png"></button>
+    <button class="act-ui-btn" id="actBtnMute"><img class="act-mute-on" alt="" src="images/ui_btn_mute.png"><img class="act-mute-off" alt="" src="images/ui_btn_mute_off.png"></button>
+  </div>
+
+  <!-- OVERLAYS -->
+  <div id="actOverlayInstructions" class="act-overlay" hidden></div>
+  <div id="actOverlayExit" class="act-overlay" hidden></div>
+  <div id="actOverlayAnswers" class="act-overlay" hidden></div>
+
+  <div id="actFx"></div>
+</div>
+</div>
+
+<script src="animate-data.js"></script>
+<script src="activity.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="flash0.ai_7/01/&amp;#060Path&amp;#062_1" itemID="6ab8c401-0000d8e8" lastModified="1790493697">
+  <timeline>
+    <DOMTimeline name="&amp;#060Path&amp;#062_1" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FDCA01"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!244 0|2053 3201!2053 3201|2061 3213!2061 3213|2060 3214!2060 3214[2125 3332 2110 3466!2110 3466[2096 3598 2010 3698!2010 3698|17 199!17 199[14 174 0 151!0 151|1 150!1 150[33 199 89 212!89 212[146 225 195 194!195 194[244 163 258 107!258
+ 107[272 51 243 1!243 1|244 0"/>
+                    <Edge cubics="!244 0(;244,0 2053,3201 2053,3201q244 0 2053 3201);"/>
+                    <Edge cubics="!2053 3201(;2053,3201 2061,3213 2061,3213q2053 3201 2061 3213);"/>
+                    <Edge cubics="!2061 3213(;2061,3213 2060,3214 2060,3214q2061 3213 2060 3214);"/>
+                    <Edge cubics="!2060 3214(;2147,3373 2123,3566 2010,3698q2060 3214Q2125 3332q2110 3466Q2096 3598q2010 3698);"/>
+                    <Edge cubics="!2010 3698(;2010,3698 17,199 17,199q2010 3698 17 199);"/>
+                    <Edge cubics="!17 199(;15,183 9,166 0,151q17 199Q14 174q0 151);"/>
+                    <Edge cubics="!0 151(;0,151 1,150 1,150q0 151 1 150);"/>
+                    <Edge cubics="!1 150(;43,215 129,235 195,194q1 150Q33 199q89 212Q146 225q195 194);"/>
+                    <Edge cubics="!195 194(;261,153 282,67 243,1q195 194Q244 163q258 107Q272 51q243 1);"/>
+                    <Edge cubics="!243 1(;243,1 244,0 244,0q243 1 244 0);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

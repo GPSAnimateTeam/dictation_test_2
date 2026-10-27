@@ -1,0 +1,247 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Symbol 31" itemID="6a992ad9-0000878f" lastModified="1788876099" lastUniqueIdentifier="7">
+  <timeline>
+    <DOMTimeline name="Symbol 31" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_5" color="#009999" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="14" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.play()]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="14" duration="7" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.stop()
+this.parent.play()
+
+this.stop();
+if (window.onEntryAnimDone) {
+	window.onEntryAnimDone();
+}]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_4" color="#FF4FFF">
+          <frames>
+            <DOMFrame index="0" duration="7" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="7" duration="4" tweenType="motion" motionTweenSnap="true" keyMode="22017" rigPropagationMatrix='{"a":13107,"b":0,"c":0,"d":13107,"tx":0,"ty":0}'>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Tween 20" symbolType="graphic" centerPoint3DX="740.45" centerPoint3DY="101.15" loop="loop">
+                  <matrix>
+                    <Matrix a="0.199996948242188" d="0.199996948242188" tx="740.4" ty="101.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.25" y="0.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="11" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Tween 21" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="740.45" ty="101.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="12" keyMode="9728" rigPropagationMatrix='{"a":72089,"b":0,"c":0,"d":72089,"tx":0,"ty":0}'>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Tween 21" symbolType="graphic" centerPoint3DX="740.45" centerPoint3DY="101.15" loop="loop">
+                  <matrix>
+                    <Matrix a="1.0999755859375" d="1.0999755859375" tx="740.4" ty="101.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="13" duration="8" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Tween 21" symbolType="graphic" centerPoint3DX="740.45" centerPoint3DY="101.15" loop="loop">
+                  <matrix>
+                    <Matrix tx="740.45" ty="101.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_3" color="#FF800A">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="4" duration="4" tweenType="motion" motionTweenSnap="true" keyMode="22017" rigPropagationMatrix='{"a":13107,"b":0,"c":0,"d":13107,"tx":0,"ty":0}'>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Tween 22" symbolType="graphic" centerPoint3DX="506" centerPoint3DY="101.15" loop="loop">
+                  <matrix>
+                    <Matrix a="0.199996948242188" d="0.199996948242188" tx="505.95" ty="101.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.25" y="0.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="8" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Tween 23" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="506" ty="101.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="9" keyMode="9728" rigPropagationMatrix='{"a":72089,"b":0,"c":0,"d":72089,"tx":0,"ty":0}'>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Tween 23" symbolType="graphic" centerPoint3DX="506" centerPoint3DY="101.15" loop="loop">
+                  <matrix>
+                    <Matrix a="1.0999755859375" d="1.0999755859375" tx="505.95" ty="101.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="10" duration="11" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Tween 23" symbolType="graphic" centerPoint3DX="506" centerPoint3DY="101.15" loop="loop">
+                  <matrix>
+                    <Matrix tx="506" ty="101.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017" rigPropagationMatrix='{"a":13107,"b":0,"c":0,"d":13107,"tx":0,"ty":0}'>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Tween 24" symbolType="graphic" centerPoint3DX="277.35" centerPoint3DY="101.15" loop="loop">
+                  <matrix>
+                    <Matrix a="0.199996948242188" d="0.199996948242188" tx="277.35" ty="101.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="0.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="5" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Tween 25" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="277.35" ty="101.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="6" keyMode="9728" rigPropagationMatrix='{"a":72089,"b":0,"c":0,"d":72089,"tx":0,"ty":0}'>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Tween 25" symbolType="graphic" centerPoint3DX="277.35" centerPoint3DY="101.15" loop="loop">
+                  <matrix>
+                    <Matrix a="1.0999755859375" d="1.0999755859375" tx="277.3" ty="101.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="7" duration="14" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Tween 25" symbolType="graphic" centerPoint3DX="277.35" centerPoint3DY="101.15" loop="loop">
+                  <matrix>
+                    <Matrix tx="277.35" ty="101.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_1" color="#00FFFF">
+          <frames>
+            <DOMFrame index="0" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017" rigPropagationMatrix='{"a":13107,"b":0,"c":0,"d":13107,"tx":0,"ty":0}'>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Tween 26" symbolType="graphic" centerPoint3DX="62.75" centerPoint3DY="101.15" loop="loop">
+                  <matrix>
+                    <Matrix a="0.199996948242188" d="0.199996948242188" tx="62.7" ty="101.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.25" y="0.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Tween 27" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="62.75" ty="101.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="4" keyMode="9728" rigPropagationMatrix='{"a":72089,"b":0,"c":0,"d":72089,"tx":0,"ty":0}'>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Tween 27" symbolType="graphic" centerPoint3DX="62.75" centerPoint3DY="101.15" loop="loop">
+                  <matrix>
+                    <Matrix a="1.0999755859375" d="1.0999755859375" tx="62.75" ty="101.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="5" duration="16" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Tween 27" symbolType="graphic" centerPoint3DX="62.75" centerPoint3DY="101.15" loop="loop">
+                  <matrix>
+                    <Matrix tx="62.75" ty="101.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

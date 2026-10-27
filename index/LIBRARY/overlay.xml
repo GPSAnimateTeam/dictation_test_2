@@ -1,0 +1,36 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="overlay" itemID="6a843845-000009ac" lastModified="1787504795">
+  <timeline>
+    <DOMTimeline name="overlay" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMSymbolInstance libraryItemName="flash0.ai Assets_24/Isolation Mode/&amp;#060Path&amp;#062" selected="true">
+                      <transformationPoint>
+                        <Point x="900" y="600"/>
+                      </transformationPoint>
+                      <color>
+                        <Color alphaMultiplier="0.7890625"/>
+                      </color>
+                    </DOMSymbolInstance>
+                  </members>
+                </DOMGroup>
+                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/overly_animation" name="overly_animation" selected="true">
+                  <matrix>
+                    <Matrix tx="369.3" ty="224.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="494.1" y="366.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,202 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Duplicate Items Folder/Symbol 7 copy" itemID="6a8b3d98-000026eb" lastModified="1789542027" lastUniqueIdentifier="13">
+  <timeline>
+    <DOMTimeline name="Symbol 7 copy" currentFrame="42" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_7" color="#669900">
+          <frames>
+            <DOMFrame index="0" duration="18" name="ten1" labelType="name" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.stop()
+dotsNo = 0]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="18" duration="20" name="ten2" labelType="name" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[window.checkAndReset(this);]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="38" duration="21" name="ten3" labelType="name" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[window.checkAndReset(this);]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="59" duration="20" name="ten4" labelType="name" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[window.checkAndReset(this);]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="79" duration="20" name="ten5" labelType="name" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[window.checkAndReset(this);]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="99" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[var st=this;
+window.checkAndReset(this);]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_8" color="#FF4F4F">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" duration="4" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="5" duration="19" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[dotsNo++;
+createjs.Sound.play("ClickSound2");]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="24" duration="20" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[dotsNo++;
+createjs.Sound.play("ClickSound2");]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="44" duration="21" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[dotsNo++;
+createjs.Sound.play("ClickSound2");]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="65" duration="21" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[dotsNo++;
+createjs.Sound.play("ClickSound2");]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="86" duration="14" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[dotsNo++;
+createjs.Sound.play("ClickSound2");]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_6" color="#FF0000">
+          <frames>
+            <DOMFrame index="0" duration="80" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="80" duration="20" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 88" name="ten5" centerPoint3DX="480.95" centerPoint3DY="150.9">
+                  <matrix>
+                    <Matrix a="1.50505065917969" d="1.50505065917969" tx="135.3" ty="-829.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="252.3" y="645.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_5" color="#009999">
+          <frames>
+            <DOMFrame index="0" duration="60" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="60" duration="40" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 88" name="ten4" centerPoint3DX="353.95" centerPoint3DY="151.4">
+                  <matrix>
+                    <Matrix a="1.50505065917969" d="1.50505065917969" tx="8.3" ty="-828.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="252.3" y="645.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_4" color="#FF4FFF">
+          <frames>
+            <DOMFrame index="0" duration="39" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="39" duration="61" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 88" name="ten3" centerPoint3DX="226.45" centerPoint3DY="149.9">
+                  <matrix>
+                    <Matrix a="1.50505065917969" d="1.50505065917969" tx="-119.2" ty="-830.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="252.3" y="645.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_3" color="#FF800A">
+          <frames>
+            <DOMFrame index="0" duration="19" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="19" duration="80" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 88" name="ten2" centerPoint3DX="98.95" centerPoint3DY="150.4">
+                  <matrix>
+                    <Matrix a="1.50505065917969" d="1.50505065917969" tx="-246.7" ty="-829.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="252.3" y="645.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="99" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 88" name="ten2" centerPoint3DX="100.5" centerPoint3DY="150.4">
+                  <matrix>
+                    <Matrix a="1.50505065917969" d="1.50505065917969" tx="-245.15" ty="-829.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="252.3" y="645.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_2" color="#9933CC" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" duration="99" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 88 copy" name="ten1" centerPoint3DX="-29.05" centerPoint3DY="150.9">
+                  <matrix>
+                    <Matrix a="1.50505065917969" d="1.50505065917969" tx="-374.7" ty="-829.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="252.3" y="645.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

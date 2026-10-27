@@ -1,0 +1,43 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="flash0.ai Assets_21/05/&amp;#060Group&amp;#062_2" itemID="6a8adfc2-000014bd" lastModified="1787486146">
+  <timeline>
+    <DOMTimeline name="&amp;#060Group&amp;#062_2" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true" isDrawingObject="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#61BF41"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!609 366[609 390 663 407!663 407[717 424 793 424!793 424[869 424 922 407!922 407[976 390 976 366!976 366[976 341 922 324!922 324[869 307 793 307!793 307[717 307 663 324!663 324[609 341 609 366"/>
+                        <Edge cubics="!609 366(;609,398 692,424 793,424q609 366Q609 390q663 407Q717 424q793 424);"/>
+                        <Edge cubics="!793 424(;894,424 976,398 976,366q793 424Q869 424q922 407Q976 390q976 366);"/>
+                        <Edge cubics="!976 366(;976,333 894,307 793,307q976 366Q976 341q922 324Q869 307q793 307);"/>
+                        <Edge cubics="!793 307(;692,307 609,333 609,366q793 307Q717 307q663 324Q609 341q609 366);"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMGroup selected="true">
+                      <members>
+                        <DOMSymbolInstance libraryItemName="flash0.ai Assets_21/05/&amp;#060Clip Group&amp;#062_0" selected="true">
+                          <transformationPoint>
+                            <Point x="63.4" y="13.25"/>
+                          </transformationPoint>
+                        </DOMSymbolInstance>
+                      </members>
+                    </DOMGroup>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

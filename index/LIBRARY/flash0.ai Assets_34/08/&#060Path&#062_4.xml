@@ -1,0 +1,29 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="flash0.ai Assets_34/08/&amp;#060Path&amp;#062_4" itemID="6ab8dc2e-00019883" lastModified="1790499886">
+  <timeline>
+    <DOMTimeline name="&amp;#060Path&amp;#062_4" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#333333"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!0 69[25 118 139 105!139 105[196 99 248 83!248 83[236 62 238 38!238 38[242 12 242 0!242 0|0 69"/>
+                    <Edge cubics="!0 69(;40,147 248,83 248,83q0 69Q25 118q139 105Q196 99q248 83);"/>
+                    <Edge cubics="!248 83(;229,49 242,24 242,0q248 83Q236 62q238 38Q242 12q242 0);"/>
+                    <Edge cubics="!242 0(;121,34 121,34 0,69q242 0 0 69);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,205 @@
+/* ==========================================================================
+   style.css — «صندوق الأحلام» (G4 · U1 · L2 · إملاء)
+   Stage = 1800 × 1200 px. Every length below is in stage pixels.
+   Element positions are NOT here: they come from LAYOUT in activity.js.
+   ========================================================================== */
+
+@font-face{font-family:'ActReadex';font-weight:100 700;font-display:block;src:url(fonts/readex-pro-arabic.woff2) format('woff2-variations'),url(fonts/readex-pro-arabic.woff2) format('woff2');unicode-range:U+0600-06FF,U+0750-077F,U+08A0-08FF,U+FB50-FDFF,U+FE70-FEFF,U+200C-200F,U+2010-2011}
+@font-face{font-family:'ActReadex';font-weight:100 700;font-display:block;src:url(fonts/readex-pro-latin.woff2) format('woff2-variations'),url(fonts/readex-pro-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'ActPlaypen';font-weight:100 800;font-display:block;src:url(fonts/playpen-sans-arabic.woff2) format('woff2-variations'),url(fonts/playpen-sans-arabic.woff2) format('woff2')}
+
+:root{
+  --act-ink:#4B3322;
+  --act-chalk:#F5F2E8;
+  --act-chalk-yellow:#F7DF7A;
+  --act-paper-ink:#2A2A3C;
+  --act-red:#B8321A;          /* instruction numbers, prefix letters, notebook titles */
+  --act-blue:#1B6AA5;         /* «ال» التعريف inside the rule pieces */
+  --act-font:'ActReadex','Noto Sans Arabic','Segoe UI',Tahoma,system-ui,sans-serif;
+  --act-fit:1;                /* set by activity.js: fits the 1800×1200 stage to the window */
+  color-scheme:light;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+[hidden]{display:none!important}
+html,body{height:100%;overflow:hidden;overscroll-behavior:none;background:#1b120b}
+body{font-family:var(--act-font);color:var(--act-ink);font-weight:400;-webkit-font-smoothing:antialiased;-webkit-tap-highlight-color:transparent;user-select:none;-webkit-user-select:none;direction:rtl}
+button{font-family:inherit;color:inherit;cursor:pointer;border:0;background:none;touch-action:manipulation}
+button:focus-visible{outline:3px solid #fff;outline-offset:3px}
+
+/* ---------- stage ---------- */
+#actViewport{position:fixed;inset:0;overflow:hidden}
+#actStage{position:absolute;left:50%;top:50%;width:1800px;height:1200px;margin:-600px 0 0 -900px;transform:scale(var(--act-fit));transform-origin:center;overflow:hidden;background:#1f4a3a;direction:rtl}
+#actStage img{display:block;-webkit-user-drag:none;user-select:none;pointer-events:none}
+#actStage>*{position:absolute}
+.act-screen{left:0;top:0;width:1800px;height:1200px;pointer-events:none}   /* no z-index here: children share the stage stacking order */
+.act-screen>*{position:absolute}
+.act-screen button{pointer-events:auto}
+
+/* SHARED ELEMENT: background (one 2700×1800 image = 1800×1200 stage × max zoom 1.5; the camera moves/scales it) */
+#actBg{left:0;top:0;width:2700px;height:1800px;max-width:none;transform-origin:0 0;will-change:transform;z-index:0}
+#actRays{left:0;top:0;width:1800px;height:1200px;opacity:.4;z-index:1;pointer-events:none;animation:actRaysDrift 14s ease-in-out infinite alternate}
+@keyframes actRaysDrift{from{transform:translateX(-20px);opacity:.3}to{transform:translateX(20px);opacity:.48}}
+#actKiteCanvas{left:0;top:0;width:1800px;height:1200px;z-index:9;pointer-events:none}   /* chalk trace: above the box, under the stars / buttons / texts (10–13) and the kite (15) */
+#actKite{left:0;top:0;z-index:15;pointer-events:none;opacity:0;will-change:transform}
+#actKite img{position:absolute;left:0;top:0;width:100%;height:100%;filter:drop-shadow(0 3px 5px rgba(0,0,0,.35))}
+#actFx{left:0;top:0;width:1800px;height:1200px;z-index:25;pointer-events:none;overflow:visible}
+.act-fx-img{position:absolute;pointer-events:none}
+.act-confetti{position:absolute;top:-40px;width:20px;height:28px;border-radius:3px;animation:actConfettiFall linear forwards}
+@keyframes actConfettiFall{to{transform:translateY(1300px) rotate(540deg)}}
+
+/* ---------- template buttons (images only) ---------- */
+#actUi{left:0;top:0;width:1800px;height:1200px;z-index:30;pointer-events:none}
+#actUi>*{position:absolute;pointer-events:auto}
+#actLogo{left:120px;top:190px;width:242px;height:62px}
+.act-ui-btn{width:60px;height:60px;top:190px;transition:transform .15s}
+.act-ui-btn img{width:100%;height:100%}
+.act-ui-btn:hover{transform:scale(1.07)}.act-ui-btn:active{transform:scale(.94)}
+#actBtnClose{left:1610px}#actBtnInfo{left:1538px}#actBtnMute{left:1466px}
+#actBtnMute img{position:absolute;left:0;top:0}
+#actBtnMute .act-mute-off{opacity:0}
+body.act-muted #actBtnMute .act-mute-on{opacity:0}
+body.act-muted #actBtnMute .act-mute-off{opacity:1}
+body[data-screen="intro"] #actBtnMute{display:none}
+body:not([data-screen="quiz"]) .act-quiz-only{display:none}
+
+/* ---------- wooden plaque button (text centred in the inner panel) ---------- */
+.act-plaque{width:359px;height:129px;background:url(images/shared_btn_plaque.png) center/100% 100% no-repeat;filter:drop-shadow(0 7px 7px rgba(40,20,5,.4));transition:transform .15s;transform:scale(var(--act-btn-scale,1))}
+.act-plaque.act-red{background-image:url(images/shared_btn_plaque_red.png)}
+.act-plaque>span{position:absolute;left:28px;right:22px;top:24px;bottom:19px;display:flex;align-items:center;justify-content:center;text-align:center;white-space:nowrap;color:#4A2208;font-weight:600;font-size:44px;line-height:1;text-shadow:0 1px 0 rgba(255,225,170,.6);padding-top:var(--act-txt-dy,0px)}
+.act-plaque.act-red>span{color:#fff2e6;text-shadow:0 1px 1px rgba(60,0,0,.55)}
+.act-plaque:hover{transform:translateY(-3px) scale(calc(var(--act-btn-scale,1)*1.03))}.act-plaque:active{transform:translateY(3px) scale(calc(var(--act-btn-scale,1)*.97))}
+.act-pulse{animation:actPlaquePulse 1.8s ease-in-out infinite}
+@keyframes actPlaquePulse{50%{transform:scale(1.045)}}
+
+/* ---------- chalk text ---------- */
+.act-chalk{color:transparent;-webkit-text-fill-color:transparent;font-weight:400;background-image:url(images/shared_chalk_white.png);background-repeat:repeat;background-size:330px 330px;-webkit-background-clip:text;background-clip:text;filter:drop-shadow(0 1px 1px rgba(0,0,0,.4)) drop-shadow(0 0 3px rgba(255,255,255,.16))}
+
+/* ================= SCREEN 1: INTRO ================= */
+#actTitle{overflow:visible;pointer-events:none;z-index:6}
+#actTitle{filter:drop-shadow(0 2px 2px rgba(0,0,0,.4)) drop-shadow(0 0 4px rgba(255,255,255,.14))}
+#actTitle text{font-family:'ActPlaypen','ActReadex',sans-serif;font-weight:560}
+#actDeco,#actPapers,#actEq,#actResultButtons{left:0;top:0;width:1800px;height:1200px}   /* full-stage hosts for children placed in stage coordinates */
+.act-deco-star{position:absolute;pointer-events:none;z-index:5;filter:drop-shadow(0 0 9px rgba(255,220,100,.5));opacity:0}
+@keyframes actTwinkle{0%,100%{transform:scale(1) rotate(0)}50%{transform:scale(1.18) rotate(8deg)}}
+#actStartBtn{z-index:12}
+
+/* ================= SCREEN 2: QUIZ ================= */
+#actProgress{left:0;top:0;width:1800px;height:300px;z-index:13;pointer-events:none}
+#actProgress>*{position:absolute}
+.act-pstar{transform-origin:50% 55%}
+.act-pstar img{position:absolute;pointer-events:none}
+.act-pstar .act-ps{left:0;top:0;width:100%;height:100%;opacity:0;transition:opacity .35s}
+.act-pstar[data-state="off"] .act-ps-off,.act-pstar[data-state="current"] .act-ps-current,.act-pstar[data-state="gold"] .act-ps-gold,.act-pstar[data-state="grey"] .act-ps-grey{opacity:1}
+.act-pstar[data-state="current"] .act-ps-off{opacity:.35}
+.act-pstar .act-pglow{opacity:0}
+
+/* sticky note: guide / hint / feedback */
+#actSticky{z-index:7;transform-origin:50% 5%;display:none}
+#actSticky .act-st-paper{position:absolute;left:0;top:0;width:100%;height:100%;filter:drop-shadow(0 8px 6px rgba(0,0,0,.38))}
+#actSticky .act-st-paper img{position:absolute;left:0;top:0;width:100%;height:100%;opacity:0;transition:opacity .35s}
+#actSticky[data-tone="cream"] .act-st-cream,#actSticky[data-tone="pink"] .act-st-pink,#actSticky[data-tone="mint"] .act-st-mint{opacity:1}
+#actSticky .act-st-tape{position:absolute;filter:drop-shadow(0 2px 2px rgba(0,0,0,.3))}
+#actStickyText{position:absolute;left:30px;right:30px;top:50px;bottom:34px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;text-align:center;line-height:1.5;overflow:hidden;color:#3F2E1E}
+#actStickyText b{font-weight:700;color:#6B4A25}
+#actStickyText span{font-weight:430;text-wrap:balance}
+#actStickyText em{font-style:normal;font-weight:600;color:#7B5C3A}
+#actSticky[data-tone="pink"] #actStickyText{color:#4A2233}
+#actSticky[data-tone="pink"] #actStickyText b{color:#7A1D3A}
+#actSticky[data-tone="pink"] #actStickyText em{color:#8A3B55}
+#actSticky[data-tone="mint"] #actStickyText{color:#1E3B2E}
+#actSticky[data-tone="mint"] #actStickyText b{color:#17694A}
+#actSticky[data-tone="mint"] #actStickyText em{color:#2E7A5C}
+
+/* sentence */
+#actStem{z-index:5;display:flex;flex-wrap:nowrap;justify-content:center;align-items:center;gap:0 24px;line-height:1.55;text-align:center;pointer-events:none;direction:rtl;white-space:nowrap}
+#actStem>*{flex:none;white-space:nowrap}
+.act-blank{display:inline-block;border-bottom:5px dashed rgba(245,242,232,.82);border-radius:4px;position:relative;top:6px}
+#actChalkPiece{z-index:9;display:none;pointer-events:none;filter:drop-shadow(0 4px 4px rgba(0,0,0,.35))}
+.act-round-btn{z-index:6;background:none;filter:drop-shadow(0 5px 6px rgba(20,8,0,.5));transition:transform .15s}
+.act-round-btn img{width:100%;height:100%}
+.act-round-btn:hover{transform:scale(1.06)}.act-round-btn:active{transform:scale(.94)}
+
+/* answer papers */
+.act-paper{position:absolute;background:none;pointer-events:auto;z-index:5;transform-origin:50% 8%;will-change:transform}
+.act-paper .act-pi{position:absolute;left:0;top:0;width:100%;height:100%;filter:drop-shadow(0 6px 5px rgba(0,0,0,.38))}
+.act-paper .act-pt{position:absolute;left:4%;right:4%;top:20%;bottom:5%;display:flex;align-items:center;justify-content:center;color:var(--act-paper-ink);font-weight:500;white-space:nowrap;line-height:1.3}
+.act-paper .act-pt span{display:block}
+.act-paper:hover:not(.act-dead){transform:translateY(-5px) rotate(-1deg)}
+.act-paper.act-dead{pointer-events:none}
+.act-paper.act-gray .act-pt{color:#5a5a66}
+.act-glow{position:absolute;pointer-events:none}
+
+/* rule pieces: prefix + noun joined like a puzzle */
+#actEq{z-index:6;pointer-events:none}
+#actEq>*{position:absolute}
+.act-piece{display:flex;align-items:center;justify-content:center;white-space:nowrap;color:var(--act-paper-ink);font-weight:500}
+.act-piece img{position:absolute;left:0;top:0;width:100%;height:100%;filter:drop-shadow(0 6px 5px rgba(0,0,0,.38))}
+.act-piece .act-piece-text{position:relative;z-index:1;padding-top:var(--act-piece-top,12px);line-height:1.2}
+.act-prefix-letter{color:var(--act-red);font-weight:600}
+.act-al{color:var(--act-blue)}
+.act-alef-cut{position:relative;display:inline-block;color:var(--act-blue)}
+.act-strike{position:absolute;left:-10%;right:-10%;top:56%;height:max(.085em,4px);background:var(--act-red);border-radius:3px;transform:scaleX(0);transform-origin:100% 50%}
+.act-plus{font-size:84px;font-weight:300;line-height:1;text-align:center;width:80px}
+
+/* Next: a desk calendar on the table. The blank top sheet (#actNextPage) flips up around its top edge and shows the live label. */
+#actNext{z-index:7;width:340px;height:204px;background:none;pointer-events:none;transform-origin:50% 100%}
+#actNext img{position:absolute;display:block;pointer-events:none}
+#actNext .act-next-base{left:0;top:0;width:100%;height:100%;filter:drop-shadow(0 10px 8px rgba(30,12,0,.42))}
+#actNext .act-next-label{position:absolute;left:30px;right:30px;top:56px;height:124px;display:flex;align-items:center;justify-content:center;white-space:nowrap;font-weight:700;color:#8A2D10;text-shadow:0 1px 0 rgba(255,255,255,.55);padding-top:var(--act-txt-dy,0px);opacity:0}
+#actNext.act-ready .act-next-label{opacity:1;transition:opacity .15s .22s}
+#actNextPage{left:0;top:40px;width:340px;height:152px;transform-origin:50% 0;backface-visibility:hidden;will-change:transform,opacity}
+#actNextShade{position:absolute;left:24px;top:40px;width:292px;height:146px;background:linear-gradient(to bottom,rgba(40,15,0,.4),rgba(40,15,0,0) 72%);opacity:0;pointer-events:none}
+#actNext.act-ready{pointer-events:auto;cursor:pointer}
+#actNext.act-nudge{animation:actNextNudge 2.6s ease-in-out infinite}
+#actNext.act-nudge .act-next-label{animation:actNextLabel 2.6s ease-in-out infinite}
+@keyframes actNextNudge{0%,52%,100%{transform:translateY(0) rotate(0)}64%{transform:translateY(-10px) rotate(-1.5deg)}78%{transform:translateY(0) rotate(1deg)}88%{transform:translateY(-3px) rotate(-.3deg)}}
+@keyframes actNextLabel{0%,52%,100%{transform:scale(1)}64%{transform:scale(1.1)}78%{transform:scale(1)}}
+#actNext:hover.act-ready{filter:brightness(1.05)}
+
+/* the folded note that flies to the box */
+#actNote{display:none;z-index:21;pointer-events:none}
+#actNote img{position:absolute;left:0;top:0;width:100%;height:100%;filter:drop-shadow(0 7px 6px rgba(0,0,0,.35))}
+#actNoteInk{position:absolute;left:0;top:0;width:100%;height:100%;display:flex;align-items:center;justify-content:center;color:#1D3C8F;font-weight:500;white-space:nowrap;padding-top:7%}
+
+/* ---------- SHARED ELEMENT: the dream box ---------- */
+#actBox{left:0;top:0;width:1800px;height:1200px;z-index:8;pointer-events:none}
+.act-box-view{position:absolute;pointer-events:none}
+.act-box-in{position:absolute;inset:0;overflow:hidden;background:linear-gradient(to bottom,rgba(255,255,255,.05),rgba(10,5,0,.2) 85%)}
+.act-box-img{position:absolute;left:0;top:0;width:100%;height:100%;filter:drop-shadow(0 12px 10px rgba(30,15,5,.4))}
+.act-box-shine{position:absolute;inset:0;background:url(images/shared_glass_shine.png) center/cover no-repeat;mix-blend-mode:screen;opacity:.4}
+.act-box-note{position:absolute;background-size:100% 100%;background-repeat:no-repeat;filter:drop-shadow(0 2px 2px rgba(30,12,0,.4))}
+#actStickerWrap{position:absolute;opacity:0;pointer-events:none}
+#actStickerWrap img{position:absolute;left:0;top:0;width:100%;height:100%;filter:drop-shadow(0 5px 5px rgba(20,8,0,.45))}
+#actStickerText{position:absolute;display:flex;align-items:center;justify-content:center;text-align:center;color:#3a2b1c;font-weight:600;line-height:1.2;direction:rtl;white-space:nowrap}
+#actSeal{position:absolute;opacity:0;pointer-events:none}
+#actSeal img{width:100%;height:100%;filter:drop-shadow(0 3px 3px rgba(20,8,0,.45))}
+
+/* ================= SCREEN 3: RESULT ================= */
+#actScreenResult>*{z-index:10}
+#actResultTitle{text-align:center;font-weight:600;line-height:1.35;direction:rtl}
+#actResultStars{display:flex;justify-content:center;align-items:center}
+#actResultStars .act-rstar{position:relative}
+#actResultStars .act-rstar img{position:absolute;left:0;top:0;width:100%;height:100%}
+#actResultStars .act-rstar .act-rstar-glow{opacity:0}
+#actScore{text-align:center;font-weight:600;color:var(--act-chalk)}
+#actScore small{font-weight:300;font-size:.42em}
+#actReminder{text-wrap:balance;text-align:center;font-weight:400;line-height:1.5;color:#E8E3D0;opacity:.92}
+#actResultButtons>*{pointer-events:auto}
+
+/* ================= OVERLAYS ================= */
+.act-overlay{left:0;top:0;width:1800px;height:1200px;z-index:100;background:rgba(20,10,3,.62);animation:actFade .25s;pointer-events:auto}
+@keyframes actFade{from{opacity:0}}
+.act-nb{position:absolute;filter:drop-shadow(0 14px 14px rgba(20,10,0,.5))}
+.act-nb>.act-nb-bg{position:absolute;left:0;top:0;width:100%;height:100%}
+.act-nb .act-nb-text{position:absolute;color:#3a2b1c;font-weight:420;text-align:right;direction:rtl;overflow:hidden}
+.act-nb h2{font-weight:700;color:var(--act-red);text-align:center;margin:0}
+.act-nb ol{list-style:none;margin:0;padding:0}
+.act-nb li{position:relative;padding-right:1.55em}
+.act-nb li b{position:absolute;right:0;top:0;font-weight:700;color:var(--act-red)}
+.act-nb .act-nb-actions{position:absolute;display:flex;justify-content:center;align-items:center}
+.act-nb .act-plaque{position:relative}
+.act-nb .act-answers-list{list-style:none;display:flex;flex-wrap:wrap;gap:0 12px;justify-content:center;padding:0;margin:0}
+.act-nb .act-answers-list li{flex:0 0 31%;padding:0;display:flex;justify-content:center;align-items:center;gap:10px;font-weight:500}
+.act-nb .act-answers-list .act-chip{width:.8em;height:.8em;border-radius:50%;display:grid;place-items:center;flex:none;position:relative}
+.act-nb .act-answers-list .act-chip svg{width:62%;height:62%;fill:none;stroke:#fff;stroke-width:3.4;stroke-linecap:round;stroke-linejoin:round}
+.act-nb p.act-nb-note{text-align:center;font-weight:450;text-wrap:balance}

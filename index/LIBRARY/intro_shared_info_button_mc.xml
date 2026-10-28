@@ -1,0 +1,31 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="intro_shared_info_button_mc" itemID="6ae11d5a-0001381e" lastModified="1793138010">
+  <timeline>
+    <DOMTimeline name="intro_shared_info_button_mc" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#3366FF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!-601 -601S2|601 -601!601 -601|601 601!601 601|-601 601!-601 601|-601 -601"/>
+                  </edges>
+                </DOMShape>
+                <DOMBitmapInstance selected="true" libraryItemName="intro_2/intro_ui_btn_info">
+                  <matrix>
+                    <Matrix tx="-30" ty="-30"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

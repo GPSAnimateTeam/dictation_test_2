@@ -1,0 +1,50 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="intro_intro_start_button_mc" itemID="6ae11d59-000137e6" lastModified="1793138009">
+  <timeline>
+    <DOMTimeline name="intro_intro_start_button_mc" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#3366FF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!14150 8010|21332 8010!21332 8010|21332 10592!21332 10592|14150 10592!14150 10592|14150 8010"/>
+                  </edges>
+                </DOMShape>
+                <DOMDynamicText fontRenderingMode="standard" width="24.95" height="162.95" isSelectable="false" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="-107374182.4" ty="-107374182.4"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>ابدأ</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" autoKern="false" lineHeight="39.1" size="35" bitmapSize="700" face="ArialNarrow" fillColor="#3366FF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" autoKern="false" lineHeight="39.6" size="35" bitmapSize="700" face="ArialNarrow" fillColor="#3366FF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMBitmapInstance libraryItemName="intro_2/intro_shared_btn_plaque">
+                  <matrix>
+                    <Matrix tx="707.55" ty="400.55"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

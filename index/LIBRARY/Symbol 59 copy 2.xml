@@ -13,7 +13,7 @@
                   <members>
                     <DOMShape selected="true" isDrawingObject="true">
                       <matrix>
-                        <Matrix a="0.968505859375" d="0.924636840820312" tx="-363.5" ty="2602.8"/>
+                        <Matrix a="0.968475341796875" d="0.924606323242188" tx="-363.5" ty="2602.8"/>
                       </matrix>
                       <fills>
                         <FillStyle index="1">
@@ -38,7 +38,7 @@
                   <members>
                     <DOMShape selected="true" isDrawingObject="true">
                       <matrix>
-                        <Matrix a="0.968505859375" d="0.924636840820312" tx="-363.5" ty="2602.8"/>
+                        <Matrix a="0.968475341796875" d="0.924606323242188" tx="-363.5" ty="2602.8"/>
                       </matrix>
                       <strokes>
                         <StrokeStyle index="1">
@@ -442,7 +442,7 @@
                   <members>
                     <DOMShape selected="true" isDrawingObject="true">
                       <matrix>
-                        <Matrix a="0.968185424804688" d="0.92413330078125" tx="-363.5" ty="2602.8"/>
+                        <Matrix a="0.968170166015625" d="0.924102783203125" tx="-363.5" ty="2602.8"/>
                       </matrix>
                       <fills>
                         <FillStyle index="1">
@@ -461,7 +461,7 @@
                     </DOMShape>
                     <DOMShape selected="true" isDrawingObject="true">
                       <matrix>
-                        <Matrix a="0.968185424804688" d="0.92413330078125" tx="-363.5" ty="2602.8"/>
+                        <Matrix a="0.968170166015625" d="0.924102783203125" tx="-363.5" ty="2602.8"/>
                       </matrix>
                       <fills>
                         <FillStyle index="1">
@@ -487,17 +487,6 @@
                   <transformationPoint>
                     <Point x="30.9" y="13.45"/>
                   </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/&amp;#060Path&amp;#062_3_0 copy" blendMode="multiply" centerPoint3DX="70.6" centerPoint3DY="53.55">
-                  <matrix>
-                    <Matrix a="0.969406127929688" d="0.925491333007812" tx="21" ty="35.45"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="52.1" y="19.4"/>
-                  </transformationPoint>
-                  <color>
-                    <Color alphaMultiplier="0.33984375"/>
-                  </color>
                 </DOMSymbolInstance>
                 <DOMShape isDrawingObject="true">
                   <matrix>
@@ -553,7 +542,7 @@
                   <members>
                     <DOMShape selected="true" isDrawingObject="true">
                       <matrix>
-                        <Matrix a="0.968505859375" d="0.924636840820312" tx="-363.5" ty="2602.8"/>
+                        <Matrix a="0.968475341796875" d="0.924606323242188" tx="-363.5" ty="2602.8"/>
                       </matrix>
                       <fills>
                         <FillStyle index="1">
@@ -578,7 +567,7 @@
                     </DOMShape>
                     <DOMShape selected="true" isDrawingObject="true">
                       <matrix>
-                        <Matrix a="0.968505859375" d="0.924636840820312" tx="-363.5" ty="2602.8"/>
+                        <Matrix a="0.968475341796875" d="0.924606323242188" tx="-363.5" ty="2602.8"/>
                       </matrix>
                       <fills>
                         <FillStyle index="1">
@@ -598,7 +587,7 @@
                     </DOMShape>
                     <DOMShape selected="true" isDrawingObject="true">
                       <matrix>
-                        <Matrix a="0.968505859375" d="0.924636840820312" tx="-363.5" ty="2602.8"/>
+                        <Matrix a="0.968475341796875" d="0.924606323242188" tx="-363.5" ty="2602.8"/>
                       </matrix>
                       <fills>
                         <FillStyle index="1">
@@ -644,7 +633,7 @@
                   <members>
                     <DOMShape selected="true" isDrawingObject="true">
                       <matrix>
-                        <Matrix a="0.968505859375" d="0.924636840820312" tx="-363.5" ty="2602.8"/>
+                        <Matrix a="0.968475341796875" d="0.924606323242188" tx="-363.5" ty="2602.8"/>
                       </matrix>
                       <strokes>
                         <StrokeStyle index="1">
@@ -664,7 +653,7 @@
                     </DOMShape>
                     <DOMShape selected="true" isDrawingObject="true">
                       <matrix>
-                        <Matrix a="0.968505859375" d="0.924636840820312" tx="-363.5" ty="2602.8"/>
+                        <Matrix a="0.968475341796875" d="0.924606323242188" tx="-363.5" ty="2602.8"/>
                       </matrix>
                       <strokes>
                         <StrokeStyle index="1">
@@ -683,7 +672,7 @@
                     </DOMShape>
                     <DOMShape selected="true" isDrawingObject="true">
                       <matrix>
-                        <Matrix a="0.968505859375" d="0.924636840820312" tx="-363.5" ty="2602.8"/>
+                        <Matrix a="0.968475341796875" d="0.924606323242188" tx="-363.5" ty="2602.8"/>
                       </matrix>
                       <strokes>
                         <StrokeStyle index="1">
@@ -702,7 +691,7 @@
                     </DOMShape>
                     <DOMShape selected="true" isDrawingObject="true">
                       <matrix>
-                        <Matrix a="0.968505859375" d="0.924636840820312" tx="-363.5" ty="2602.8"/>
+                        <Matrix a="0.968475341796875" d="0.924606323242188" tx="-363.5" ty="2602.8"/>
                       </matrix>
                       <strokes>
                         <StrokeStyle index="1">
@@ -721,7 +710,7 @@
                     </DOMShape>
                     <DOMShape selected="true" isDrawingObject="true">
                       <matrix>
-                        <Matrix a="0.968505859375" d="0.924636840820312" tx="-363.5" ty="2602.8"/>
+                        <Matrix a="0.968475341796875" d="0.924606323242188" tx="-363.5" ty="2602.8"/>
                       </matrix>
                       <strokes>
                         <StrokeStyle index="1">
@@ -740,7 +729,7 @@
                     </DOMShape>
                     <DOMShape selected="true" isDrawingObject="true">
                       <matrix>
-                        <Matrix a="0.968505859375" d="0.924636840820312" tx="-363.5" ty="2602.8"/>
+                        <Matrix a="0.968475341796875" d="0.924606323242188" tx="-363.5" ty="2602.8"/>
                       </matrix>
                       <strokes>
                         <StrokeStyle index="1">
@@ -759,7 +748,7 @@
                     </DOMShape>
                     <DOMShape selected="true" isDrawingObject="true">
                       <matrix>
-                        <Matrix a="0.968505859375" d="0.924636840820312" tx="-363.5" ty="2602.8"/>
+                        <Matrix a="0.968475341796875" d="0.924606323242188" tx="-363.5" ty="2602.8"/>
                       </matrix>
                       <strokes>
                         <StrokeStyle index="1">
@@ -778,7 +767,7 @@
                     </DOMShape>
                     <DOMShape selected="true" isDrawingObject="true">
                       <matrix>
-                        <Matrix a="0.968505859375" d="0.924636840820312" tx="-363.5" ty="2602.8"/>
+                        <Matrix a="0.968475341796875" d="0.924606323242188" tx="-363.5" ty="2602.8"/>
                       </matrix>
                       <strokes>
                         <StrokeStyle index="1">
@@ -797,7 +786,7 @@
                     </DOMShape>
                     <DOMShape selected="true" isDrawingObject="true">
                       <matrix>
-                        <Matrix a="0.968505859375" d="0.924636840820312" tx="-363.5" ty="2602.8"/>
+                        <Matrix a="0.968475341796875" d="0.924606323242188" tx="-363.5" ty="2602.8"/>
                       </matrix>
                       <strokes>
                         <StrokeStyle index="1">
@@ -816,7 +805,7 @@
                     </DOMShape>
                     <DOMShape selected="true" isDrawingObject="true">
                       <matrix>
-                        <Matrix a="0.968505859375" d="0.924636840820312" tx="-363.5" ty="2602.8"/>
+                        <Matrix a="0.968475341796875" d="0.924606323242188" tx="-363.5" ty="2602.8"/>
                       </matrix>
                       <strokes>
                         <StrokeStyle index="1">
@@ -835,7 +824,7 @@
                     </DOMShape>
                     <DOMShape selected="true" isDrawingObject="true">
                       <matrix>
-                        <Matrix a="0.968505859375" d="0.924636840820312" tx="-363.5" ty="2602.8"/>
+                        <Matrix a="0.968475341796875" d="0.924606323242188" tx="-363.5" ty="2602.8"/>
                       </matrix>
                       <strokes>
                         <StrokeStyle index="1">
@@ -854,7 +843,7 @@
                     </DOMShape>
                     <DOMShape selected="true" isDrawingObject="true">
                       <matrix>
-                        <Matrix a="0.968505859375" d="0.924636840820312" tx="-363.5" ty="2602.8"/>
+                        <Matrix a="0.968475341796875" d="0.924606323242188" tx="-363.5" ty="2602.8"/>
                       </matrix>
                       <strokes>
                         <StrokeStyle index="1">
@@ -873,7 +862,7 @@
                     </DOMShape>
                     <DOMShape selected="true" isDrawingObject="true">
                       <matrix>
-                        <Matrix a="0.968505859375" d="0.924636840820312" tx="-363.5" ty="2602.8"/>
+                        <Matrix a="0.968475341796875" d="0.924606323242188" tx="-363.5" ty="2602.8"/>
                       </matrix>
                       <strokes>
                         <StrokeStyle index="1">
@@ -892,7 +881,7 @@
                     </DOMShape>
                     <DOMShape selected="true" isDrawingObject="true">
                       <matrix>
-                        <Matrix a="0.968505859375" d="0.924636840820312" tx="-363.5" ty="2602.8"/>
+                        <Matrix a="0.968475341796875" d="0.924606323242188" tx="-363.5" ty="2602.8"/>
                       </matrix>
                       <strokes>
                         <StrokeStyle index="1">
@@ -911,7 +900,7 @@
                     </DOMShape>
                     <DOMShape selected="true" isDrawingObject="true">
                       <matrix>
-                        <Matrix a="0.968505859375" d="0.924636840820312" tx="-363.5" ty="2602.8"/>
+                        <Matrix a="0.968475341796875" d="0.924606323242188" tx="-363.5" ty="2602.8"/>
                       </matrix>
                       <strokes>
                         <StrokeStyle index="1">
@@ -930,7 +919,7 @@
                     </DOMShape>
                     <DOMShape selected="true" isDrawingObject="true">
                       <matrix>
-                        <Matrix a="0.968505859375" d="0.924636840820312" tx="-363.5" ty="2602.8"/>
+                        <Matrix a="0.968475341796875" d="0.924606323242188" tx="-363.5" ty="2602.8"/>
                       </matrix>
                       <strokes>
                         <StrokeStyle index="1">
@@ -949,7 +938,7 @@
                     </DOMShape>
                     <DOMShape selected="true" isDrawingObject="true">
                       <matrix>
-                        <Matrix a="0.968505859375" d="0.924636840820312" tx="-363.5" ty="2602.8"/>
+                        <Matrix a="0.968475341796875" d="0.924606323242188" tx="-363.5" ty="2602.8"/>
                       </matrix>
                       <strokes>
                         <StrokeStyle index="1">
@@ -968,7 +957,7 @@
                     </DOMShape>
                     <DOMShape selected="true" isDrawingObject="true">
                       <matrix>
-                        <Matrix a="0.968505859375" d="0.924636840820312" tx="-363.5" ty="2602.8"/>
+                        <Matrix a="0.968475341796875" d="0.924606323242188" tx="-363.5" ty="2602.8"/>
                       </matrix>
                       <strokes>
                         <StrokeStyle index="1">

@@ -197,34 +197,35 @@
           <DOMFolderItem name="flash0.ai Assets/05" itemID="6a84354f-000002ba"/>
           <DOMFolderItem name="flash0.ai/01" itemID="6a830279-00000193" isExpanded="true"/>
           <DOMFolderItem name="intro" itemID="00000000-00000000" isExpanded="true"/>
+          <DOMFolderItem name="intro_2" itemID="6ae11d56-0001376e"/>
      </folders>
      <media>
           <DOMBitmapItem name="flash0.ai_1/03/&lt;Image&gt;" itemID="6a830e21-000008c6" sourceLastImported="1786973729" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="flash0.ai_1/03/&amp;#060Image&amp;#062" bitmapDataHRef="M 2 1786973729.dat" frameRight="31020" frameBottom="16720"/>
           <DOMBitmapItem name="flash0.ai Assets_23/Isolation Mode/&lt;Path&gt;" itemID="6a8af8dc-00002902" sourceLastImported="1787492572" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="flash0.ai Assets_23/Isolation Mode/&amp;#060Path&amp;#062" bitmapDataHRef="M 16 1787507017.dat" frameRight="1020" frameBottom="100"/>
-          <DOMBitmapItem name="bg_light_rays.png" itemID="9209ff80-93027b15" sourceLastImported="1793131775" externalFileSize="375077" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="bg_light_rays.png" bitmapDataHRef="M 9301 1793129121.dat" frameRight="18000" frameBottom="12000"/>
-          <DOMBitmapItem name="bg_plate.jpg" itemID="bab2869f-bfe6bf6e" sourceLastImported="1793131775" externalFileSize="671032" allowSmoothing="true" quality="50" href="bg_plate.jpg" bitmapDataHRef="M 9300 1793129121.dat" frameRight="54000" frameBottom="36000" isJPEG="true"/>
+          <DOMBitmapItem name="intro_2/intro_bg_light_rays" itemID="6ae11d57-0001378f" sourceExternalFilepath="./LIBRARY/intro_2/intro_bg_light_rays.png" sourceLastImported="1793081048" externalFileSize="375077" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="intro_2/intro_bg_light_rays.png" bitmapDataHRef="M 29 1793138007.dat" frameRight="18000" frameBottom="12000"/>
           <DOMBitmapItem name="intro_bg_light_rays_png" itemID="6ae11286-00013388" sourceLastImported="1793135008" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="intro_bg_light_rays_png.png" bitmapDataHRef="M 16000 1793135008.dat" frameLeft="8388607" frameTop="-8388607" frameRight="8388607" frameBottom="8388607"/>
+          <DOMBitmapItem name="intro_2/intro_bg_plate" itemID="6ae11d57-00013774" sourceExternalFilepath="./LIBRARY/intro_2/intro_bg_plate.jpg" sourceLastImported="1793081048" externalFileSize="671032" allowSmoothing="true" quality="50" href="intro_2/intro_bg_plate.jpg" bitmapDataHRef="M 28 1793138006.dat" frameRight="54000" frameBottom="36000" isJPEG="true"/>
           <DOMBitmapItem name="intro_bg_plate_jpg" itemID="6ae11286-00013389" sourceLastImported="1793135008" allowSmoothing="true" quality="50" href="intro_bg_plate_jpg.jpg" bitmapDataHRef="M 16001 1793135008.dat" frameLeft="-8388607" frameTop="-8388607" frameRight="8388607" frameBottom="-8388607" isJPEG="true"/>
+          <DOMBitmapItem name="intro_2/intro_intro_star" itemID="6ae11d57-0001379a" sourceExternalFilepath="./LIBRARY/intro_2/intro_intro_star.png" sourceLastImported="1793081048" externalFileSize="6884" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="intro_2/intro_intro_star.png" bitmapDataHRef="M 30 1793138007.dat" frameRight="1800" frameBottom="1680"/>
           <DOMBitmapItem name="intro_intro_star_png" itemID="6ae11286-0001338a" sourceLastImported="1793135008" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="intro_intro_star_png.png" bitmapDataHRef="M 16002 1793135008.dat" frameLeft="8388607" frameTop="8388607" frameRight="8388607" frameBottom="8388607"/>
+          <DOMBitmapItem name="intro_2/intro_shared_box_angled" itemID="6ae11d58-000137d4" sourceExternalFilepath="./LIBRARY/intro_2/intro_shared_box_angled.png" sourceLastImported="1793081048" externalFileSize="178208" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="intro_2/intro_shared_box_angled.png" bitmapDataHRef="M 33 1793138008.dat" frameRight="12000" frameBottom="7040"/>
+          <DOMBitmapItem name="intro_2/intro_shared_box_front" itemID="6ae11d58-000137be" sourceExternalFilepath="./LIBRARY/intro_2/intro_shared_box_front.png" sourceLastImported="1793081048" externalFileSize="141261" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="intro_2/intro_shared_box_front.png" bitmapDataHRef="M 31 1793138008.dat" frameRight="12000" frameBottom="7340"/>
           <DOMBitmapItem name="intro_shared_box_front_png" itemID="6ae11286-0001338b" sourceLastImported="1793135008" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="intro_shared_box_front_png.png" bitmapDataHRef="M 16003 1793135008.dat" frameLeft="8388607" frameTop="8388607" frameRight="8388607" frameBottom="8388607"/>
+          <DOMBitmapItem name="intro_2/intro_shared_btn_plaque" itemID="6ae11d59-000137df" sourceExternalFilepath="./LIBRARY/intro_2/intro_shared_btn_plaque.png" sourceLastImported="1793081048" externalFileSize="61513" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="intro_2/intro_shared_btn_plaque.png" bitmapDataHRef="M 34 1793138009.dat" frameRight="7180" frameBottom="2580"/>
           <DOMBitmapItem name="intro_shared_btn_plaque_png" itemID="6ae11286-0001338c" sourceLastImported="1793135008" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="intro_shared_btn_plaque_png.png" bitmapDataHRef="M 16004 1793135008.dat" frameLeft="8388607" frameTop="8388607" frameRight="8388607" frameBottom="-8388607"/>
+          <DOMBitmapItem name="intro_2/intro_shared_glass_shine" itemID="6ae11d58-000137c9" sourceExternalFilepath="./LIBRARY/intro_2/intro_shared_glass_shine.png" sourceLastImported="1793081048" externalFileSize="131686" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="intro_2/intro_shared_glass_shine.png" bitmapDataHRef="M 32 1793138008.dat" frameRight="12000" frameBottom="8000"/>
           <DOMBitmapItem name="intro_shared_glass_shine_png" itemID="6ae11286-0001338d" sourceLastImported="1793135008" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="intro_shared_glass_shine_png.png" bitmapDataHRef="M 16005 1793135008.dat" frameLeft="8388607" frameTop="8388607" frameRight="8388607" frameBottom="-8388607"/>
-          <DOMBitmapItem name="intro_star.png" itemID="f63f8a0a-6187c9fd" sourceLastImported="1793131775" externalFileSize="6884" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="intro_star.png" bitmapDataHRef="M 9500 1793130331.dat" frameRight="1800" frameBottom="1680"/>
+          <DOMBitmapItem name="intro_2/intro_shared_kite" itemID="6ae11d59-000137f0" sourceExternalFilepath="./LIBRARY/intro_2/intro_shared_kite.png" sourceLastImported="1793081048" externalFileSize="5340" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="intro_2/intro_shared_kite.png" bitmapDataHRef="M 35 1793138009.dat" frameRight="1360" frameBottom="1000"/>
+          <DOMBitmapItem name="intro_2/intro_ui_btn_close" itemID="6ae11d59-00013806" sourceExternalFilepath="./LIBRARY/intro_2/intro_ui_btn_close.png" sourceLastImported="1793081048" externalFileSize="8822" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="intro_2/intro_ui_btn_close.png" bitmapDataHRef="M 37 1793138009.dat" frameRight="1200" frameBottom="1200"/>
           <DOMBitmapItem name="intro_ui_btn_close_png" itemID="6ae11286-0001338e" sourceLastImported="1793135008" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="intro_ui_btn_close_png.png" bitmapDataHRef="M 16006 1793135008.dat" frameLeft="8388607" frameTop="8388607" frameRight="8388607" frameBottom="8388607"/>
+          <DOMBitmapItem name="intro_2/intro_ui_btn_info" itemID="6ae11d5a-00013817" sourceExternalFilepath="./LIBRARY/intro_2/intro_ui_btn_info.png" sourceLastImported="1793081048" externalFileSize="8935" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="intro_2/intro_ui_btn_info.png" bitmapDataHRef="M 38 1793138010.dat" frameRight="1200" frameBottom="1200"/>
           <DOMBitmapItem name="intro_ui_btn_info_png" itemID="6ae11286-0001338f" sourceLastImported="1793135008" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="intro_ui_btn_info_png.png" bitmapDataHRef="M 16007 1793135008.dat" frameLeft="8388607" frameTop="8388607" frameRight="8388607" frameBottom="8388607"/>
+          <DOMBitmapItem name="intro_2/intro_ui_btn_mute" itemID="6ae11d5a-00013828" sourceExternalFilepath="./LIBRARY/intro_2/intro_ui_btn_mute.png" sourceLastImported="1793081048" externalFileSize="8592" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="intro_2/intro_ui_btn_mute.png" bitmapDataHRef="M 39 1793138010.dat" frameRight="1200" frameBottom="1200"/>
+          <DOMBitmapItem name="intro_2/intro_ui_btn_mute_off" itemID="6ae11d5a-00013839" sourceExternalFilepath="./LIBRARY/intro_2/intro_ui_btn_mute_off.png" sourceLastImported="1793081048" externalFileSize="7797" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="intro_2/intro_ui_btn_mute_off.png" bitmapDataHRef="M 40 1793138010.dat" frameRight="1200" frameBottom="1200"/>
           <DOMBitmapItem name="intro_ui_btn_mute_off_png" itemID="6ae11286-00013391" sourceLastImported="1793135008" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="intro_ui_btn_mute_off_png.png" bitmapDataHRef="M 16009 1793135008.dat" frameLeft="8388607" frameTop="8388607" frameRight="8388607" frameBottom="8388607"/>
           <DOMBitmapItem name="intro_ui_btn_mute_png" itemID="6ae11286-00013390" sourceLastImported="1793135008" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="intro_ui_btn_mute_png.png" bitmapDataHRef="M 16008 1793135008.dat" frameLeft="8388607" frameTop="8388607" frameRight="8388607" frameBottom="8388607"/>
+          <DOMBitmapItem name="intro_2/intro_ui_logo" itemID="6ae11d59-000137fb" sourceExternalFilepath="./LIBRARY/intro_2/intro_ui_logo.png" sourceLastImported="1793081048" externalFileSize="19443" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="intro_2/intro_ui_logo.png" bitmapDataHRef="M 36 1793138009.dat" frameRight="4840" frameBottom="1240"/>
           <DOMBitmapItem name="intro_ui_logo_png" itemID="6ae11286-00013392" sourceLastImported="1793135008" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="intro_ui_logo_png.png" bitmapDataHRef="M 16010 1793135008.dat" frameLeft="8388607" frameTop="-8388607" frameRight="8388607" frameBottom="8388607"/>
-          <DOMBitmapItem name="shared_box_front.png" itemID="76b20a71-568cf308" sourceLastImported="1793131775" externalFileSize="141261" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="shared_box_front.png" bitmapDataHRef="M 9302 1793129121.dat" frameRight="12000" frameBottom="7340"/>
-          <DOMBitmapItem name="shared_btn_plaque.png" itemID="6b1cc6de-9ba5fe95" sourceLastImported="1793131775" externalFileSize="61513" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="shared_btn_plaque.png" bitmapDataHRef="M 9304 1793129121.dat" frameRight="7180" frameBottom="2580"/>
-          <DOMBitmapItem name="shared_glass_shine.png" itemID="c7f56c0d-39c4d006" sourceLastImported="1793131775" externalFileSize="131686" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="shared_glass_shine.png" bitmapDataHRef="M 9303 1793129121.dat" frameRight="12000" frameBottom="8000"/>
-          <DOMBitmapItem name="shared_kite.png" itemID="e0816f9a-ba5bd420" sourceLastImported="1793131775" externalFileSize="5340" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="shared_kite.png" bitmapDataHRef="M 9501 1793130331.dat" frameRight="1360" frameBottom="1000"/>
-          <DOMBitmapItem name="shared_notebook.png" itemID="1dadd730-f5fc79b5" sourceLastImported="1793131775" externalFileSize="1034869" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="shared_notebook.png" bitmapDataHRef="M 9506 1793130331.dat" frameRight="20000" frameBottom="13780"/>
-          <DOMBitmapItem name="ui_btn_close.png" itemID="1961bfb1-6ca77a64" sourceLastImported="1793131775" externalFileSize="8822" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="ui_btn_close.png" bitmapDataHRef="M 9502 1793130331.dat" frameRight="1200" frameBottom="1200"/>
-          <DOMBitmapItem name="ui_btn_info.png" itemID="5cbcb568-0a01d1c8" sourceLastImported="1793131775" externalFileSize="8935" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="ui_btn_info.png" bitmapDataHRef="M 9503 1793130331.dat" frameRight="1200" frameBottom="1200"/>
-          <DOMBitmapItem name="ui_btn_mute.png" itemID="324bb141-8104bae1" sourceLastImported="1793131775" externalFileSize="8592" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="ui_btn_mute.png" bitmapDataHRef="M 9504 1793130331.dat" frameRight="1200" frameBottom="1200"/>
-          <DOMBitmapItem name="ui_btn_mute_off.png" itemID="f12fd414-f6f82fc6" sourceLastImported="1793131775" externalFileSize="7797" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="ui_btn_mute_off.png" bitmapDataHRef="M 9505 1793130331.dat" frameRight="1200" frameBottom="1200"/>
-          <DOMBitmapItem name="ui_logo.png" itemID="a2b53cbf-5c5448d8" sourceLastImported="1793131775" externalFileSize="19443" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="ui_logo.png" bitmapDataHRef="M 9305 1793129121.dat" frameRight="4840" frameBottom="1240"/>
           <DOMBitmapItem name="WhatsApp Image 2026-08-19 at 4.22.12 PM.jpeg" itemID="6a85ae23-00012683" sourceLastImported="1787145741" allowSmoothing="true" quality="50" href="WhatsApp Image 2026-08-19 at 4.22.12 PM.jpeg" bitmapDataHRef="M 11 1787226652.dat" frameRight="5000" frameBottom="840" isJPEG="true"/>
      </media>
      <symbols>
@@ -235,11 +236,6 @@
           <Include href="counting_3_mc.xml" loadImmediate="false" itemID="6ab00003-00000003" lastModified="1790708506"/>
           <Include href="counting_4_mc copy.xml" loadImmediate="false" itemID="6abb8397-00091961" lastModified="1790708540"/>
           <Include href="counting_4_mc copy 2.xml" loadImmediate="false" itemID="6abb84df-00092a37" lastModified="1790708886"/>
-          <Include href="Duplicate Items Folder/&amp;#060Clip Group&amp;#062.xml" loadImmediate="false" itemID="6a8b28a0-0000639a" lastModified="1787485014"/>
-          <Include href="Duplicate Items Folder/&amp;#060Clip Group&amp;#062_0.xml" loadImmediate="false" itemID="6a8b28a0-00006399" lastModified="1786973729"/>
-          <Include href="Duplicate Items Folder/&amp;#060Ellipse&amp;#062 copy.xml" loadImmediate="false" itemID="6aa2ac63-00009c5e" lastModified="1786970745"/>
-          <Include href="Duplicate Items Folder/&amp;#060Ellipse&amp;#062 copy 3.xml" loadImmediate="false" itemID="6abb5c6a-000801b2" lastModified="1790500380"/>
-          <Include href="Duplicate Items Folder/&amp;#060Path&amp;#062_3_0 copy.xml" loadImmediate="false" itemID="6aa2ac63-00009c5c" lastModified="1786970745"/>
           <Include href="Duplicate Items Folder/&amp;#060Path&amp;#062_4_0 copy 2.xml" loadImmediate="false" itemID="6abb5c6a-000801b0" lastModified="1790254882"/>
           <Include href="Duplicate Items Folder/&amp;#060Path&amp;#062_4 copy 3.xml" loadImmediate="false" itemID="6abb5c6a-000801ae" lastModified="1790254882"/>
           <Include href="Duplicate Items Folder/&amp;#060Path&amp;#062_6 copy 2.xml" loadImmediate="false" itemID="6abb5c6a-000801ad" lastModified="1790254882"/>
@@ -775,53 +771,27 @@
           <Include href="flower copy 19.xml" loadImmediate="false" itemID="6aba6300-0006dd48" lastModified="1790600770"/>
           <Include href="flower copy 20.xml" loadImmediate="false" itemID="6aba6310-0006dd7b" lastModified="1790600784"/>
           <Include href="good.xml" loadImmediate="false" itemID="6a8581a1-00004b00" lastModified="1790500189"/>
-          <Include href="instructions_line_1_mc.xml" loadImmediate="false" itemID="18906c32-d3511ba9" lastModified="1793130331"/>
-          <Include href="instructions_line_2_mc.xml" loadImmediate="false" itemID="4048ec7f-f9b8fce0" lastModified="1793130331"/>
-          <Include href="instructions_line_3_mc.xml" loadImmediate="false" itemID="09b0f532-d835c8e3" lastModified="1793130331"/>
-          <Include href="instructions_notebook_mc.xml" loadImmediate="false" itemID="d75e996f-059039a1" lastModified="1793130331"/>
-          <Include href="instructions_number_1_mc.xml" loadImmediate="false" itemID="767a0702-486c6a69" lastModified="1793130331"/>
-          <Include href="instructions_number_2_mc.xml" loadImmediate="false" itemID="3a4289d7-7c028cf0" lastModified="1793130331"/>
-          <Include href="instructions_number_3_mc.xml" loadImmediate="false" itemID="6217c43c-09741084" lastModified="1793130331"/>
-          <Include href="instructions_title_mc.xml" loadImmediate="false" itemID="a8d910f4-bec4eb60" lastModified="1793130331"/>
-          <Include href="instructions_understood_button_mc.xml" loadImmediate="false" itemID="bdd801a4-23b06d7b" lastModified="1793130331"/>
-          <Include href="instructions_understood_label_mc.xml" loadImmediate="false" itemID="ca7c7572-2b6bbcf7" lastModified="1793130331"/>
-          <Include href="intro_background_mc.xml" loadImmediate="false" itemID="a5c23a5b-151544db" lastModified="1793129121"/>
-          <Include href="intro_box_glass_shine_mc.xml" loadImmediate="false" itemID="a687f6ac-f5de28d1" lastModified="1793129121"/>
-          <Include href="intro_close_button_mc.xml" loadImmediate="false" itemID="e5b1a95e-1518baba" lastModified="1793130331"/>
-          <Include href="intro_deco_star_1_mc.xml" loadImmediate="false" itemID="5fd13a09-8e550492" lastModified="1793130331"/>
-          <Include href="intro_deco_star_2_mc.xml" loadImmediate="false" itemID="0b271998-286dd0f5" lastModified="1793130331"/>
-          <Include href="intro_deco_star_3_mc.xml" loadImmediate="false" itemID="9a94d946-fdcc7a39" lastModified="1793130331"/>
-          <Include href="intro_deco_star_4_mc.xml" loadImmediate="false" itemID="22daf4c6-e271cd2e" lastModified="1793130331"/>
-          <Include href="intro_deco_star_5_mc.xml" loadImmediate="false" itemID="0b8324cf-e2d18015" lastModified="1793130331"/>
-          <Include href="intro_deco_star_6_mc.xml" loadImmediate="false" itemID="b597e904-c65bafef" lastModified="1793130331"/>
-          <Include href="intro_dream_box_mc.xml" loadImmediate="false" itemID="e3b67f3b-a2375eb6" lastModified="1793129121"/>
-          <Include href="intro_info_button_mc.xml" loadImmediate="false" itemID="05e6d87d-3b6eda6a" lastModified="1793130331"/>
-          <Include href="intro_kite_mc.xml" loadImmediate="false" itemID="e984c2ab-05512cff" lastModified="1793130331"/>
-          <Include href="intro_logo_mc.xml" loadImmediate="false" itemID="b4e1aeb9-216df139" lastModified="1793129121"/>
-          <Include href="intro_mute_off_mc.xml" loadImmediate="false" itemID="5f5b72db-daf8397d" lastModified="1793130331"/>
-          <Include href="intro_mute_on_mc.xml" loadImmediate="false" itemID="bee1b3f8-9695de5c" lastModified="1793130331"/>
-          <Include href="intro_rays_mc.xml" loadImmediate="false" itemID="80399dd4-fdbf0cf9" lastModified="1793129121"/>
-          <Include href="intro_start_button_mc.xml" loadImmediate="false" itemID="3765ea26-2e3a21b7" lastModified="1793129121"/>
-          <Include href="intro_start_label_mc.xml" loadImmediate="false" itemID="c4741980-9d4adeab" lastModified="1793129121"/>
-          <Include href="intro_title_text_mc.xml" loadImmediate="false" itemID="a0e10b4f-22afb73a" lastModified="1793130867"/>
-          <Include href="intro/intro_intro_decor_star_1_mc.xml" loadImmediate="false" itemID="6ae11286-00013379" lastModified="1793135008"/>
-          <Include href="intro/intro_intro_decor_star_2_mc.xml" loadImmediate="false" itemID="6ae11286-0001337a" lastModified="1793135008"/>
-          <Include href="intro/intro_intro_decor_star_3_mc.xml" loadImmediate="false" itemID="6ae11286-0001337b" lastModified="1793135008"/>
-          <Include href="intro/intro_intro_decor_star_4_mc.xml" loadImmediate="false" itemID="6ae11286-0001337c" lastModified="1793135008"/>
-          <Include href="intro/intro_intro_decor_star_5_mc.xml" loadImmediate="false" itemID="6ae11286-0001337d" lastModified="1793135008"/>
-          <Include href="intro/intro_intro_decor_star_6_mc.xml" loadImmediate="false" itemID="6ae11286-0001337e" lastModified="1793135008"/>
-          <Include href="intro/intro_intro_start_button_mc.xml" loadImmediate="false" itemID="6ae11286-00013377" lastModified="1793135008"/>
-          <Include href="intro/intro_intro_start_label_txt_mc.xml" loadImmediate="false" itemID="6ae11286-00013378" lastModified="1793135008"/>
-          <Include href="intro/intro_intro_title_txt_mc.xml" loadImmediate="false" itemID="6ae11286-00013376" lastModified="1793135008"/>
-          <Include href="intro/intro_shared_background_mc.xml" loadImmediate="false" itemID="6ae11286-0001337f" lastModified="1793135008"/>
-          <Include href="intro/intro_shared_close_button_mc.xml" loadImmediate="false" itemID="6ae11286-00013384" lastModified="1793135008"/>
-          <Include href="intro/intro_shared_dream_box_front_mc.xml" loadImmediate="false" itemID="6ae11286-00013381" lastModified="1793135008"/>
-          <Include href="intro/intro_shared_dream_box_shine_mc.xml" loadImmediate="false" itemID="6ae11286-00013382" lastModified="1793135008"/>
-          <Include href="intro/intro_shared_info_button_mc.xml" loadImmediate="false" itemID="6ae11286-00013385" lastModified="1793135008"/>
-          <Include href="intro/intro_shared_light_rays_mc.xml" loadImmediate="false" itemID="6ae11286-00013380" lastModified="1793135008"/>
-          <Include href="intro/intro_shared_logo_mc.xml" loadImmediate="false" itemID="6ae11286-00013383" lastModified="1793135008"/>
-          <Include href="intro/intro_shared_mute_off_mc.xml" loadImmediate="false" itemID="6ae11286-00013387" lastModified="1793135008"/>
-          <Include href="intro/intro_shared_mute_on_mc.xml" loadImmediate="false" itemID="6ae11286-00013386" lastModified="1793135008"/>
+          <Include href="intro_intro_start_button_mc.xml" loadImmediate="false" itemID="6ae11d59-000137e6" lastModified="1793138009"/>
+          <Include href="intro_shared_close_button_mc.xml" loadImmediate="false" itemID="6ae11d59-0001380d" lastModified="1793138009"/>
+          <Include href="intro_shared_info_button_mc.xml" loadImmediate="false" itemID="6ae11d5a-0001381e" lastModified="1793138010"/>
+          <Include href="intro_shared_mute_off_mc.xml" loadImmediate="false" itemID="6ae11d5b-00013840" lastModified="1793138011"/>
+          <Include href="intro_shared_mute_on_mc.xml" loadImmediate="false" itemID="6ae11d5a-0001382f" lastModified="1793138010"/>
+          <Include href="intro/intro_intro_decor_star_1_mc.xml" loadImmediate="false" itemID="6ae11d57-0001377a" lastModified="1793135008"/>
+          <Include href="intro/intro_intro_decor_star_2_mc.xml" loadImmediate="false" itemID="6ae11d57-0001377b" lastModified="1793135008"/>
+          <Include href="intro/intro_intro_decor_star_3_mc.xml" loadImmediate="false" itemID="6ae11d57-0001377c" lastModified="1793135008"/>
+          <Include href="intro/intro_intro_decor_star_4_mc.xml" loadImmediate="false" itemID="6ae11d57-0001377d" lastModified="1793135008"/>
+          <Include href="intro/intro_intro_decor_star_5_mc.xml" loadImmediate="false" itemID="6ae11d57-0001377e" lastModified="1793135008"/>
+          <Include href="intro/intro_intro_decor_star_6_mc.xml" loadImmediate="false" itemID="6ae11d57-0001377f" lastModified="1793135008"/>
+          <Include href="intro/intro_intro_start_button_mc.xml" loadImmediate="false" itemID="6ae11d57-00013780" lastModified="1793135008"/>
+          <Include href="intro/intro_shared_background_mc.xml" loadImmediate="false" itemID="6ae11d57-00013781" lastModified="1793135008"/>
+          <Include href="intro/intro_shared_close_button_mc.xml" loadImmediate="false" itemID="6ae11d57-00013782" lastModified="1793135008"/>
+          <Include href="intro/intro_shared_dream_box_front_mc.xml" loadImmediate="false" itemID="6ae11d57-00013783" lastModified="1793135008"/>
+          <Include href="intro/intro_shared_dream_box_shine_mc.xml" loadImmediate="false" itemID="6ae11d57-00013784" lastModified="1793135008"/>
+          <Include href="intro/intro_shared_info_button_mc.xml" loadImmediate="false" itemID="6ae11d57-00013785" lastModified="1793135008"/>
+          <Include href="intro/intro_shared_light_rays_mc.xml" loadImmediate="false" itemID="6ae11d57-00013786" lastModified="1793135008"/>
+          <Include href="intro/intro_shared_logo_mc.xml" loadImmediate="false" itemID="6ae11d57-00013787" lastModified="1793135008"/>
+          <Include href="intro/intro_shared_mute_off_mc.xml" loadImmediate="false" itemID="6ae11d57-00013788" lastModified="1793135008"/>
+          <Include href="intro/intro_shared_mute_on_mc.xml" loadImmediate="false" itemID="6ae11d57-00013789" lastModified="1793135008"/>
           <Include href="overlay.xml" loadImmediate="false" itemID="6a843845-000009ac" lastModified="1787504795"/>
           <Include href="pointer.xml" loadImmediate="false" itemID="6a857474-00001c29" lastModified="1790581212"/>
           <Include href="squirrel copy 4.xml" loadImmediate="false" itemID="6aa2968e-0000040b" lastModified="1789642536"/>
@@ -832,7 +802,6 @@
           <Include href="Symbol 3 copy 3.xml" loadImmediate="false" itemID="6aba4b46-0005934a" lastModified="1790594170"/>
           <Include href="Symbol 3 copy 4.xml" loadImmediate="false" itemID="6aba4bd4-00059fd8" lastModified="1790594121"/>
           <Include href="Symbol 3 copy 5.xml" loadImmediate="false" itemID="6aba4bff-0005a022" lastModified="1790594047"/>
-          <Include href="Symbol 4.xml" loadImmediate="false" itemID="6ae105ad-00012f95" lastModified="1793131949"/>
           <Include href="Symbol 5.xml" loadImmediate="false" itemID="6ab91375-0003123e" lastModified="1790516604"/>
           <Include href="Symbol 5 copy.xml" loadImmediate="false" itemID="6ab91655-00031257" lastModified="1790516612"/>
           <Include href="Symbol 5 copy 2.xml" loadImmediate="false" itemID="6ab9165b-0003125b" lastModified="1790516619"/>
@@ -981,9 +950,9 @@
           <Include href="Tween 115.xml" itemIcon="1" loadImmediate="false" itemID="6abc0ca8-000009a9" lastModified="1790708904"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="6" layerDepthEnabled="true">
+          <DOMTimeline name="Scene 1" currentFrame="7" layerDepthEnabled="true">
                <layers>
-                    <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+                    <DOMLayer name="Layer_1" color="#00FFFF" locked="true" visible="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -1008,7 +977,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Layer_2" color="#9933CC">
+                    <DOMLayer name="Layer_2" color="#9933CC" locked="true" visible="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <Framescript language="JavaScript">
@@ -2388,7 +2357,368 @@ window.scormHandlerReady.then(function () {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="logo" color="#9933CC" autoNamed="false" visible="false">
+                    <DOMLayer name="intro_content_intro_title_txt_layer" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="7" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="7" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="intro_title_txt" fontRenderingMode="standard" width="38.45" height="245.7" isSelectable="false" lineType="multiline">
+                                             <matrix>
+                                                  <Matrix tx="-107374182.4" ty="-107374182.4"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>صندوق</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="right" aliasText="false" autoKern="false" lineHeight="39.1" size="35" bitmapSize="700" face="ArialNarrow" fillColor="#3366FF"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                                  <DOMTextRun>
+                                                       <characters> </characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="right" aliasText="false" autoKern="false" lineHeight="39.6" size="35" bitmapSize="700" face="ArialNarrow" fillColor="#3366FF"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                                  <DOMTextRun>
+                                                       <characters>الأحلام</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="right" aliasText="false" autoKern="false" lineHeight="39.1" size="35" bitmapSize="700" face="ArialNarrow" fillColor="#3366FF"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                                  <DOMTextRun>
+                                                       <characters></characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="right" aliasText="false" autoKern="false" lineHeight="39.6" size="35" bitmapSize="700" face="ArialNarrow" fillColor="#3366FF"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="intro_fx_intro_deco_star_6_layer" color="#FF4FFF" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="7" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="7" keyMode="9728">
+                                   <elements>
+                                        <DOMBitmapInstance name="intro_deco_star_6" libraryItemName="intro_2/intro_intro_star">
+                                             <matrix>
+                                                  <Matrix tx="332" ty="638.85"/>
+                                             </matrix>
+                                        </DOMBitmapInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="intro_fx_intro_deco_star_5_layer" color="#FF4FFF" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="7" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="7" keyMode="9728">
+                                   <elements>
+                                        <DOMBitmapInstance name="intro_deco_star_5" libraryItemName="intro_2/intro_intro_star">
+                                             <matrix>
+                                                  <Matrix tx="163" ty="579.45"/>
+                                             </matrix>
+                                        </DOMBitmapInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="intro_fx_intro_deco_star_4_layer" color="#FF4FFF" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="7" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="7" keyMode="9728">
+                                   <elements>
+                                        <DOMBitmapInstance name="intro_deco_star_4" libraryItemName="intro_2/intro_intro_star">
+                                             <matrix>
+                                                  <Matrix tx="452" ty="518.2"/>
+                                             </matrix>
+                                        </DOMBitmapInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="intro_fx_intro_deco_star_3_layer" color="#FF4FFF" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="7" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="7" keyMode="9728">
+                                   <elements>
+                                        <DOMBitmapInstance name="intro_deco_star_3" libraryItemName="intro_2/intro_intro_star">
+                                             <matrix>
+                                                  <Matrix tx="274" ty="435.7"/>
+                                             </matrix>
+                                        </DOMBitmapInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="intro_ui_intro_start_button_layer" color="#FF4FFF" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="7" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="7" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="intro_intro_start_button_mc" name="intro_start_button">
+                                             <matrix>
+                                                  <Matrix tx="12.45" ty="81.45"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="-115200" y="-115200"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="intro_fx_intro_kite_layer" color="#FF4FFF" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="7" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="7" keyMode="9728">
+                                   <elements>
+                                        <DOMBitmapInstance name="intro_kite" libraryItemName="intro_2/intro_shared_kite">
+                                             <matrix>
+                                                  <Matrix tx="1288" ty="305"/>
+                                             </matrix>
+                                        </DOMBitmapInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="intro_ui_shared_logo_layer" color="#FF4FFF" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="7" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="7" keyMode="9728">
+                                   <elements>
+                                        <DOMBitmapInstance name="intro_shared_logo" libraryItemName="intro_2/intro_ui_logo">
+                                             <matrix>
+                                                  <Matrix tx="120" ty="190"/>
+                                             </matrix>
+                                        </DOMBitmapInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="intro_dynamic_shared_close_button_layer" color="#FF4FFF" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="7" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="7" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="intro_shared_close_button_mc" name="intro_shared_close_button">
+                                             <matrix>
+                                                  <Matrix tx="1640" ty="220"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="intro_dynamic_shared_info_button_layer" color="#FF4FFF" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="7" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="7" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="intro_shared_info_button_mc" name="intro_shared_info_button">
+                                             <matrix>
+                                                  <Matrix tx="1568" ty="220"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="intro_ui_shared_mute_on_layer" color="#FF4FFF" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="7" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="7" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="intro_shared_mute_on_mc" name="intro_shared_mute_on" selected="true">
+                                             <matrix>
+                                                  <Matrix tx="1496" ty="220"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="intro_ui_shared_mute_off_layer" color="#FF4FFF" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="7" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="7" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="intro_shared_mute_off_mc" name="intro_shared_mute_off">
+                                             <matrix>
+                                                  <Matrix tx="1496" ty="220"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="intro_fx_intro_kite_trail_layer" color="#FF4FFF" locked="true" autoNamed="false" visible="false">
+                         <frames>
+                              <DOMFrame index="0" duration="7" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="7" keyMode="9728">
+                                   <elements>
+                                        <DOMShape>
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#3366FF"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <strokes>
+                                                  <StrokeStyle index="1">
+                                                       <SolidStroke scaleMode="normal">
+                                                            <fill>
+                                                                 <SolidColor color="#FF0000"/>
+                                                            </fill>
+                                                       </SolidStroke>
+                                                  </StrokeStyle>
+                                             </strokes>
+                                             <edges>
+                                                  <Edge fillStyle0="1" edges="!32199 3799S1|33401 3799!33401 3799|33401 5001!33401 5001|32199 5001!32199 5001|32199 3799!29319 3799|30521 3799!30521 3799|30521 5001!30521 5001|29319 5001!29319 5001|29319 3799!30759 3799|31961 3799!31961 3799|31961 5001!31961 5001
+|30759 5001!30759 5001|30759 3799"/>
+                                                  <Edge fillStyle1="1" strokeStyle="1" edges="
+!0 0S6|36000 0!36000 0|36000 24000!36000 24000|0 24000!0 24000|0 0"/>
+                                                  <Edge fillStyle0="1" edges="
+!14399 9639S1|21581 9639!21581 9639|21581 12221!21581 12221|14399 12221!14399 12221|14399 9639"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="intro_board_intro_box_shine_layer" color="#FF4FFF" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="7" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="7" keyMode="9728">
+                                   <elements>
+                                        <DOMBitmapInstance name="intro_box_shine" libraryItemName="intro_2/intro_shared_glass_shine">
+                                             <matrix>
+                                                  <Matrix tx="615.5" ty="655"/>
+                                             </matrix>
+                                        </DOMBitmapInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="intro_board_intro_box_front_layer" color="#FF4FFF" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="7" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="7" keyMode="9728">
+                                   <elements>
+                                        <DOMBitmapInstance name="intro_box_front" libraryItemName="intro_2/intro_shared_box_front">
+                                             <matrix>
+                                                  <Matrix tx="615.5" ty="655"/>
+                                             </matrix>
+                                        </DOMBitmapInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="intro_fx_intro_deco_star_2_layer" color="#FF4FFF" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="7" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="7" keyMode="9728">
+                                   <elements>
+                                        <DOMBitmapInstance name="intro_deco_star_2" libraryItemName="intro_2/intro_intro_star">
+                                             <matrix>
+                                                  <Matrix tx="380" ty="281.3"/>
+                                             </matrix>
+                                        </DOMBitmapInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="intro_fx_intro_deco_star_1_layer" color="#FF4FFF" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="7" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="7" keyMode="9728">
+                                   <elements>
+                                        <DOMBitmapInstance name="intro_deco_star_1" libraryItemName="intro_2/intro_intro_star">
+                                             <matrix>
+                                                  <Matrix tx="185" ty="307"/>
+                                             </matrix>
+                                        </DOMBitmapInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="intro_bg_shared_light_rays_layer" color="#FF4FFF" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="7" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="7" keyMode="9728">
+                                   <elements>
+                                        <DOMBitmapInstance name="intro_shared_light_rays" selected="true" libraryItemName="intro_2/intro_bg_light_rays"/>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="intro_bg_intro_background_layer" color="#FF4FFF" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="7" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="7" name="intro" labelType="name" keyMode="9728">
+                                   <elements>
+                                        <DOMBitmapInstance name="intro_background" selected="true" libraryItemName="intro_2/intro_bg_plate">
+                                             <matrix>
+                                                  <Matrix tx="-644" ty="-447"/>
+                                             </matrix>
+                                        </DOMBitmapInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="intro" color="#FF4FFF" locked="true" autoNamed="false" visible="false" layerType="folder"/>
+                    <DOMLayer name="logo" color="#9933CC" locked="true" autoNamed="false" visible="false">
                          <frames>
                               <DOMFrame index="0" duration="7" keyMode="9728" rigPropagationMatrix='{"a":45224,"b":0,"c":0,"d":57697,"tx":0,"ty":0}'>
                                    <elements>
@@ -2404,7 +2734,7 @@ window.scormHandlerReady.then(function () {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="new_overly" color="#00FFFF" autoNamed="false" visible="false">
+                    <DOMLayer name="new_overly" color="#00FFFF" locked="true" autoNamed="false" visible="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -2431,7 +2761,7 @@ window.scormHandlerReady.then(function () {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="overly" color="#FF4FFF" autoNamed="false" visible="false" layerType="guide">
+                    <DOMLayer name="overly" color="#FF4FFF" locked="true" autoNamed="false" visible="false" layerType="guide">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -2458,7 +2788,7 @@ window.scormHandlerReady.then(function () {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="blocker" color="#FF4FFF" autoNamed="false" visible="false">
+                    <DOMLayer name="blocker" color="#FF4FFF" locked="true" autoNamed="false" visible="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -2474,7 +2804,7 @@ window.scormHandlerReady.then(function () {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="pointer" color="#FF800A" autoNamed="false" visible="false">
+                    <DOMLayer name="pointer" color="#FF800A" locked="true" autoNamed="false" visible="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -2487,7 +2817,7 @@ window.scormHandlerReady.then(function () {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="side_btns" color="#00FFFF" autoNamed="false" visible="false">
+                    <DOMLayer name="side_btns" color="#00FFFF" locked="true" autoNamed="false" visible="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -2525,7 +2855,7 @@ window.scormHandlerReady.then(function () {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="progress_bar" color="#00FFFF" autoNamed="false" visible="false">
+                    <DOMLayer name="progress_bar" color="#00FFFF" locked="true" autoNamed="false" visible="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -2547,7 +2877,7 @@ window.scormHandlerReady.then(function () {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="celebrate" color="#00FFFF" autoNamed="false" visible="false">
+                    <DOMLayer name="celebrate" color="#00FFFF" locked="true" autoNamed="false" visible="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -2569,7 +2899,7 @@ window.scormHandlerReady.then(function () {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="squirrel" color="#FF4FFF" autoNamed="false" visible="false">
+                    <DOMLayer name="squirrel" color="#FF4FFF" locked="true" autoNamed="false" visible="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -2591,7 +2921,7 @@ window.scormHandlerReady.then(function () {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="idel_squirrel" color="#FF4FFF" autoNamed="false" visible="false">
+                    <DOMLayer name="idel_squirrel" color="#FF4FFF" locked="true" autoNamed="false" visible="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -2613,7 +2943,7 @@ window.scormHandlerReady.then(function () {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="count_items" color="#009999" autoNamed="false" visible="false">
+                    <DOMLayer name="count_items" color="#009999" locked="true" autoNamed="false" visible="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -2680,7 +3010,7 @@ window.scormHandlerReady.then(function () {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="ten_frame" color="#009999" autoNamed="false" visible="false">
+                    <DOMLayer name="ten_frame" color="#009999" locked="true" autoNamed="false" visible="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -2750,7 +3080,7 @@ window.scormHandlerReady.then(function () {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="hand_animation" color="#00FFFF" autoNamed="false" visible="false">
+                    <DOMLayer name="hand_animation" color="#00FFFF" locked="true" autoNamed="false" visible="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -2772,7 +3102,7 @@ window.scormHandlerReady.then(function () {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="animation" color="#FF4FFF" autoNamed="false" visible="false">
+                    <DOMLayer name="animation" color="#FF4FFF" locked="true" autoNamed="false" visible="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
@@ -2794,7 +3124,7 @@ window.scormHandlerReady.then(function () {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="flash0_ai" color="#00FFFF" autoNamed="false" visible="false">
+                    <DOMLayer name="flash0_ai" color="#00FFFF" locked="true" autoNamed="false" visible="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -2807,7 +3137,7 @@ window.scormHandlerReady.then(function () {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="flash0_ai" color="#00FFFF" autoNamed="false" visible="false">
+                    <DOMLayer name="flash0_ai" color="#00FFFF" locked="true" autoNamed="false" visible="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -2824,7 +3154,8 @@ window.scormHandlerReady.then(function () {
                                                   </FillStyle>
                                              </fills>
                                              <edges>
-                                                  <Edge fillStyle0="1" edges="!13668 1900|17408 2738!17408 2738[17617 2785 17798 2670!17798 2670[17979 2556 18026 2347!18026 2347|18223 1468!18223 1468[18269 1259 18155 1079!18155 1079[18040 897 17831 851!17831 851|14091 13!14091 13[13882 -34 13701 80!13701 80[13520
+                                                  <Edge fillStyle0="1" edges="
+!13668 1900|17408 2738!17408 2738[17617 2785 17798 2670!17798 2670[17979 2556 18026 2347!18026 2347|18223 1468!18223 1468[18269 1259 18155 1079!18155 1079[18040 897 17831 851!17831 851|14091 13!14091 13[13882 -34 13701 80!13701 80[13520
  195 13473 404!13473 404|13276 1283!13276 1283[13229 1492 13344 1673!13344 1673[13459 1854 13668 1900"/>
                                                   <Edge cubics="!13668 1900(;13668,1900 17408,2738 17408,2738q13668 1900 17408 2738);"/>
                                                   <Edge cubics="!17408 2738(;17687,2801 17964,2625 18026,2347q17408 2738Q17617 2785q17798 2670Q17979 2556q18026 2347);"/>
@@ -3115,9 +3446,9 @@ window.scormHandlerReady.then(function () {
                                                                  </fills>
                                                                  <edges>
                                                                       <Edge fillStyle1="1" edges="
-!857 840|857 782.5!857 782.5[#345.01 #328.55 809 825!809 825[766 851 714 851!714 851[649 851 599 814!599 814[548 778 518 716!518 716[489 652 489 577!489 577[489 500 518 436!518 436[548 375 599 337!599 337[650 301 714 301!714 301[768 301
- 809 326!809 326[#345.53 #158.E2 857 370.5!857 370.5|857 312!857 312|964 312!964 312|964 840!964 840|857 840!731 736[791 736 827 691!827 691[864 645 864 576!864 576[864 529 847 492!847 492[830 456 801 435!801 435[770 415 731 415!731 415
-[692 415 663 435!663 435[632 457 616 492!616 492[599 526 599 576!599 576[599 625 616 659!616 659[632 695 663 716!663 716[692 736 731 736"/>
+!731 736[791 736 827 691!827 691[864 645 864 576!864 576[864 529 847 492!847 492[830 456 801 435!801 435[770 415 731 415!731 415[692 415 663 435!663 435[632 457 616 492!616 492[599 526 599 576!599 576[599 625 616 659!616 659[632 695 663
+ 716!663 716[692 736 731 736!857 840|857 782.5!857 782.5[#345.01 #328.55 809 825!809 825[766 851 714 851!714 851[649 851 599 814!599 814[548 778 518 716!518 716[489 652 489 577!489 577[489 500 518 436!518 436[548 375 599 337!599 337[650
+ 301 714 301!714 301[768 301 809 326!809 326[#345.53 #158.E2 857 370.5!857 370.5|857 312!857 312|964 312!964 312|964 840!964 840|857 840"/>
                                                                       <Edge cubics="!857 840(;857,840 857,783 857,783q857 840 857 783);"/>
                                                                       <Edge cubics="!857 371(;857,371 857,312 857,312q857 371 857 312);"/>
                                                                       <Edge cubics="!857 312(;857,312 964,312 964,312q857 312 964 312);"/>
@@ -3157,10 +3488,9 @@ window.scormHandlerReady.then(function () {
                                                                  </fills>
                                                                  <edges>
                                                                       <Edge fillStyle1="1" edges="
-!1333 851[1280 851 1237 825!1237 825[#4B9.BE #327.B7 1190 782!1190 782|1190 1060!1190 1060|1083 1060!1083 1060|1083 312!1083 312|1190 312!1190 312|1190 369.5!1190 369.5[#4B9.54 #158.E6 1238 326!1238 326[1279 301 1333 301!1333 301[1396
- 301 1447 337!1447 337[1498 375 1528 436!1528 436[1558 499 1558 577!1558 577[1558 653 1528 716!1528 716[1498 778 1447 814!1447 814[1397 851 1333 851!1315 736[1353 736 1384 716!1384 716[1412 696 1431 659!1431 659[1448 622 1448 576!1448
- 576[1448 529 1431 492!1431 492[1412 455 1384 435!1384 435[1353 415 1315 415!1315 415[1277 415 1246 435!1246 435[1217 456 1200 492!1200 492[1183 526 1183 576!1183 576[1183 625 1200 659!1200 659[1217 696 1246 716!1246 716[1277 736 1315
- 736"/>
+!1315 736[1353 736 1384 716!1384 716[1412 696 1431 659!1431 659[1448 622 1448 576!1448 576[1448 529 1431 492!1431 492[1412 455 1384 435!1384 435[1353 415 1315 415!1315 415[1277 415 1246 435!1246 435[1217 456 1200 492!1200 492[1183 526
+ 1183 576!1183 576[1183 625 1200 659!1200 659[1217 696 1246 716!1246 716[1277 736 1315 736!1333 851[1280 851 1237 825!1237 825[#4B9.BE #327.B7 1190 782!1190 782|1190 1060!1190 1060|1083 1060!1083 1060|1083 312!1083 312|1190 312!1190 312
+|1190 369.5!1190 369.5[#4B9.54 #158.E6 1238 326!1238 326[1279 301 1333 301!1333 301[1396 301 1447 337!1447 337[1498 375 1528 436!1528 436[1558 499 1558 577!1558 577[1558 653 1528 716!1528 716[1498 778 1447 814!1447 814[1397 851 1333 851"/>
                                                                       <Edge cubics="!1315 736(;1341,736 1364,729 1384,716q1315 736Q1353 736q1384 716);"/>
                                                                       <Edge cubics="!1384 716(;1404,702 1419,683 1431,659q1384 716Q1412 696q1431 659);"/>
                                                                       <Edge cubics="!1431 659(;1442,635 1448,607 1448,576q1431 659Q1448 622q1448 576);"/>
@@ -3201,10 +3531,10 @@ window.scormHandlerReady.then(function () {
                                                                  </fills>
                                                                  <edges>
                                                                       <Edge fillStyle1="1" edges="
-!2171 522[#877.31 #1F3.A8 2159 480!2159 480[2144 447 2117 429!2117 429[2089 412 2051 412!2051 412[2009 412 1980 432!1980 432[1950 451 1934 487!1934 487[#786.75 #1F7.6B 1922.5 522!1922.5 522|2171 522!2059 851[1989 851 1933 815!1933 815
-[1876 778 1845 716!1845 716[1812 655 1812 576!1812 576[1812 499 1844 435!1844 435[1875 374 1931 337!1931 337[1987 301 2053 301!2053 301[2119 301 2169 335!2169 335[2217 367 2248 428!2248 428[2276 487 2276 564!2276 564|2275 590!2275 590
-|2270 621!2270 621|1922 621!1922 621[#786.78 #281.76 1935 659!1935 659[1951 695 1984 717!1984 717[2015 737 2058 737!2058 737[2096 737 2125 723!2125 723[2157 709 2177 681!2177 681|2245 759!2245 759[2210 805 2162 828!2162 828[2113 851 2059
- 851"/>
+!2059 851[1989 851 1933 815!1933 815[1876 778 1845 716!1845 716[1812 655 1812 576!1812 576[1812 499 1844 435!1844 435[1875 374 1931 337!1931 337[1987 301 2053 301!2053 301[2119 301 2169 335!2169 335[2217 367 2248 428!2248 428[2276 487
+ 2276 564!2276 564|2275 590!2275 590|2270 621!2270 621|1922 621!1922 621[#786.78 #281.76 1935 659!1935 659[1951 695 1984 717!1984 717[2015 737 2058 737!2058 737[2096 737 2125 723!2125 723[2157 709 2177 681!2177 681|2245 759!2245 759[2210
+ 805 2162 828!2162 828[2113 851 2059 851!2171 522[#877.31 #1F3.A8 2159 480!2159 480[2144 447 2117 429!2117 429[2089 412 2051 412!2051 412[2009 412 1980 432!1980 432[1950 451 1934 487!1934 487[#786.75 #1F7.6B 1922.5 522!1922.5 522|2171
+ 522"/>
                                                                       <Edge cubics="!2059 851(;2012,851 1970,839 1933,815q2059 851Q1989 851q1933 815);"/>
                                                                       <Edge cubics="!1933 815(;1896,791 1866,758 1845,716q1933 815Q1876 778q1845 716);"/>
                                                                       <Edge cubics="!1845 716(;1823,675 1812,628 1812,576q1845 716Q1812 655q1812 576);"/>
@@ -3532,9 +3862,9 @@ window.scormHandlerReady.then(function () {
                                                                  </fills>
                                                                  <edges>
                                                                       <Edge fillStyle1="1" edges="
-!7054 851[6987 851 6930 814!6930 814[6875 777 6842 714!6842 714[6809 651 6809 575!6809 575[6809 498 6842 436!6842 436[6875 374 6930 337!6930 337[6986 301 7054 301!7054 301[7123 301 7178 337!7178 337[7234 373 7267 435!7267 435[7299 499
- 7299 575!7299 575[7299 650 7267 714!7267 714[7235 776 7178 814!7178 814[7121 851 7054 851!7054 734[7093 734 7124 714!7124 714[7156 693 7172 657!7172 657[7189 620 7189 575!7189 575[7189 530 7172 493!7172 493[7153 457 7124 438!7124 438
-[7094 417 7054 417!7054 417[7016 417 6984 438!6984 438[6954 458 6937 493!6937 493[6919 529 6919 575!6919 575[6919 621 6937 657!6937 657[6953 693 6984 714!6984 714[7016 734 7054 734"/>
+!7054 734[7093 734 7124 714!7124 714[7156 693 7172 657!7172 657[7189 620 7189 575!7189 575[7189 530 7172 493!7172 493[7153 457 7124 438!7124 438[7094 417 7054 417!7054 417[7016 417 6984 438!6984 438[6954 458 6937 493!6937 493[6919 529
+ 6919 575!6919 575[6919 621 6937 657!6937 657[6953 693 6984 714!6984 714[7016 734 7054 734!7054 851[6987 851 6930 814!6930 814[6875 777 6842 714!6842 714[6809 651 6809 575!6809 575[6809 498 6842 436!6842 436[6875 374 6930 337!6930 337
+[6986 301 7054 301!7054 301[7123 301 7178 337!7178 337[7234 373 7267 435!7267 435[7299 499 7299 575!7299 575[7299 650 7267 714!7267 714[7235 776 7178 814!7178 814[7121 851 7054 851"/>
                                                                       <Edge cubics="!7054 734(;7080,734 7104,727 7124,714q7054 734Q7093 734q7124 714);"/>
                                                                       <Edge cubics="!7124 714(;7145,700 7161,681 7172,657q7124 714Q7156 693q7172 657);"/>
                                                                       <Edge cubics="!7172 657(;7183,633 7189,605 7189,575q7172 657Q7189 620q7189 575);"/>
@@ -3610,9 +3940,9 @@ window.scormHandlerReady.then(function () {
                                                                  </fills>
                                                                  <edges>
                                                                       <Edge fillStyle1="1" edges="
-!8261 851[8194 851 8137 814!8137 814[8082 777 8049 714!8049 714[8017 650 8017 575!8017 575[8017 499 8049 436!8049 436[8082 374 8137 337!8137 337[8193 301 8261 301!8261 301[8331 301 8386 337!8386 337[8440 372 8474 435!8474 435[8506 496
- 8506 575!8506 575[8506 653 8474 714!8474 714[8441 777 8386 814!8386 814[8329 851 8261 851!8261 734[8300 734 8332 714!8332 714[8363 693 8379 657!8379 657[8396 623 8396 575!8396 575[8396 527 8379 493!8379 493[8360 457 8331 438!8331 438
-[8301 417 8261 417!8261 417[8223 417 8191 438!8191 438[8161 458 8144 493!8144 493[8127 527 8127 575!8127 575[8127 623 8144 657!8144 657[8160 693 8191 714!8191 714[8223 734 8261 734"/>
+!8261 734[8300 734 8332 714!8332 714[8363 693 8379 657!8379 657[8396 623 8396 575!8396 575[8396 527 8379 493!8379 493[8360 457 8331 438!8331 438[8301 417 8261 417!8261 417[8223 417 8191 438!8191 438[8161 458 8144 493!8144 493[8127 527
+ 8127 575!8127 575[8127 623 8144 657!8144 657[8160 693 8191 714!8191 714[8223 734 8261 734!8261 851[8194 851 8137 814!8137 814[8082 777 8049 714!8049 714[8017 650 8017 575!8017 575[8017 499 8049 436!8049 436[8082 374 8137 337!8137 337
+[8193 301 8261 301!8261 301[8331 301 8386 337!8386 337[8440 372 8474 435!8474 435[8506 496 8506 575!8506 575[8506 653 8474 714!8474 714[8441 777 8386 814!8386 814[8329 851 8261 851"/>
                                                                       <Edge cubics="!8261 734(;8288,734 8311,727 8332,714q8261 734Q8300 734q8332 714);"/>
                                                                       <Edge cubics="!8332 714(;8352,700 8368,681 8379,657q8332 714Q8363 693q8379 657);"/>
                                                                       <Edge cubics="!8379 657(;8391,633 8396,605 8396,575q8379 657Q8396 623q8396 575);"/>
@@ -3797,9 +4127,9 @@ window.scormHandlerReady.then(function () {
                                                                  </fills>
                                                                  <edges>
                                                                       <Edge fillStyle1="1" edges="
-!857 792|857 734.5!857 734.5[#345.01 #2F8.55 809 777!809 777[766 803 714 803!714 803[649 803 599 766!599 766[548 730 518 668!518 668[489 605 489 529!489 529[489 452 518 389!518 389[548 326 599 290!599 290[649 253 714 253!714 253[769 253
- 809 279!809 279[#344.F4 #128.BA 857 323.5!857 323.5|857 264!857 264|964 264!964 264|964 792!964 792|857 792!731 688[791 688 827 643!827 643[864 597 864 528!864 528[864 481 847 444!847 444[830 407 801 388!801 388[771 367 731 367!731 367
-[692 367 663 388!663 388[633 408 616 444!616 444[599 478 599 528!599 528[599 577 616 611!616 611[631 646 663 668!663 668[690 688 731 688"/>
+!731 688[791 688 827 643!827 643[864 597 864 528!864 528[864 481 847 444!847 444[830 407 801 388!801 388[771 367 731 367!731 367[692 367 663 388!663 388[633 408 616 444!616 444[599 478 599 528!599 528[599 577 616 611!616 611[631 646 663
+ 668!663 668[690 688 731 688!857 792|857 734.5!857 734.5[#345.01 #2F8.55 809 777!809 777[766 803 714 803!714 803[649 803 599 766!599 766[548 730 518 668!518 668[489 605 489 529!489 529[489 452 518 389!518 389[548 326 599 290!599 290[649
+ 253 714 253!714 253[769 253 809 279!809 279[#344.F4 #128.BA 857 323.5!857 323.5|857 264!857 264|964 264!964 264|964 792!964 792|857 792"/>
                                                                       <Edge cubics="!857 792(;857,792 857,735 857,735q857 792 857 735);"/>
                                                                       <Edge cubics="!857 324(;857,324 857,264 857,264q857 324 857 264);"/>
                                                                       <Edge cubics="!857 264(;857,264 964,264 964,264q857 264 964 264);"/>
@@ -3839,9 +4169,9 @@ window.scormHandlerReady.then(function () {
                                                                  </fills>
                                                                  <edges>
                                                                       <Edge fillStyle1="1" edges="
-!1333 803[1280 803 1237 777!1237 777[#4B9.BE #2F7.B7 1190 734!1190 734|1190 1012!1190 1012|1083 1012!1083 1012|1083 264!1083 264|1190 264!1190 264|1190 322.5!1190 322.5[#4B9.FF 297 1238 279!1238 279[1278 253 1333 253!1333 253[1397 253
- 1447 290!1447 290[1498 326 1528 389!1528 389[1558 451 1558 529!1558 529[1558 607 1528 668!1528 668[1498 730 1447 766!1447 766[1397 803 1333 803!1315 688[1355 688 1384 668!1384 668[1414 647 1431 611!1431 611[1448 574 1448 528!1448 528
-[1448 481 1431 444!1431 444[1412 406 1384 388!1384 388[1354 367 1315 367!1315 367[1276 367 1246 388!1246 388[1217 407 1200 444!1200 444[1183 478 1183 528!1183 528[1183 577 1200 611!1200 611[1216 647 1246 668!1246 668[1275 688 1315 688"/>
+!1315 688[1355 688 1384 668!1384 668[1414 647 1431 611!1431 611[1448 574 1448 528!1448 528[1448 481 1431 444!1431 444[1412 406 1384 388!1384 388[1354 367 1315 367!1315 367[1276 367 1246 388!1246 388[1217 407 1200 444!1200 444[1183 478
+ 1183 528!1183 528[1183 577 1200 611!1200 611[1216 647 1246 668!1246 668[1275 688 1315 688!1333 803[1280 803 1237 777!1237 777[#4B9.BE #2F7.B7 1190 734!1190 734|1190 1012!1190 1012|1083 1012!1083 1012|1083 264!1083 264|1190 264!1190 264
+|1190 322.5!1190 322.5[#4B9.FF 297 1238 279!1238 279[1278 253 1333 253!1333 253[1397 253 1447 290!1447 290[1498 326 1528 389!1528 389[1558 451 1558 529!1558 529[1558 607 1528 668!1528 668[1498 730 1447 766!1447 766[1397 803 1333 803"/>
                                                                       <Edge cubics="!1315 688(;1341,688 1364,682 1384,668q1315 688Q1355 688q1384 668);"/>
                                                                       <Edge cubics="!1384 668(;1404,654 1419,636 1431,611q1384 668Q1414 647q1431 611);"/>
                                                                       <Edge cubics="!1431 611(;1442,587 1448,559 1448,528q1431 611Q1448 574q1448 528);"/>
@@ -3882,10 +4212,10 @@ window.scormHandlerReady.then(function () {
                                                                  </fills>
                                                                  <edges>
                                                                       <Edge fillStyle1="1" edges="
-!2171 474[#877.31 #1C3.A8 2159 432!2159 432[2144 399 2117 381!2117 381[2089 364 2051 364!2051 364[2009 364 1980 384!1980 384[1950 403 1934 439!1934 439[#786.75 #1C7.6B 1922.5 474!1922.5 474|2171 474!2059 803[1989 803 1933 767!1933 767
-[1876 730 1845 669!1845 669[1812 606 1812 528!1812 528[1812 451 1844 388!1844 388[1875 327 1931 289!1931 289[1987 253 2053 253!2053 253[2119 253 2169 287!2169 287[2218 321 2248 380!2248 380[2276 439 2276 516!2276 516|2275 543!2275 543
-|2270 573!2270 573|1922 573!1922 573[#786.78 #251.76 1935 611!1935 611[1952 649 1984 669!1984 669[2015 689 2058 689!2058 689[2096 689 2125 675!2125 675[2157 661 2177 633!2177 633|2245 711!2245 711[2212 756 2162 780!2162 780[2113 803 2059
- 803"/>
+!2059 803[1989 803 1933 767!1933 767[1876 730 1845 669!1845 669[1812 606 1812 528!1812 528[1812 451 1844 388!1844 388[1875 327 1931 289!1931 289[1987 253 2053 253!2053 253[2119 253 2169 287!2169 287[2218 321 2248 380!2248 380[2276 439
+ 2276 516!2276 516|2275 543!2275 543|2270 573!2270 573|1922 573!1922 573[#786.78 #251.76 1935 611!1935 611[1952 649 1984 669!1984 669[2015 689 2058 689!2058 689[2096 689 2125 675!2125 675[2157 661 2177 633!2177 633|2245 711!2245 711[2212
+ 756 2162 780!2162 780[2113 803 2059 803!2171 474[#877.31 #1C3.A8 2159 432!2159 432[2144 399 2117 381!2117 381[2089 364 2051 364!2051 364[2009 364 1980 384!1980 384[1950 403 1934 439!1934 439[#786.75 #1C7.6B 1922.5 474!1922.5 474|2171
+ 474"/>
                                                                       <Edge cubics="!2059 803(;2012,803 1970,791 1933,767q2059 803Q1989 803q1933 767);"/>
                                                                       <Edge cubics="!1933 767(;1896,743 1866,710 1845,669q1933 767Q1876 730q1845 669);"/>
                                                                       <Edge cubics="!1845 669(;1823,627 1812,580 1812,528q1845 669Q1812 606q1812 528);"/>
@@ -4213,9 +4543,9 @@ window.scormHandlerReady.then(function () {
                                                                  </fills>
                                                                  <edges>
                                                                       <Edge fillStyle1="1" edges="
-!7054 803[6985 803 6930 766!6930 766[6875 729 6842 666!6842 666[6809 605 6809 527!6809 527[6809 450 6842 388!6842 388[6876 325 6930 290!6930 290[6985 253 7054 253!7054 253[7123 253 7178 289!7178 289[7234 326 7267 388!7267 388[7299 451
- 7299 527!7299 527[7299 604 7267 666!7267 666[7235 728 7178 766!7178 766[7123 803 7054 803!7054 686[7093 686 7124 666!7124 666[7156 645 7172 609!7172 609[7189 572 7189 527!7189 527[7189 482 7172 445!7172 445[7153 409 7124 390!7124 390
-[7094 369 7054 369!7054 369[7016 369 6984 390!6984 390[6954 410 6937 445!6937 445[6919 481 6919 527!6919 527[6919 573 6937 609!6937 609[6953 645 6984 666!6984 666[7016 686 7054 686"/>
+!7054 686[7093 686 7124 666!7124 666[7156 645 7172 609!7172 609[7189 572 7189 527!7189 527[7189 482 7172 445!7172 445[7153 409 7124 390!7124 390[7094 369 7054 369!7054 369[7016 369 6984 390!6984 390[6954 410 6937 445!6937 445[6919 481
+ 6919 527!6919 527[6919 573 6937 609!6937 609[6953 645 6984 666!6984 666[7016 686 7054 686!7054 803[6985 803 6930 766!6930 766[6875 729 6842 666!6842 666[6809 605 6809 527!6809 527[6809 450 6842 388!6842 388[6876 325 6930 290!6930 290
+[6985 253 7054 253!7054 253[7123 253 7178 289!7178 289[7234 326 7267 388!7267 388[7299 451 7299 527!7299 527[7299 604 7267 666!7267 666[7235 728 7178 766!7178 766[7123 803 7054 803"/>
                                                                       <Edge cubics="!7054 686(;7080,686 7104,679 7124,666q7054 686Q7093 686q7124 666);"/>
                                                                       <Edge cubics="!7124 666(;7145,652 7161,633 7172,609q7124 666Q7156 645q7172 609);"/>
                                                                       <Edge cubics="!7172 609(;7183,585 7189,557 7189,527q7172 609Q7189 572q7189 527);"/>
@@ -4291,9 +4621,9 @@ window.scormHandlerReady.then(function () {
                                                                  </fills>
                                                                  <edges>
                                                                       <Edge fillStyle1="1" edges="
-!8261 803[8192 803 8137 766!8137 766[8082 729 8049 666!8049 666[8017 604 8017 527!8017 527[8017 451 8049 388!8049 388[8083 325 8137 290!8137 290[8192 253 8261 253!8261 253[8331 253 8386 289!8386 289[8441 325 8474 388!8474 388[8506 448
- 8506 527!8506 527[8506 606 8474 666!8474 666[8441 729 8386 766!8386 766[8331 803 8261 803!8261 686[8300 686 8332 666!8332 666[8363 645 8379 609!8379 609[8396 575 8396 527!8396 527[8396 479 8379 445!8379 445[8360 409 8331 390!8331 390
-[8301 369 8261 369!8261 369[8223 369 8191 390!8191 390[8161 410 8144 445!8144 445[8127 479 8127 527!8127 527[8127 575 8144 609!8144 609[8160 645 8191 666!8191 666[8223 686 8261 686"/>
+!8261 686[8300 686 8332 666!8332 666[8363 645 8379 609!8379 609[8396 575 8396 527!8396 527[8396 479 8379 445!8379 445[8360 409 8331 390!8331 390[8301 369 8261 369!8261 369[8223 369 8191 390!8191 390[8161 410 8144 445!8144 445[8127 479
+ 8127 527!8127 527[8127 575 8144 609!8144 609[8160 645 8191 666!8191 666[8223 686 8261 686!8261 803[8192 803 8137 766!8137 766[8082 729 8049 666!8049 666[8017 604 8017 527!8017 527[8017 451 8049 388!8049 388[8083 325 8137 290!8137 290
+[8192 253 8261 253!8261 253[8331 253 8386 289!8386 289[8441 325 8474 388!8474 388[8506 448 8506 527!8506 527[8506 606 8474 666!8474 666[8441 729 8386 766!8386 766[8331 803 8261 803"/>
                                                                       <Edge cubics="!8261 686(;8288,686 8311,679 8332,666q8261 686Q8300 686q8332 666);"/>
                                                                       <Edge cubics="!8332 666(;8352,652 8368,633 8379,609q8332 666Q8363 645q8379 609);"/>
                                                                       <Edge cubics="!8379 609(;8391,585 8396,557 8396,527q8379 609Q8396 575q8396 527);"/>
@@ -4746,9 +5076,9 @@ window.scormHandlerReady.then(function () {
                                                        </fills>
                                                        <edges>
                                                             <Edge fillStyle1="1" edges="
-!857 792|857 734.5!857 734.5[#345.01 #2F8.55 809 777!809 777[766 803 714 803!714 803[649 803 599 766!599 766[548 730 518 668!518 668[489 605 489 529!489 529[489 452 518 389!518 389[548 326 599 290!599 290[649 253 714 253!714 253[769 253
- 809 279!809 279[#344.F4 #128.BA 857 323.5!857 323.5|857 264!857 264|964 264!964 264|964 792!964 792|857 792!731 688[791 688 827 643!827 643[864 597 864 528!864 528[864 481 847 444!847 444[830 407 801 388!801 388[771 367 731 367!731 367
-[692 367 663 388!663 388[633 408 616 444!616 444[599 478 599 528!599 528[599 577 616 611!616 611[631 646 663 668!663 668[690 688 731 688"/>
+!731 688[791 688 827 643!827 643[864 597 864 528!864 528[864 481 847 444!847 444[830 407 801 388!801 388[771 367 731 367!731 367[692 367 663 388!663 388[633 408 616 444!616 444[599 478 599 528!599 528[599 577 616 611!616 611[631 646 663
+ 668!663 668[690 688 731 688!857 792|857 734.5!857 734.5[#345.01 #2F8.55 809 777!809 777[766 803 714 803!714 803[649 803 599 766!599 766[548 730 518 668!518 668[489 605 489 529!489 529[489 452 518 389!518 389[548 326 599 290!599 290[649
+ 253 714 253!714 253[769 253 809 279!809 279[#344.F4 #128.BA 857 323.5!857 323.5|857 264!857 264|964 264!964 264|964 792!964 792|857 792"/>
                                                             <Edge cubics="!857 792(;857,792 857,735 857,735q857 792 857 735);"/>
                                                             <Edge cubics="!857 324(;857,324 857,264 857,264q857 324 857 264);"/>
                                                             <Edge cubics="!857 264(;857,264 964,264 964,264q857 264 964 264);"/>
@@ -4788,9 +5118,9 @@ window.scormHandlerReady.then(function () {
                                                        </fills>
                                                        <edges>
                                                             <Edge fillStyle1="1" edges="
-!1333 803[1280 803 1237 777!1237 777[#4B9.BE #2F7.B7 1190 734!1190 734|1190 1012!1190 1012|1083 1012!1083 1012|1083 264!1083 264|1190 264!1190 264|1190 322.5!1190 322.5[#4B9.FF 297 1238 279!1238 279[1278 253 1333 253!1333 253[1397 253
- 1447 290!1447 290[1498 326 1528 389!1528 389[1558 451 1558 529!1558 529[1558 607 1528 668!1528 668[1498 730 1447 766!1447 766[1397 803 1333 803!1315 688[1355 688 1384 668!1384 668[1414 647 1431 611!1431 611[1448 574 1448 528!1448 528
-[1448 481 1431 444!1431 444[1412 406 1384 388!1384 388[1354 367 1315 367!1315 367[1276 367 1246 388!1246 388[1218 406 1199 444!1199 444[1183 479 1183 528!1183 528[1183 576 1199 611!1199 611[1216 647 1246 668!1246 668[1275 688 1315 688"/>
+!1315 688[1355 688 1384 668!1384 668[1414 647 1431 611!1431 611[1448 574 1448 528!1448 528[1448 481 1431 444!1431 444[1412 406 1384 388!1384 388[1354 367 1315 367!1315 367[1276 367 1246 388!1246 388[1218 406 1199 444!1199 444[1183 479
+ 1183 528!1183 528[1183 576 1199 611!1199 611[1216 647 1246 668!1246 668[1275 688 1315 688!1333 803[1280 803 1237 777!1237 777[#4B9.BE #2F7.B7 1190 734!1190 734|1190 1012!1190 1012|1083 1012!1083 1012|1083 264!1083 264|1190 264!1190 264
+|1190 322.5!1190 322.5[#4B9.FF 297 1238 279!1238 279[1278 253 1333 253!1333 253[1397 253 1447 290!1447 290[1498 326 1528 389!1528 389[1558 451 1558 529!1558 529[1558 607 1528 668!1528 668[1498 730 1447 766!1447 766[1397 803 1333 803"/>
                                                             <Edge cubics="!1315 688(;1341,688 1364,682 1384,668q1315 688Q1355 688q1384 668);"/>
                                                             <Edge cubics="!1384 668(;1404,654 1419,636 1431,611q1384 668Q1414 647q1431 611);"/>
                                                             <Edge cubics="!1431 611(;1442,587 1448,559 1448,528q1431 611Q1448 574q1448 528);"/>
@@ -4831,10 +5161,10 @@ window.scormHandlerReady.then(function () {
                                                        </fills>
                                                        <edges>
                                                             <Edge fillStyle1="1" edges="
-!2171 474[#876.EE #1C2.FA 2158 432!2158 432[2145 399 2117 381!2117 381[2089 364 2051 364!2051 364[2009 364 1980 384!1980 384[1950 403 1934 439!1934 439[#786.75 #1C7.6B 1922.5 474!1922.5 474|2171 474!2059 803[1989 803 1933 767!1933 767
-[1876 730 1845 669!1845 669[1812 606 1812 528!1812 528[1812 451 1844 388!1844 388[1876 325 1931 289!1931 289[1987 253 2053 253!2053 253[2119 253 2169 287!2169 287[2218 321 2248 380!2248 380[2276 439 2276 516!2276 516|2275 543!2275 543
-|2270 573!2270 573|1922 573!1922 573[#786.78 #251.76 1935 611!1935 611[1952 649 1984 669!1984 669[2015 689 2058 689!2058 689[2096 689 2125 675!2125 675[2157 661 2177 633!2177 633|2245 711!2245 711[2212 756 2162 780!2162 780[2113 803 2059
- 803"/>
+!2059 803[1989 803 1933 767!1933 767[1876 730 1845 669!1845 669[1812 606 1812 528!1812 528[1812 451 1844 388!1844 388[1876 325 1931 289!1931 289[1987 253 2053 253!2053 253[2119 253 2169 287!2169 287[2218 321 2248 380!2248 380[2276 439
+ 2276 516!2276 516|2275 543!2275 543|2270 573!2270 573|1922 573!1922 573[#786.78 #251.76 1935 611!1935 611[1952 649 1984 669!1984 669[2015 689 2058 689!2058 689[2096 689 2125 675!2125 675[2157 661 2177 633!2177 633|2245 711!2245 711[2212
+ 756 2162 780!2162 780[2113 803 2059 803!2171 474[#876.EE #1C2.FA 2158 432!2158 432[2145 399 2117 381!2117 381[2089 364 2051 364!2051 364[2009 364 1980 384!1980 384[1950 403 1934 439!1934 439[#786.75 #1C7.6B 1922.5 474!1922.5 474|2171
+ 474"/>
                                                             <Edge cubics="!2059 803(;2012,803 1970,791 1933,767q2059 803Q1989 803q1933 767);"/>
                                                             <Edge cubics="!1933 767(;1896,743 1866,710 1845,669q1933 767Q1876 730q1845 669);"/>
                                                             <Edge cubics="!1845 669(;1823,627 1812,580 1812,528q1845 669Q1812 606q1812 528);"/>
@@ -5216,9 +5546,9 @@ window.scormHandlerReady.then(function () {
                                                        </fills>
                                                        <edges>
                                                             <Edge fillStyle1="1" edges="
-!7444 803[7376 803 7321 766!7321 766[7264 728 7232 666!7232 666[7200 604 7200 527!7200 527[7200 451 7232 388!7232 388[7265 326 7321 290!7321 290[7376 253 7444 253!7444 253[7514 253 7569 289!7569 289[7624 325 7657 388!7657 388[7690 450
- 7690 527!7690 527[7690 605 7657 666!7657 666[7624 729 7569 766!7569 766[7514 803 7444 803!7444 686[7483 686 7515 666!7515 666[7545 645 7563 609!7563 609[7580 572 7580 527!7580 527[7580 481 7562 445!7562 445[7543 409 7514 390!7514 390
-[7484 369 7444 369!7444 369[7405 369 7375 390!7375 390[7344 409 7327 445!7327 445[7310 482 7310 527!7310 527[7310 572 7327 609!7327 609[7344 645 7375 666!7375 666[7406 686 7444 686"/>
+!7444 686[7483 686 7515 666!7515 666[7545 645 7563 609!7563 609[7580 572 7580 527!7580 527[7580 481 7562 445!7562 445[7543 409 7514 390!7514 390[7484 369 7444 369!7444 369[7405 369 7375 390!7375 390[7344 409 7327 445!7327 445[7310 482
+ 7310 527!7310 527[7310 572 7327 609!7327 609[7344 645 7375 666!7375 666[7406 686 7444 686!7444 803[7376 803 7321 766!7321 766[7264 728 7232 666!7232 666[7200 604 7200 527!7200 527[7200 451 7232 388!7232 388[7265 326 7321 290!7321 290
+[7376 253 7444 253!7444 253[7514 253 7569 289!7569 289[7624 325 7657 388!7657 388[7690 450 7690 527!7690 527[7690 605 7657 666!7657 666[7624 729 7569 766!7569 766[7514 803 7444 803"/>
                                                             <Edge cubics="!7444 686(;7471,686 7494,679 7515,666q7444 686Q7483 686q7515 666);"/>
                                                             <Edge cubics="!7515 666(;7535,652 7551,633 7563,609q7515 666Q7545 645q7563 609);"/>
                                                             <Edge cubics="!7563 609(;7574,585 7580,557 7580,527q7563 609Q7580 572q7580 527);"/>
@@ -5294,9 +5624,9 @@ window.scormHandlerReady.then(function () {
                                                        </fills>
                                                        <edges>
                                                             <Edge fillStyle1="1" edges="
-!8651 803[8583 803 8528 766!8528 766[8471 727 8440 666!8440 666[8407 605 8407 527!8407 527[8407 450 8440 388!8440 388[8471 327 8528 290!8528 290[8583 253 8651 253!8651 253[8721 253 8776 289!8776 289[8831 325 8864 388!8864 388[8897 450
- 8897 527!8897 527[8897 605 8864 666!8864 666[8831 729 8776 766!8776 766[8721 803 8651 803!8651 686[8691 686 8722 666!8722 666[8751 647 8770 609!8770 609[8787 572 8787 527!8787 527[8787 481 8769 445!8769 445[8752 410 8722 390!8722 390
-[8691 369 8651 369!8651 369[8612 369 8582 390!8582 390[8554 408 8534 445!8534 445[8517 482 8517 527!8517 527[8517 572 8534 609!8534 609[8553 647 8582 666!8582 666[8613 686 8651 686"/>
+!8651 686[8691 686 8722 666!8722 666[8751 647 8770 609!8770 609[8787 572 8787 527!8787 527[8787 481 8769 445!8769 445[8752 410 8722 390!8722 390[8691 369 8651 369!8651 369[8612 369 8582 390!8582 390[8554 408 8534 445!8534 445[8517 482
+ 8517 527!8517 527[8517 572 8534 609!8534 609[8553 647 8582 666!8582 666[8613 686 8651 686!8651 803[8583 803 8528 766!8528 766[8471 727 8440 666!8440 666[8407 605 8407 527!8407 527[8407 450 8440 388!8440 388[8471 327 8528 290!8528 290
+[8583 253 8651 253!8651 253[8721 253 8776 289!8776 289[8831 325 8864 388!8864 388[8897 450 8897 527!8897 527[8897 605 8864 666!8864 666[8831 729 8776 766!8776 766[8721 803 8651 803"/>
                                                             <Edge cubics="!8651 686(;8678,686 8702,679 8722,666q8651 686Q8691 686q8722 666);"/>
                                                             <Edge cubics="!8722 666(;8743,652 8758,633 8770,609q8722 666Q8751 647q8770 609);"/>
                                                             <Edge cubics="!8770 609(;8781,585 8787,557 8787,527q8770 609Q8787 572q8787 527);"/>
@@ -9139,7 +9469,7 @@ window.scormHandlerReady.then(function () {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Layer_3" color="#FF800A" visible="false">
+                    <DOMLayer name="Layer_3" color="#FF800A" locked="true" visible="false">
                          <frames>
                               <DOMFrame index="0" duration="6" keyMode="9728">
                                    <elements/>

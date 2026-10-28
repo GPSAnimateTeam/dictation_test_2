@@ -1,345 +1,804 @@
-// Generated add-only builder for the intro screen.
-// This script never saves the document. Review the output panel after running.
-var BUILD_DATA = {"screenId":"intro","stage":{"w":1800,"h":1200},"elements":[{"id":"intro_background","kind":"image","domId":"#actBg","x":-644,"y":-447,"w":2700,"h":1800,"zIndex":0,"asset":"images/bg_plate.jpg","textKey":null,"font":null,"states":["default"],"reveal":"none","notes":"Intro camera zoom 1.5/origin 644,447; image scale 1.","textValue":null},{"id":"intro_box_front","kind":"image","domId":"#actBoxView1 img","x":615.5313,"y":655,"w":568.9373,"h":348,"zIndex":8,"asset":"images/shared_box_front.png","textKey":null,"font":null,"states":["default"],"reveal":"animation","notes":"","textValue":null},{"id":"intro_box_shine","kind":"image","domId":"#actBoxShine1","x":615.5313,"y":655,"w":568.9373,"h":348,"zIndex":8,"asset":"images/shared_glass_shine.png","textKey":null,"font":null,"states":["default"],"reveal":"animation","notes":"Glass clip follows box front.","textValue":null},{"id":"intro_box_angled","kind":"image","domId":"#actBoxView2 img","x":603.4091,"y":655,"w":593.1818,"h":348,"zIndex":8,"asset":"images/shared_box_angled.png","textKey":null,"font":null,"states":["default"],"reveal":"animation","notes":"Hidden at intro rest; crossfades during screen transition.","textValue":null},{"id":"intro_kite_trail","kind":"canvas","domId":"#actKiteCanvas","x":0,"y":0,"w":1800,"h":1200,"zIndex":9,"asset":"images/shared_chalk_strong.png","textKey":null,"font":null,"states":["default"],"reveal":"animation","notes":"Canvas draws route spline and trail.","textValue":null},{"id":"intro_kite","kind":"image","domId":"#actKite img","x":1288,"y":305,"w":68,"h":50,"zIndex":15,"asset":"images/shared_kite.png","textKey":null,"font":null,"states":["default"],"reveal":"animation","notes":"Center rest point (1322,330), then fades after route.","textValue":null},{"id":"intro_title_txt","kind":"text","domId":"#actTitle","x":352,"y":195,"w":1097,"h":274,"zIndex":6,"asset":"images/shared_chalk_white.png","textKey":"ui.title","font":{"family":"ActPlaypen","size":60,"weight":560,"color":"#F5F2E8","align":"center"},"states":["default"],"reveal":"animation","notes":"Curved SVG text/underline; texture-filled and chalk-write reveal.","textValue":"صندوق الأحلام"},{"id":"intro_deco_star_1","kind":"image","domId":"#actDeco .act-deco-star","x":185.0,"y":307.0,"w":60,"h":56.0,"zIndex":5,"asset":"images/intro_star.png","textKey":null,"font":null,"states":["default"],"reveal":"animation","notes":"Twinkle phase 0s.","textValue":null},{"id":"intro_deco_star_2","kind":"image","domId":"#actDeco .act-deco-star","x":380.0,"y":281.3333,"w":40,"h":37.3333,"zIndex":5,"asset":"images/intro_star.png","textKey":null,"font":null,"states":["default"],"reveal":"animation","notes":"Twinkle phase 0.6s.","textValue":null},{"id":"intro_deco_star_3","kind":"image","domId":"#actDeco .act-deco-star","x":274.0,"y":435.7333,"w":52,"h":48.5333,"zIndex":5,"asset":"images/intro_star.png","textKey":null,"font":null,"states":["default"],"reveal":"animation","notes":"Twinkle phase 1.1s.","textValue":null},{"id":"intro_deco_star_4","kind":"image","domId":"#actDeco .act-deco-star","x":452.0,"y":518.2,"w":36,"h":33.6,"zIndex":5,"asset":"images/intro_star.png","textKey":null,"font":null,"states":["default"],"reveal":"animation","notes":"Twinkle phase 0.3s.","textValue":null},{"id":"intro_deco_star_5","kind":"image","domId":"#actDeco .act-deco-star","x":163.0,"y":579.4667,"w":44,"h":41.0667,"zIndex":5,"asset":"images/intro_star.png","textKey":null,"font":null,"states":["default"],"reveal":"animation","notes":"Twinkle phase 0.9s.","textValue":null},{"id":"intro_deco_star_6","kind":"image","domId":"#actDeco .act-deco-star","x":332.0,"y":638.8667,"w":56,"h":52.2667,"zIndex":5,"asset":"images/intro_star.png","textKey":null,"font":null,"states":["default"],"reveal":"animation","notes":"Twinkle phase 1.5s.","textValue":null},{"id":"intro_start_button","kind":"button","domId":"#actStartBtn","x":720,"y":482,"w":359,"h":129,"zIndex":12,"asset":"images/shared_btn_plaque.png","textKey":"ui.buttons.start","font":{"family":"ActReadex","size":44,"weight":600,"color":"#4A2208","align":"center"},"states":["default"],"reveal":"animation","notes":"Automatic scale/fade entrance; text in centered plaque span.","textValue":"ابدأ"},{"id":"shared_logo","kind":"image","domId":"#actLogo","x":120,"y":190,"w":242,"h":62,"zIndex":30,"asset":"images/ui_logo.png","textKey":null,"font":null,"states":["default"],"reveal":"none","notes":"Persistent logo; accessible alt text is ui.aria.logo.","textValue":null},{"id":"shared_close_button","kind":"button","domId":"#actBtnClose","x":1610,"y":190,"w":60,"h":60,"zIndex":30,"asset":"images/ui_btn_close.png","textKey":null,"font":null,"states":["default"],"reveal":"interaction","notes":"Quiz-only via .act-quiz-only; opens exit confirmation.","textValue":null},{"id":"shared_info_button","kind":"button","domId":"#actBtnInfo","x":1538,"y":190,"w":60,"h":60,"zIndex":30,"asset":"images/ui_btn_info.png","textKey":null,"font":null,"states":["default"],"reveal":"interaction","notes":"Quiz-only via .act-quiz-only; opens instructions.","textValue":null},{"id":"shared_mute_on","kind":"button","domId":"#actBtnMute .act-mute-on","x":1466,"y":190,"w":60,"h":60,"zIndex":30,"asset":"images/ui_btn_mute.png","textKey":null,"font":null,"states":["default"],"reveal":"none","notes":"Hidden in intro; state swaps when muted.","textValue":null},{"id":"shared_mute_off","kind":"button","domId":"#actBtnMute .act-mute-off","x":1466,"y":190,"w":60,"h":60,"zIndex":30,"asset":"images/ui_btn_mute_off.png","textKey":null,"font":null,"states":["default"],"reveal":"none","notes":"Opacity 0 until muted.","textValue":null},{"id":"shared_light_rays","kind":"image","domId":"#actRays","x":0,"y":0,"w":1800,"h":1200,"zIndex":1,"asset":"images/bg_light_rays.png","textKey":null,"font":null,"states":["default"],"reveal":"none","notes":"Opacity .4 and CSS drift ±20px every 14s.","textValue":null}]};
-var placedCount = 0;
-var skipped = [];
-var warnings = [];
-var differences = [];
-var importedByAsset = {};
-var usedItemNames = {};
-var usedInstanceNames = {};
-var usedLayerNames = {};
+var BUILD_DATA = {"screenId":"intro","stage":{"w":1800,"h":1200},"direction":"rtl","screenCount":14,"sharedCount":6,"totalCount":20,"elements":[{"source":"screen","id":"intro_background","kind":"image","x":-644,"y":-447,"w":2700,"h":1800,"zIndex":0,"asset":"images/bg_plate.jpg","font":null,"reveal":"none","textKey":null,"textValue":null},{"source":"screen","id":"intro_box_front","kind":"image","x":615.5313,"y":655,"w":568.9373,"h":348,"zIndex":8,"asset":"images/shared_box_front.png","font":null,"reveal":"animation","textKey":null,"textValue":null},{"source":"screen","id":"intro_box_shine","kind":"image","x":615.5313,"y":655,"w":568.9373,"h":348,"zIndex":8,"asset":"images/shared_glass_shine.png","font":null,"reveal":"animation","textKey":null,"textValue":null},{"source":"screen","id":"intro_box_angled","kind":"image","x":603.4091,"y":655,"w":593.1818,"h":348,"zIndex":8,"asset":"images/shared_box_angled.png","font":null,"reveal":"animation","textKey":null,"textValue":null,"skipReason":"alternate view of intro_box_front; hidden at intro rest"},{"source":"screen","id":"intro_kite_trail","kind":"canvas","x":0,"y":0,"w":1800,"h":1200,"zIndex":9,"asset":"images/shared_chalk_strong.png","font":null,"reveal":"animation","textKey":null,"textValue":null},{"source":"screen","id":"intro_kite","kind":"image","x":1288,"y":305,"w":68,"h":50,"zIndex":15,"asset":"images/shared_kite.png","font":null,"reveal":"animation","textKey":null,"textValue":null},{"source":"screen","id":"intro_title_txt","kind":"text","x":352,"y":195,"w":1097,"h":274,"zIndex":6,"asset":"images/shared_chalk_white.png","font":{"family":"ActPlaypen","size":60,"weight":560,"color":"#F5F2E8","align":"center"},"reveal":"animation","textKey":"ui.title","textValue":"\u0635\u0646\u062f\u0648\u0642 \u0627\u0644\u0623\u062d\u0644\u0627\u0645"},{"source":"screen","id":"intro_deco_star_1","kind":"image","x":185,"y":307,"w":60,"h":56,"zIndex":5,"asset":"images/intro_star.png","font":null,"reveal":"animation","textKey":null,"textValue":null},{"source":"screen","id":"intro_deco_star_2","kind":"image","x":380,"y":281.3333,"w":40,"h":37.3333,"zIndex":5,"asset":"images/intro_star.png","font":null,"reveal":"animation","textKey":null,"textValue":null},{"source":"screen","id":"intro_deco_star_3","kind":"image","x":274,"y":435.7333,"w":52,"h":48.5333,"zIndex":5,"asset":"images/intro_star.png","font":null,"reveal":"animation","textKey":null,"textValue":null},{"source":"screen","id":"intro_deco_star_4","kind":"image","x":452,"y":518.2,"w":36,"h":33.6,"zIndex":5,"asset":"images/intro_star.png","font":null,"reveal":"animation","textKey":null,"textValue":null},{"source":"screen","id":"intro_deco_star_5","kind":"image","x":163,"y":579.4667,"w":44,"h":41.0667,"zIndex":5,"asset":"images/intro_star.png","font":null,"reveal":"animation","textKey":null,"textValue":null},{"source":"screen","id":"intro_deco_star_6","kind":"image","x":332,"y":638.8667,"w":56,"h":52.2667,"zIndex":5,"asset":"images/intro_star.png","font":null,"reveal":"animation","textKey":null,"textValue":null},{"source":"screen","id":"intro_start_button","kind":"button","x":720,"y":482,"w":359,"h":129,"zIndex":12,"asset":"images/shared_btn_plaque.png","font":{"family":"ActReadex","size":44,"weight":600,"color":"#4A2208","align":"center"},"reveal":"animation","textKey":"ui.buttons.start","textValue":"\u0627\u0628\u062f\u0623"},{"source":"shared","id":"shared_logo","kind":"image","x":120,"y":190,"w":242,"h":62,"zIndex":30,"asset":"images/ui_logo.png","font":null,"reveal":"none","textKey":null,"textValue":null},{"source":"shared","id":"shared_close_button","kind":"button","x":1610,"y":190,"w":60,"h":60,"zIndex":30,"asset":"images/ui_btn_close.png","font":null,"reveal":"interaction","textKey":null,"textValue":null},{"source":"shared","id":"shared_info_button","kind":"button","x":1538,"y":190,"w":60,"h":60,"zIndex":30,"asset":"images/ui_btn_info.png","font":null,"reveal":"interaction","textKey":null,"textValue":null},{"source":"shared","id":"shared_mute_on","kind":"button","x":1466,"y":190,"w":60,"h":60,"zIndex":30,"asset":"images/ui_btn_mute.png","font":null,"reveal":"none","textKey":null,"textValue":null},{"source":"shared","id":"shared_mute_off","kind":"button","x":1466,"y":190,"w":60,"h":60,"zIndex":30,"asset":"images/ui_btn_mute_off.png","font":null,"reveal":"none","textKey":null,"textValue":null},{"source":"shared","id":"shared_light_rays","kind":"image","x":0,"y":0,"w":1800,"h":1200,"zIndex":1,"asset":"images/bg_light_rays.png","font":null,"reveal":"none","textKey":null,"textValue":null}]};
+
 var doc = null;
 var timeline = null;
 var library = null;
+var frameN = 0;
+var placedCount = 0;
+var skipped = [];
+var failures = [];
+var warnings = [];
+var differences = [];
 var originalLayers = [];
 var originalItems = [];
-var originalWidth = 0;
-var originalHeight = 0;
-var frameN = 0;
-var folderName = "";
+var usedLayerNames = {};
+var usedLibraryNames = {};
+var usedInstanceNames = {};
+var assetCache = {};
+var preparedLayers = {};
+var elementLayerNames = {};
+var textChecks = [];
+var firstLayerName = "";
+var dynamicLayerName = "";
 var timelineFolderName = "";
+var libraryFolderName = "";
+var currentChildLayer = -1;
 
-function traceLine(s) { fl.trace("[" + BUILD_DATA.screenId + "] " + s); }
-function startsWith(s, p) { return s.indexOf(p) === 0; }
-function safeName(base, table) {
-  var name = base, n = 2;
-  while (table[name]) { name = base + "_" + n; n++; }
-  table[name] = true;
-  return name;
+function log(message) {
+    fl.trace("[" + BUILD_DATA.screenId + "] " + message);
 }
-function prefixedName(name) {
-  var prefix = BUILD_DATA.screenId + "_";
-  return startsWith(name, prefix) ? name : prefix + name;
+
+function nameExists(names, name) {
+    var i;
+    for (i = 0; i < names.length; i++) {
+        if (names[i] === name) {
+            return true;
+        }
+    }
+    return false;
 }
-function snapshotLibraryNames() {
-  var result = [];
-  var items = library.items;
-  for (var i = 0; i < items.length; i++) {
-    if (items[i] && items[i].name !== undefined) { result.push(String(items[i].name)); }
-  }
-  return result;
+
+function uniqueName(base, table) {
+    var name = base;
+    var suffix = 2;
+    while (table[name] === true) {
+        name = base + "_" + suffix;
+        suffix++;
+    }
+    table[name] = true;
+    return name;
 }
+
 function snapshotLayers() {
-  var result = [];
-  for (var i = 0; i < timeline.layers.length; i++) {
-    var layer = timeline.layers[i];
-    result.push({index:i, name:String(layer.name), frameCount:layer.frames ? layer.frames.length : 0});
-  }
-  return result;
+    var result = [];
+    var i;
+    for (i = 0; i < timeline.layers.length; i++) {
+        result.push({
+            name: String(timeline.layers[i].name),
+            frameCount: timeline.layers[i].frames ? timeline.layers[i].frames.length : 0
+        });
+    }
+    return result;
 }
-function hasName(arr, name) {
-  for (var i = 0; i < arr.length; i++) { if (arr[i] === name) { return true; } }
-  return false;
+
+function snapshotLibraryItems() {
+    var result = [];
+    var items = library.items;
+    var i;
+    for (i = 0; i < items.length; i++) {
+        if (items[i] && items[i].name !== undefined) {
+            result.push(String(items[i].name));
+        }
+    }
+    return result;
 }
+
 function libraryHasName(name) {
-  var items = library.items;
-  for (var i = 0; i < items.length; i++) {
-    if (items[i] && String(items[i].name) === name) { return true; }
-  }
-  return false;
-}
-function outputSnapshotDifferences() {
-  var afterLayers = snapshotLayers();
-  var afterItems = snapshotLibraryNames();
-  for (var i = 0; i < originalLayers.length; i++) {
-    var before = originalLayers[i], match = null;
-    for (var j = 0; j < afterLayers.length; j++) {
-      if (afterLayers[j].index === before.index && afterLayers[j].name === before.name) { match = afterLayers[j]; break; }
+    var items = library.items;
+    var i;
+    for (i = 0; i < items.length; i++) {
+        if (items[i] && String(items[i].name) === name) {
+            return true;
+        }
     }
-    if (!match) {
-      for (var k = 0; k < afterLayers.length; k++) {
-        if (afterLayers[k].name === before.name) { match = afterLayers[k]; break; }
-      }
+    return false;
+}
+
+function libraryHasLeafName(name) {
+    var items = library.items;
+    var fullName;
+    var slash;
+    var i;
+    for (i = 0; i < items.length; i++) {
+        if (items[i] && items[i].name !== undefined) {
+            fullName = String(items[i].name);
+            slash = fullName.lastIndexOf("/");
+            if ((slash < 0 ? fullName : fullName.substring(slash + 1)) === name) {
+                return true;
+            }
+        }
     }
-    if (!match) { differences.push("Existing layer missing: " + before.name); }
-    else if (match.frameCount !== before.frameCount) {
-      differences.push("Existing layer frame count changed: " + before.name + " (" + before.frameCount + " -> " + match.frameCount + ")");
+    return false;
+}
+
+function verifyBeforeAfter() {
+    var afterLayers = snapshotLayers();
+    var afterItems = snapshotLibraryItems();
+    var i;
+    var j;
+    var match;
+
+    for (i = 0; i < originalLayers.length; i++) {
+        match = null;
+        for (j = 0; j < afterLayers.length; j++) {
+            if (afterLayers[j].name === originalLayers[i].name) {
+                match = afterLayers[j];
+                break;
+            }
+        }
+        if (!match) {
+            differences.push("Pre-existing layer missing or renamed: " + originalLayers[i].name);
+        } else if (match.frameCount !== originalLayers[i].frameCount) {
+            differences.push("Pre-existing layer frame count changed: " + originalLayers[i].name);
+        }
     }
-  }
-  for (var m = 0; m < originalItems.length; m++) {
-    if (!hasName(afterItems, originalItems[m])) { differences.push("Existing library item missing/renamed: " + originalItems[m]); }
-  }
-  if (doc.width !== originalWidth || doc.height !== originalHeight) {
-    differences.push("Document stage changed: " + originalWidth + "x" + originalHeight + " -> " + doc.width + "x" + doc.height);
-  }
-}
-function findNewLibraryItem(beforeNames, rawBase) {
-  var items = library.items;
-  for (var i = 0; i < items.length; i++) {
-    var nm = items[i] && String(items[i].name);
-    if (nm && !hasName(beforeNames, nm) && (nm === rawBase || nm.indexOf(rawBase + "_") === 0 || nm.toLowerCase().indexOf(rawBase.toLowerCase()) >= 0)) { return nm; }
-  }
-  for (var j = 0; j < items.length; j++) {
-    var other = items[j] && String(items[j].name);
-    if (other && !hasName(beforeNames, other)) { return other; }
-  }
-  return null;
-}
-function makeAssetURI(asset) {
-  var uri = String(fl.scriptURI);
-  var cut = uri.lastIndexOf("/");
-  if (cut < 0) { throw new Error("Cannot derive output directory from fl.scriptURI: " + uri); }
-  uri = uri.substring(0, cut);
-  cut = uri.lastIndexOf("/");
-  if (cut < 0) { throw new Error("Cannot derive project root from fl.scriptURI: " + uri); }
-  var rootURI = uri.substring(0, cut + 1);
-  var clean = String(asset).replace(/^images\//, "");
-  return rootURI + "web_source/images/" + clean;
-}
-function createLibraryFolder() {
-  var requested = BUILD_DATA.screenId;
-  folderName = requested;
-  var n = 2;
-  while (libraryHasName(folderName)) { folderName = requested + "_" + n; n++; }
-  try { library.newFolder(folderName); }
-  catch (err) { throw new Error("Cannot create Library folder '" + folderName + "': " + err); }
-  timelineFolderName = safeName(BUILD_DATA.screenId, usedLayerNames);
-  var folderIndex = timeline.addNewLayer(timelineFolderName, "folder", false);
-  if (folderIndex === undefined || folderIndex === null || folderIndex < 0) { folderIndex = timeline.currentLayer; }
-  timeline.currentLayer = folderIndex;
-}
-function ensureImportedAsset(asset) {
-  if (importedByAsset[asset]) { return importedByAsset[asset]; }
-  var uri = makeAssetURI(asset);
-  if (!FLfile.exists(uri)) { throw new Error("Asset does not exist: " + uri); }
-  var base = asset.substring(asset.lastIndexOf("/") + 1);
-  // Avoid import dialogs and possible replacement of any existing library item.
-  if (libraryHasName(base)) { return null; }
-  var before = snapshotLibraryNames();
-  doc.importFile(uri, true);
-  var imported = findNewLibraryItem(before, base);
-  if (!imported) { throw new Error("Animate did not add a detectable Library item for " + asset); }
-  var leaf = base.replace(/\.[^.]+$/, "");
-  var desired = safeName(BUILD_DATA.screenId + "_" + leaf, usedItemNames);
-  while (libraryHasName(desired)) { desired = safeName(BUILD_DATA.screenId + "_" + leaf, usedItemNames); }
-  try {
-    library.selectItem(imported);
-    library.renameItem(desired);
-    library.moveToFolder(folderName, desired, false);
-  } catch (renameErr) {
-    throw new Error("Could not prefix/move imported item '" + imported + "' into '" + folderName + "': " + renameErr);
-  }
-  var resultName = folderName + "/" + desired;
-  var actualName = libraryHasName(resultName) ? resultName : (libraryHasName(desired) ? desired : null);
-  if (!actualName) {
-    var currentItems = library.items;
-    for (var k = 0; k < currentItems.length; k++) {
-      var candidate = currentItems[k] && String(currentItems[k].name);
-      if (candidate && candidate.indexOf("/" + desired) === candidate.length - desired.length - 1) { actualName = candidate; break; }
+    for (i = 0; i < originalItems.length; i++) {
+        if (!nameExists(afterItems, originalItems[i])) {
+            differences.push("Pre-existing Library item missing or renamed: " + originalItems[i]);
+        }
     }
-  }
-  if (!actualName) { throw new Error("Could not verify renamed Library item " + desired + " after moving it to " + folderName); }
-  importedByAsset[asset] = actualName;
-  return actualName;
 }
-function activateLayerAtN(layerIndex) {
-  timeline.currentLayer = layerIndex;
-  timeline.currentFrame = frameN;
-  timeline.insertBlankKeyframe(frameN);
+
+function assetURI(asset) {
+    var uri = String(fl.scriptURI).replace(/\\/g, "/");
+    var slash;
+    var outputFolder;
+    var projectRoot;
+
+    if (uri.indexOf("file://") !== 0) {
+        uri = "file:///" + uri;
+    }
+    slash = uri.lastIndexOf("/");
+    if (slash < 0) {
+        throw new Error("Cannot derive output directory from fl.scriptURI: " + uri);
+    }
+    outputFolder = uri.substring(0, slash);
+    slash = outputFolder.lastIndexOf("/");
+    if (slash < 0) {
+        throw new Error("Cannot derive project root from fl.scriptURI: " + uri);
+    }
+    projectRoot = outputFolder.substring(0, slash);
+    return projectRoot + "/web_source/" + String(asset).replace(/\\/g, "/");
 }
-function placeLibraryItem(itemName, x, y, w, h) {
-  doc.library.addItemToDocument({x:x, y:y}, itemName);
-  if (!doc.selection || doc.selection.length < 1) { throw new Error("Library item was not placed on the stage: " + itemName); }
-  var item = doc.selection[0];
-  try {
-    doc.setSelectionRect({left:x, top:y, right:x+w, bottom:y+h}, false);
-  } catch (rectErr) {
-    try { item.x = x; item.y = y; item.width = w; item.height = h; }
-    catch (sizeErr) { throw new Error("Cannot size placed item '" + itemName + "': " + rectErr + " / " + sizeErr); }
-  }
-  item = doc.selection[0];
-  item.x = x; item.y = y;
-  return item;
+
+function addFolders() {
+    var i;
+    var folderIndex;
+    for (i = 0; i < originalLayers.length; i++) {
+        usedLayerNames[originalLayers[i].name] = true;
+    }
+    for (i = 0; i < originalItems.length; i++) {
+        usedLibraryNames[originalItems[i]] = true;
+    }
+
+    timelineFolderName = uniqueName(BUILD_DATA.screenId, usedLayerNames);
+    folderIndex = timeline.addNewLayer(timelineFolderName, "folder", true);
+    if (folderIndex === undefined || folderIndex === null || folderIndex < 0) {
+        throw new Error("Could not create timeline folder '" + timelineFolderName + "'.");
+    }
+    timeline.currentLayer = folderIndex;
+
+    libraryFolderName = uniqueName(BUILD_DATA.screenId, usedLibraryNames);
+    while (libraryHasName(libraryFolderName)) {
+        libraryFolderName = uniqueName(BUILD_DATA.screenId, usedLibraryNames);
+    }
+    library.newFolder(libraryFolderName);
 }
-function setInstanceName(element, name) {
-  if (!element) { throw new Error("Cannot name empty instance " + name); }
-  element.name = name;
-  if (element.name !== name) { warnings.push("Animate did not retain instance name '" + name + "'."); }
-  usedInstanceNames[name] = true;
+
+function validBounds(e) {
+    return e.x !== null && e.x !== undefined &&
+        e.y !== null && e.y !== undefined &&
+        e.w !== null && e.w !== undefined &&
+        e.h !== null && e.h !== undefined &&
+        !isNaN(Number(e.x)) && !isNaN(Number(e.y)) &&
+        !isNaN(Number(e.w)) && !isNaN(Number(e.h)) &&
+        Number(e.w) > 0 && Number(e.h) > 0;
 }
-function setTextProperties(textValue, font) {
-  if (textValue === null || textValue === undefined || typeof textValue !== "string") {
-    throw new Error("Text has no scalar text value in the embedded questions data.");
-  }
-  doc.addNewText({left:0, top:0, right:1, bottom:1});
-  if (!doc.selection || doc.selection.length < 1) { throw new Error("Animate did not create a text selection."); }
-  var textElement = doc.selection[0];
-  try { textElement.textType = "dynamic"; } catch (typeErr) { warnings.push("Could not set textType property to dynamic: " + typeErr); }
-  doc.setTextString(textValue);
-  textElement = doc.selection[0];
-  try { textElement.textType = "dynamic"; } catch (typeErr2) {}
-  if (font) {
-    var face = font.family || "Arial";
-    var fontList = null;
-    try { if (fl.getFontList) { fontList = fl.getFontList(); } } catch (fontErr) { fontList = null; }
-    if (fontList) {
-      var found = false;
-      for (var f = 0; f < fontList.length; f++) { if (String(fontList[f]) === face) { found = true; break; } }
-      if (!found) { warnings.push("Font '" + face + "' is not installed; using Arial for '" + textValue + "'."); face = "Arial"; }
-    } else { warnings.push("Cannot verify font availability for '" + face + "'; requested family retained."); }
-    try { doc.setTextAttr("face", face); } catch (faceErr) { warnings.push("Could not set font family '" + face + "': " + faceErr); }
-    if (font.size !== undefined && font.size !== null) { try { doc.setTextAttr("size", Number(font.size)); } catch (sizeErr) { warnings.push("Could not set font size: " + sizeErr); } }
-    if (font.color) { try { doc.setTextAttr("fillColor", font.color); } catch (colorErr) { warnings.push("Could not set text color: " + colorErr); } }
-    if (font.align) { try { doc.setTextAttr("alignment", font.align); } catch (alignErr) { warnings.push("Could not set text alignment: " + alignErr); } }
-  }
-  try { doc.setTextAttr("direction", "rtl"); } catch (rtlErr) { warnings.push("Animate did not accept RTL text attribute: " + rtlErr); }
-  return doc.selection[0];
+
+function isNonVisual(e) {
+    return e.kind === "canvas" || e.kind === "audio-trigger";
 }
-function setTextRect(textElement, e) {
-  doc.selection = [textElement];
-  try { doc.setSelectionRect({left:e.x, top:e.y, right:e.x+e.w, bottom:e.y+e.h}, false); }
-  catch (err) { textElement.x=e.x; textElement.y=e.y; }
-  return doc.selection[0];
+
+function category(e) {
+    if (e.reveal === "interaction") {
+        return "dynamic";
+    }
+    if (e.zIndex <= 1 || /background|ray/i.test(e.id)) {
+        return "bg";
+    }
+    if (/box|board/i.test(e.id)) {
+        return "board";
+    }
+    if (e.kind === "button" || /logo|close|info|mute/i.test(e.id)) {
+        return "ui";
+    }
+    return "content";
 }
-function groupFor(e) {
-  if (e.reveal === "interaction") { return "dynamic"; }
-  if (e.zIndex <= 1 || /background/i.test(e.id)) { return "bg"; }
-  if (/box|board/i.test(e.id)) { return "board"; }
-  if (e.kind === "button" || /logo|close|info|mute/i.test(e.id)) { return "ui"; }
-  if (e.kind === "canvas" || /star|kite|fx|ray/i.test(e.id)) { return "fx"; }
-  return "content";
+
+function getVisualElements() {
+    var result = [];
+    var i;
+    var e;
+    var at;
+    for (i = 0; i < BUILD_DATA.elements.length; i++) {
+        e = BUILD_DATA.elements[i];
+        if (isNonVisual(e) || e.skipReason || !validBounds(e)) {
+            continue;
+        }
+        at = result.length;
+        while (at > 0 && Number(result[at - 1].zIndex) > Number(e.zIndex)) {
+            at--;
+        }
+        result.splice(at, 0, e);
+    }
+    return result;
 }
-function makeShapePlaceholder(e) {
-  try { doc.addNewRectangle({left:e.x, top:e.y, right:e.x+e.w, bottom:e.y+e.h}, 0); }
-  catch (rectErr) { throw new Error("Could not create shape placeholder: " + rectErr); }
-  if (doc.selection && doc.selection.length) { setInstanceName(doc.selection[0], prefixedName(e.id)); }
-  warnings.push("Shape/CSS-only placeholder used for '" + e.id + "'; its original styling is not represented by a source asset.");
+
+function findLayerIndex(name) {
+    var i;
+    for (i = 0; i < timeline.layers.length; i++) {
+        if (String(timeline.layers[i].name) === name) {
+            return i;
+        }
+    }
+    throw new Error("Could not find new layer '" + name + "'.");
 }
-function buildOneElement(e) {
-  var layerCategory = groupFor(e);
-  var layerBase = BUILD_DATA.screenId + "_" + layerCategory + "_" + e.id + "_layer";
-  var layerName = safeName(layerBase, usedLayerNames);
-  var layerIndex = timeline.addNewLayer(layerName, "normal", true);
-  if (layerIndex === undefined || layerIndex === null || layerIndex < 0) { layerIndex = timeline.currentLayer; }
-  activateLayerAtN(layerIndex);
-  var instanceName = prefixedName(e.id);
-  if (usedInstanceNames[instanceName]) { instanceName = safeName(instanceName, usedInstanceNames); }
-  if (e.kind === "image") {
-    if (!e.asset) { skipped.push(e.id + ": image has no asset path."); return; }
-    var itemName = ensureImportedAsset(e.asset);
-    if (!itemName) { skipped.push(e.id + ": required asset was not imported because a same-name Library item already exists."); return; }
-    var placed = placeLibraryItem(itemName, Number(e.x), Number(e.y), Number(e.w), Number(e.h));
-    setInstanceName(placed, instanceName);
-    placedCount++;
-    return;
-  }
-  if (e.kind === "text") {
-    if (e.textValue === null || typeof e.textValue !== "string") { skipped.push(e.id + ": textKey missing or does not resolve to a single string."); return; }
-    var text = setTextProperties(e.textValue, e.font);
-    text = setTextRect(text, e);
-    setInstanceName(text, instanceName);
-    placedCount++;
-    return;
-  }
-  if (e.kind === "button") {
-    if (!e.asset) { skipped.push(e.id + ": button has no background image."); return; }
-    if (e.textValue !== null && typeof e.textValue !== "string") { skipped.push(e.id + ": button label is not a scalar text value."); return; }
-    var buttonAsset = ensureImportedAsset(e.asset);
-    if (!buttonAsset) { skipped.push(e.id + ": required button image has a same-name Library collision."); return; }
-    var bg = placeLibraryItem(buttonAsset, Number(e.x), Number(e.y), Number(e.w), Number(e.h));
-    var buttonSelection = [bg];
-    if (e.textValue !== null) {
-      var label = setTextProperties(e.textValue, e.font);
-      label = setTextRect(label, e);
-      buttonSelection.push(label);
-    } else { warnings.push("Button  + e.id +  has no visible text in source; created image-only MovieClip."); }
-    doc.selection = buttonSelection;
-    var symbolName = safeName(BUILD_DATA.screenId + "_" + e.id + "_mc", usedItemNames);
-    try { doc.convertToSymbol("movie clip", symbolName, "center"); }
-    catch (symErr) { throw new Error("Cannot create MovieClip button '" + e.id + "': " + symErr); }
-    if (!doc.selection || !doc.selection.length) { throw new Error("Button MovieClip was not created for " + e.id); }
-    var symbolInstance = doc.selection[0];
-    setInstanceName(symbolInstance, instanceName);
-    placedCount++;
-    return;
-  }
-  if (e.kind === "shape" || e.kind === "canvas" || e.kind === "group") {
-    makeShapePlaceholder(e);
-    placedCount++;
-    if (e.kind === "canvas") { warnings.push("Canvas '" + e.id + "' represented by a static placeholder; drawing is not implemented."); }
-    if (e.kind === "group") { warnings.push("Group '" + e.id + "' represented by a static shape placeholder."); }
-    return;
-  }
-  skipped.push(e.id + ": unsupported element kind '" + e.kind + "'.");
+
+function createLayers(elements) {
+    var i;
+    var e;
+    var kind;
+    var layerName;
+    var layerIndex;
+    var dynamicMembers = [];
+
+    for (i = 0; i < elements.length; i++) {
+        if (elements[i].reveal === "interaction") {
+            dynamicMembers.push(elements[i]);
+        }
+    }
+
+    for (i = 0; i < elements.length; i++) {
+        e = elements[i];
+        kind = category(e);
+        if (kind === "dynamic" && dynamicLayerName) {
+            elementLayerNames[e.id] = dynamicLayerName;
+            continue;
+        }
+        if (kind === "dynamic") {
+            layerName = uniqueName(BUILD_DATA.screenId + "_dynamic", usedLayerNames);
+            dynamicLayerName = layerName;
+        } else {
+            layerName = uniqueName(BUILD_DATA.screenId + "_" + kind + "_" + e.id, usedLayerNames);
+        }
+        if (currentChildLayer < 0) {
+            timeline.currentLayer = findLayerIndex(timelineFolderName);
+            layerIndex = timeline.addNewLayer(layerName, "normal", true);
+        } else {
+            timeline.currentLayer = currentChildLayer;
+            layerIndex = timeline.addNewLayer(layerName, "normal", true);
+        }
+        if (layerIndex === undefined || layerIndex === null || layerIndex < 0) {
+            throw new Error("Could not create timeline layer '" + layerName + "'.");
+        }
+        timeline.currentLayer = layerIndex;
+        currentChildLayer = layerIndex;
+        timeline.currentFrame = frameN;
+        timeline.insertBlankKeyframe(frameN);
+        if (!firstLayerName) {
+            firstLayerName = layerName;
+        }
+        preparedLayers[layerName] = true;
+        elementLayerNames[e.id] = layerName;
+        if (kind === "dynamic") {
+            var d;
+            for (d = 0; d < dynamicMembers.length; d++) {
+                elementLayerNames[dynamicMembers[d].id] = layerName;
+            }
+        }
+    }
 }
+
+function ensureLayerFrame(e) {
+    var layerName = elementLayerNames[e.id];
+    var layerIndex;
+    if (!layerName) {
+        throw new Error("No newly created layer assigned to element '" + e.id + "'.");
+    }
+    layerIndex = findLayerIndex(layerName);
+    timeline.currentLayer = layerIndex;
+    timeline.currentFrame = frameN;
+    if (!preparedLayers[layerName]) {
+        timeline.insertBlankKeyframe(frameN);
+        preparedLayers[layerName] = true;
+    }
+}
+
+function newLibraryItemsComparedTo(before) {
+    var after = snapshotLibraryItems();
+    var result = [];
+    var i;
+    for (i = 0; i < after.length; i++) {
+        if (!nameExists(before, after[i])) {
+            result.push(after[i]);
+        }
+    }
+    return result;
+}
+
+function importAsset(asset) {
+    var uri;
+    var base;
+    var before;
+    var additions;
+    var importedName;
+    var leaf;
+    var desiredName;
+    var finalName;
+    var i;
+    var slash;
+
+    if (assetCache[asset]) {
+        return assetCache[asset];
+    }
+    uri = assetURI(asset);
+    if (!FLfile.exists(uri)) {
+        throw new Error("Asset does not exist: " + uri);
+    }
+    base = String(asset).substring(String(asset).lastIndexOf("/") + 1);
+    if (libraryHasLeafName(base)) {
+        throw new Error("Import would collide with existing Library item '" + base + "'; no existing item was reused.");
+    }
+    before = snapshotLibraryItems();
+    doc.importFile(uri, true);
+    additions = newLibraryItemsComparedTo(before);
+    if (additions.length < 1) {
+        throw new Error("Animate did not add a new Library item for '" + asset + "'.");
+    }
+    importedName = null;
+    for (i = 0; i < additions.length; i++) {
+        slash = additions[i].lastIndexOf("/");
+        if ((slash < 0 ? additions[i] : additions[i].substring(slash + 1)) === base) {
+            importedName = additions[i];
+            break;
+        }
+    }
+    if (!importedName) {
+        importedName = additions[0];
+    }
+
+    leaf = base.replace(/\.[^.]+$/, "");
+    desiredName = uniqueName(BUILD_DATA.screenId + "_" + leaf, usedLibraryNames);
+    while (libraryHasName(desiredName) || libraryHasLeafName(desiredName)) {
+        desiredName = uniqueName(BUILD_DATA.screenId + "_" + leaf, usedLibraryNames);
+    }
+    library.selectItem(importedName);
+    library.renameItem(desiredName);
+    library.moveToFolder(libraryFolderName, desiredName, false);
+    finalName = libraryFolderName + "/" + desiredName;
+    if (!libraryHasName(finalName)) {
+        if (libraryHasName(desiredName)) {
+            finalName = desiredName;
+        } else {
+            throw new Error("Could not verify prefixed Library item '" + desiredName + "'.");
+        }
+    }
+    assetCache[asset] = finalName;
+    return finalName;
+}
+
+function setInstanceName(element, requestedName) {
+    var finalName = requestedName;
+    if (usedInstanceNames[finalName] === true) {
+        finalName = uniqueName(finalName, usedInstanceNames);
+        warnings.push("Duplicate instance name '" + requestedName + "' became '" + finalName + "'.");
+    } else {
+        usedInstanceNames[finalName] = true;
+    }
+    element.name = finalName;
+    if (String(element.name) !== finalName) {
+        warnings.push("Animate did not retain instance name '" + finalName + "'.");
+    }
+}
+
+function setBounds(element, e, textElement) {
+    var rectError = null;
+    try {
+        doc.selection = [element];
+        doc.setSelectionRect({
+            left: Number(e.x),
+            top: Number(e.y),
+            right: Number(e.x) + Number(e.w),
+            bottom: Number(e.y) + Number(e.h)
+        }, false);
+    } catch (selectionError) {
+        rectError = selectionError;
+    }
+    element = doc.selection && doc.selection.length ? doc.selection[0] : element;
+    try {
+        if (textElement) {
+            element.left = Number(e.x);
+            element.top = Number(e.y);
+        } else {
+            element.x = Number(e.x);
+            element.y = Number(e.y);
+        }
+        element.width = Number(e.w);
+        element.height = Number(e.h);
+    } catch (boundsError) {
+        throw new Error("Could not set exact bounds for '" + e.id + "': " + boundsError +
+            (rectError ? " (selection rectangle failed: " + rectError + ")" : ""));
+    }
+    return element;
+}
+
+function placeImage(itemName, e) {
+    doc.library.addItemToDocument({x: Number(e.x), y: Number(e.y)}, itemName);
+    if (!doc.selection || doc.selection.length < 1) {
+        throw new Error("Animate did not place Library item '" + itemName + "'.");
+    }
+    return setBounds(doc.selection[0], e, false);
+}
+
+function configureText(element, e) {
+    var font = e.font || {};
+    var family = font.family ? String(font.family) : "Arial";
+    var fonts = null;
+    var found = false;
+    var i;
+    var length = String(e.textValue).length;
+
+    if (typeof element.setTextAttr !== "function") {
+        throw new Error("Text element does not provide setTextAttr; required font formatting was not applied.");
+    }
+
+    try {
+        if (fl.getFontList) {
+            fonts = fl.getFontList();
+        }
+    } catch (fontListError) {
+        warnings.push("Could not check font '" + family + "' for '" + e.id + "': " + fontListError);
+    }
+    if (fonts) {
+        for (i = 0; i < fonts.length; i++) {
+            if (String(fonts[i]) === family) {
+                found = true;
+                break;
+            }
+        }
+        if (!found) {
+            warnings.push("Font '" + family + "' is unavailable for '" + e.id + "'; using Arial.");
+            family = "Arial";
+        }
+    } else {
+        warnings.push("Font '" + family + "' could not be verified for '" + e.id + "'; using Arial.");
+        family = "Arial";
+    }
+
+    element.setTextAttr("face", family, 0, length);
+    if (font.size !== undefined && font.size !== null) {
+        element.setTextAttr("size", Number(font.size), 0, length);
+    }
+    if (font.color) {
+        element.setTextAttr("fillColor", String(font.color), 0, length);
+    }
+    if (font.align) {
+        element.setTextAttr("alignment", String(font.align), 0, length);
+    }
+    if (font.weight !== undefined) {
+        try {
+            element.setTextAttr("bold", Number(font.weight) >= 600, 0, length);
+        } catch (weightError) {
+            warnings.push("Could not apply font weight for '" + e.id + "': " + weightError);
+        }
+    }
+    try {
+        element.setTextAttr("direction", BUILD_DATA.direction, 0, length);
+    } catch (directionError) {
+        warnings.push("Could not apply RTL direction for '" + e.id + "': " + directionError);
+    }
+    element.textType = "dynamic";
+    return element;
+}
+
+function createText(e, isButtonLabel) {
+    var element;
+    var textAfterWrite;
+    if (typeof e.textValue !== "string") {
+        throw new Error("Text value for '" + e.textKey + "' is missing or not a string.");
+    }
+    doc.addNewText({
+        left: Number(e.x),
+        top: Number(e.y),
+        right: Number(e.x) + Number(e.w),
+        bottom: Number(e.y) + Number(e.h)
+    });
+    if (!doc.selection || doc.selection.length < 1) {
+        throw new Error("Animate did not create text for '" + e.id + "'.");
+    }
+    element = doc.selection[0];
+    doc.setTextString(e.textValue);
+    element = doc.selection[0];
+    element = configureText(element, e);
+    element = setBounds(element, e, true);
+    textAfterWrite = String(element.textString);
+    textChecks.push({
+        id: e.id,
+        element: element,
+        intended: e.textValue,
+        initial: textAfterWrite
+    });
+    if (!isButtonLabel) {
+        setInstanceName(element, e.id);
+    }
+    return element;
+}
+
+function effectsFor(e) {
+    return e.effects || null;
+}
+
+function hasReplacementAsset(e) {
+    var effects = effectsFor(e);
+    return !!(e.replacementAsset || (effects && effects.replacementAsset));
+}
+
+function assetFor(e) {
+    var effects = effectsFor(e);
+    if (effects && effects.replacementAsset) {
+        return effects.replacementAsset;
+    }
+    if (e.replacementAsset) {
+        return e.replacementAsset;
+    }
+    return e.asset;
+}
+
+function applyEffects(element, e) {
+    var effects = effectsFor(e);
+    if (!effects || hasReplacementAsset(e)) {
+        return;
+    }
+    if (effects.opacity !== undefined && effects.opacity !== null) {
+        try {
+            element.colorMode = "alpha";
+            element.colorAlphaPercent = Number(effects.opacity) * 100;
+        } catch (opacityError) {
+            warnings.push("Animate could not apply opacity to '" + e.id + "': " + opacityError);
+        }
+    }
+    if (effects.blendMode) {
+        try {
+            element.blendMode = String(effects.blendMode);
+        } catch (blendError) {
+            warnings.push("Animate could not apply blend mode to '" + e.id + "': " + blendError);
+        }
+    }
+    if (effects.filter) {
+        warnings.push("Filter effect is unsupported by this builder for '" + e.id + "'.");
+    }
+}
+
+function createShape(e) {
+    if (!e.geometry) {
+        throw new Error("Shape has no manifest geometry; no placeholder was invented.");
+    }
+    doc.addNewRectangle({
+        left: Number(e.x),
+        top: Number(e.y),
+        right: Number(e.x) + Number(e.w),
+        bottom: Number(e.y) + Number(e.h)
+    }, 0);
+    if (!doc.selection || doc.selection.length < 1) {
+        throw new Error("Animate did not create a rectangle for '" + e.id + "'.");
+    }
+    var shape = setBounds(doc.selection[0], e, false);
+    setInstanceName(shape, e.id);
+    warnings.push("Shape '" + e.id + "' is represented by a rectangle placeholder.");
+    return shape;
+}
+
+function buildElement(e) {
+    var asset;
+    var itemName;
+    var instance;
+    var label;
+    var selection;
+    var symbolName;
+
+    if (e.kind === "image") {
+        asset = assetFor(e);
+        if (!asset) {
+            throw new Error("Image has no asset path.");
+        }
+        itemName = importAsset(asset);
+        ensureLayerFrame(e);
+        instance = placeImage(itemName, e);
+        setInstanceName(instance, e.id);
+        applyEffects(instance, e);
+        placedCount++;
+        return;
+    }
+    if (e.kind === "text") {
+        ensureLayerFrame(e);
+        createText(e, false);
+        placedCount++;
+        return;
+    }
+    if (e.kind === "button") {
+        asset = assetFor(e);
+        if (!asset) {
+            throw new Error("Button has no background image.");
+        }
+        itemName = importAsset(asset);
+        ensureLayerFrame(e);
+        instance = placeImage(itemName, e);
+        selection = [instance];
+        if (e.textValue !== null && e.textValue !== undefined) {
+            label = createText(e, true);
+            selection.push(label);
+        }
+        doc.selection = selection;
+        symbolName = uniqueName(BUILD_DATA.screenId + "_" + e.id + "_symbol", usedLibraryNames);
+        doc.convertToSymbol("movie clip", symbolName, "center");
+        if (!doc.selection || doc.selection.length < 1) {
+            throw new Error("Animate did not create a MovieClip for '" + e.id + "'.");
+        }
+        instance = setBounds(doc.selection[0], e, false);
+        setInstanceName(instance, e.id);
+        applyEffects(instance, e);
+        placedCount++;
+        return;
+    }
+    if (e.kind === "shape") {
+        ensureLayerFrame(e);
+        instance = createShape(e);
+        applyEffects(instance, e);
+        placedCount++;
+        return;
+    }
+    throw new Error("Unsupported element kind '" + e.kind + "'.");
+}
+
+function recordSkips() {
+    var i;
+    var e;
+    for (i = 0; i < BUILD_DATA.elements.length; i++) {
+        e = BUILD_DATA.elements[i];
+        if (isNonVisual(e)) {
+            skipped.push({id: e.id, reason: "skipped (code-drawn / non-visual)"});
+        } else if (e.skipReason) {
+            skipped.push({id: e.id, reason: e.skipReason});
+        } else if (!validBounds(e)) {
+            skipped.push({id: e.id, reason: "missing or invalid x, y, w, h"});
+        }
+    }
+}
+
+function verifyTextFields() {
+    var i;
+    var check;
+    var actual;
+    var width;
+    var height;
+    for (i = 0; i < textChecks.length; i++) {
+        check = textChecks[i];
+        try {
+            actual = String(check.element.textString);
+        } catch (textError) {
+            warnings.push("Could not read textString for '" + check.id + "': " + textError);
+            actual = check.initial;
+        }
+        if (actual !== check.intended) {
+            warnings.push("Text verification mismatch for '" + check.id + "'.");
+        }
+        try {
+            width = Number(check.element.width);
+            height = Number(check.element.height);
+            if (width === 0 || height === 0) {
+                warnings.push("Text field '" + check.id + "' has zero width or height.");
+            }
+        } catch (boundsError) {
+            warnings.push("Could not verify bounds for text field '" + check.id + "': " + boundsError);
+        }
+    }
+}
+
+function reportResults() {
+    var i;
+    doc.selectNone();
+    verifyTextFields();
+    doc.selectNone();
+    verifyBeforeAfter();
+    log("Source counts: screens=" + BUILD_DATA.screenCount + ", sharedElements=" +
+        BUILD_DATA.sharedCount + ", total=" + BUILD_DATA.totalCount);
+    log("Elements placed: " + placedCount);
+    log("Elements skipped: " + skipped.length);
+    for (i = 0; i < skipped.length; i++) {
+        log("SKIPPED: " + skipped[i].id + " - " + skipped[i].reason);
+    }
+    log("Elements failed: " + failures.length);
+    for (i = 0; i < failures.length; i++) {
+        log("FAILED: " + failures[i].id + " - " + failures[i].error);
+    }
+    log("Warnings: " + warnings.length);
+    for (i = 0; i < warnings.length; i++) {
+        log("WARNING: " + warnings[i]);
+    }
+    log("Pre-existing layer/Library differences: " + differences.length);
+    for (i = 0; i < differences.length; i++) {
+        log("DIFFERENCE: " + differences[i]);
+    }
+    if (differences.length > 0) {
+        alert("Add-only verification found differences. See the Output panel. The document was not saved or closed.");
+    }
+    log("Document was not saved or closed.");
+}
+
 function build() {
-  doc = fl.getDocumentDOM();
-  if (!doc) { alert("No Adobe Animate document is open. Open the target document and run this JSFL again."); return; }
-  timeline = (doc.timelines && doc.timelines.length) ? doc.timelines[0] : doc.getTimeline();
-  library = doc.library;
-  originalLayers = snapshotLayers();
-  originalItems = snapshotLibraryNames();
-  for (var i = 0; i < originalItems.length; i++) { usedItemNames[originalItems[i]] = true; }
-  for (var j = 0; j < originalLayers.length; j++) { usedLayerNames[originalLayers[j].name] = true; }
-  originalWidth = Number(doc.width); originalHeight = Number(doc.height);
-  frameN = Number(timeline.frameCount);
-  if (originalWidth !== Number(BUILD_DATA.stage.w) || originalHeight !== Number(BUILD_DATA.stage.h)) {
-    warnings.push("Stage size differs from manifest (document " + originalWidth + "x" + originalHeight + ", manifest " + BUILD_DATA.stage.w + "x" + BUILD_DATA.stage.h + "); document was not changed.");
-  }
-  createLibraryFolder();
-  // New layers are added from lowest zIndex to highest so Animate's above-current insertion keeps high zIndex layers on top.
-  var ordered = BUILD_DATA.elements.slice(0);
-  ordered.sort(function(a,b) { return Number(a.zIndex) - Number(b.zIndex); });
-  var firstNewLayer = null;
-  for (var n = 0; n < ordered.length; n++) {
-    var e = ordered[n];
-    if (e.x === null || e.y === null || e.w === null || e.h === null || isNaN(Number(e.x)) || isNaN(Number(e.y)) || isNaN(Number(e.w)) || isNaN(Number(e.h))) {
-      skipped.push(e.id + ": missing or invalid x/y/w/h.");
-      continue;
+    var elements;
+    var i;
+    var e;
+    var frame;
+
+    doc = fl.getDocumentDOM();
+    if (!doc) {
+        alert("No Adobe Animate document is open. Open the target document and run this JSFL again.");
+        return;
     }
-    if (e.textKey && (e.textValue === null || typeof e.textValue !== "string") && (e.kind === "text" || e.kind === "button")) {
-      skipped.push(e.id + ": missing/non-scalar text value for " + e.textKey + ".");
-      continue;
+    timeline = doc.getTimeline();
+    library = doc.library;
+    originalLayers = snapshotLayers();
+    originalItems = snapshotLibraryItems();
+    frameN = Number(timeline.frameCount);
+
+    if (Number(doc.width) !== Number(BUILD_DATA.stage.w) ||
+            Number(doc.height) !== Number(BUILD_DATA.stage.h)) {
+        warnings.push("Stage size differs from manifest (" + doc.width + "x" + doc.height +
+            " vs " + BUILD_DATA.stage.w + "x" + BUILD_DATA.stage.h + "); it was not changed.");
     }
-    var beforeLayerCount = timeline.layers.length;
-    buildOneElement(e);
-    if (timeline.layers.length > beforeLayerCount && firstNewLayer === null) { firstNewLayer = timeline.layers[timeline.currentLayer]; }
-  }
-  if (firstNewLayer && firstNewLayer.frames && firstNewLayer.frames[frameN]) {
-    firstNewLayer.frames[frameN].name = BUILD_DATA.screenId;
-    firstNewLayer.frames[frameN].labelType = "name";
-  } else {
-    warnings.push("Could not set the frame label on the first new layer at index " + frameN + ".");
-  }
-  outputSnapshotDifferences();
-  traceLine("Frame index: " + frameN + "; new folder: " + folderName);
-  traceLine("Elements placed: " + placedCount);
-  traceLine("Elements skipped: " + skipped.length);
-  for (var s = 0; s < skipped.length; s++) { traceLine("SKIPPED: " + skipped[s]); }
-  traceLine("Warnings: " + warnings.length);
-  for (var w = 0; w < warnings.length; w++) { traceLine("WARNING: " + warnings[w]); }
-  traceLine("Pre-existing layer/library snapshot differences: " + differences.length);
-  for (var d = 0; d < differences.length; d++) { traceLine("DIFFERENCE: " + differences[d]); }
-  if (differences.length) { alert("Add-only verification found differences. No cleanup was attempted. See the Output panel for details."); }
-  else { traceLine("Verification passed for all snapshotted pre-existing layer names/frame counts and Library item names."); }
-  traceLine("Document was not saved or closed.");
+
+    recordSkips();
+    elements = getVisualElements();
+
+    try {
+        addFolders();
+        createLayers(elements);
+    } catch (layerError) {
+        log("LAYER/FOLDER ERROR; element placement stopped: " + layerError);
+        alert("Could not create the new screen folder or its layers: " + layerError +
+            "\nSee the Output panel. No cleanup was attempted.");
+        return;
+    }
+
+    for (i = 0; i < elements.length; i++) {
+        e = elements[i];
+        if (!validBounds(e)) {
+            continue;
+        }
+        try {
+            doc.selectNone();
+            buildElement(e);
+        } catch (elementError) {
+            failures.push({id: e.id, error: String(elementError)});
+            log("FAILED: " + e.id + " - " + elementError);
+        }
+    }
+
+    if (firstLayerName) {
+        try {
+            timeline.currentLayer = findLayerIndex(firstLayerName);
+            timeline.currentFrame = frameN;
+            frame = timeline.layers[timeline.currentLayer].frames[frameN];
+            if (!frame) {
+                throw new Error("No new frame at index " + frameN + ".");
+            }
+            frame.name = BUILD_DATA.screenId;
+            frame.labelType = "name";
+        } catch (labelError) {
+            warnings.push("Could not set frame label '" + BUILD_DATA.screenId + "': " + labelError);
+        }
+    }
+    reportResults();
 }
 
 try {
-  if (fl.outputPanel && fl.outputPanel.clear) { fl.outputPanel.clear(); }
-  build();
+    if (fl.outputPanel && fl.outputPanel.clear) {
+        fl.outputPanel.clear();
+    }
+    build();
 } catch (error) {
-  traceLine("ERROR; stopped without cleanup: " + error);
-  alert("The " + BUILD_DATA.screenId + " build stopped: " + error + "\nSee the Output panel. No cleanup was attempted.");
+    log("FATAL ERROR; stopped without cleanup: " + error);
+    alert("The " + BUILD_DATA.screenId + " build stopped: " + error +
+        "\nSee the Output panel. No cleanup was attempted.");
 }

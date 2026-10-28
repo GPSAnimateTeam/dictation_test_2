@@ -99,67 +99,19 @@
               <elements/>
             </DOMFrame>
             <DOMFrame index="1" duration="12" tweenType="motion" motionTweenSnap="true" keyMode="22017">
-              <elements>
-                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/&amp;#060Ellipse&amp;#062 copy" centerPoint3DX="412.8" centerPoint3DY="297.65">
-                  <matrix>
-                    <Matrix a="0.969635009765625" d="0.925750732421875" tx="326.05" ty="280.45"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="89.65" y="18.6"/>
-                  </transformationPoint>
-                  <color>
-                    <Color alphaMultiplier="0.51953125"/>
-                  </color>
-                </DOMSymbolInstance>
-              </elements>
+              <elements/>
             </DOMFrame>
             <DOMFrame index="13" duration="56" keyMode="9728">
-              <elements>
-                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/&amp;#060Ellipse&amp;#062 copy" centerPoint3DX="880.8" centerPoint3DY="297.65">
-                  <matrix>
-                    <Matrix a="0.969635009765625" d="0.925750732421875" tx="794.05" ty="280.45"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="89.65" y="18.6"/>
-                  </transformationPoint>
-                  <color>
-                    <Color alphaMultiplier="0.51953125"/>
-                  </color>
-                </DOMSymbolInstance>
-              </elements>
+              <elements/>
             </DOMFrame>
             <DOMFrame index="69" duration="8" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="quadOut">
               <tweens>
                 <Ease target="all" method="quadOut"/>
               </tweens>
-              <elements>
-                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/&amp;#060Ellipse&amp;#062 copy" selected="true" centerPoint3DX="880.8" centerPoint3DY="297.65">
-                  <matrix>
-                    <Matrix a="0.969635009765625" d="0.925750732421875" tx="794.05" ty="280.45"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="89.65" y="18.6"/>
-                  </transformationPoint>
-                  <color>
-                    <Color alphaMultiplier="0.51953125"/>
-                  </color>
-                </DOMSymbolInstance>
-              </elements>
+              <elements/>
             </DOMFrame>
             <DOMFrame index="77" duration="30" keyMode="9728">
-              <elements>
-                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/&amp;#060Ellipse&amp;#062 copy" centerPoint3DX="412.8" centerPoint3DY="297.65">
-                  <matrix>
-                    <Matrix a="0.969635009765625" d="0.925750732421875" tx="326.05" ty="280.45"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="89.65" y="18.6"/>
-                  </transformationPoint>
-                  <color>
-                    <Color alphaMultiplier="0.51953125"/>
-                  </color>
-                </DOMSymbolInstance>
-              </elements>
+              <elements/>
             </DOMFrame>
           </frames>
         </DOMLayer>

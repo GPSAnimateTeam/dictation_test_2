@@ -70,52 +70,16 @@ if (window.onSquirrelCelebrateDone) {
               <tweens>
                 <Ease target="all" method="quadOut"/>
               </tweens>
-              <elements>
-                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/&amp;#060Ellipse&amp;#062 copy 3" blendMode="multiply">
-                  <matrix>
-                    <Matrix c="0.3387451171875" tx="-394.2" ty="500.15"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="152.95" y="22.75"/>
-                  </transformationPoint>
-                  <color>
-                    <Color alphaMultiplier="0.30078125"/>
-                  </color>
-                </DOMSymbolInstance>
-              </elements>
+              <elements/>
             </DOMFrame>
             <DOMFrame index="6" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="quadOut">
               <tweens>
                 <Ease target="all" method="quadOut"/>
               </tweens>
-              <elements>
-                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/&amp;#060Ellipse&amp;#062 copy 3" blendMode="multiply" centerPoint3DX="259.5" centerPoint3DY="522.9">
-                  <matrix>
-                    <Matrix c="-0.102706909179688" tx="108.85" ty="500.15"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="153" y="22.75"/>
-                  </transformationPoint>
-                  <color>
-                    <Color alphaMultiplier="0.30078125"/>
-                  </color>
-                </DOMSymbolInstance>
-              </elements>
+              <elements/>
             </DOMFrame>
             <DOMFrame index="9" keyMode="9728">
-              <elements>
-                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/&amp;#060Ellipse&amp;#062 copy 3" blendMode="multiply" centerPoint3DX="257.15" centerPoint3DY="522.9">
-                  <matrix>
-                    <Matrix tx="104.2" ty="500.15"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="152.95" y="22.75"/>
-                  </transformationPoint>
-                  <color>
-                    <Color alphaMultiplier="0.30078125"/>
-                  </color>
-                </DOMSymbolInstance>
-              </elements>
+              <elements/>
             </DOMFrame>
           </frames>
         </DOMLayer>

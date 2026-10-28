@@ -1,0 +1,60 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Symbol 128" itemID="6a8b0765-00001369" symbolType="graphic" lastModified="1787496293">
+  <timeline>
+    <DOMTimeline name="Symbol 128" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <matrix>
+                    <Matrix a="0.969772338867188" d="0.92572021484375" tx="-2842.45" ty="-8477.95"/>
+                  </matrix>
+                  <members>
+                    <DOMShape isDrawingObject="true">
+                      <matrix>
+                        <Matrix a="0.968841552734375" d="0.924880981445312" tx="-2842.45" ty="-8476.2"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FF60A5"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!58887 183412[59045 183568 59016 183715!59016 183715|59112 183524!59112 183524[59181 183388 59030 183207!59030 183207[58916 183369 58887 183412"/>
+                        <Edge cubics="!58887 183412(;58961,183485 59040,183594 59016,183715q58887 183412Q59045 183568q59016 183715);"/>
+                        <Edge cubics="!59016 183715(;59016,183715 59112,183524 59112,183524q59016 183715 59112 183524);"/>
+                        <Edge cubics="!59112 183524(;59169,183412 59102,183293 59030,183207q59112 183524Q59181 183388q59030 183207);"/>
+                        <Edge cubics="!59030 183207(;58982,183275 58933,183343 58887,183412q59030 183207Q58916 183369q58887 183412);"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMShape isDrawingObject="true">
+                      <matrix>
+                        <Matrix a="0.968841552734375" d="0.924880981445312" tx="-2842.45" ty="-8476.2"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FF5C80"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!58738 183636|58663 183643!58663 183643[58657 183709 58639 183849!58639 183849[58700 183832 58770 183824!58770 183824[58884 183811 58962 183762!58962 183762|59016 183715!59016 183715|59123 183496!59123 183496[59046 183573 58908 183610
+!58908 183610[58826 183632 58738 183636"/>
+                        <Edge cubics="!58738 183636(;58713,183638 58688,183640 58663,183643q58738 183636 58663 183643);"/>
+                        <Edge cubics="!58663 183643(;58657,183712 58648,183780 58639,183849q58663 183643Q58657 183709q58639 183849);"/>
+                        <Edge cubics="!58639 183849(;58682,183837 58726,183829 58770,183824q58639 183849Q58700 183832q58770 183824);"/>
+                        <Edge cubics="!58770 183824(;58953,183803 59016,183715 59016,183715q58770 183824Q58884 183811q58962 183762Q59016 183715q59016 183715);"/>
+                        <Edge cubics="!59016 183715(;59016,183715 59123,183496 59123,183496q59016 183715 59123 183496);"/>
+                        <Edge cubics="!59123 183496(;59004,183615 58798,183633 58738,183636q59123 183496Q59046 183573q58908 183610Q58826 183632q58738 183636);"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

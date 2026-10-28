@@ -1,0 +1,30 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="flash0.ai Assets_53/Isolation Mode/&amp;#060Ellipse&amp;#062_4" itemID="6ab8f3cd-00020a0f" lastModified="1790505933">
+  <timeline>
+    <DOMTimeline name="&amp;#060Ellipse&amp;#062_4" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#DDFFB6"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!108 92[97 106 74 104!74 104[52 102 31 85!31 85[10 68 3 47!3 47[-4 26 7 12!7 12[18 -1 40 1!40 1[63 3 84 19!84 19[104 36 111 57!111 57[118 78 108 92"/>
+                    <Edge cubics="!108 92(;93,110 59,107 31,85q108 92Q97 106q74 104Q52 102q31 85);"/>
+                    <Edge cubics="!31 85(;3,63 -8,31 7,12q31 85Q10 68q3 47Q-4 26q7 12);"/>
+                    <Edge cubics="!7 12(;21,-6 56,-3 84,19q7 12Q18 -1q40 1Q63 3q84 19);"/>
+                    <Edge cubics="!84 19(;111,41 122,73 108,92q84 19Q104 36q111 57Q118 78q108 92);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

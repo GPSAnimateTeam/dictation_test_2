@@ -1,0 +1,30 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Duplicate Items Folder/&amp;#060Path&amp;#062_6 copy 2" itemID="6abb5c6a-000801ad" lastModified="1790254882">
+  <timeline>
+    <DOMTimeline name="&amp;#060Path&amp;#062_6 copy 2" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#333333"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!307 637[302 643 224 656!224 656[146 669 137 665!137 665|0 0!0 0[16 14 30 35!30 35[107 147 205 351!205 351[312 575 307 637"/>
+                    <Edge cubics="!307 637(;300,645 149,671 137,665q307 637Q302 643q224 656Q146 669q137 665);"/>
+                    <Edge cubics="!137 665(;137,665 36,176 0,0q137 665 0 0);"/>
+                    <Edge cubics="!0 0(;8,7 16,14 30,35q0 0Q16 14q30 35);"/>
+                    <Edge cubics="!30 35(;119,165 314,547 307,637q30 35Q107 147q205 351Q312 575q307 637);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

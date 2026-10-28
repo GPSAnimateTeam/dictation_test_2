@@ -1,0 +1,89 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Duplicate Items Folder/Symbol 70 copy 2" itemID="6abb5c6a-000801a4" lastModified="1790663907" lastUniqueIdentifier="3">
+  <timeline>
+    <DOMTimeline name="Symbol 70 copy 2" currentFrame="9" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_2" color="#9933CC" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="9" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="9" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.stop()
+if (window.onSquirrelCelebrateDone) {
+	window.onSquirrelCelebrateDone();
+}]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_3" color="#FF800A">
+          <frames>
+            <DOMFrame index="0" duration="6" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="quadOut">
+              <tweens>
+                <Ease target="all" method="quadOut"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/Symbol 15 copy 2" name="happy">
+                  <matrix>
+                    <Matrix a="-1.7545166015625" c="0.594329833984375" d="1.7545166015625" tx="-370.7" ty="-434.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="134.75" y="156.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="6" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="quadOut">
+              <tweens>
+                <Ease target="all" method="quadOut"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/Symbol 15 copy 2" name="happy" centerPoint3DX="258.65" centerPoint3DY="268.05">
+                  <matrix>
+                    <Matrix a="-1.7545166015625" c="-0.0475616455078125" d="1.71372985839844" tx="471.55" ty="-412.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="134.6" y="156.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="9" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/Symbol 15 copy 2" name="happy" centerPoint3DX="230.15" centerPoint3DY="268.05">
+                  <matrix>
+                    <Matrix a="-1.7545166015625" d="1.7545166015625" tx="444.4" ty="-434.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="134.75" y="156.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_1" color="#00FFFF">
+          <frames>
+            <DOMFrame index="0" duration="6" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="quadOut">
+              <tweens>
+                <Ease target="all" method="quadOut"/>
+              </tweens>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="6" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="quadOut">
+              <tweens>
+                <Ease target="all" method="quadOut"/>
+              </tweens>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="9" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,78 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Symbol 75" itemID="6a8aec03-000015ee" symbolType="graphic" lastModified="1787489283">
+  <timeline>
+    <DOMTimeline name="Symbol 75" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <matrix>
+                    <Matrix a="0.634857177734375" d="0.634857177734375" tx="-818.45" ty="-507.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1302.95" y="848.6"/>
+                  </transformationPoint>
+                  <members>
+                    <DOMGroup selected="true">
+                      <matrix>
+                        <Matrix a="0.634353637695312" d="0.634353637695312" tx="-818.45" ty="-507.1"/>
+                      </matrix>
+                      <members>
+                        <DOMShape selected="true" isDrawingObject="true">
+                          <matrix>
+                            <Matrix a="0.63409423828125" d="0.63409423828125" tx="-818.45" ty="-507.1"/>
+                          </matrix>
+                          <fills>
+                            <FillStyle index="1">
+                              <SolidColor color="#723A27"/>
+                            </FillStyle>
+                          </fills>
+                          <edges>
+                            <Edge fillStyle1="1" edges="!26113 17781|26113 16195!26113 16195|25786 16195!25786 16195|25786 15977!25786 15977|26327 15977!26327 15977|26327 17781!26327 17781|26113 17781"/>
+                            <Edge cubics="!26113 17781(;26113,17781 26113,16195 26113,16195q26113 17781 26113 16195);"/>
+                            <Edge cubics="!26327 15977(;26327,15977 26327,17781 26327,17781q26327 15977 26327 17781);"/>
+                            <Edge cubics="!26327 17781(;26327,17781 26113,17781 26113,17781q26327 17781 26113 17781);"/>
+                            <Edge cubics="!25786 16195(;25786,16195 25786,15977 25786,15977q25786 16195 25786 15977);"/>
+                            <Edge cubics="!25786 15977(;25786,15977 26327,15977 26327,15977q25786 15977 26327 15977);"/>
+                            <Edge cubics="!26113 16195(;26113,16195 25786,16195 25786,16195q26113 16195 25786 16195);"/>
+                          </edges>
+                        </DOMShape>
+                      </members>
+                    </DOMGroup>
+                    <DOMGroup selected="true">
+                      <matrix>
+                        <Matrix a="0.634353637695312" d="0.634353637695312" tx="-818.45" ty="-507.1"/>
+                      </matrix>
+                      <members>
+                        <DOMShape selected="true" isDrawingObject="true">
+                          <matrix>
+                            <Matrix a="0.63409423828125" d="0.63409423828125" tx="-818.45" ty="-507.1"/>
+                          </matrix>
+                          <fills>
+                            <FillStyle index="1">
+                              <SolidColor color="#FFFFFF"/>
+                            </FillStyle>
+                          </fills>
+                          <edges>
+                            <Edge fillStyle1="1" edges="!26113 17946|26113 16360!26113 16360|25786 16360!25786 16360|25786 16142!25786 16142|26327 16142!26327 16142|26327 17946!26327 17946|26113 17946"/>
+                            <Edge cubics="!26113 17946(;26113,17946 26113,16360 26113,16360q26113 17946 26113 16360);"/>
+                            <Edge cubics="!26327 16142(;26327,16142 26327,17946 26327,17946q26327 16142 26327 17946);"/>
+                            <Edge cubics="!26327 17946(;26327,17946 26113,17946 26113,17946q26327 17946 26113 17946);"/>
+                            <Edge cubics="!25786 16360(;25786,16360 25786,16142 25786,16142q25786 16360 25786 16142);"/>
+                            <Edge cubics="!25786 16142(;25786,16142 26327,16142 26327,16142q25786 16142 26327 16142);"/>
+                            <Edge cubics="!26113 16360(;26113,16360 25786,16360 25786,16360q26113 16360 25786 16360);"/>
+                          </edges>
+                        </DOMShape>
+                      </members>
+                    </DOMGroup>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

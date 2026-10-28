@@ -1,0 +1,176 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="flash0.ai Assets_21/05/&amp;#060Clip Group&amp;#062" itemID="6a8adfc2-000014a3" lastModified="1787486146">
+  <timeline>
+    <DOMTimeline name="&amp;#060Clip Group&amp;#062" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_4" color="#FF4FFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_2" color="#9933CC" locked="true" layerType="mask">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FF0000"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!1418 765[1558 765 1655 733!1655 733[1752 701 1752 654!1752 654[1752 607 1655 574!1655 574[1558 542 1418 542!1418 542[1277 542 1180 574!1180 574[1083 607 1083 654!1083 654[1083 701 1180 733!1180 733[1277 765 1418 765!1418 555[1556 555
+ 1651 587!1651 587[1739 616 1739 654!1739 654[1739 691 1651 721!1651 721[1556 752 1418 752!1418 752[1280 752 1185 721!1185 721[1096 691 1096 654!1096 654[1096 616 1185 587!1185 587[1279 555 1418 555"/>
+                    <Edge cubics="!1418 555(;1610,555 1739,606 1739,654q1418 555Q1556 555q1651 587Q1739 616q1739 654);"/>
+                    <Edge cubics="!1739 654(;1739,701 1610,752 1418,752q1739 654Q1739 691q1651 721Q1556 752q1418 752);"/>
+                    <Edge cubics="!1418 752(;1225,752 1096,701 1096,654q1418 752Q1280 752q1185 721Q1096 691q1096 654);"/>
+                    <Edge cubics="!1096 654(;1096,606 1225,555 1418,555q1096 654Q1096 616q1185 587Q1279 555q1418 555);"/>
+                    <Edge cubics="!1418 765(;1605,765 1752,716 1752,654q1418 765Q1558 765q1655 733Q1752 701q1752 654);"/>
+                    <Edge cubics="!1752 654(;1752,591 1605,542 1418,542q1752 654Q1752 607q1655 574Q1558 542q1418 542);"/>
+                    <Edge cubics="!1418 542(;1230,542 1083,591 1083,654q1418 542Q1277 542q1180 574Q1083 607q1083 654);"/>
+                    <Edge cubics="!1083 654(;1083,716 1230,765 1418,765q1083 654Q1083 701q1180 733Q1277 765q1418 765);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_3" color="#FF800A" parentLayerIndex="1" locked="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMShape isDrawingObject="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#61BF41"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="
+!2862 593[2862 625 2934 649!2934 649[3006 672 3108 672!3108 672[3210 672 3282 649!3282 649[3354 625 3354 593!3354 593[3354 561 3282 537!3282 537[3210 514 3108 514!3108 514[3006 514 2934 537!2934 537[2862 561 2862 593"/>
+                        <Edge cubics="!2862 593(;2862,636 2972,672 3108,672q2862 593Q2862 625q2934 649Q3006 672q3108 672);"/>
+                        <Edge cubics="!3108 672(;3244,672 3354,636 3354,593q3108 672Q3210 672q3282 649Q3354 625q3354 593);"/>
+                        <Edge cubics="!3354 593(;3354,550 3244,514 3108,514q3354 593Q3354 561q3282 537Q3210 514q3108 514);"/>
+                        <Edge cubics="!3108 514(;2972,514 2862,550 2862,593q3108 514Q3006 514q2934 537Q2862 561q2862 593);"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMSymbolInstance libraryItemName="flash0.ai Assets_21/05/&amp;#060Path&amp;#062_2">
+                      <matrix>
+                        <Matrix tx="202.1" ty="25.7"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="12.3" y="3.95"/>
+                      </transformationPoint>
+                      <color>
+                        <Color alphaMultiplier="0.46875"/>
+                      </color>
+                    </DOMSymbolInstance>
+                    <DOMSymbolInstance libraryItemName="flash0.ai Assets_21/05/&amp;#060Path&amp;#062_1">
+                      <matrix>
+                        <Matrix tx="120.5" ty="41.95"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="8.6" y="2.75"/>
+                      </transformationPoint>
+                      <color>
+                        <Color alphaMultiplier="0.46875"/>
+                      </color>
+                    </DOMSymbolInstance>
+                    <DOMSymbolInstance libraryItemName="flash0.ai Assets_21/05/&amp;#060Path&amp;#062">
+                      <transformationPoint>
+                        <Point x="16.4" y="5.2"/>
+                      </transformationPoint>
+                      <color>
+                        <Color alphaMultiplier="0.46875"/>
+                      </color>
+                    </DOMSymbolInstance>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <members>
+                    <DOMShape isDrawingObject="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#61BF41"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="
+!2862 593[2862 625 2934 649!2934 649[3006 672 3108 672!3108 672[3210 672 3282 649!3282 649[3354 625 3354 593!3354 593[3354 561 3282 537!3282 537[3210 514 3108 514!3108 514[3006 514 2934 537!2934 537[2862 561 2862 593"/>
+                        <Edge cubics="!2862 593(;2862,636 2972,672 3108,672q2862 593Q2862 625q2934 649Q3006 672q3108 672);"/>
+                        <Edge cubics="!3108 672(;3244,672 3354,636 3354,593q3108 672Q3210 672q3282 649Q3354 625q3354 593);"/>
+                        <Edge cubics="!3354 593(;3354,550 3244,514 3108,514q3354 593Q3354 561q3282 537Q3210 514q3108 514);"/>
+                        <Edge cubics="!3108 514(;2972,514 2862,550 2862,593q3108 514Q3006 514q2934 537Q2862 561q2862 593);"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMSymbolInstance libraryItemName="flash0.ai Assets_21/05/&amp;#060Path&amp;#062_2_0">
+                      <matrix>
+                        <Matrix tx="202.1" ty="25.7"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="12.3" y="3.95"/>
+                      </transformationPoint>
+                      <color>
+                        <Color alphaMultiplier="0.46875"/>
+                      </color>
+                    </DOMSymbolInstance>
+                    <DOMSymbolInstance libraryItemName="flash0.ai Assets_21/05/&amp;#060Path&amp;#062_1_0">
+                      <matrix>
+                        <Matrix tx="120.5" ty="41.95"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="8.6" y="2.75"/>
+                      </transformationPoint>
+                      <color>
+                        <Color alphaMultiplier="0.46875"/>
+                      </color>
+                    </DOMSymbolInstance>
+                    <DOMSymbolInstance libraryItemName="flash0.ai Assets_21/05/&amp;#060Path&amp;#062_0">
+                      <transformationPoint>
+                        <Point x="16.4" y="5.2"/>
+                      </transformationPoint>
+                      <color>
+                        <Color alphaMultiplier="0.46875"/>
+                      </color>
+                    </DOMSymbolInstance>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_1" color="#00FFFF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#61BF41"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="
+!1418 765[1558 765 1655 733!1655 733[1752 701 1752 654!1752 654[1752 607 1655 574!1655 574[1558 542 1418 542!1418 542[1277 542 1180 574!1180 574[1083 607 1083 654!1083 654[1083 701 1180 733!1180 733[1277 765 1418 765!1418 555[1556 555
+ 1651 587!1651 587[1739 616 1739 654!1739 654[1739 691 1651 721!1651 721[1556 752 1418 752!1418 752[1280 752 1185 721!1185 721[1096 691 1096 654!1096 654[1096 616 1185 587!1185 587[1279 555 1418 555"/>
+                    <Edge cubics="!1418 555(;1610,555 1739,606 1739,654q1418 555Q1556 555q1651 587Q1739 616q1739 654);"/>
+                    <Edge cubics="!1739 654(;1739,701 1610,752 1418,752q1739 654Q1739 691q1651 721Q1556 752q1418 752);"/>
+                    <Edge cubics="!1418 752(;1225,752 1096,701 1096,654q1418 752Q1280 752q1185 721Q1096 691q1096 654);"/>
+                    <Edge cubics="!1096 654(;1096,606 1225,555 1418,555q1096 654Q1096 616q1185 587Q1279 555q1418 555);"/>
+                    <Edge cubics="!1418 765(;1605,765 1752,716 1752,654q1418 765Q1558 765q1655 733Q1752 701q1752 654);"/>
+                    <Edge cubics="!1752 654(;1752,591 1605,542 1418,542q1752 654Q1752 607q1655 574Q1558 542q1418 542);"/>
+                    <Edge cubics="!1418 542(;1230,542 1083,591 1083,654q1418 542Q1277 542q1180 574Q1083 607q1083 654);"/>
+                    <Edge cubics="!1083 654(;1083,716 1230,765 1418,765q1083 654Q1083 701q1180 733Q1277 765q1418 765);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,48 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Duplicate Items Folder/Symbol 58 copy 2" itemID="6abb5c6a-000801a7" lastModified="1787238699" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="Symbol 58 copy 2" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="15" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="quadOut">
+              <tweens>
+                <Ease target="all" method="quadOut"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/Symbol 59 copy 2">
+                  <transformationPoint>
+                    <Point x="78.2" y="77.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="15" duration="19" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="quadOut">
+              <tweens>
+                <Ease target="all" method="quadOut"/>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/Symbol 59 copy 2" selected="true">
+                  <matrix>
+                    <Matrix a="0.998825073242188" b="0.0280914306640625" c="-0.041534423828125" tx="6.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="78.2" y="77"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="34" duration="21" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/Symbol 59 copy 2" centerPoint3DX="78.3" centerPoint3DY="77.05">
+                  <transformationPoint>
+                    <Point x="78.2" y="77.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

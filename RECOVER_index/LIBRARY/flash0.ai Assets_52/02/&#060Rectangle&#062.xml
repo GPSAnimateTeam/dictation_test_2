@@ -1,0 +1,30 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="flash0.ai Assets_52/02/&amp;#060Rectangle&amp;#062" itemID="6ab8f128-0001f2f9" lastModified="1790505256">
+  <timeline>
+    <DOMTimeline name="&amp;#060Rectangle&amp;#062" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!36332 24108|0 24108!0 24108|0 0!0 0|36332 0!36332 0|36332 24108"/>
+                    <Edge cubics="!36332 24108(;36332,24108 0,24108 0,24108q36332 24108 0 24108);"/>
+                    <Edge cubics="!0 24108(;0,24108 0,0 0,0q0 24108 0 0);"/>
+                    <Edge cubics="!0 0(;0,0 36332,0 36332,0q0 0 36332 0);"/>
+                    <Edge cubics="!36332 0(;36332,0 36332,24108 36332,24108q36332 0 36332 24108);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

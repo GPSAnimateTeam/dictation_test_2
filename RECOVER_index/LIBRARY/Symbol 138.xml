@@ -1,0 +1,40 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Symbol 138" itemID="6ab8ef8a-0001f18a" lastModified="1790710007" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="Symbol 138" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="blocker" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/Symbol 1" name="block_overly">
+                  <matrix>
+                    <Matrix a="0.797271728515625" d="0.934951782226562" tx="444.5" ty="307"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="582.95" y="325.4"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.01171875"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="flash0_ai" color="#00FFFF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 140" name="overly_animation" selected="true">
+                  <transformationPoint>
+                    <Point x="908.3" y="602.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

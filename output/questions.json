@@ -8,7 +8,7 @@
     "path": "questions.json"
   },
   "ui": {
-    "activityTitle": "صندوق الأحلام",
+    "title": "صندوق الأحلام",
     "unitTitle": "دخول حروف (ف – ب – ك – ل) على الكلمة المعرَّفة بـ(ال)",
     "buttons": {
       "start": "ابدأ",
@@ -40,13 +40,7 @@
         "اضغط زر التشغيل لتسمع الجملة، والسلحفاة لتسمع الكلمة ببطء.",
         "اختر الورقة المكتوبة كتابة صحيحة؛ لديك محاولتان.",
         "كل إجابة تضع حلمًا جديدًا في الصندوق."
-      ],
-      "numbers": [
-        "?",
-        "?",
-        "?"
-      ],
-      "understoodButton": "فهمت"
+      ]
     },
     "exitConfirmation": {
       "title": "هل تريد الخروج؟",
@@ -56,8 +50,27 @@
       "guide": "استمع جيدًا، ثم اختر الكتابة الصحيحة.",
       "tryAnother": "جرّب ورقة أخرى"
     },
-    "soundKeys": {
+    "prefixNames": {
+      "ب": "الباء",
+      "ك": "الكاف",
+      "ف": "الفاء",
+      "ل": "اللام"
+    },
+    "pieces": {
+      "plus": "+",
+      "kashida": "ـ"
+    },
+    "sounds": {
       "prompt": "vo_q0_prompt"
+    },
+    "generated": {
+      "arabicIndicDigits": "٠١٢٣٤٥٦٧٨٩",
+      "instructionNumbers": [
+        "١",
+        "٢",
+        "٣"
+      ],
+      "prefixDisplayQ1": "بــــــــــــ"
     }
   },
   "scoring": {
@@ -73,30 +86,6 @@
   "questions": [
     {
       "id": 1,
-      "stem": {
-        "before": "تتقدَّمُ الدُّوَلُ",
-        "after": ""
-      },
-      "options": [
-        {
-          "id": "q1_option_1",
-          "text": "بالعلم",
-          "correct": true,
-          "feedbackKey": "feedback.responses.first"
-        },
-        {
-          "id": "q1_option_2",
-          "text": "بعلم",
-          "correct": false,
-          "hintKey": "drop"
-        },
-        {
-          "id": "q1_option_3",
-          "text": "ب العلم",
-          "correct": false,
-          "hintKey": "split"
-        }
-      ],
       "prefix": "ب",
       "noun": "العلم",
       "word": "بالعلم",
@@ -105,10 +94,42 @@
         "sentence": "vo_q1_sentence",
         "word": "vo_q1_word",
         "slow": "vo_q1_slow"
-      }
+      },
+      "stem": {
+        "before": "تتقدَّمُ الدُّوَلُ",
+        "after": ""
+      },
+      "options": [
+        {
+          "id": "q1_option_1",
+          "text": "بالعلم",
+          "correct": true
+        },
+        {
+          "id": "q1_option_2",
+          "text": "بعلم",
+          "correct": false,
+          "hintKey": "feedback.hints.drop"
+        },
+        {
+          "id": "q1_option_3",
+          "text": "ب العلم",
+          "correct": false,
+          "hintKey": "feedback.hints.split"
+        }
+      ]
     },
     {
       "id": 2,
+      "prefix": "ف",
+      "noun": "التخطيط",
+      "word": "فالتخطيط",
+      "keepAlef": true,
+      "sounds": {
+        "sentence": "vo_q2_sentence",
+        "word": "vo_q2_word",
+        "slow": "vo_q2_slow"
+      },
       "stem": {
         "before": "خطِّطْ جيِّدًا؛",
         "after": "أساسُ النَّجاحِ."
@@ -118,33 +139,32 @@
           "id": "q2_option_1",
           "text": "فتخطيط",
           "correct": false,
-          "hintKey": "drop"
+          "hintKey": "feedback.hints.drop"
         },
         {
           "id": "q2_option_2",
           "text": "فالتخطيط",
-          "correct": true,
-          "feedbackKey": "feedback.responses.first"
+          "correct": true
         },
         {
           "id": "q2_option_3",
           "text": "ف التخطيط",
           "correct": false,
-          "hintKey": "split"
+          "hintKey": "feedback.hints.split"
         }
-      ],
-      "prefix": "ف",
-      "noun": "التخطيط",
-      "word": "فالتخطيط",
-      "keepAlef": true,
-      "sounds": {
-        "sentence": "vo_q2_sentence",
-        "word": "vo_q2_word",
-        "slow": "vo_q2_slow"
-      }
+      ]
     },
     {
       "id": 3,
+      "prefix": "ك",
+      "noun": "الأسد",
+      "word": "كالأسد",
+      "keepAlef": true,
+      "sounds": {
+        "sentence": "vo_q3_sentence",
+        "word": "vo_q3_word",
+        "slow": "vo_q3_slow"
+      },
       "stem": {
         "before": "وقفَ الجُنْديُّ",
         "after": ""
@@ -154,33 +174,32 @@
           "id": "q3_option_1",
           "text": "كأسد",
           "correct": false,
-          "hintKey": "drop"
+          "hintKey": "feedback.hints.drop"
         },
         {
           "id": "q3_option_2",
           "text": "ك الأسد",
           "correct": false,
-          "hintKey": "split"
+          "hintKey": "feedback.hints.split"
         },
         {
           "id": "q3_option_3",
           "text": "كالأسد",
-          "correct": true,
-          "feedbackKey": "feedback.responses.first"
+          "correct": true
         }
-      ],
-      "prefix": "ك",
-      "noun": "الأسد",
-      "word": "كالأسد",
-      "keepAlef": true,
-      "sounds": {
-        "sentence": "vo_q3_sentence",
-        "word": "vo_q3_word",
-        "slow": "vo_q3_slow"
-      }
+      ]
     },
     {
       "id": 4,
+      "prefix": "ل",
+      "noun": "العين",
+      "word": "للعين",
+      "keepAlef": false,
+      "sounds": {
+        "sentence": "vo_q4_sentence",
+        "word": "vo_q4_word",
+        "slow": "vo_q4_slow"
+      },
       "stem": {
         "before": "لوَّنتُ اللوحةَ بألوانٍ مريحةٍ",
         "after": ""
@@ -190,33 +209,32 @@
           "id": "q4_option_1",
           "text": "لالعين",
           "correct": false,
-          "hintKey": "lam"
+          "hintKey": "feedback.hints.lam"
         },
         {
           "id": "q4_option_2",
           "text": "للعين",
-          "correct": true,
-          "feedbackKey": "feedback.responses.first"
+          "correct": true
         },
         {
           "id": "q4_option_3",
           "text": "ل العين",
           "correct": false,
-          "hintKey": "split"
+          "hintKey": "feedback.hints.split"
         }
-      ],
-      "prefix": "ل",
-      "noun": "العين",
-      "word": "للعين",
-      "keepAlef": false,
-      "sounds": {
-        "sentence": "vo_q4_sentence",
-        "word": "vo_q4_word",
-        "slow": "vo_q4_slow"
-      }
+      ]
     },
     {
       "id": 5,
+      "prefix": "ل",
+      "noun": "الحصول",
+      "word": "للحصول",
+      "keepAlef": false,
+      "sounds": {
+        "sentence": "vo_q5_sentence",
+        "word": "vo_q5_word",
+        "slow": "vo_q5_slow"
+      },
       "stem": {
         "before": "يجتهدُ التِّلميذُ",
         "after": "على أعلى الدرجاتِ."
@@ -226,30 +244,20 @@
           "id": "q5_option_1",
           "text": "ل الحصول",
           "correct": false,
-          "hintKey": "split"
+          "hintKey": "feedback.hints.split"
         },
         {
           "id": "q5_option_2",
           "text": "لالحصول",
           "correct": false,
-          "hintKey": "lam"
+          "hintKey": "feedback.hints.lam"
         },
         {
           "id": "q5_option_3",
           "text": "للحصول",
-          "correct": true,
-          "feedbackKey": "feedback.responses.first"
+          "correct": true
         }
-      ],
-      "prefix": "ل",
-      "noun": "الحصول",
-      "word": "للحصول",
-      "keepAlef": false,
-      "sounds": {
-        "sentence": "vo_q5_sentence",
-        "word": "vo_q5_word",
-        "slow": "vo_q5_slow"
-      }
+      ]
     }
   ],
   "feedback": {
@@ -258,7 +266,7 @@
       "split": "حرف الجر يتصل بالكلمة التي بعده ولا ينفصل عنها.",
       "lam": "ماذا يحدث لألف (الـ) عندما تدخل عليها اللام؟"
     },
-    "responses": {
+    "messages": {
       "first": "أحسنت! إجابة صحيحة",
       "second": "أحسنت! في المحاولة الثانية",
       "miss": "الإجابة الصحيحة هنا",
@@ -267,15 +275,9 @@
       "rememberKeep": "تذكّر: عند دخول {prefixName} على كلمة تبدأ بـ(الـ) لا تُحذف ألفها.",
       "rememberDrop": "تذكّر: عند إضافة (لـ) إلى كلمة تبدأ بـ(الـ) نحذف الألف من (الـ)."
     },
-    "prefixNames": {
-      "ب": "الباء",
-      "ك": "الكاف",
-      "ف": "الفاء",
-      "ل": "اللام"
-    },
-    "pieces": {
-      "plus": "+",
-      "kashida": "ـ"
+    "sticky": {
+      "guide": "استمع جيدًا، ثم اختر الكتابة الصحيحة.",
+      "tryAnother": "جرّب ورقة أخرى"
     }
   },
   "result": {

@@ -14,7 +14,7 @@
                     <DOMTextRun>
                       <characters>ب</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="197.1" size="112.3" bitmapSize="2246" face="ReadexPro-Regular" fillColor="#B8321A"/>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="125.45" size="112.3" bitmapSize="2246" face="ReadexPro-Regular" fillColor="#B8321A"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>

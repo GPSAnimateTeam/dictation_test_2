@@ -14,7 +14,7 @@
                     <DOMTextRun>
                       <characters>+</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="147.4" size="84" bitmapSize="1680" face="ReadexPro-Regular" fillColor="#F5F2E8"/>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="93.85" size="84" bitmapSize="1680" face="ReadexPro-Regular" fillColor="#F5F2E8"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>

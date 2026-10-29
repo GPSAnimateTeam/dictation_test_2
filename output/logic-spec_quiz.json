@@ -2,720 +2,201 @@
   "screen": {
     "id": "quiz",
     "label": "quiz",
-    "frameAction": "stop();",
-    "sourceLocation": {
-      "file": "web_source/activity.js",
-      "line": 1071
-    }
-  },
-  "instanceNameResolution": {
-    "sourceLocation": {
-      "file": "output/build_quiz.jsfl",
-      "line": 1
-    },
-    "manifestNames": {
-      "play": "quiz_play",
-      "slow": "quiz_slow",
-      "papers": [
-        "quiz_option_1",
-        "quiz_option_2",
-        "quiz_option_3"
-      ],
-      "stem": "quiz_stem_before",
-      "sticky": "quiz_sticky",
-      "next": "quiz_next",
-      "close": "shared_close",
-      "info": "shared_info"
-    },
-    "buildNames": {
-      "play": "quiz_play_button",
-      "slow": "quiz_slow_button",
-      "papers": [
-        "quiz_answer_paper_1",
-        "quiz_answer_paper_2",
-        "quiz_answer_paper_3"
-      ],
-      "stem": "quiz_sentence",
-      "sticky": "quiz_sticky_text",
-      "next": "quiz_next_calendar",
-      "close": "shared_close_button",
-      "info": "shared_info_button",
-      "muteOn": "shared_mute_on",
-      "muteOff": "shared_mute_off"
-    },
-    "warning": "Build IDs differ from manifest IDs for controls and some text; runtime uses actual build IDs."
+    "source": "web_source/activity.js: quizEnter, renderQuestion, onOptionChosen, animateAdvance, onQuizFinished"
   },
   "interactiveElements": [
     {
       "id": "quiz_play",
-      "instanceName": "quiz_play_button",
       "event": "click",
-      "handler": "quizPlayQuestion",
-      "guard": "Blocked while an overlay is open.",
-      "stateChanges": [
-        "Stop and replace the current voice sequence."
-      ],
-      "visualChanges": [
-        "Source pulse effect is not reproduced."
-      ],
-      "sounds": [],
-      "destination": null,
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1061
-      }
+      "action": "voice [sentence, word] of the current question",
+      "guard": "no overlay open"
     },
     {
       "id": "quiz_slow",
-      "instanceName": "quiz_slow_button",
       "event": "click",
-      "handler": "quizPlayQuestionSlow",
-      "guard": "Blocked while an overlay is open.",
-      "stateChanges": [
-        "Stop and replace the current voice sequence."
-      ],
-      "visualChanges": [
-        "Source pulse effect is not reproduced."
-      ],
-      "sounds": [],
-      "destination": null,
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1061
-      }
+      "action": "voice [slow] of the current question",
+      "guard": "no overlay open"
     },
     {
-      "id": "quiz_option_1",
-      "instanceName": "quiz_answer_paper_1",
+      "id": "quiz_option_1..3",
       "event": "click",
-      "handler": "quizChooseOption1",
-      "guard": "Reject if overlay open, quiz busy, answer locked, settled, or activity not ready.",
+      "handler": "onOption(index)",
+      "guard": "not locked, not busy, no overlay, paper not removed",
       "stateChanges": [
-        "Increment attempts and lock immediately.",
-        "Use global answer validation; score immediately when correct or out of attempts.",
-        "Unlock after first-wrong hook resolves."
-      ],
-      "visualChanges": [
-        "Update sticky feedback, star state, and next availability after hooks."
+        "attemptsUsed++",
+        "activityCheckAnswer",
+        "activitySettleQuestion(first|second|miss)"
       ],
       "sounds": [
-        {
-          "id": "sfx_pin_press",
-          "volume": 0.35
-        }
+        "sfx_pin_press 0.35"
       ],
-      "destination": null,
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1156
-      }
-    },
-    {
-      "id": "quiz_option_2",
-      "instanceName": "quiz_answer_paper_2",
-      "event": "click",
-      "handler": "quizChooseOption2",
-      "guard": "Reject if overlay open, quiz busy, answer locked, settled, or activity not ready.",
-      "stateChanges": [
-        "Increment attempts and lock immediately.",
-        "Use global answer validation; score immediately when correct or out of attempts.",
-        "Unlock after first-wrong hook resolves."
-      ],
-      "visualChanges": [
-        "Update sticky feedback, star state, and next availability after hooks."
-      ],
-      "sounds": [
-        {
-          "id": "sfx_pin_press",
-          "volume": 0.35
-        }
-      ],
-      "destination": null,
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1156
-      }
-    },
-    {
-      "id": "quiz_option_3",
-      "instanceName": "quiz_answer_paper_3",
-      "event": "click",
-      "handler": "quizChooseOption3",
-      "guard": "Reject if overlay open, quiz busy, answer locked, settled, or activity not ready.",
-      "stateChanges": [
-        "Increment attempts and lock immediately.",
-        "Use global answer validation; score immediately when correct or out of attempts.",
-        "Unlock after first-wrong hook resolves."
-      ],
-      "visualChanges": [
-        "Update sticky feedback, star state, and next availability after hooks."
-      ],
-      "sounds": [
-        {
-          "id": "sfx_pin_press",
-          "volume": 0.35
-        }
-      ],
-      "destination": null,
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1156
-      }
+      "destination": "correct / wrong / missed flow"
     },
     {
       "id": "quiz_next",
-      "instanceName": "quiz_next_calendar",
       "event": "click",
-      "handler": "quizAdvance",
-      "guard": "Only after settlement and while no overlay/flow is active.",
+      "handler": "onNext",
+      "guard": "questionSettled and not busy and no overlay",
       "stateChanges": [
-        "Lock and stop voice immediately.",
-        "Increment question after advance hook.",
-        "Build result summary before final navigation."
+        "note kind shown in box",
+        "questionIndex++ or resultSummary built"
       ],
-      "visualChanges": [
-        "Disable next during advancement; reset question-specific state."
-      ],
-      "sounds": [
-        {
-          "id": "sfx_pin_press",
-          "volume": 0.5
-        }
-      ],
-      "destination": "quiz for next question; result after final question",
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1351
-      }
+      "destination": "next question or result"
     },
     {
       "id": "shared_info",
-      "instanceName": "shared_info_button",
       "event": "click",
-      "handler": "quizOpenInstructions",
-      "guard": "Only when no overlay is already open.",
-      "stateChanges": [
-        "Set active overlay and stop voice."
-      ],
-      "visualChanges": [
-        "Show instructions elements if built; block quiz input."
-      ],
-      "sounds": [],
-      "destination": "instructions_overlay",
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1650
-      }
+      "action": "open instructions overlay"
     },
     {
       "id": "shared_close",
-      "instanceName": "shared_close_button",
       "event": "click",
-      "handler": "quizOpenExitConfirmation",
-      "guard": "Only when no overlay is already open.",
-      "stateChanges": [
-        "Set active overlay and stop voice."
-      ],
-      "visualChanges": [
-        "Show exit elements if built; block quiz input."
-      ],
-      "sounds": [],
-      "destination": "exit_confirmation_overlay",
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1672
-      }
+      "action": "open exit overlay"
     },
     {
-      "id": "shared_mute_on",
-      "instanceName": "shared_mute_on",
+      "id": "shared_mute_on / shared_mute_off",
       "event": "click",
-      "handler": "quizToggleMute",
-      "guard": "One timeline binding.",
-      "stateChanges": [
-        "Toggle global mute state."
-      ],
-      "visualChanges": [
-        "Show exactly one mute variant."
-      ],
-      "sounds": [],
-      "destination": null,
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 165
-      }
+      "action": "activitySetMuted toggle + icon swap"
     },
     {
-      "id": "shared_mute_off",
-      "instanceName": "shared_mute_off",
+      "id": "inst_ok, inst_scrim, exit_stay, exit_scrim",
       "event": "click",
-      "handler": "quizToggleMute",
-      "guard": "One timeline binding.",
-      "stateChanges": [
-        "Toggle global mute state."
-      ],
-      "visualChanges": [
-        "Show exactly one mute variant."
-      ],
-      "sounds": [],
-      "destination": null,
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 165
-      }
-    },
-    {
-      "id": "quiz_keyboard",
-      "instanceName": "main timeline keydown",
-      "event": "keydown",
-      "handler": "quizHandleKeydown",
-      "guard": "Escape closes active overlay; numeric answers only when quiz is active and no overlay is open.",
-      "stateChanges": [
-        "Escape clears the active overlay; keys 1-3 use the corresponding answer handler."
-      ],
-      "visualChanges": [
-        "Same result as the matching close or paper interaction."
-      ],
-      "sounds": [],
-      "destination": null,
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1757
-      }
-    },
-    {
-      "id": "inst_scrim",
-      "instanceName": "inst_scrim",
-      "event": "click",
-      "handler": "quizCloseInstructions",
-      "guard": "Only while instructions overlay is active and click targets the scrim.",
-      "stateChanges": [
-        "Clear active overlay."
-      ],
-      "visualChanges": [
-        "Hide instructions overlay if built."
-      ],
-      "sounds": [],
-      "destination": "quiz",
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1650
-      }
-    },
-    {
-      "id": "inst_ok",
-      "instanceName": "inst_ok",
-      "event": "click",
-      "handler": "quizCloseInstructions",
-      "guard": "Only while its owning overlay is active.",
-      "stateChanges": [
-        "Clear overlay state."
-      ],
-      "visualChanges": [
-        "Hide overlay elements if instances are present."
-      ],
-      "sounds": [],
-      "destination": "quiz",
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1668
-      }
-    },
-    {
-      "id": "exit_stay",
-      "instanceName": "exit_stay",
-      "event": "click",
-      "handler": "quizCloseExitConfirmation",
-      "guard": "Only while its owning overlay is active.",
-      "stateChanges": [
-        "Clear overlay state."
-      ],
-      "visualChanges": [
-        "Hide overlay elements if instances are present."
-      ],
-      "sounds": [],
-      "destination": "quiz",
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1688
-      }
+      "action": "close overlay"
     },
     {
       "id": "exit_leave",
-      "instanceName": "exit_leave",
       "event": "click",
-      "handler": "quizLeaveToIntro",
-      "guard": "Only while its owning overlay is active.",
-      "stateChanges": [
-        "Hide overlay and call global activityReset."
-      ],
-      "visualChanges": [
-        "Hide overlay elements if instances are present."
-      ],
-      "sounds": [],
-      "destination": "intro",
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1689
-      }
+      "action": "activityReset then go to intro"
     }
   ],
-  "overlays": [
-    {
-      "id": "instructions_overlay",
-      "elements": [
-        "inst_scrim",
-        "instructions_notebook",
-        "inst_region",
-        "inst_title",
-        "inst_number_1",
-        "inst_line_1",
-        "inst_number_2",
-        "inst_line_2",
-        "inst_number_3",
-        "inst_line_3",
-        "inst_actions",
-        "inst_ok"
-      ],
-      "openedBy": "shared_info",
-      "closedBy": [
-        "inst_ok",
-        "inst_scrim"
-      ],
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1650
-      },
-      "buildAvailability": "Overlay instances are absent from build_quiz.jsfl; references are conditional."
-    },
-    {
-      "id": "exit_confirmation_overlay",
-      "elements": [
-        "exit_scrim",
-        "exit_notebook",
-        "exit_region",
-        "exit_title",
-        "exit_warning",
-        "exit_actions",
-        "exit_stay",
-        "exit_leave"
-      ],
-      "openedBy": "shared_close",
-      "closedBy": [
-        "exit_stay",
-        "exit_leave"
-      ],
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1672
-      },
-      "buildAvailability": "Overlay instances are absent from build_quiz.jsfl; references are conditional."
-    }
-  ],
+  "stateModel": {
+    "global": [
+      "questionIndex",
+      "attemptsUsed",
+      "questionSettled",
+      "questionResults",
+      "questionPoints",
+      "resultSummary",
+      "muted"
+    ],
+    "screenOwned": [
+      "token",
+      "locked",
+      "busy",
+      "dead[3]",
+      "crumpled",
+      "chosen",
+      "overlay",
+      "orig positions"
+    ]
+  },
   "variantGroups": [
     {
-      "role": "progress star",
-      "instances": [
-        "quiz_star_1_off",
-        "quiz_star_1_current",
-        "quiz_star_1_gold",
-        "quiz_star_1_grey",
-        "quiz_star_1_glow",
-        "quiz_star_2_off",
-        "quiz_star_2_current",
-        "quiz_star_2_gold",
-        "quiz_star_2_grey",
-        "quiz_star_2_glow",
-        "quiz_star_3_off",
-        "quiz_star_3_current",
-        "quiz_star_3_gold",
-        "quiz_star_3_grey",
-        "quiz_star_3_glow",
-        "quiz_star_4_off",
-        "quiz_star_4_current",
-        "quiz_star_4_gold",
-        "quiz_star_4_grey",
-        "quiz_star_4_glow",
-        "quiz_star_5_off",
-        "quiz_star_5_current",
-        "quiz_star_5_gold",
-        "quiz_star_5_grey",
-        "quiz_star_5_glow"
-      ],
-      "visibility": "Current unanswered star is current, future stars off, completed stars gold or grey.",
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 880
+      "slot": "sticky tone",
+      "variants": {
+        "cream": "guide",
+        "pink": "hint / missed",
+        "mint": "correct"
       }
     },
     {
-      "role": "sticky tone",
-      "instances": [
-        "quiz_sticky_cream",
-        "quiz_sticky_pink",
-        "quiz_sticky_mint"
-      ],
-      "visibility": "Cream for guide, pink for hint/miss, mint for success.",
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 918
+      "slot": "progress star n",
+      "variants": {
+        "off": "future",
+        "current": "active question",
+        "gold": "first/second try (+glow)",
+        "grey": "missed"
       }
     },
     {
-      "role": "note color/fold",
-      "instances": [
-        "quiz_box_note_yellow",
-        "quiz_box_note_mint",
-        "quiz_box_note_grey",
-        "quiz_note_open_yellow",
-        "quiz_note_half_yellow",
-        "quiz_note_fold_yellow",
-        "quiz_note_open_mint",
-        "quiz_note_half_mint",
-        "quiz_note_fold_mint",
-        "quiz_note_open_grey",
-        "quiz_note_half_grey",
-        "quiz_note_fold_grey",
-        "quiz_note_ink"
-      ],
-      "visibility": "Outcome selects yellow/mint/grey; note changes open -> half -> folded.",
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1355
+      "slot": "box note",
+      "variants": {
+        "yellow": "first",
+        "mint": "second",
+        "grey": "miss"
       }
     },
     {
-      "role": "mute",
-      "instances": [
-        "shared_mute_on",
-        "shared_mute_off"
-      ],
-      "visibility": "Exactly one visible according to activityState.muted.",
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 165
+      "slot": "next",
+      "variants": {
+        "quiz_next_page visible": "not ready",
+        "quiz_next_label visible": "ready"
+      }
+    },
+    {
+      "slot": "mute",
+      "variants": {
+        "shared_mute_on": "unmuted",
+        "shared_mute_off": "muted"
       }
     }
   ],
   "dynamicTexts": [
     {
-      "instanceId": "quiz_sentence",
-      "manifestId": "quiz_stem_before",
-      "dataPath": "questions[activityState.questionIndex].stem.before + questions[activityState.questionIndex].stem.after",
-      "fillingRule": "Concatenate scalar stem fragments in source order.",
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1029
-      }
+      "id": "quiz_stem_before",
+      "path": "questions[i].stem.before",
+      "note": "full string with diacritics"
     },
     {
-      "instanceId": "quiz_sticky_text",
-      "manifestId": "quiz_sticky_guide",
-      "dataPath": "ui.sticky.guide; ui.sticky.tryAnother; feedback.hints[option.hintKey]; feedback.responses.*",
-      "fillingRule": "Guide on entry; hint plus tryAgain on first miss; response and rule/reminder on settlement.",
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 925
-      }
+      "id": "quiz_option_k_label",
+      "path": "questions[i].options[k].text"
     },
     {
-      "instanceId": "quiz_answer_paper_1..3",
-      "manifestId": "quiz_option_1..3",
-      "dataPath": "questions[activityState.questionIndex].options[index].text",
-      "fillingRule": "Set matching dynamic button text child.",
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1100
-      }
+      "id": "quiz_sticky_guide",
+      "path": "ui.sticky.guide | feedback.hints[hintKey]+ui.sticky.tryAnother | feedback.responses[kind]+rule/remember text with {prefixName}",
+      "note": "text variants collapsed into one element"
     },
     {
-      "instanceId": "quiz_next_calendar",
-      "manifestId": "quiz_next_label",
-      "dataPath": "ui.buttons.next or ui.buttons.nextLast",
-      "fillingRule": "Use nextLast only on final question.",
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1002
-      }
+      "id": "quiz_piece_noun_text",
+      "path": "questions[i].noun"
     },
     {
-      "instanceId": "quiz_note_ink",
-      "manifestId": "quiz_note_ink",
-      "dataPath": "questions[activityState.questionIndex].word",
-      "fillingRule": "Set the exact word when advancing a settled answer.",
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1355
-      }
+      "id": "quiz_piece_prefix_text",
+      "path": "questions[i].prefix + feedback.pieces.kashida"
     },
     {
-      "instanceId": "overlay text instances",
-      "dataPath": "ui.instructions.title, ui.instructions.lines[0..2], ui.exitConfirmation.title, ui.exitConfirmation.text",
-      "fillingRule": "Populate scalar text fields only when optional overlay instances exist.",
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1650
-      }
+      "id": "quiz_next_label",
+      "path": "ui.buttons.next | ui.buttons.nextLast via activityNextLabelFor"
+    },
+    {
+      "id": "inst_title / inst_line_n / inst_number_n / inst_ok_label",
+      "path": "ui.instructions.*"
+    },
+    {
+      "id": "exit_title / exit_warning / exit_stay_label / exit_leave_label",
+      "path": "ui.exitConfirmation.*, ui.buttons.stay|leave"
     }
   ],
   "flow": [
-    {
-      "order": 1,
-      "phase": "enter",
-      "behavior": "Stop voice; synchronize mute and visibility; invoke camera/box, progress, kite, sticky hooks; then render current question.",
-      "hooks": [
-        "animateCameraTo",
-        "animateBoxTo",
-        "animateProgressIn",
-        "animateKiteToStar",
-        "animateStickyIn"
-      ],
-      "sounds": [
-        {
-          "id": "sfx_paper_whoosh",
-          "volume": 0.6
-        }
-      ],
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1071
-      }
-    },
-    {
-      "order": 2,
-      "phase": "render",
-      "behavior": "Reset attempts; fill question, options, guide, and next label; chalk hook; unlock and voice prompt on first question.",
-      "hooks": [
-        "animateChalkWrite"
-      ],
-      "sounds": [
-        {
-          "id": "sfx_chalk_write",
-          "volume": 0.55
-        }
-      ],
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1126
-      }
-    },
-    {
-      "order": 3,
-      "phase": "listen",
-      "behavior": "Play sentence and word, or slow word only, through global voice sequencing.",
-      "hooks": [],
-      "sounds": "question.sounds.sentence/word/slow; ui.soundKeys.prompt on first question",
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1061
-      }
-    },
-    {
-      "order": 4,
-      "phase": "first wrong",
-      "behavior": "Lock, invoke wrong-answer hook, show pink hint, then unlock.",
-      "hooks": [
-        "animateWrongAnswer"
-      ],
-      "sounds": [
-        {
-          "id": "sfx_paper_slide",
-          "volume": 0.5
-        }
-      ],
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1205
-      }
-    },
-    {
-      "order": 5,
-      "phase": "settlement",
-      "behavior": "Settle score immediately; invoke correct/missed and progress hooks; update feedback and enable next.",
-      "hooks": [
-        "animateMissedQuestion",
-        "animateCorrectSequence",
-        "animateProgressStarResult"
-      ],
-      "sounds": [
-        {
-          "id": "sfx_gold_glow",
-          "volume": 0.9
-        },
-        {
-          "id": "sfx_star_chalk",
-          "volume": 0.9
-        }
-      ],
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1240
-      }
-    },
-    {
-      "order": 6,
-      "phase": "advance or finish",
-      "behavior": "Guard settled-only; stop voice; advance and render next question or build result summary and navigate after quiz-out.",
-      "hooks": [
-        "animateAdvance",
-        "animateKiteToStar",
-        "animateQuizOut"
-      ],
-      "sounds": [
-        {
-          "id": "sfx_pin_press",
-          "volume": 0.5
-        }
-      ],
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1351
-      }
-    },
-    {
-      "order": 7,
-      "phase": "overlays and exit",
-      "behavior": "Info opens instructions; close opens confirmation; dismiss preserves quiz; leave resets and goes to intro. Overlay blocks quiz input.",
-      "hooks": [],
-      "sounds": [],
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1650
-      }
-    }
+    "enter: hide all state elements, stars off, star 1 current, notes cleared, mute synced",
+    "renderQuestion: reset attempts, texts, papers restored, sticky cream, voice (prompt only on Q1)",
+    "answer correct: others hidden, paper to blank, pieces shown, sticky mint, star gold, next ready",
+    "answer wrong (1st): paper crumpled, sticky pink hint, papers reflowed, unlock",
+    "answer wrong (2nd): crumple, glow on correct paper, then correct flow with kind miss, star grey",
+    "next: box note, advance; after Q5 build summary and go to result"
   ],
-  "duplicateListenerGuard": {
-    "property": "__quizLogicHandlersBound",
-    "behavior": "Bind listeners once per main timeline despite frame re-entry.",
-    "sourceLocation": {
-      "file": "web_source/activity.js",
-      "line": 1757
-    }
-  },
-  "globalApiUsage": {
-    "functions": [
-      "activityCheckAnswer",
-      "activityCorrectOptionIndex",
-      "activitySettleQuestion",
-      "activityBuildResultSummary",
-      "activityPlaySound",
-      "activityPlayVoice",
-      "activityStopVoice",
-      "activitySetMuted",
-      "activityReset",
-      "activityGoToScreen",
-      "activityRunHook"
-    ],
-    "sourceLocation": {
-      "file": "output/logic-spec_global.json",
-      "line": 1
-    }
-  },
+  "animationHooks": [
+    "animateChalkWrite",
+    "animatePaperCrumple",
+    "animateReflowPapers",
+    "animateStickyWobble",
+    "animateMissedQuestion",
+    "animateCorrectSequence",
+    "animateRulePieces",
+    "animateProgressStarResult",
+    "animateAdvance",
+    "animateKiteToStar",
+    "animateQuizOut"
+  ],
   "warnings": [
-    "Manifest/build IDs disagree for quiz controls/text. Runtime uses actual names in build_quiz.jsfl; regenerate both together before use.",
-    "Instructions and exit-confirmation elements are in the manifest but absent from build_quiz.jsfl; optional bindings warn and overlay display is not guaranteed.",
-    "Build data contains a question stem object as textValue and only question-1 text values; runtime attempts to replace stem and option button text.",
-    "Global animation hooks are no-op hooks; timing and interpolation are omitted while state transitions and hook ordering are preserved.",
-    "Source creates option papers, rule pieces, notes, stars, and notebook overlays dynamically in DOM; unsupported DOM geometry/children are not invented."
+    "Sentence part 'after' (questions 2 and 5) has no text element in the manifest/build; only stem.before is shown.",
+    "Box notes: manifest has one slot per note kind; the code shows only the latest note kind. The source has 5 resting spots.",
+    "Rule pieces: the red strike on the dropped alef and the blue/red text colors inside the piece texts cannot be done in a plain text field. Prefix is shown with one kashida (the source measured how many fit).",
+    "Missed question: the correct paper is not tinted gray (source adds class act-gray).",
+    "Overlay elements (instructions, exit) are not in the quiz build. Overlay handlers are bound but inert until those elements exist on this frame.",
+    "ui.instructions.numbers in questions.json are '?' placeholders; code uses activityToArabicDigits(index+1) as the source does.",
+    "Keyboard shortcuts (1-3, Escape) and tap-to-skip are not ported.",
+    "Texts are set on the first text child of the MovieClip that the build creates for each text element (the build wraps text in clips).",
+    "Global logic uses root.createjs for sound; in Animate canvas createjs is a global, not a property of the timeline. Sound may be silent until fixed in logic_global."
   ]
 }

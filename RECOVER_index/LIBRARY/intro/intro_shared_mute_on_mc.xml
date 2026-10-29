@@ -1,9 +1,0 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="intro/intro_shared_mute_on_mc" itemID="a706c3f3-d8f9-4cca-b304-4a419ff6ce5a" lastModified="1793135008" lastUniqueIdentifier="1">
-  <timeline><DOMTimeline name="intro/intro_shared_mute_on_mc" layerDepthEnabled="true"><layers>
-        <DOMLayer name="content" color="#00FFFF" current="true" isSelected="true" autoNamed="false">
-          <frames><DOMFrame index="0" keyMode="9728"><elements>
-            <DOMBitmapInstance libraryItemName="intro/intro_ui_btn_mute_png"><matrix><Matrix a="1" d="1"/></matrix></DOMBitmapInstance>
-          </elements></DOMFrame></frames>
-        </DOMLayer>
-  </layers></DOMTimeline></timeline>
-</DOMSymbolItem>

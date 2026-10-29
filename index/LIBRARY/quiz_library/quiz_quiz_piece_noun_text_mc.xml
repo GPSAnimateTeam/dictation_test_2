@@ -14,7 +14,7 @@
                     <DOMTextRun>
                       <characters>العلم</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="182.5" size="104" bitmapSize="2080" face="ReadexPro-Regular" fillColor="#2A2A3C"/>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="116.2" size="104" bitmapSize="2080" face="ReadexPro-Regular" fillColor="#2A2A3C"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>

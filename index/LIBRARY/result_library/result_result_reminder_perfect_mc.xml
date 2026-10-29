@@ -14,7 +14,7 @@
                     <DOMTextRun>
                       <characters>رائع! القاعدة واضحة عندك: لا تُحذف ألف (الـ) بعد الفاء والباء والكاف، وتُحذف بعد اللام.</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="49.15" size="28" bitmapSize="560" face="ReadexPro-Regular" fillColor="#E8E3D0"/>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="31.3" size="28" bitmapSize="560" face="ReadexPro-Regular" fillColor="#E8E3D0"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>

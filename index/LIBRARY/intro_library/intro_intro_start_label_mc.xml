@@ -14,7 +14,7 @@
                     <DOMTextRun>
                       <characters>ابدأ</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="77.2" size="44" bitmapSize="880" face="ReadexPro-Regular" fillColor="#4A2208"/>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="49.15" size="44" bitmapSize="880" face="ReadexPro-Regular" fillColor="#4A2208"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>

@@ -14,7 +14,7 @@
                     <DOMTextRun>
                       <characters>راجع: عند دخول اللام على كلمة تبدأ بـ(الـ) نحذف الألف من (الـ).</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="49.15" size="28" bitmapSize="560" face="ReadexPro-Regular" fillColor="#E8E3D0"/>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="31.3" size="28" bitmapSize="560" face="ReadexPro-Regular" fillColor="#E8E3D0"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>

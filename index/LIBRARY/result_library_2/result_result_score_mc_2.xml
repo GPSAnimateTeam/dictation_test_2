@@ -14,7 +14,7 @@
                     <DOMTextRun>
                       <characters>{score}&lt;small&gt; من {max}&lt;/small&gt;</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="136.9" size="78" bitmapSize="1560" face="ReadexPro-Regular" fillColor="#F5F2E8"/>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="87.15" size="78" bitmapSize="1560" face="ReadexPro-Regular" fillColor="#F5F2E8"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>

@@ -1,12 +1,33 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="quiz_library/quiz_quiz_next_mc" itemID="6ae29449-00006fda" lastModified="1793233993">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="quiz_library/quiz_quiz_next_mc" itemID="6ae29449-00006fda" lastModified="1793268177">
   <timeline>
     <DOMTimeline name="quiz_quiz_next_mc" layerDepthEnabled="true">
       <layers>
-        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+        <DOMLayer name="Layer_2" color="#9933CC" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMBitmapInstance selected="true" libraryItemName="quiz_library/quiz_quiz_next_calendar"/>
+                <DOMDynamicText fontRenderingMode="standard" width="311" height="135" isSelectable="false" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="27" ty="45.65"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>التالي</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="62.55" size="56" bitmapSize="1120" face="ReadexPro-Regular" fillColor="#2A2A3C"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_1" color="#00FFFF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="quiz_library/quiz_quiz_next_calendar"/>
               </elements>
             </DOMFrame>
           </frames>

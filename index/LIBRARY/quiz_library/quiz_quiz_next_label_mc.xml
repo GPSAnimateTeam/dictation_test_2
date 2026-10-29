@@ -14,7 +14,7 @@
                     <DOMTextRun>
                       <characters>التالي</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="98.3" size="56" bitmapSize="1120" face="ReadexPro-Regular" fillColor="#8A2D10"/>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="62.55" size="56" bitmapSize="1120" face="ReadexPro-Regular" fillColor="#8A2D10"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>

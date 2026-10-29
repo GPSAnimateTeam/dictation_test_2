@@ -2369,9 +2369,9 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text("امتلأ صندوق أحلامك بالنجوم!", "48px 'Readex Pro'", "#F5F2E8");
+	this.text = new cjs.Text("امتلأ صندوق أحلامك بالنجوم!", "48px 'Arial'", "#F5F2E8");
 	this.text.textAlign = "center";
-	this.text.lineHeight = 86;
+	this.text.lineHeight = 56;
 	this.text.lineWidth = 1136;
 	this.text.parent = this;
 	this.text.setTransform(570,2);
@@ -2395,9 +2395,9 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text("صندوق الأحلام", "32px 'Readex Pro'", "#3A2B1C");
+	this.text = new cjs.Text("صندوق الأحلام", "32px 'Arial'", "#3A2B1C");
 	this.text.textAlign = "center";
-	this.text.lineHeight = 58;
+	this.text.lineHeight = 38;
 	this.text.lineWidth = 222;
 	this.text.parent = this;
 	this.text.setTransform(113.1,2);
@@ -2751,9 +2751,9 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text("{score}<small> من {max}</small>", "78px 'Readex Pro'", "#F5F2E8");
+	this.text = new cjs.Text("{score}<small> من {max}</small>", "78px 'Arial'", "#F5F2E8");
 	this.text.textAlign = "center";
-	this.text.lineHeight = 139;
+	this.text.lineHeight = 89;
 	this.text.lineWidth = 596;
 	this.text.parent = this;
 	this.text.setTransform(300,2);
@@ -2777,9 +2777,9 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text("تذكر: الفاء والباء والكاف لا تحذف ألف (الـ)، واللام تحذفها.", "28px 'Readex Pro'", "#E8E3D0");
+	this.text = new cjs.Text("تذكر: الفاء والباء والكاف لا تحذف ألف (الـ)، واللام تحذفها.", "28px 'Arial'", "#E8E3D0");
 	this.text.textAlign = "center";
-	this.text.lineHeight = 51;
+	this.text.lineHeight = 33;
 	this.text.lineWidth = 1116;
 	this.text.parent = this;
 	this.text.setTransform(560,2);
@@ -3176,9 +3176,9 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text("العودة للبداية", "44px 'Readex Pro'", "#4A2208");
+	this.text = new cjs.Text("العودة للبداية", "44px 'Arial'", "#4A2208");
 	this.text.textAlign = "center";
-	this.text.lineHeight = 79;
+	this.text.lineHeight = 51;
 	this.text.lineWidth = 276;
 	this.text.parent = this;
 	this.text.setTransform(140,2);
@@ -3224,9 +3224,9 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text("عرض الإجابات", "44px 'Readex Pro'", "#4A2208");
+	this.text = new cjs.Text("عرض الإجابات", "44px 'Arial'", "#4A2208");
 	this.text.textAlign = "center";
-	this.text.lineHeight = 79;
+	this.text.lineHeight = 51;
 	this.text.lineWidth = 276;
 	this.text.parent = this;
 	this.text.setTransform(140,2);
@@ -3272,9 +3272,9 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text("أعد المحاولة", "44px 'Readex Pro'", "#4A2208");
+	this.text = new cjs.Text("أعد المحاولة", "44px 'Arial'", "#4A2208");
 	this.text.textAlign = "center";
-	this.text.lineHeight = 79;
+	this.text.lineHeight = 51;
 	this.text.lineWidth = 276;
 	this.text.parent = this;
 	this.text.setTransform(140,2);
@@ -3579,9 +3579,9 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text("استمع جيدا، ثم اختر الكتابة الصحيحة.", "30px 'Readex Pro'", "#3F2E1E");
+	this.text = new cjs.Text("استمع جيدا، ثم اختر الكتابة الصحيحة.", "30px 'Arial'", "#3F2E1E");
 	this.text.textAlign = "center";
-	this.text.lineHeight = 55;
+	this.text.lineHeight = 36;
 	this.text.lineWidth = 230;
 	this.text.parent = this;
 	this.text.setTransform(116.9,2);
@@ -3627,9 +3627,9 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text("تتقدم الدول", "58px 'Readex Pro'", "#F5F2E8");
+	this.text = new cjs.Text("تتقدم الدول", "58px 'Arial'", "#F5F2E8");
 	this.text.textAlign = "center";
-	this.text.lineHeight = 104;
+	this.text.lineHeight = 67;
 	this.text.lineWidth = 201;
 	this.text.parent = this;
 	this.text.setTransform(102.65,2);
@@ -4334,9 +4334,9 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text("ب", "112px 'Readex Pro'", "#B8321A");
+	this.text = new cjs.Text("ب", "112px 'Arial'", "#B8321A");
 	this.text.textAlign = "center";
-	this.text.lineHeight = 199;
+	this.text.lineHeight = 127;
 	this.text.lineWidth = 145;
 	this.text.parent = this;
 	this.text.setTransform(74.5,2);
@@ -4381,9 +4381,9 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text("+", "84px 'Readex Pro'", "#F5F2E8");
+	this.text = new cjs.Text("+", "84px 'Arial'", "#F5F2E8");
 	this.text.textAlign = "center";
-	this.text.lineHeight = 149;
+	this.text.lineHeight = 96;
 	this.text.lineWidth = 76;
 	this.text.parent = this;
 	this.text.setTransform(40,2);
@@ -4407,9 +4407,9 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text("العلم", "104px 'Readex Pro'", "#2A2A3C");
+	this.text = new cjs.Text("العلم", "104px 'Arial'", "#2A2A3C");
 	this.text.textAlign = "center";
-	this.text.lineHeight = 185;
+	this.text.lineHeight = 118;
 	this.text.lineWidth = 353;
 	this.text.parent = this;
 	this.text.setTransform(178.5,2);
@@ -4475,9 +4475,9 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text("ب العلم", "56px 'Readex Pro'", "#2A2A3C");
+	this.text = new cjs.Text("ب العلم", "56px 'Arial'", "#2A2A3C");
 	this.text.textAlign = "center";
-	this.text.lineHeight = 100;
+	this.text.lineHeight = 65;
 	this.text.lineWidth = 311;
 	this.text.parent = this;
 	this.text.setTransform(157.5,2);
@@ -4522,9 +4522,9 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text("بعلم", "56px 'Readex Pro'", "#2A2A3C");
+	this.text = new cjs.Text("بعلم", "56px 'Arial'", "#2A2A3C");
 	this.text.textAlign = "center";
-	this.text.lineHeight = 100;
+	this.text.lineHeight = 65;
 	this.text.lineWidth = 311;
 	this.text.parent = this;
 	this.text.setTransform(157.5,2);
@@ -4569,9 +4569,9 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text("بالعلم", "56px 'Readex Pro'", "#2A2A3C");
+	this.text = new cjs.Text("بالعلم", "56px 'Arial'", "#2A2A3C");
 	this.text.textAlign = "center";
-	this.text.lineHeight = 100;
+	this.text.lineHeight = 65;
 	this.text.lineWidth = 311;
 	this.text.parent = this;
 	this.text.setTransform(157.5,2);
@@ -4658,9 +4658,9 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text("بالعلم", "46px 'Readex Pro'", "#2A2A3C");
+	this.text = new cjs.Text("بالعلم", "46px 'Arial'", "#2A2A3C");
 	this.text.textAlign = "center";
-	this.text.lineHeight = 83;
+	this.text.lineHeight = 53;
 	this.text.lineWidth = 207;
 	this.text.parent = this;
 	this.text.setTransform(105.5,2);
@@ -4798,33 +4798,6 @@ if (reversed == null) { reversed = false; }
 }).prototype = getMCSymbolPrototype(lib.quiz_quiz_note_fold_grey_mc, new cjs.Rectangle(0,0,134,111), null);
 
 
-(lib.quiz_quiz_next_shade_mc = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
-if (reversed == null) { reversed = false; }
-	var props = new Object();
-	props.mode = mode;
-	props.startPosition = startPosition;
-	props.labels = {};
-	props.loop = loop;
-	props.reversed = reversed;
-	cjs.MovieClip.apply(this,[props]);
-
-	// Layer_1
-	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#FF0000").ss(1,1,1).p("A2zrZMAtnAAAIAAWzMgtnAAAg");
-	this.shape.setTransform(146,73);
-
-	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#4A2233").s().p("A2zLaIAA2zMAtnAAAIAAWzg");
-	this.shape_1.setTransform(146,73);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
-
-	this._renderFirstFrame();
-
-}).prototype = getMCSymbolPrototype(lib.quiz_quiz_next_shade_mc, new cjs.Rectangle(-1,-1,294,148), null);
-
-
 (lib.quiz_quiz_next_page_mc = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -4857,6 +4830,16 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
+	// Layer_2
+	this.text = new cjs.Text("التالي", "56px 'Arial'", "#2A2A3C");
+	this.text.textAlign = "center";
+	this.text.lineHeight = 65;
+	this.text.lineWidth = 311;
+	this.text.parent = this;
+	this.text.setTransform(182.5,45.65);
+
+	this.timeline.addTween(cjs.Tween.get(this.text).wait(1));
+
 	// Layer_1
 	this.instance = new lib.quiz_quiz_next_calendar();
 
@@ -4879,9 +4862,9 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text("التالي", "56px 'Readex Pro'", "#8A2D10");
+	this.text = new cjs.Text("التالي", "56px 'Arial'", "#8A2D10");
 	this.text.textAlign = "center";
-	this.text.lineHeight = 100;
+	this.text.lineHeight = 65;
 	this.text.lineWidth = 276;
 	this.text.parent = this;
 	this.text.setTransform(140,2);
@@ -5281,33 +5264,6 @@ if (reversed == null) { reversed = false; }
 }).prototype = getMCSymbolPrototype(lib.quiz_quiz_box_angled_mc, new cjs.Rectangle(0,0,458.5,269), null);
 
 
-(lib.quiz_quiz_blank_mc = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
-if (reversed == null) { reversed = false; }
-	var props = new Object();
-	props.mode = mode;
-	props.startPosition = startPosition;
-	props.labels = {};
-	props.loop = loop;
-	props.reversed = reversed;
-	cjs.MovieClip.apply(this,[props]);
-
-	// Layer_1
-	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#FF0000").ss(1,1,1).p("AwPlTMAgfAAAIAAKnMggfAAAg");
-	this.shape.setTransform(104,34);
-
-	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#4A2233").s().p("AwPFUIAAqnMAgfAAAIAAKng");
-	this.shape_1.setTransform(104,34);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
-
-	this._renderFirstFrame();
-
-}).prototype = getMCSymbolPrototype(lib.quiz_quiz_blank_mc, new cjs.Rectangle(-1,-1,210,70), null);
-
-
 (lib.intro_shared_rays_mc = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -5469,9 +5425,9 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text("صندوق الأحلام", "127px 'Playpen Sans Arabic'", "#F5F2E8");
+	this.text = new cjs.Text("صندوق الأحلام", "127px 'Arial'", "#F5F2E8");
 	this.text.textAlign = "center";
-	this.text.lineHeight = 233;
+	this.text.lineHeight = 143;
 	this.text.lineWidth = 1093;
 	this.text.parent = this;
 	this.text.setTransform(548.5,2);
@@ -5516,9 +5472,9 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text("ابدأ", "44px 'Readex Pro'", "#4A2208");
+	this.text = new cjs.Text("ابدأ", "44px 'Arial'", "#4A2208");
 	this.text.textAlign = "center";
-	this.text.lineHeight = 79;
+	this.text.lineHeight = 51;
 	this.text.lineWidth = 355;
 	this.text.parent = this;
 	this.text.setTransform(179.5,2);
@@ -39547,12 +39503,28 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	this.actionFrames = [0,1,2,3,4,5,6,7,9];
+	this.actionFrames = [0,1,2,3,4,5,6,7,8,9];
 	// timeline functions:
 	this.frame_0 = function() {
+		/*LOGIC_AUTO:sounds*/
+		(function () {
+		    var root = this;
+		    var list = [["sfx_box_drop", "sfx/box_drop.mp3"], ["sfx_chalk_write", "sfx/chalk_write.mp3"], ["sfx_gold_glow", "sfx/gold_glow.mp3"], ["sfx_jingle_end", "sfx/jingle_end.mp3"], ["sfx_paper_crumple", "sfx/paper_crumple.mp3"], ["sfx_paper_fold", "sfx/paper_fold.mp3"], ["sfx_paper_slide", "sfx/paper_slide.mp3"], ["sfx_paper_tear", "sfx/paper_tear.mp3"], ["sfx_paper_whoosh", "sfx/paper_whoosh.mp3"], ["sfx_pin_press", "sfx/pin_press.mp3"], ["sfx_star_chalk", "sfx/star_chalk.mp3"], ["sfx_sticky_place", "sfx/sticky_place.mp3"], ["sfx_tape_stick", "sfx/tape_stick.mp3"], ["vo_q0_prompt", "vo/q0_prompt.mp3"], ["vo_q1_sentence", "vo/q1_sentence.mp3"], ["vo_q1_word", "vo/q1_word.mp3"], ["vo_q1_slow", "vo/q1_slow.mp3"], ["vo_q2_sentence", "vo/q2_sentence.mp3"], ["vo_q2_word", "vo/q2_word.mp3"], ["vo_q2_slow", "vo/q2_slow.mp3"], ["vo_q3_sentence", "vo/q3_sentence.mp3"], ["vo_q3_word", "vo/q3_word.mp3"], ["vo_q3_slow", "vo/q3_slow.mp3"], ["vo_q4_sentence", "vo/q4_sentence.mp3"], ["vo_q4_word", "vo/q4_word.mp3"], ["vo_q4_slow", "vo/q4_slow.mp3"], ["vo_q5_sentence", "vo/q5_sentence.mp3"], ["vo_q5_word", "vo/q5_word.mp3"], ["vo_q5_slow", "vo/q5_slow.mp3"]];
+		    var i, api;
+		    if (root.__soundsRegistered === true) { return; }
+		    api = (typeof createjs !== "undefined" && createjs.Sound) ? createjs.Sound : null;
+		    if (!api || typeof api.registerSound !== "function") {
+		        if (typeof console !== "undefined" && console.warn) { console.warn("[sounds] createjs.Sound is not available; sounds were not registered"); }
+		        return;
+		    }
+		    root.__soundsRegistered = true;
+		    for (i = 0; i < list.length; i++) { api.registerSound(list[i][1], list[i][0]); }
+		}).call(this);
 		/*LOGIC_AUTO:global*/
 		(function () {
 		    var root = this;
+		    if (root.__activityGlobalInit === true) { return; }
+		    root.__activityGlobalInit = true;
 		    var state = { data: null, questions: [], scoring: null, totalQuestions: 0,
 		        score: { total: 0, max: 0 }, questionIndex: 0, attemptsUsed: 0,
 		        questionSettled: false, questionResults: [], questionPoints: [], resultSummary: null,
@@ -39560,7 +39532,7 @@ if (reversed == null) { reversed = false; }
 		        voiceSequence: [], voiceIndex: 0, soundIds: {}, loadError: null, ready: false, hooks: {}, screenLabels: ["intro", "quiz", "result"] };
 		    var soundWarnings = {};
 		    root.activityState = state; root.activityData = null; root.activityReady = false; root.activityLoadError = null;
-		    function warn(message) { if (root.console && root.console.warn) { root.console.warn("[activity] WARNING: " + message); } }
+		    function warn(message) { if (typeof console !== "undefined" && console.warn) { console.warn("[activity] WARNING: " + message); } }
 		    function activityCheckAnswer(question, index) { return question.options[index].correct === true; }
 		    function activityCorrectOptionIndex(question) {
 		        var found = 0, i;
@@ -39605,7 +39577,7 @@ if (reversed == null) { reversed = false; }
 		        return String(value).replace(/[0-9]/g, function (digit) { return String.fromCharCode(0x0660 + Number(digit)); });
 		    }
 		    function activityNextLabelFor(index) { return index < state.totalQuestions - 1 ? state.data.ui.buttons.next : state.data.ui.buttons.nextLast; }
-		    function soundApi() { return root.createjs && root.createjs.Sound ? root.createjs.Sound : null; }
+		    function soundApi() { return (typeof createjs !== "undefined" && createjs.Sound) ? createjs.Sound : null; }
 		    function activitySoundAvailable(id) {
 		        var api = soundApi();
 		        return !!(state.soundIds[id] && api && typeof api.loadComplete === "function" && api.loadComplete(id) === true);
@@ -39748,59 +39720,6 @@ if (reversed == null) { reversed = false; }
 		    root.activityRunHook = function (name) { return state.hooks[name] ? state.hooks[name]() : resolvedHook(); };
 		    activityLoadData();
 		}).call(this);
-		//this.gotoAndStop(6);
-		this.stop();
-		createjs.Touch.enable(stage);
-		stage.mouseChildren = true;
-		var root = this;
-		
-		
-		root.title_animation.start_btn.cursor = "pointer";
-		root.title_animation.start_btn.removeAllEventListeners("click");
-		root.title_animation.start_btn.addEventListener("click", startGameF);
-			  
-		function startGameF() {
-		console.log("start")
-			createjs.Sound.play("ClickSound");
-		
-			// 👇 ألغي الاهتزاز المجدول لو الطفل دوس قبل الـ 5 ثواني
-			if (root._startBtnShakeTimer) {
-				clearInterval(root._startBtnShakeTimer);
-				root._startBtnShakeTimer = null;
-			}
-		
-			let nextFrame = root.currentFrame + 1;
-		
-			root.gotoAndStop(nextFrame);
-		}
-		
-		if (root._startBtnShakeTimer) {
-			clearInterval(root._startBtnShakeTimer);
-		}
-		root._startBtnShakeTimer = setInterval(function () {
-			shake(root.title_animation.start_btn);
-		}, 5000);
-		
-		root.gotoIntro.removeAllEventListeners("click");
-		root.gotoIntro.addEventListener("click", gotoIntro);
-		root.gotoQuiz.removeAllEventListeners("click");
-		root.gotoQuiz.addEventListener("click", gotoQuiz);
-		root.gotoResult.removeAllEventListeners("click");
-		root.gotoResult.addEventListener("click", gotoResult);
-		
-		
-			  
-		function gotoIntro() {
-			root.gotoAndStop("intro");
-		}
-		
-		function gotoQuiz() {
-			root.gotoAndStop("quiz");
-		}
-		
-		function gotoResult() {
-			root.gotoAndStop("result");
-		}
 	}
 	this.frame_1 = function() {
 		this.stop();
@@ -41225,244 +41144,467 @@ if (reversed == null) { reversed = false; }
 		}
 		introEnter();
 	}
+	this.frame_8 = function() {
+		/*LOGIC_AUTO:quiz*/
+		this.stop();
+		var root = this;
+		var LAY = { paperW: 315, paperH: 139, gap: 41, reflowCenterX: 1060, glowDx: -78.75, blankDy: 3,
+		    blank: { x: 841.4, y: 329, w: 208, h: 68 },
+		    starX: [1308, 1184, 1060, 937, 813], starY: [240, 226, 246, 226, 249], kiteDx: 61, kiteDy: 4, kiteW: 40, kiteH: 29.41 };
+		var KINDS = ["yellow", "mint", "grey"];
+		var OVL = {
+		    instructions: ["inst_scrim", "instructions_notebook", "inst_title", "inst_number_1", "inst_number_2", "inst_number_3", "inst_line_1", "inst_line_2", "inst_line_3", "inst_ok", "inst_ok_label"],
+		    exit: ["exit_scrim", "exit_notebook", "exit_title", "exit_warning", "exit_stay", "exit_stay_label", "exit_leave", "exit_leave_label"]
+		};
+		var warned = {};
+		function warn(m) { if (!warned[m]) { warned[m] = true; if (typeof console !== "undefined" && console.warn) { console.warn("[quiz] " + m); } } }
+		function S() { return root.activityState; }
+		function D() { return root.activityData; }
+		function Q() { return S().questions[S().questionIndex]; }
+		function hook(n) { return root.activityRunHook(n); }
+		function sfx(n, v) { root.activityPlaySound("sfx_" + n, v); }
+		function vis(n, f) { var o = root[n]; if (!o) { warn("Missing instance: " + n); return; } o.visible = !!f; }
+		function visList(a, f) { var i; for (i = 0; i < a.length; i++) { vis(a[i], f); } }
+		function txtObj(o) {
+		    var i, c;
+		    if (o && typeof o.text === "string") { return o; }
+		    if (o && o.children) { for (i = 0; i < o.children.length; i++) { c = o.children[i]; if (c && typeof c.text === "string") { return c; } } }
+		    return null;
+		}
+		function setText(n, s) {
+		    var o = root[n], t;
+		    if (!o) { warn("Missing instance: " + n); return; }
+		    t = txtObj(o);
+		    if (!t) { warn("No text object inside: " + n); return; }
+		    t.text = s;
+		}
+		function place(n, x, y, sc) {
+		    var o = root[n];
+		    if (!o) { warn("Missing instance: " + n); return; }
+		    if (x !== null) { o.x = x; }
+		    if (y !== null) { o.y = y; }
+		    if (sc !== null) { o.scaleX = sc; o.scaleY = sc; }
+		}
+		function bind(n, fn) { var o = root[n]; if (!o) { warn("Missing instance: " + n); return; } o.on("click", fn); }
+		function pn(k) { return "quiz_option_" + (k + 1); }
+		function ln(k) { return "quiz_option_" + (k + 1) + "_label"; }
+		
+		if (!root.__quiz) { root.__quiz = { token: 0, locked: true, busy: false, dead: [false, false, false], crumpled: 0, chosen: -1, overlay: null, orig: null }; }
+		var Z = root.__quiz;
+		if (!Z.orig) {
+		    Z.orig = [];
+		    (function () { var k, o; for (k = 0; k < 3; k++) { o = root[pn(k)]; Z.orig.push(o ? { x: o.x, y: o.y } : null); } })();
+		}
+		
+		function hideStates() {
+		    var a = ["quiz_box_front", "quiz_chalk_piece", "quiz_crumple_half_1", "quiz_crumple_ball_1", "quiz_crumple_half_2", "quiz_crumple_ball_2", "quiz_glow", "quiz_note_ink",
+		        "quiz_piece_noun", "quiz_piece_prefix", "quiz_piece_noun_text", "quiz_piece_prefix_text", "quiz_piece_plus", "quiz_next_shade", "quiz_sticky_pink", "quiz_sticky_mint",
+		        "quiz_dust_1", "quiz_dust_2", "quiz_dust_3", "quiz_spark_1", "quiz_spark_2", "quiz_spark_3", "quiz_spark_4"], i, j, f = ["open", "half", "fold"];
+		    for (i = 0; i < KINDS.length; i++) {
+		        a.push("quiz_box_note_" + KINDS[i], "quiz_box_folded_" + KINDS[i]);
+		        for (j = 0; j < f.length; j++) { a.push("quiz_note_" + f[j] + "_" + KINDS[i]); }
+		    }
+		    visList(a, false);
+		}
+		function setStar(i, state) {
+		    var n = i + 1, s = ["off", "current", "gold", "grey"], k;
+		    for (k = 0; k < s.length; k++) { vis("quiz_star_" + n + "_" + s[k], s[k] === state); }
+		    vis("quiz_star_" + n + "_glow", state === "gold");
+		}
+		function setSticky(tone, text) {
+		    vis("quiz_sticky_cream", tone === "cream"); vis("quiz_sticky_pink", tone === "pink"); vis("quiz_sticky_mint", tone === "mint");
+		    setText("quiz_sticky_guide", text);
+		}
+		function setNext(ready) {
+		    var o = root.quiz_next;
+		    vis("quiz_next_page", !ready); vis("quiz_next_label", ready);
+		    if (ready) { setText("quiz_next_label", root.activityNextLabelFor(S().questionIndex)); }
+		    if (o) { o.mouseEnabled = !!ready; } else { warn("Missing instance: quiz_next"); }
+		}
+		function showBoxNote(kind) { var i; for (i = 0; i < KINDS.length; i++) { vis("quiz_box_note_" + KINDS[i], KINDS[i] === kind); } }
+		function syncMute() { var m = !!S().muted; vis("shared_mute_on", !m); vis("shared_mute_off", m); }
+		function moveKite(i) {
+		    var o = root.shared_kite;
+		    if (!o) { warn("Missing instance: shared_kite"); return; }
+		    o.x = LAY.starX[i] + LAY.kiteDx - LAY.kiteW / 2; o.y = LAY.starY[i] + LAY.kiteDy - LAY.kiteH / 2;
+		}
+		function overlayBuilt(name) { return !!root[OVL[name][0]]; }
+		function setOverlay(name, f) { var i, a = OVL[name]; for (i = 0; i < a.length; i++) { if (root[a[i]]) { root[a[i]].visible = !!f; } } }
+		
+		function renderQuestion(first) {
+		    var st = S(), d = D(), q = Q(), k, o, tok = ++Z.token, ids;
+		    st.attemptsUsed = 0; st.questionSettled = false;
+		    Z.locked = true; Z.busy = true; Z.dead = [false, false, false]; Z.crumpled = 0; Z.chosen = -1;
+		    root.activityStopVoice();
+		    setNext(false);
+		    visList(["quiz_crumple_ball_1", "quiz_crumple_ball_2", "quiz_glow", "quiz_piece_noun", "quiz_piece_prefix", "quiz_piece_noun_text", "quiz_piece_prefix_text", "quiz_piece_plus"], false);
+		    setSticky("cream", d.ui.sticky.guide);
+		    vis("quiz_stem_before", true);
+		    setText("quiz_stem_before", q.stem.before);
+		    for (k = 0; k < 3; k++) {
+		        o = Z.orig[k];
+		        place(pn(k), o ? o.x : null, o ? o.y : null, 1);
+		        place(ln(k), o ? o.x : null, o ? o.y : null, 1);
+		        vis(pn(k), true); vis(ln(k), true);
+		        setText(ln(k), q.options[k].text);
+		        if (root[pn(k)]) { root[pn(k)].mouseEnabled = true; }
+		    }
+		    moveKite(st.questionIndex);
+		    setStar(st.questionIndex, "current");
+		    hook("animateChalkWrite").then(function () {
+		        if (tok !== Z.token) { return; }
+		        Z.locked = false; Z.busy = false;
+		        ids = first ? [d.ui.soundKeys.prompt, q.sounds.sentence, q.sounds.word] : [q.sounds.sentence, q.sounds.word];
+		        root.activityPlayVoice(ids);
+		    });
+		}
+		
+		function crumple(k) {
+		    var n = Z.crumpled;
+		    Z.dead[k] = true; vis(pn(k), false); vis(ln(k), false);
+		    vis("quiz_crumple_ball_" + (n + 1), true); Z.crumpled++;
+		    sfx("paper_crumple", 0.9);
+		    return hook("animatePaperCrumple");
+		}
+		function reflow() {
+		    var alive = [], i, count, total, x0, pos, idx, target;
+		    for (i = 0; i < 3; i++) { if (!Z.dead[i]) { alive.push(i); } }
+		    count = alive.length;
+		    total = count * LAY.paperW + (count - 1) * LAY.gap; x0 = LAY.reflowCenterX - total / 2;
+		    alive.sort(function (a, b) { return (Z.orig[b] ? Z.orig[b].x : 0) - (Z.orig[a] ? Z.orig[a].x : 0); });
+		    for (pos = 0; pos < alive.length; pos++) {
+		        idx = alive[pos]; target = x0 + total - (pos + 1) * LAY.paperW - pos * LAY.gap;
+		        place(pn(idx), target, null, null); place(ln(idx), target, null, null);
+		    }
+		    return hook("animateReflowPapers");
+		}
+		function wrong(k) {
+		    var d = D(), q = Q(), tok = Z.token, opt = q.options[k];
+		    crumple(k).then(function () {
+		        if (tok !== Z.token) { return; }
+		        setSticky("pink", d.feedback.hints[opt.hintKey] + "\n" + d.ui.sticky.tryAnother);
+		        sfx("sticky_place", 0.5);
+		        hook("animateStickyWobble");
+		        return reflow();
+		    }).then(function () {
+		        if (tok !== Z.token) { return; }
+		        Z.busy = false; Z.locked = false;
+		    });
+		}
+		function missed(k) {
+		    var q = Q(), tok = Z.token, idx = root.activityCorrectOptionIndex(q);
+		    crumple(k).then(function () { if (tok === Z.token) { return reflow(); } }).then(function () {
+		        var p;
+		        if (tok !== Z.token) { return; }
+		        p = root[pn(idx)];
+		        place("quiz_glow", p ? p.x + LAY.glowDx : null, null, null); vis("quiz_glow", true);
+		        sfx("gold_glow", 0.9);
+		        return hook("animateMissedQuestion");
+		    }).then(function () {
+		        if (tok !== Z.token) { return; }
+		        vis("quiz_glow", false);
+		        correct(idx, "miss");
+		    });
+		}
+		function feedbackText(q, kind) {
+		    var f = D().feedback, key = kind === "miss" ? (q.keepAlef ? "rememberKeep" : "rememberDrop") : (q.keepAlef ? "ruleKeep" : "ruleDrop");
+		    return f.responses[kind] + "\n" + root.activityFillText(f.responses[key], { prefixName: f.prefixNames[q.prefix] });
+		}
+		function correct(k, kind) {
+		    var st = S(), d = D(), q = Q(), tok = ++Z.token, i, sc, cx, cy, n = st.questionIndex + 1;
+		    Z.chosen = k; Z.busy = true; Z.locked = true;
+		    for (i = 0; i < 3; i++) { if (i !== k && !Z.dead[i]) { Z.dead[i] = true; vis(pn(i), false); vis(ln(i), false); } }
+		    sc = Math.min(1, LAY.blank.w * 0.98 / LAY.paperW);
+		    cx = LAY.blank.x + LAY.blank.w / 2; cy = LAY.blank.y + LAY.blank.h / 2 + LAY.blankDy;
+		    place(pn(k), cx - LAY.paperW * sc / 2, cy - LAY.paperH * sc / 2, sc);
+		    place(ln(k), cx - LAY.paperW * sc / 2, cy - LAY.paperH * sc / 2, sc);
+		    sfx("paper_slide", 0.6); sfx("tape_stick", 0.9);
+		    hook("animateCorrectSequence").then(function () {
+		        if (tok !== Z.token) { return; }
+		        setText("quiz_piece_noun_text", q.noun);
+		        setText("quiz_piece_prefix_text", q.prefix + d.feedback.pieces.kashida);
+		        visList(["quiz_piece_noun", "quiz_piece_prefix", "quiz_piece_noun_text", "quiz_piece_prefix_text"], true);
+		        sfx("paper_tear", 0.55);
+		        return hook("animateRulePieces");
+		    }).then(function () {
+		        if (tok !== Z.token) { return; }
+		        setSticky(kind === "miss" ? "pink" : "mint", feedbackText(q, kind));
+		        sfx("sticky_place", 0.5);
+		        setStar(st.questionIndex, kind === "miss" ? "grey" : "gold");
+		        if (kind !== "miss") { sfx("star_chalk", 0.9); }
+		        hook("animateProgressStarResult");
+		        setNext(true);
+		        Z.busy = false;
+		    });
+		}
+		function onOption(k) {
+		    var st = S(), q = Q(), kind;
+		    if (Z.locked || Z.busy || Z.overlay || Z.dead[k]) { return; }
+		    st.attemptsUsed++; Z.locked = true; Z.busy = true;
+		    sfx("pin_press", 0.35);
+		    if (root.activityCheckAnswer(q, k)) {
+		        kind = st.attemptsUsed === 1 ? "first" : "second";
+		        root.activitySettleQuestion(st.questionIndex, kind);
+		        correct(k, kind);
+		    } else if (st.attemptsUsed >= st.scoring.maxAttempts) {
+		        root.activitySettleQuestion(st.questionIndex, "miss");
+		        missed(k);
+		    } else {
+		        wrong(k);
+		    }
+		}
+		function onNext() {
+		    var st = S(), res, kind, tok;
+		    if (!st.questionSettled || Z.busy || Z.overlay) { return; }
+		    Z.busy = true; tok = Z.token;
+		    res = st.questionResults[st.questionIndex];
+		    kind = res === "first" ? "yellow" : (res === "second" ? "mint" : "grey");
+		    setNext(false); root.activityStopVoice(); sfx("pin_press", 0.5);
+		    showBoxNote(kind);
+		    setText("quiz_stem_before", "");
+		    visList(["quiz_piece_noun", "quiz_piece_prefix", "quiz_piece_noun_text", "quiz_piece_prefix_text", pn(Z.chosen), ln(Z.chosen)], false);
+		    hook("animateAdvance").then(function () {
+		        if (tok !== Z.token) { return; }
+		        if (st.questionIndex < st.totalQuestions - 1) {
+		            return hook("animateKiteToStar").then(function () {
+		                if (tok !== Z.token) { return; }
+		                st.questionIndex++;
+		                renderQuestion(false);
+		            });
+		        }
+		        st.resultSummary = root.activityBuildResultSummary();
+		        return hook("animateQuizOut").then(function () {
+		            if (tok !== Z.token) { return; }
+		            root.activityGoToScreen("result");
+		        });
+		    });
+		}
+		function playQuestion(slow) {
+		    var s;
+		    if (Z.overlay || S().questionIndex >= S().totalQuestions) { return; }
+		    s = Q().sounds;
+		    root.activityPlayVoice(slow ? [s.slow] : [s.sentence, s.word]);
+		}
+		function openOverlay(name) {
+		    var d = D(), i;
+		    if (Z.overlay) { return; }
+		    if (!overlayBuilt(name)) { warn("Overlay elements not found in this frame: " + name); return; }
+		    root.activityStopVoice();
+		    if (name === "instructions") {
+		        setText("inst_title", d.ui.instructions.title);
+		        for (i = 0; i < 3; i++) { setText("inst_number_" + (i + 1), root.activityToArabicDigits(i + 1)); setText("inst_line_" + (i + 1), d.ui.instructions.lines[i]); }
+		        setText("inst_ok_label", d.ui.instructions.understoodButton);
+		    } else {
+		        setText("exit_title", d.ui.exitConfirmation.title); setText("exit_warning", d.ui.exitConfirmation.text);
+		        setText("exit_stay_label", d.ui.buttons.stay); setText("exit_leave_label", d.ui.buttons.leave);
+		    }
+		    Z.overlay = name; setOverlay(name, true);
+		}
+		function closeOverlay() { if (Z.overlay) { setOverlay(Z.overlay, false); Z.overlay = null; } }
+		function onLeave() {
+		    closeOverlay();
+		    root.activityReset();
+		    root.activityGoToScreen("intro");
+		}
+		function onMute() { root.activitySetMuted(!S().muted); syncMute(); }
+		
+		function enter() {
+		    var i, labels;
+		    if (!root.activityReady) { warn("Activity data is not ready"); return; }
+		    Z.token++; Z.overlay = null; Z.busy = true; Z.locked = true;
+		    hideStates();
+		    setOverlay("instructions", false); setOverlay("exit", false);
+		    labels = ["quiz_sticky_guide", "quiz_stem_before", "quiz_next_label", "quiz_piece_noun_text", "quiz_piece_prefix_text", "quiz_piece_plus", "quiz_note_ink", "quiz_option_1_label", "quiz_option_2_label", "quiz_option_3_label", "inst_ok_label", "exit_stay_label", "exit_leave_label"];
+		    for (i = 0; i < labels.length; i++) { if (root[labels[i]]) { root[labels[i]].mouseEnabled = false; } }
+		    visList(["shared_logo", "shared_close", "shared_info", "quiz_box_angled", "quiz_blank", "quiz_play", "quiz_slow", "quiz_next", "quiz_next_page"], true);
+		    for (i = 0; i < 5; i++) { setStar(i, "off"); }
+		    showBoxNote(null);
+		    syncMute();
+		    renderQuestion(true);
+		}
+		
+		if (!root.__quizLogicHandlersBound) {
+		    bind("quiz_play", function () { playQuestion(false); });
+		    bind("quiz_slow", function () { playQuestion(true); });
+		    bind("quiz_option_1", function () { root.__quizApi.option(0); });
+		    bind("quiz_option_2", function () { root.__quizApi.option(1); });
+		    bind("quiz_option_3", function () { root.__quizApi.option(2); });
+		    bind("quiz_next", function () { root.__quizApi.next(); });
+		    bind("shared_info", function () { root.__quizApi.open("instructions"); });
+		    bind("shared_close", function () { root.__quizApi.open("exit"); });
+		    bind("shared_mute_on", function () { root.__quizApi.mute(); });
+		    bind("shared_mute_off", function () { root.__quizApi.mute(); });
+		    bind("inst_ok", function () { root.__quizApi.close(); });
+		    bind("inst_scrim", function () { root.__quizApi.close(); });
+		    bind("exit_stay", function () { root.__quizApi.close(); });
+		    bind("exit_scrim", function () { root.__quizApi.close(); });
+		    bind("exit_leave", function () { root.__quizApi.leave(); });
+		    root.__quizLogicHandlersBound = true;
+		}
+		root.__quizApi = { option: onOption, next: onNext, open: openOverlay, close: closeOverlay, leave: onLeave, mute: onMute };
+		enter();
+	}
 	this.frame_9 = function() {
 		/*LOGIC_AUTO:result*/
 		this.stop();
-		var root = this, resultState = root.__resultLogicState;
-		if (!resultState) { resultState = { busy: false, overlayOpen: false, warnings: {} }; root.__resultLogicState = resultState; }
-		function rWarn(key, message) {
-		    if (!resultState.warnings[key]) {
-		        resultState.warnings[key] = true;
-		        if (root.console && root.console.warn) { root.console.warn("[result] WARNING: " + message); }
+		var root = this;
+		var KINDS = ["yellow", "mint", "grey"];
+		var OVL = ["answers_scrim", "answers_notebook", "answers_title", "answers_word_1", "answers_word_2", "answers_word_3", "answers_word_4", "answers_word_5", "answers_reminder_default", "answers_ok", "answers_ok_label"];
+		var warned = {};
+		function warn(m) { if (!warned[m]) { warned[m] = true; if (typeof console !== "undefined" && console.warn) { console.warn("[result] " + m); } } }
+		function S() { return root.activityState; }
+		function D() { return root.activityData; }
+		function hook(n) { return root.activityRunHook(n); }
+		function sfx(n, v) { root.activityPlaySound("sfx_" + n, v); }
+		function vis(n, f) { var o = root[n]; if (!o) { warn("Missing instance: " + n); return; } o.visible = !!f; }
+		function visList(a, f) { var i; for (i = 0; i < a.length; i++) { vis(a[i], f); } }
+		function txtObj(o) {
+		    var i, c;
+		    if (o && typeof o.text === "string") { return o; }
+		    if (o && o.children) { for (i = 0; i < o.children.length; i++) { c = o.children[i]; if (c && typeof c.text === "string") { return c; } } }
+		    return null;
+		}
+		function setText(n, s) {
+		    var o = root[n], t;
+		    if (!o) { warn("Missing instance: " + n); return; }
+		    t = txtObj(o);
+		    if (!t) { warn("No text object inside: " + n); return; }
+		    t.text = s;
+		}
+		function bind(n, fn) { var o = root[n]; if (!o) { warn("Missing instance: " + n); return; } o.on("click", fn); }
+		function syncMute() { var m = !!S().muted; vis("shared_mute_on", !m); vis("shared_mute_off", m); }
+		function overlayBuilt() { return !!root[OVL[0]]; }
+		function setOverlay(f) { var i; for (i = 0; i < OVL.length; i++) { if (root[OVL[i]]) { root[OVL[i]].visible = !!f; } } }
+		
+		if (!root.__result) { root.__result = { token: 0, busy: false, overlay: false, sum: null }; }
+		var Z = root.__result;
+		
+		function scoreText(sum) {
+		    var d = D();
+		    return root.activityFillText(d.result.scoreFormat, { score: root.activityToArabicDigits(sum.total), max: root.activityToArabicDigits(sum.max) }).replace(/<\/?small>/g, "");
+		}
+		function showNotes(sum) {
+		    var k, i, kind, res;
+		    for (k = 0; k < 5; k++) {
+		        res = sum.results[k];
+		        kind = res === "first" ? "yellow" : (res === "second" ? "mint" : (res ? "grey" : null));
+		        for (i = 0; i < KINDS.length; i++) { vis("result_note_" + (k + 1) + "_" + KINDS[i], KINDS[i] === kind); }
 		    }
 		}
-		function rGet(name) {
-		    if (!root[name]) { rWarn("missing:" + name, "Missing instance " + name); return null; }
-		    return root[name];
+		function showStars(sum) {
+		    var n;
+		    for (n = 1; n <= 3; n++) { vis("result_star_" + n + "_off", true); vis("result_star_" + n + "_gold", n <= sum.stars); vis("result_star_" + n + "_glow", n <= sum.stars); }
 		}
-		function rVisible(name, visible) {
-		    var item = rGet(name);
-		    if (item) { item.visible = !!visible; }
+		function openAnswers() {
+		    var d = D(), sum = Z.sum, i;
+		    if (Z.overlay || Z.busy) { return; }
+		    if (!overlayBuilt()) { warn("Overlay elements not found in this frame: answers"); return; }
+		    setText("answers_title", d.result.answersTitle);
+		    for (i = 0; i < d.questions.length; i++) { setText("answers_word_" + (i + 1), d.questions[i].word); }
+		    setText("answers_reminder_default", d.result.reminders[sum.reminderKey]);
+		    setText("answers_ok_label", d.ui.buttons.ok);
+		    Z.overlay = true; setOverlay(true);
 		}
-		function rVisibleIfPresent(name, visible) {
-		    if (root[name]) { root[name].visible = !!visible; }
-		}
-		function rText(name, value) {
-		    var item = rGet(name);
-		    if (!item) { return false; }
-		    if (typeof item.text !== "string") {
-		        rWarn("text:" + name, "Instance does not expose a writable text property: " + name);
-		        return false;
-		    }
-		    item.text = String(value);
-		    return true;
-		}
-		function rTextIfPresent(name, value) {
-		    if (root[name]) { return rText(name, value); }
-		    return false;
-		}
-		function rBind(name, handler) {
-		    var item = rGet(name);
-		    if (!item) { return; }
-		    item.on("click", handler);
-		}
-		function rHook(name) { return root.activityRunHook(name); }
-		function rState() { return root.activityState; }
-		function rData() { return root.activityData; }
-		function rSummary() {
-		    if (!rState().resultSummary) { rState().resultSummary = root.activityBuildResultSummary(); }
-		    return rState().resultSummary;
-		}
-		function rFormatScore() {
-		    var summary = rSummary(), format = rData().result.scoreFormat;
-		    format = format.replace(/<[^>]*>/g, "");
-		    return root.activityFillText(format, {
-		        score: root.activityToArabicDigits(summary.total),
-		        max: root.activityToArabicDigits(summary.max)
-		    });
-		}
-		function rSetMute() {
-		    var muted = !!rState().muted;
-		    rVisible("shared_mute_on", !muted);
-		    rVisible("shared_mute_off", muted);
-		}
-		function rSetStar(index, lit, visible) {
-		    var prefix = "result_star_" + (index + 1) + "_";
-		    rVisible(prefix + "off", visible && !lit);
-		    rVisible(prefix + "gold", visible && !!lit);
-		    rVisible(prefix + "glow", false);
-		}
-		function rSetNotes() {
-		    var summary = rSummary(), i, outcome, color;
-		    for (i = 0; i < 5; i++) {
-		        outcome = summary.results[i] || "miss";
-		        color = outcome === "first" ? "yellow" : (outcome === "second" ? "mint" : "grey");
-		        rVisible("result_note_" + (i + 1) + "_yellow", color === "yellow");
-		        rVisible("result_note_" + (i + 1) + "_mint", color === "mint");
-		        rVisible("result_note_" + (i + 1) + "_grey", color === "grey");
-		    }
-		}
-		function rSetLabelsAndText() {
-		    var data = rData(), summary = rSummary(), buttonData = data.ui.buttons;
-		    rText("result_sticker_text", data.result.stickerText);
-		    rText("result_title_three", data.result.titles[summary.titleKey]);
-		    rText("result_score", rFormatScore());
-		    rText("result_reminder_default", data.result.reminders[summary.reminderKey]);
-		    rText("result_button_again_label", buttonData.again);
-		    rText("result_button_answers_label", buttonData.answers);
-		    rText("result_button_home_label", buttonData.home);
-		    rSetAnswerTexts();
-		}
-		var rAnswerInstances = ["answers_scrim", "answers_notebook", "answers_region", "answers_title",
-		    "answers_word_1", "answers_word_2", "answers_word_3", "answers_word_4", "answers_word_5",
-		    "answers_reminder_default", "answers_actions", "answers_ok"];
-		var rAnswerVisibleInstances = ["answers_scrim", "answers_notebook", "answers_region", "answers_title",
-		    "answers_word_1", "answers_word_2", "answers_word_3", "answers_word_4", "answers_word_5",
-		    "answers_reminder_default", "answers_actions", "answers_ok"];
-		function rAnswerInstancesAvailable() {
-		    var i;
-		    for (i = 0; i < rAnswerInstances.length; i++) {
-		        if (!root[rAnswerInstances[i]]) { return false; }
-		    }
-		    return true;
-		}
-		function rSetAnswerTexts() {
-		    var data = rData(), questions = data.questions, summary = rSummary(), i;
-		    rTextIfPresent("answers_title", data.result.answersTitle);
-		    for (i = 0; i < 5; i++) {
-		        rTextIfPresent("answers_word_" + (i + 1), questions[i].word);
-		    }
-		    rTextIfPresent("answers_reminder_default", data.result.reminders[summary.reminderKey]);
-		}
-		function rSetAnswerVisibility(visible) {
-		    var i;
-		    for (i = 0; i < rAnswerVisibleInstances.length; i++) {
-		        rVisibleIfPresent(rAnswerVisibleInstances[i], visible);
-		    }
-		}
-		function rCloseAnswers() {
-		    if (!resultState.overlayOpen) { return; }
-		    rSetAnswerVisibility(false);
-		    resultState.overlayOpen = false;
-		    resultState.busy = false;
-		}
-		function rOpenAnswers() {
-		    if (resultState.busy || resultState.overlayOpen) { return; }
-		    resultState.overlayOpen = true;
-		    resultState.busy = true;
-		    root.activityStopVoice();
-		    rSetAnswerTexts();
-		    if (!rAnswerInstancesAvailable()) {
-		        rWarn("answers-overlay-missing", "Answers overlay instances are absent from build_result.jsfl; Escape remains available to close the logical overlay.");
-		    }
-		    rSetAnswerVisibility(true);
-		    resultState.busy = false;
-		}
-		function rHandleKeydown(event) {
-		    if (event.key === "Escape" && resultState.overlayOpen) { rCloseAnswers(); }
-		}
-		function rToggleMute() {
-		    root.activitySetMuted(!rState().muted);
-		    rSetMute();
-		}
-		function rPlayAgain() { rChangeScreen("quiz"); }
-		function rReturnHome() { rChangeScreen("intro"); }
-		function rChangeScreen(destination) {
-		    if (resultState.busy || resultState.overlayOpen) { return; }
-		    resultState.busy = true;
-		    root.activityPlaySound("sfx_pin_press", 0.6);
-		    rHook("animateResultOut").then(function () {
+		function closeAnswers() { if (Z.overlay) { setOverlay(false); Z.overlay = false; } }
+		function leaveTo(screen) {
+		    var tok;
+		    if (Z.busy || Z.overlay) { return; }
+		    Z.busy = true; tok = Z.token;
+		    sfx("pin_press", 0.6);
+		    hook("animateResultOut").then(function () {
+		        if (tok !== Z.token) { return; }
 		        root.activityReset();
-		        root.activityGoToScreen(destination);
+		        root.activityGoToScreen(screen);
 		    });
 		}
-		function rEnter() {
-		    var summary = rSummary(), i, firstLeg, secondLeg;
-		    resultState.busy = true;
-		    resultState.overlayOpen = false;
-		    root.activityStopVoice();
-		    rSetMute();
-		    rVisible("shared_close", false);
-		    rVisible("shared_info", false);
-		    rVisible("result_background", true);
-		    rVisible("result_box_front", true);
-		    rVisible("result_box_angled", false);
-		    rVisible("result_box_shine", true);
-		    rVisible("result_sticker", false);
-		    rVisible("result_seal", false);
-		    rSetLabelsAndText();
-		    rSetNotes();
-		    for (i = 0; i < 3; i++) { rSetStar(i, i < summary.stars, false); }
-		    rVisible("result_title_three", false);
-		    rVisible("result_score", false);
-		    rVisible("result_reminder_default", false);
-		    rVisible("result_button_again", false);
-		    rVisible("result_button_answers", false);
-		    rVisible("result_button_home", false);
-		    rVisible("result_kite", false);
-		    rVisible("result_spark_1", false);
-		    rVisible("result_spark_2", false);
-		    rVisible("result_spark_3", false);
-		    rVisible("result_spark_4", false);
-		    rSetAnswerVisibility(false);
-		    if (!rAnswerInstancesAvailable()) {
-		        rWarn("answers-overlay-missing", "Answers overlay instances are absent from build_result.jsfl; overlay visuals and button closing cannot be provided.");
+		function onMute() { root.activitySetMuted(!S().muted); syncMute(); }
+		
+		function enter() {
+		    var st = S(), d = D(), sum, tok, i, chain, labels;
+		    if (!root.activityReady) { warn("Activity data is not ready"); return; }
+		    tok = ++Z.token; Z.busy = false; Z.overlay = false;
+		    sum = st.resultSummary || root.activityBuildResultSummary();
+		    Z.sum = sum;
+		    visList(["result_box_angled", "result_kite", "result_spark_1", "result_spark_2", "result_spark_3", "result_spark_4", "shared_close", "shared_info"], false);
+		    setOverlay(false);
+		    visList(["shared_logo", "result_box_front", "result_box_shine", "result_sticker", "result_sticker_text", "result_seal", "result_title_three", "result_score", "result_reminder_default",
+		        "result_button_again", "result_button_again_label", "result_button_answers", "result_button_answers_label", "result_button_home", "result_button_home_label"], true);
+		    labels = ["result_sticker_text", "result_title_three", "result_score", "result_reminder_default", "result_button_again_label", "result_button_answers_label", "result_button_home_label", "answers_ok_label"];
+		    for (i = 0; i < labels.length; i++) { if (root[labels[i]]) { root[labels[i]].mouseEnabled = false; } }
+		    setText("result_title_three", d.result.titles[sum.titleKey]);
+		    setText("result_score", scoreText(sum));
+		    setText("result_reminder_default", d.result.reminders[sum.reminderKey]);
+		    showStars(sum); showNotes(sum); syncMute();
+		    sfx("paper_whoosh", 0.7);
+		    chain = hook("animateResultKiteLegOne").then(function () {
+		        if (tok !== Z.token) { return; }
+		        sfx("tape_stick", 0.9);
+		        return hook("animateBoxSealAndSticker");
+		    }).then(function () {
+		        if (tok !== Z.token) { return; }
+		        hook("animateResultTitleIn"); hook("animateResultStarsIn");
+		        sfx("jingle_end", 0.9);
+		        return hook("spawnConfetti");
+		    });
+		    for (i = 0; i < sum.stars; i++) {
+		        chain = chain.then(function () {
+		            if (tok !== Z.token) { return; }
+		            sfx("star_chalk", 0.9);
+		            return hook("animateResultStarLit");
+		        });
 		    }
-		    root.activityPlaySound("sfx_paper_whoosh", 0.7);
-		    firstLeg = rHook("animateResultKiteLegOne");
-		    Promise.all([rHook("animateCameraTo"), rHook("animateBoxTo")]).then(function () {
-		        root.activityPlaySound("sfx_tape_stick", 0.9);
-		        return rHook("animateBoxSealAndSticker").then(function () {
-		            root.activityPlaySound("sfx_tape_stick", 0.9);
-		        });
+		    chain.then(function () {
+		        if (tok !== Z.token) { return; }
+		        return hook("animateScoreCountUp");
 		    }).then(function () {
-		        rVisible("result_sticker", true);
-		        rVisible("result_seal", true);
-		        rHook("animateResultTitleIn");
-		        rHook("animateResultStarsIn");
-		        rVisible("result_title_three", true);
-		        for (i = 0; i < 3; i++) { rSetStar(i, i < summary.stars, true); }
-		        root.activityPlaySound("sfx_jingle_end", 0.9);
-		        secondLeg = firstLeg.then(function () {
-		            root.activityPlaySound("sfx_paper_whoosh", 0.5);
-		            return rHook("animateResultKiteLegTwo");
-		        });
-		        for (i = 0; i < summary.stars; i++) {
-		            rHook("animateResultStarLit");
-		            root.activityPlaySound("sfx_star_chalk", 0.9);
-		        }
-		        return Promise.all([rHook("animateScoreCountUp"), secondLeg]);
+		        if (tok !== Z.token) { return; }
+		        return hook("animateResultKiteLegTwo");
 		    }).then(function () {
-		        rVisible("result_score", true);
-		        rHook("animateResultReminderIn");
-		        rVisible("result_reminder_default", true);
-		        return rHook("animateResultButtonsIn");
-		    }).then(function () {
-		        rVisible("result_button_again", true);
-		        rVisible("result_button_answers", true);
-		        rVisible("result_button_home", true);
-		        resultState.busy = false;
+		        if (tok !== Z.token) { return; }
+		        hook("animateResultReminderIn");
+		        return hook("animateResultButtonsIn");
 		    });
 		}
+		
 		if (!root.__resultLogicHandlersBound) {
-		    rBind("result_button_again", rPlayAgain);
-		    rBind("result_button_answers", rOpenAnswers);
-		    rBind("result_button_home", rReturnHome);
-		    rBind("shared_mute_on", rToggleMute);
-		    rBind("shared_mute_off", rToggleMute);
-		    if (root.answers_ok) { rBind("answers_ok", rCloseAnswers); }
-		    if (root.answers_scrim) { rBind("answers_scrim", rCloseAnswers); }
+		    bind("result_button_again", function () { root.__resultApi.leave("quiz"); });
+		    bind("result_button_home", function () { root.__resultApi.leave("intro"); });
+		    bind("result_button_answers", function () { root.__resultApi.answers(); });
+		    bind("shared_mute_on", function () { root.__resultApi.mute(); });
+		    bind("shared_mute_off", function () { root.__resultApi.mute(); });
+		    bind("answers_ok", function () { root.__resultApi.close(); });
+		    bind("answers_scrim", function () { root.__resultApi.close(); });
 		    root.__resultLogicHandlersBound = true;
 		}
-		if (typeof window !== "undefined" && !root.__resultKeyHandlerBound) {
-		    window.addEventListener("keydown", rHandleKeydown);
-		    root.__resultKeyHandlerBound = true;
-		}
-		rEnter();
+		root.__resultApi = { leave: leaveTo, answers: openAnswers, close: closeAnswers, mute: onMute };
+		enter();
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1).call(this.frame_2).wait(1).call(this.frame_3).wait(1).call(this.frame_4).wait(1).call(this.frame_5).wait(1).call(this.frame_6).wait(1).call(this.frame_7).wait(2).call(this.frame_9).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1).call(this.frame_2).wait(1).call(this.frame_3).wait(1).call(this.frame_4).wait(1).call(this.frame_5).wait(1).call(this.frame_6).wait(1).call(this.frame_7).wait(1).call(this.frame_8).wait(1).call(this.frame_9).wait(1));
+
+	// quiz_quiz_blank
+	this.quiz_piece_plus = new lib.quiz_quiz_piece_plus_mc();
+	this.quiz_piece_plus.name = "quiz_piece_plus";
+	this.quiz_piece_plus.setTransform(607.5,419.8,1,1,0,0,0,40,75.7);
+
+	this.quiz_piece_prefix_text = new lib.quiz_quiz_piece_prefix_text_mc();
+	this.quiz_piece_prefix_text.name = "quiz_piece_prefix_text";
+	this.quiz_piece_prefix_text.setTransform(724.4,429.4,1,1,0,0,0,74.5,100.5);
+
+	this.quiz_piece_noun_text = new lib.quiz_quiz_piece_noun_text_mc();
+	this.quiz_piece_noun_text.name = "quiz_piece_noun_text";
+	this.quiz_piece_noun_text.setTransform(359.4,442.7,1,1,0,0,0,178.5,93.2);
+
+	this.quiz_piece_prefix = new lib.quiz_quiz_piece_prefix_mc();
+	this.quiz_piece_prefix.name = "quiz_piece_prefix";
+	this.quiz_piece_prefix.setTransform(724.4,428.4,1,1,0,0,0,74.5,90);
+
+	this.quiz_piece_noun = new lib.quiz_quiz_piece_noun_mc();
+	this.quiz_piece_noun.name = "quiz_piece_noun";
+	this.quiz_piece_noun.setTransform(387.05,424.5,1,1,0,0,0,178.5,90);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.quiz_piece_noun},{t:this.quiz_piece_prefix},{t:this.quiz_piece_noun_text},{t:this.quiz_piece_prefix_text},{t:this.quiz_piece_plus}]},8).to({state:[]},1).wait(1));
 
 	// quiz_shared_mute_on
 	this.shared_mute_on = new lib.quiz_shared_mute_on_mc();
@@ -41562,150 +41704,6 @@ if (reversed == null) { reversed = false; }
 
 	this.timeline.addTween(cjs.Tween.get(this.quiz_box_angled).wait(8).to({_off:false},0).to({_off:true},1).wait(1));
 
-	// quiz_quiz_next_shade
-	this.quiz_next_shade = new lib.quiz_quiz_next_shade_mc();
-	this.quiz_next_shade.name = "quiz_next_shade";
-	this.quiz_next_shade.setTransform(985,901,1,1,0,0,0,146,73);
-	this.quiz_next_shade._off = true;
-
-	this.timeline.addTween(cjs.Tween.get(this.quiz_next_shade).wait(8).to({_off:false},0).to({_off:true},1).wait(1));
-
-	// quiz_quiz_next_page
-	this.quiz_next_page = new lib.quiz_quiz_next_page_mc();
-	this.quiz_next_page.name = "quiz_next_page";
-	this.quiz_next_page.setTransform(985,904,1,1,0,0,0,170,76);
-	this.quiz_next_page._off = true;
-
-	this.timeline.addTween(cjs.Tween.get(this.quiz_next_page).wait(8).to({_off:false},0).to({_off:true},1).wait(1));
-
-	// quiz_quiz_next
-	this.quiz_next = new lib.quiz_quiz_next_mc();
-	this.quiz_next.name = "quiz_next";
-	this.quiz_next.setTransform(985,890,1,1,0,0,0,170,102);
-	this.quiz_next._off = true;
-
-	this.timeline.addTween(cjs.Tween.get(this.quiz_next).wait(8).to({_off:false},0).to({_off:true},1).wait(1));
-
-	// quiz_quiz_slow
-	this.quiz_slow = new lib.quiz_quiz_slow_mc();
-	this.quiz_slow.name = "quiz_slow";
-	this.quiz_slow.setTransform(1545,387,1,1,0,0,0,31,31);
-	this.quiz_slow._off = true;
-
-	this.timeline.addTween(cjs.Tween.get(this.quiz_slow).wait(8).to({_off:false},0).to({_off:true},1).wait(1));
-
-	// quiz_quiz_sticky_guide
-	this.quiz_sticky_guide = new lib.quiz_quiz_sticky_guide_mc();
-	this.quiz_sticky_guide.name = "quiz_sticky_guide";
-	this.quiz_sticky_guide.setTransform(487.5,413.8,1,1,0,0,0,116.9,127.8);
-	this.quiz_sticky_guide._off = true;
-
-	this.timeline.addTween(cjs.Tween.get(this.quiz_sticky_guide).wait(8).to({_off:false},0).to({_off:true},1).wait(1));
-
-	// quiz_quiz_sticky_tape
-	this.quiz_sticky_tape = new lib.quiz_quiz_sticky_tape_mc();
-	this.quiz_sticky_tape.name = "quiz_sticky_tape";
-	this.quiz_sticky_tape.setTransform(484.7,238.9,1,1,0,0,0,64.9,24.1);
-	this.quiz_sticky_tape._off = true;
-
-	this.timeline.addTween(cjs.Tween.get(this.quiz_sticky_tape).wait(8).to({_off:false},0).to({_off:true},1).wait(1));
-
-	// quiz_quiz_sticky_cream
-	this.quiz_sticky_cream = new lib.quiz_quiz_sticky_cream_mc();
-	this.quiz_sticky_cream.name = "quiz_sticky_cream";
-	this.quiz_sticky_cream.setTransform(487.3,388.9,1,1,0,0,0,147.6,153.5);
-	this.quiz_sticky_cream._off = true;
-
-	this.timeline.addTween(cjs.Tween.get(this.quiz_sticky_cream).wait(8).to({_off:false},0).to({_off:true},1).wait(1));
-
-	// quiz_quiz_play
-	this.quiz_play = new lib.quiz_quiz_play_mc();
-	this.quiz_play.name = "quiz_play";
-	this.quiz_play.setTransform(1603,351.9,1,1,0,0,0,55,55);
-	this.quiz_play._off = true;
-
-	this.timeline.addTween(cjs.Tween.get(this.quiz_play).wait(8).to({_off:false},0).to({_off:true},1).wait(1));
-
-	// quiz_quiz_option_3_label
-	this.quiz_option_3_label = new lib.quiz_quiz_option_3_label_mc();
-	this.quiz_option_3_label.name = "quiz_option_3_label";
-	this.quiz_option_3_label.setTransform(1416,617.5,1,1,0,0,0,157.5,69.5);
-	this.quiz_option_3_label._off = true;
-
-	this.timeline.addTween(cjs.Tween.get(this.quiz_option_3_label).wait(8).to({_off:false},0).to({_off:true},1).wait(1));
-
-	// quiz_quiz_option_2_label
-	this.quiz_option_2_label = new lib.quiz_quiz_option_2_label_mc();
-	this.quiz_option_2_label.name = "quiz_option_2_label";
-	this.quiz_option_2_label.setTransform(1060,617.5,1,1,0,0,0,157.5,69.5);
-	this.quiz_option_2_label._off = true;
-
-	this.timeline.addTween(cjs.Tween.get(this.quiz_option_2_label).wait(8).to({_off:false},0).to({_off:true},1).wait(1));
-
-	// quiz_quiz_option_1_label
-	this.quiz_option_1_label = new lib.quiz_quiz_option_1_label_mc();
-	this.quiz_option_1_label.name = "quiz_option_1_label";
-	this.quiz_option_1_label.setTransform(704,617.5,1,1,0,0,0,157.5,69.5);
-	this.quiz_option_1_label._off = true;
-
-	this.timeline.addTween(cjs.Tween.get(this.quiz_option_1_label).wait(8).to({_off:false},0).to({_off:true},1).wait(1));
-
-	// quiz_quiz_option_3
-	this.quiz_option_3 = new lib.quiz_quiz_option_3_mc();
-	this.quiz_option_3.name = "quiz_option_3";
-	this.quiz_option_3.setTransform(1416,617.5,1,1,0,0,0,157.5,69.5);
-	this.quiz_option_3._off = true;
-
-	this.timeline.addTween(cjs.Tween.get(this.quiz_option_3).wait(8).to({_off:false},0).to({_off:true},1).wait(1));
-
-	// quiz_quiz_option_2
-	this.quiz_option_2 = new lib.quiz_quiz_option_2_mc();
-	this.quiz_option_2.name = "quiz_option_2";
-	this.quiz_option_2.setTransform(1060,617.5,1,1,0,0,0,157.5,69.5);
-	this.quiz_option_2._off = true;
-
-	this.timeline.addTween(cjs.Tween.get(this.quiz_option_2).wait(8).to({_off:false},0).to({_off:true},1).wait(1));
-
-	// quiz_quiz_option_1
-	this.quiz_option_1 = new lib.quiz_quiz_option_1_mc();
-	this.quiz_option_1.name = "quiz_option_1";
-	this.quiz_option_1.setTransform(704,617.5,1,1,0,0,0,157.5,69.5);
-	this.quiz_option_1._off = true;
-
-	this.timeline.addTween(cjs.Tween.get(this.quiz_option_1).wait(8).to({_off:false},0).to({_off:true},1).wait(1));
-
-	// quiz_quiz_blank
-	this.quiz_blank = new lib.quiz_quiz_blank_mc();
-	this.quiz_blank.name = "quiz_blank";
-	this.quiz_blank.setTransform(945.4,363,1,1,0,0,0,104,34);
-	this.quiz_blank._off = true;
-
-	this.timeline.addTween(cjs.Tween.get(this.quiz_blank).wait(8).to({_off:false},0).to({_off:true},1).wait(1));
-
-	// quiz_quiz_stem_before
-	this.quiz_stem_before = new lib.quiz_quiz_stem_before_mc();
-	this.quiz_stem_before.name = "quiz_stem_before";
-	this.quiz_stem_before.setTransform(1176.1,430.8,1,1,0,0,0,102.7,104.8);
-	this.quiz_stem_before._off = true;
-
-	this.timeline.addTween(cjs.Tween.get(this.quiz_stem_before).wait(8).to({_off:false},0).to({_off:true},1).wait(1));
-
-	// quiz_shared_rays
-	this.shared_rays = new lib.quiz_shared_rays_mc();
-	this.shared_rays.name = "shared_rays";
-	this.shared_rays.setTransform(900,600,1,1,0,0,0,900,600);
-	this.shared_rays.alpha = 0.3984;
-	this.shared_rays._off = true;
-
-	this.timeline.addTween(cjs.Tween.get(this.shared_rays).wait(8).to({_off:false},0).to({_off:true},1).wait(1));
-
-	// quiz_quiz_background
-	this.instance = new lib.quiz_bg_plate();
-	this.instance.setTransform(0,0.1,0.6666,0.6666);
-	this.instance._off = true;
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(8).to({_off:false},0).to({_off:true},1).wait(1));
-
 	// quiz_states
 	this.shared_mute_off = new lib.quiz_shared_mute_off_mc();
 	this.shared_mute_off.name = "shared_mute_off";
@@ -41755,29 +41753,9 @@ if (reversed == null) { reversed = false; }
 	this.quiz_next_label.name = "quiz_next_label";
 	this.quiz_next_label.setTransform(985,906,1,1,0,0,0,140,62);
 
-	this.quiz_piece_plus = new lib.quiz_quiz_piece_plus_mc();
-	this.quiz_piece_plus.name = "quiz_piece_plus";
-	this.quiz_piece_plus.setTransform(1060,642.7,1,1,0,0,0,40,75.7);
-
-	this.quiz_piece_prefix_text = new lib.quiz_quiz_piece_prefix_text_mc();
-	this.quiz_piece_prefix_text.name = "quiz_piece_prefix_text";
-	this.quiz_piece_prefix_text.setTransform(1226.95,652.4,1,1,0,0,0,74.5,100.5);
-
-	this.quiz_piece_noun_text = new lib.quiz_quiz_piece_noun_text_mc();
-	this.quiz_piece_noun_text.name = "quiz_piece_noun_text";
-	this.quiz_piece_noun_text.setTransform(997.05,641.2,1,1,0,0,0,178.5,93.2);
-
-	this.quiz_piece_prefix = new lib.quiz_quiz_piece_prefix_mc();
-	this.quiz_piece_prefix.name = "quiz_piece_prefix";
-	this.quiz_piece_prefix.setTransform(1226.95,641.9,1,1,0,0,0,74.5,90);
-
-	this.quiz_piece_noun = new lib.quiz_quiz_piece_noun_mc();
-	this.quiz_piece_noun.name = "quiz_piece_noun";
-	this.quiz_piece_noun.setTransform(997.05,638,1,1,0,0,0,178.5,90);
-
 	this.quiz_note_ink = new lib.quiz_quiz_note_ink_mc();
 	this.quiz_note_ink.name = "quiz_note_ink";
-	this.quiz_note_ink.setTransform(945.4,363,1,1,0,0,0,105.5,70);
+	this.quiz_note_ink.setTransform(945.4,426,1,1,0,0,0,105.5,70);
 
 	this.quiz_note_fold_grey = new lib.quiz_quiz_note_fold_grey_mc();
 	this.quiz_note_fold_grey.name = "quiz_note_fold_grey";
@@ -41817,7 +41795,7 @@ if (reversed == null) { reversed = false; }
 
 	this.quiz_glow = new lib.quiz_quiz_glow_mc();
 	this.quiz_glow.name = "quiz_glow";
-	this.quiz_glow.setTransform(703.85,617.5,1,1,0,0,0,236.2,132.1);
+	this.quiz_glow.setTransform(1638.7,466.6,1,1,0,0,0,236.2,132.1);
 
 	this.quiz_crumple_ball_2 = new lib.quiz_quiz_crumple_ball_2_mc();
 	this.quiz_crumple_ball_2.name = "quiz_crumple_ball_2";
@@ -41943,7 +41921,135 @@ if (reversed == null) { reversed = false; }
 	this.quiz_box_front.name = "quiz_box_front";
 	this.quiz_box_front.setTransform(374.9,829.4,1,1,0,0,0,219.8,134.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.quiz_box_front},{t:this.quiz_box_note_yellow},{t:this.quiz_box_note_mint},{t:this.quiz_box_note_grey},{t:this.quiz_star_1_off},{t:this.quiz_star_1_gold},{t:this.quiz_star_1_grey},{t:this.quiz_star_1_glow},{t:this.quiz_star_2_current},{t:this.quiz_star_2_gold},{t:this.quiz_star_2_grey},{t:this.quiz_star_2_glow},{t:this.quiz_star_3_current},{t:this.quiz_star_3_gold},{t:this.quiz_star_3_grey},{t:this.quiz_star_3_glow},{t:this.quiz_star_4_current},{t:this.quiz_star_4_gold},{t:this.quiz_star_4_grey},{t:this.quiz_star_4_glow},{t:this.quiz_star_5_current},{t:this.quiz_star_5_gold},{t:this.quiz_star_5_grey},{t:this.quiz_star_5_glow},{t:this.quiz_sticky_pink},{t:this.quiz_sticky_mint},{t:this.quiz_chalk_piece},{t:this.quiz_crumple_half_1},{t:this.quiz_crumple_ball_1},{t:this.quiz_crumple_half_2},{t:this.quiz_crumple_ball_2},{t:this.quiz_glow},{t:this.quiz_note_open_yellow},{t:this.quiz_note_half_yellow},{t:this.quiz_note_fold_yellow},{t:this.quiz_note_open_mint},{t:this.quiz_note_half_mint},{t:this.quiz_note_fold_mint},{t:this.quiz_note_open_grey},{t:this.quiz_note_half_grey},{t:this.quiz_note_fold_grey},{t:this.quiz_note_ink},{t:this.quiz_piece_noun},{t:this.quiz_piece_prefix},{t:this.quiz_piece_noun_text},{t:this.quiz_piece_prefix_text},{t:this.quiz_piece_plus},{t:this.quiz_next_label},{t:this.quiz_box_folded_yellow},{t:this.quiz_box_folded_mint},{t:this.quiz_box_folded_grey},{t:this.quiz_dust_1},{t:this.quiz_dust_2},{t:this.quiz_dust_3},{t:this.quiz_spark_1},{t:this.quiz_spark_2},{t:this.quiz_spark_3},{t:this.quiz_spark_4},{t:this.shared_mute_off}]},8).to({state:[]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.quiz_box_front},{t:this.quiz_box_note_yellow},{t:this.quiz_box_note_mint},{t:this.quiz_box_note_grey},{t:this.quiz_star_1_off},{t:this.quiz_star_1_gold},{t:this.quiz_star_1_grey},{t:this.quiz_star_1_glow},{t:this.quiz_star_2_current},{t:this.quiz_star_2_gold},{t:this.quiz_star_2_grey},{t:this.quiz_star_2_glow},{t:this.quiz_star_3_current},{t:this.quiz_star_3_gold},{t:this.quiz_star_3_grey},{t:this.quiz_star_3_glow},{t:this.quiz_star_4_current},{t:this.quiz_star_4_gold},{t:this.quiz_star_4_grey},{t:this.quiz_star_4_glow},{t:this.quiz_star_5_current},{t:this.quiz_star_5_gold},{t:this.quiz_star_5_grey},{t:this.quiz_star_5_glow},{t:this.quiz_sticky_pink},{t:this.quiz_sticky_mint},{t:this.quiz_chalk_piece},{t:this.quiz_crumple_half_1},{t:this.quiz_crumple_ball_1},{t:this.quiz_crumple_half_2},{t:this.quiz_crumple_ball_2},{t:this.quiz_glow},{t:this.quiz_note_open_yellow},{t:this.quiz_note_half_yellow},{t:this.quiz_note_fold_yellow},{t:this.quiz_note_open_mint},{t:this.quiz_note_half_mint},{t:this.quiz_note_fold_mint},{t:this.quiz_note_open_grey},{t:this.quiz_note_half_grey},{t:this.quiz_note_fold_grey},{t:this.quiz_note_ink},{t:this.quiz_next_label},{t:this.quiz_box_folded_yellow},{t:this.quiz_box_folded_mint},{t:this.quiz_box_folded_grey},{t:this.quiz_dust_1},{t:this.quiz_dust_2},{t:this.quiz_dust_3},{t:this.quiz_spark_1},{t:this.quiz_spark_2},{t:this.quiz_spark_3},{t:this.quiz_spark_4},{t:this.shared_mute_off}]},8).to({state:[]},1).wait(1));
+
+	// quiz_quiz_next_page
+	this.quiz_next_page = new lib.quiz_quiz_next_page_mc();
+	this.quiz_next_page.name = "quiz_next_page";
+	this.quiz_next_page.setTransform(985,904,1,1,0,0,0,170,76);
+	this.quiz_next_page._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.quiz_next_page).wait(8).to({_off:false},0).to({_off:true},1).wait(1));
+
+	// quiz_quiz_next
+	this.quiz_next = new lib.quiz_quiz_next_mc();
+	this.quiz_next.name = "quiz_next";
+	this.quiz_next.setTransform(985,890,1,1,0,0,0,170,102);
+	this.quiz_next._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.quiz_next).wait(8).to({_off:false},0).to({_off:true},1).wait(1));
+
+	// quiz_quiz_slow
+	this.quiz_slow = new lib.quiz_quiz_slow_mc();
+	this.quiz_slow.name = "quiz_slow";
+	this.quiz_slow.setTransform(1545,387,1,1,0,0,0,31,31);
+	this.quiz_slow._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.quiz_slow).wait(8).to({_off:false},0).to({_off:true},1).wait(1));
+
+	// quiz_quiz_sticky_guide
+	this.quiz_sticky_guide = new lib.quiz_quiz_sticky_guide_mc();
+	this.quiz_sticky_guide.name = "quiz_sticky_guide";
+	this.quiz_sticky_guide.setTransform(487.5,413.8,1,1,0,0,0,116.9,127.8);
+	this.quiz_sticky_guide._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.quiz_sticky_guide).wait(8).to({_off:false},0).to({_off:true},1).wait(1));
+
+	// quiz_quiz_sticky_tape
+	this.quiz_sticky_tape = new lib.quiz_quiz_sticky_tape_mc();
+	this.quiz_sticky_tape.name = "quiz_sticky_tape";
+	this.quiz_sticky_tape.setTransform(484.7,238.9,1,1,0,0,0,64.9,24.1);
+	this.quiz_sticky_tape._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.quiz_sticky_tape).wait(8).to({_off:false},0).to({_off:true},1).wait(1));
+
+	// quiz_quiz_sticky_cream
+	this.quiz_sticky_cream = new lib.quiz_quiz_sticky_cream_mc();
+	this.quiz_sticky_cream.name = "quiz_sticky_cream";
+	this.quiz_sticky_cream.setTransform(487.3,388.9,1,1,0,0,0,147.6,153.5);
+	this.quiz_sticky_cream._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.quiz_sticky_cream).wait(8).to({_off:false},0).to({_off:true},1).wait(1));
+
+	// quiz_quiz_play
+	this.quiz_play = new lib.quiz_quiz_play_mc();
+	this.quiz_play.name = "quiz_play";
+	this.quiz_play.setTransform(1603,351.9,1,1,0,0,0,55,55);
+	this.quiz_play._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.quiz_play).wait(8).to({_off:false},0).to({_off:true},1).wait(1));
+
+	// quiz_quiz_option_3_label
+	this.quiz_option_3_label = new lib.quiz_quiz_option_3_label_mc();
+	this.quiz_option_3_label.name = "quiz_option_3_label";
+	this.quiz_option_3_label.setTransform(1416,617.5,1,1,0,0,0,157.5,69.5);
+	this.quiz_option_3_label._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.quiz_option_3_label).wait(8).to({_off:false},0).to({_off:true},1).wait(1));
+
+	// quiz_quiz_option_2_label
+	this.quiz_option_2_label = new lib.quiz_quiz_option_2_label_mc();
+	this.quiz_option_2_label.name = "quiz_option_2_label";
+	this.quiz_option_2_label.setTransform(1060,617.5,1,1,0,0,0,157.5,69.5);
+	this.quiz_option_2_label._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.quiz_option_2_label).wait(8).to({_off:false},0).to({_off:true},1).wait(1));
+
+	// quiz_quiz_option_1_label
+	this.quiz_option_1_label = new lib.quiz_quiz_option_1_label_mc();
+	this.quiz_option_1_label.name = "quiz_option_1_label";
+	this.quiz_option_1_label.setTransform(704,617.5,1,1,0,0,0,157.5,69.5);
+	this.quiz_option_1_label._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.quiz_option_1_label).wait(8).to({_off:false},0).to({_off:true},1).wait(1));
+
+	// quiz_quiz_option_3
+	this.quiz_option_3 = new lib.quiz_quiz_option_3_mc();
+	this.quiz_option_3.name = "quiz_option_3";
+	this.quiz_option_3.setTransform(1416,617.5,1,1,0,0,0,157.5,69.5);
+	this.quiz_option_3._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.quiz_option_3).wait(8).to({_off:false},0).to({_off:true},1).wait(1));
+
+	// quiz_quiz_option_2
+	this.quiz_option_2 = new lib.quiz_quiz_option_2_mc();
+	this.quiz_option_2.name = "quiz_option_2";
+	this.quiz_option_2.setTransform(1060,617.5,1,1,0,0,0,157.5,69.5);
+	this.quiz_option_2._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.quiz_option_2).wait(8).to({_off:false},0).to({_off:true},1).wait(1));
+
+	// quiz_quiz_option_1
+	this.quiz_option_1 = new lib.quiz_quiz_option_1_mc();
+	this.quiz_option_1.name = "quiz_option_1";
+	this.quiz_option_1.setTransform(704,617.5,1,1,0,0,0,157.5,69.5);
+	this.quiz_option_1._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.quiz_option_1).wait(8).to({_off:false},0).to({_off:true},1).wait(1));
+
+	// quiz_quiz_stem_before
+	this.quiz_stem_before = new lib.quiz_quiz_stem_before_mc();
+	this.quiz_stem_before.name = "quiz_stem_before";
+	this.quiz_stem_before.setTransform(1176.1,430.8,1,1,0,0,0,102.7,104.8);
+	this.quiz_stem_before._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.quiz_stem_before).wait(8).to({_off:false},0).to({_off:true},1).wait(1));
+
+	// quiz_shared_rays
+	this.shared_rays = new lib.quiz_shared_rays_mc();
+	this.shared_rays.name = "shared_rays";
+	this.shared_rays.setTransform(900,600,1,1,0,0,0,900,600);
+	this.shared_rays.alpha = 0.3984;
+	this.shared_rays._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.shared_rays).wait(8).to({_off:false},0).to({_off:true},1).wait(1));
+
+	// quiz_quiz_background
+	this.instance = new lib.quiz_bg_plate();
+	this.instance.setTransform(0,0.1,0.6666,0.6666);
+	this.instance._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(8).to({_off:false},0).to({_off:true},1).wait(1));
 
 	// result_shared_mute_on
 	this.shared_mute_on_1 = new lib.result_shared_mute_on_mc_2();
@@ -43783,7 +43889,7 @@ lib.properties = {
 	color: "#336633",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/index_atlas_1.png?1793250745512", id:"index_atlas_1"}
+		{src:"images/index_atlas_1.png?1793273273885", id:"index_atlas_1"}
 	],
 	preloads: []
 };

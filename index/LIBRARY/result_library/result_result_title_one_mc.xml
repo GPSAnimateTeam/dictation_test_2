@@ -14,7 +14,7 @@
                     <DOMTextRun>
                       <characters>امتلأ الصندوق! جرّب من جديد لتجمع نجومًا أكثر</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="84.25" size="48" bitmapSize="960" face="ReadexPro-Regular" fillColor="#F5F2E8"/>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="53.6" size="48" bitmapSize="960" face="ReadexPro-Regular" fillColor="#F5F2E8"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>

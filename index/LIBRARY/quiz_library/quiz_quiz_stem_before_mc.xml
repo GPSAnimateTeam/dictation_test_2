@@ -14,7 +14,7 @@
                     <DOMTextRun>
                       <characters>تتقدم الدول</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="101.8" size="58" bitmapSize="1160" face="ReadexPro-Regular" fillColor="#F5F2E8"/>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="64.8" size="58" bitmapSize="1160" face="ReadexPro-Regular" fillColor="#F5F2E8"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>

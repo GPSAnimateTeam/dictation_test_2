@@ -2,639 +2,103 @@
   "screen": {
     "id": "result",
     "label": "result",
-    "frameAction": "this.stop();",
-    "sourceLocation": {
-      "file": "web_source/activity.js",
-      "line": 1447
-    }
+    "source": "web_source/activity.js: resultEnter, layoutResult, onAgainClicked, onHomeClicked, openAnswers"
   },
   "interactiveElements": [
     {
       "id": "result_button_again",
-      "instanceName": "result_button_again",
       "event": "click",
-      "handler": "rPlayAgain",
-      "guard": "Ignore while another result transition/overlay is active.",
-      "stateChanges": [
-        "Lock result controls.",
-        "After result-out hook, reset global activity state."
-      ],
-      "visualChanges": [
-        "Invoke the result-out global hook; no direct animation."
-      ],
-      "sounds": [
-        {
-          "id": "sfx_pin_press",
-          "volume": 0.6
-        }
-      ],
-      "destination": "quiz",
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1579
-      }
+      "guard": "not busy, answers overlay closed",
+      "action": "pin_press, hook animateResultOut, activityReset, go to quiz"
     },
     {
       "id": "result_button_home",
-      "instanceName": "result_button_home",
       "event": "click",
-      "handler": "rReturnHome",
-      "guard": "Ignore while another result transition/overlay is active.",
-      "stateChanges": [
-        "Lock result controls.",
-        "After result-out hook, reset global activity state."
-      ],
-      "visualChanges": [
-        "Invoke the result-out global hook; no direct animation."
-      ],
-      "sounds": [
-        {
-          "id": "sfx_pin_press",
-          "volume": 0.6
-        }
-      ],
-      "destination": "intro",
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1583
-      }
+      "guard": "same",
+      "action": "pin_press, hook animateResultOut, activityReset, go to intro"
     },
     {
       "id": "result_button_answers",
-      "instanceName": "result_button_answers",
       "event": "click",
-      "handler": "rOpenAnswers",
-      "guard": "Do nothing if an overlay is already open.",
-      "stateChanges": [
-        "Set answers overlay as active.",
-        "Stop voice."
-      ],
-      "visualChanges": [
-        "Show answers overlay instances when available; block result controls."
-      ],
-      "sounds": [],
-      "destination": "answers_overlay",
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1696
-      }
+      "action": "open answers overlay"
     },
     {
-      "id": "shared_mute_on",
-      "instanceName": "shared_mute_on",
+      "id": "answers_ok, answers_scrim",
       "event": "click",
-      "handler": "rToggleMute",
-      "guard": "Duplicate binding prevented by timeline guard.",
-      "stateChanges": [
-        "Toggle global mute state using activitySetMuted."
-      ],
-      "visualChanges": [
-        "Show exactly one mute variant."
-      ],
-      "sounds": [],
-      "destination": null,
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1767
-      }
+      "action": "close answers overlay"
     },
     {
-      "id": "shared_mute_off",
-      "instanceName": "shared_mute_off",
+      "id": "shared_mute_on / shared_mute_off",
       "event": "click",
-      "handler": "rToggleMute",
-      "guard": "Duplicate binding prevented by timeline guard.",
-      "stateChanges": [
-        "Toggle global mute state using activitySetMuted."
-      ],
-      "visualChanges": [
-        "Show exactly one mute variant."
-      ],
-      "sounds": [],
-      "destination": null,
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1767
-      }
-    },
-    {
-      "id": "answers_ok",
-      "instanceName": "answers_ok",
-      "event": "click",
-      "handler": "rCloseAnswers",
-      "guard": "Only while answers overlay is active.",
-      "stateChanges": [
-        "Clear active overlay."
-      ],
-      "visualChanges": [
-        "Hide answers overlay instances if they were built."
-      ],
-      "sounds": [],
-      "destination": "result",
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1714
-      }
-    },
-    {
-      "id": "answers_scrim",
-      "instanceName": "answers_scrim",
-      "event": "click",
-      "handler": "rCloseAnswers",
-      "guard": "Only when the scrim itself is clicked while answers overlay is active.",
-      "stateChanges": [
-        "Clear active overlay."
-      ],
-      "visualChanges": [
-        "Hide answers overlay instances if they were built."
-      ],
-      "sounds": [],
-      "destination": "result",
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1715
-      }
-    },
-    {
-      "id": "result_escape",
-      "instanceName": "main timeline keydown",
-      "event": "keydown",
-      "handler": "rHandleKeydown",
-      "guard": "Escape closes answers overlay if open.",
-      "stateChanges": [
-        "Clear active overlay on Escape."
-      ],
-      "visualChanges": [
-        "Hide answers overlay instances if they were built."
-      ],
-      "sounds": [],
-      "destination": "result",
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1772
-      }
-    }
-  ],
-  "overlays": [
-    {
-      "id": "answers_overlay",
-      "elements": [
-        "answers_scrim",
-        "answers_notebook",
-        "answers_region",
-        "answers_title",
-        "answers_word_1",
-        "answers_word_2",
-        "answers_word_3",
-        "answers_word_4",
-        "answers_word_5",
-        "answers_reminder_default",
-        "answers_reminder_perfect",
-        "answers_reminder_missLam",
-        "answers_reminder_missKeep",
-        "answers_actions",
-        "answers_ok"
-      ],
-      "openedBy": "result_button_answers",
-      "closedBy": [
-        "answers_ok",
-        "answers_scrim",
-        "Escape"
-      ],
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1696
-      },
-      "builtInstances": []
+      "action": "activitySetMuted toggle + icon swap"
     }
   ],
   "variantGroups": [
     {
-      "role": "result title by score tier",
-      "instances": [
-        "result_title_three",
-        "result_title_two",
-        "result_title_one"
-      ],
-      "visibility": "Set the active result.titles[resultSummary.titleKey] string on the built base text result_title_three; result_title_two and result_title_one are skipped by the build.",
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1487
+      "slot": "result star n",
+      "variants": {
+        "off": "always",
+        "gold + glow": "n <= summary.stars"
       }
     },
     {
-      "role": "result reminder by score/rule",
-      "instances": [
-        "result_reminder_default",
-        "result_reminder_perfect",
-        "result_reminder_missLam",
-        "result_reminder_missKeep"
-      ],
-      "visibility": "Set the active result.reminders[resultSummary.reminderKey] string on the built base text result_reminder_default; alternate reminder text instances are skipped by the build.",
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1487
+      "slot": "note k in box",
+      "variants": {
+        "yellow": "first",
+        "mint": "second",
+        "grey": "miss"
       }
     },
     {
-      "role": "result star state",
-      "instances": [
-        "result_star_1_off",
-        "result_star_1_gold",
-        "result_star_1_glow",
-        "result_star_2_off",
-        "result_star_2_gold",
-        "result_star_2_glow",
-        "result_star_3_off",
-        "result_star_3_gold",
-        "result_star_3_glow"
-      ],
-      "visibility": "Show gold for indices below resultSummary.stars; otherwise show off. Glow is transient and hidden at rest.",
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1547
-      }
-    },
-    {
-      "role": "box note outcome",
-      "instances": [
-        "result_note_1_yellow",
-        "result_note_1_mint",
-        "result_note_1_grey",
-        "result_note_2_yellow",
-        "result_note_2_mint",
-        "result_note_2_grey",
-        "result_note_3_yellow",
-        "result_note_3_mint",
-        "result_note_3_grey",
-        "result_note_4_yellow",
-        "result_note_4_mint",
-        "result_note_4_grey",
-        "result_note_5_yellow",
-        "result_note_5_mint",
-        "result_note_5_grey"
-      ],
-      "visibility": "For each settled question: first try yellow, second try mint, missed grey.",
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1487
-      }
-    },
-    {
-      "role": "shared mute state",
-      "instances": [
-        "shared_mute_on",
-        "shared_mute_off"
-      ],
-      "visibility": "Show mute-on when unmuted and mute-off when muted.",
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 165
+      "slot": "mute",
+      "variants": {
+        "shared_mute_on": "unmuted",
+        "shared_mute_off": "muted"
       }
     }
   ],
   "dynamicTexts": [
     {
-      "instanceId": "result_sticker_text",
-      "dataPath": "result.stickerText",
-      "fillingRule": "Set exact scalar string on result enter.",
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1487
-      }
+      "id": "result_title_three",
+      "path": "result.titles[summary.titleKey]",
+      "note": "three/two/one collapsed into one element"
     },
     {
-      "instanceId": "result_title_three",
-      "dataPath": "result.titles[resultSummary.titleKey]",
-      "fillingRule": "Set the built base title text to the full active title, including original Arabic diacritics; replace skipped text variants with this value.",
-      "containsArabicDiacritics": true,
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1487
-      }
+      "id": "result_score",
+      "path": "result.scoreFormat with {score},{max}; <small> tags removed; Arabic digits via activityToArabicDigits"
     },
     {
-      "instanceId": "result_score",
-      "dataPath": "result.scoreFormat; resultSummary.total; resultSummary.max",
-      "fillingRule": "Remove markup tags, substitute globally Arabic-digit-formatted score and maximum using activityFillText, and write final score.",
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1487
-      }
+      "id": "result_reminder_default",
+      "path": "result.reminders[summary.reminderKey]",
+      "note": "4 variants collapsed into one element"
     },
     {
-      "instanceId": "result_reminder_default",
-      "dataPath": "result.reminders[resultSummary.reminderKey]",
-      "fillingRule": "Set the built base reminder text to the complete active string, including original Arabic diacritics; replace skipped text variants with this value.",
-      "containsArabicDiacritics": true,
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1487
-      }
-    },
-    {
-      "instanceId": "result_button_again_label",
-      "dataPath": "ui.buttons.again",
-      "fillingRule": "Set exact scalar string.",
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1487
-      }
-    },
-    {
-      "instanceId": "result_button_answers_label",
-      "dataPath": "ui.buttons.answers",
-      "fillingRule": "Set exact scalar string.",
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1487
-      }
-    },
-    {
-      "instanceId": "result_button_home_label",
-      "dataPath": "ui.buttons.home",
-      "fillingRule": "Set exact scalar string.",
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1487
-      }
-    },
-    {
-      "instanceId": "answers_title",
-      "dataPath": "result.answersTitle",
-      "fillingRule": "Set exact scalar string on screen enter and overlay open when built.",
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1696
-      }
-    },
-    {
-      "instanceId": "answers_word_1..5",
-      "dataPath": "questions[0..4].word",
-      "fillingRule": "Set each answer word from the corresponding question on screen enter and overlay open when built.",
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1696
-      }
-    },
-    {
-      "instanceId": "answers_reminder_default",
-      "dataPath": "result.reminders[resultSummary.reminderKey]",
-      "fillingRule": "Set base reminder text to active reminder data when available; do not toggle skipped text variants.",
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1696
-      }
+      "id": "answers_title / answers_word_n / answers_reminder_default / answers_ok_label",
+      "path": "result.answersTitle, questions[i].word, result.reminders[reminderKey], ui.buttons.ok"
     }
   ],
   "flow": [
-    {
-      "order": 1,
-      "phase": "result enter and initialize",
-      "behavior": "Stop voice; consume or build resultSummary; populate active title, reminder, score, labels and note states; initialize hidden states; play paper-whoosh; call kite-leg-one concurrently with camera and box hooks.",
-      "hooks": [
-        "animateResultKiteLegOne",
-        "animateCameraTo",
-        "animateBoxTo"
-      ],
-      "sounds": [
-        {
-          "id": "sfx_paper_whoosh",
-          "volume": 0.7
-        }
-      ],
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1447
-      }
-    },
-    {
-      "order": 2,
-      "phase": "seal and reveal",
-      "behavior": "After camera/box hooks, call seal/sticker hook with its two tape sounds; call title and stars entrance hooks, then play end jingle. Expose result title/stars at these hook points.",
-      "hooks": [
-        "animateBoxSealAndSticker",
-        "animateResultTitleIn",
-        "animateResultStarsIn"
-      ],
-      "sounds": [
-        {
-          "id": "sfx_tape_stick",
-          "volume": 0.9,
-          "repeat": 2
-        },
-        {
-          "id": "sfx_jingle_end",
-          "volume": 0.9
-        }
-      ],
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1536
-      }
-    },
-    {
-      "order": 3,
-      "phase": "kite, stars, score, reminder and controls",
-      "behavior": "Start kite-leg-two after leg-one resolves; call star-lit hooks and sounds for earned stars; call and await score-count hook with kite-leg-two; then expose reminder and controls after matching hooks.",
-      "hooks": [
-        "animateResultKiteLegTwo",
-        "animateResultStarLit",
-        "animateScoreCountUp",
-        "animateResultReminderIn",
-        "animateResultButtonsIn"
-      ],
-      "sounds": [
-        {
-          "id": "sfx_paper_whoosh",
-          "volume": 0.5
-        },
-        {
-          "id": "sfx_star_chalk",
-          "volume": 0.9
-        }
-      ],
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1531
-      }
-    },
-    {
-      "order": 4,
-      "phase": "answers overlay",
-      "behavior": "Answers button stops voice and shows overlay if built. OK, scrim or Escape closes it; controls are blocked while open. Current build has no overlay instances, so visual cannot be shown; Escape closes logical overlay.",
-      "hooks": [],
-      "sounds": [],
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1696
-      }
-    },
-    {
-      "order": 5,
-      "phase": "again or home",
-      "behavior": "Play pin-press; call and await result-out hook; reset activity state; navigate to quiz or intro.",
-      "hooks": [
-        "animateResultOut"
-      ],
-      "sounds": [
-        {
-          "id": "sfx_pin_press",
-          "volume": 0.6
-        }
-      ],
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1579
-      }
-    },
-    {
-      "order": 6,
-      "phase": "screen exit",
-      "behavior": "Source exit stops voice/SFX, resets kite/FX and closes overlays. The frame implementation stops voice and closes logical overlay state before navigation; global reset stops SFX.",
-      "hooks": [],
-      "sounds": [],
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1480
-      }
-    }
+    "enter: summary = state.resultSummary (or built from state); hide kite/sparks/angled box/close/info; stars, notes, texts set",
+    "hooks in source order: kite leg 1, seal+sticker, title+stars in, confetti, star lit per earned star, score count-up, kite leg 2, reminder, buttons",
+    "again: reset + quiz; home: reset + intro; answers: overlay"
   ],
-  "duplicateListenerGuard": {
-    "property": "__resultLogicHandlersBound",
-    "behavior": "Bind display-object listeners once despite frame-script re-entry; mutable busy/overlay/warning state is stored on the owning timeline so persistent listener closures share current state; independently guard the window keydown listener.",
-    "sourceLocation": {
-      "file": "web_source/activity.js",
-      "line": 1516
-    }
-  },
-  "globalApiUsage": {
-    "functions": [
-      "activityBuildResultSummary",
-      "activityFillText",
-      "activityToArabicDigits",
-      "activityReset",
-      "activityPlaySound",
-      "activityStopVoice",
-      "activitySetMuted",
-      "activityGoToScreen",
-      "activityRunHook"
-    ],
-    "hooks": [
-      "animateCameraTo",
-      "animateBoxTo",
-      "animateResultKiteLegOne",
-      "animateBoxSealAndSticker",
-      "animateResultTitleIn",
-      "animateResultStarsIn",
-      "animateResultStarLit",
-      "animateResultKiteLegTwo",
-      "animateScoreCountUp",
-      "animateResultReminderIn",
-      "animateResultButtonsIn",
-      "animateResultOut"
-    ],
-    "sourceLocation": {
-      "file": "output/logic-spec_global.json",
-      "line": 1
-    }
-  },
+  "animationHooks": [
+    "animateResultKiteLegOne",
+    "animateBoxSealAndSticker",
+    "animateResultTitleIn",
+    "animateResultStarsIn",
+    "spawnConfetti",
+    "animateResultStarLit",
+    "animateScoreCountUp",
+    "animateResultKiteLegTwo",
+    "animateResultReminderIn",
+    "animateResultButtonsIn",
+    "animateResultOut"
+  ],
   "warnings": [
-    "answers_overlay is present in screens-manifest.json but its instances are absent from build_result.jsfl. The logic does not create replacement instances; optional handlers are guarded and Escape closes the logical overlay.",
-    "Global result animation hooks are documented no-op Promise hooks. The generated logic calls them in source order and changes display state with visible; kite motion, sparkles, tweens and timed interpolation are not reproduced."
-  ],
-  "initialVisibility": [
-    {
-      "elements": [
-        "result_box_angled"
-      ],
-      "visible": false,
-      "sourceLocation": {
-        "file": "output/screens-manifest.json",
-        "line": 4452
-      }
-    },
-    {
-      "elements": [
-        "result_kite",
-        "result_spark_1",
-        "result_spark_2",
-        "result_spark_3",
-        "result_spark_4"
-      ],
-      "visible": false,
-      "sourceLocation": {
-        "file": "output/screens-manifest.json",
-        "line": 5703
-      }
-    },
-    {
-      "elements": [
-        "result_star_1_off",
-        "result_star_1_gold",
-        "result_star_1_glow",
-        "result_star_2_off",
-        "result_star_2_gold",
-        "result_star_2_glow",
-        "result_star_3_off",
-        "result_star_3_gold",
-        "result_star_3_glow"
-      ],
-      "visible": false,
-      "until": "result star entrance hook",
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1518
-      }
-    },
-    {
-      "elements": [
-        "result_title_three",
-        "result_score",
-        "result_reminder_default",
-        "result_button_again",
-        "result_button_answers",
-        "result_button_home"
-      ],
-      "visible": false,
-      "until": "matching entrance hook",
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1518
-      }
-    },
-    {
-      "elements": [
-        "result_sticker",
-        "result_seal"
-      ],
-      "visible": false,
-      "until": "seal/sticker hook",
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1518
-      }
-    },
-    {
-      "elements": [
-        "answers_scrim",
-        "answers_notebook",
-        "answers_region",
-        "answers_title",
-        "answers_word_1",
-        "answers_word_2",
-        "answers_word_3",
-        "answers_word_4",
-        "answers_word_5",
-        "answers_reminder_default",
-        "answers_actions",
-        "answers_ok"
-      ],
-      "visible": false,
-      "sourceLocation": {
-        "file": "web_source/activity.js",
-        "line": 1696
-      }
-    }
+    "Answers overlay elements are not in the result build; handler is bound but inert until they exist on this frame.",
+    "Answers overlay chips (check/cross icons and colors) are not ported.",
+    "Score <small> styling is not possible in a plain text field; the number and 'من' + max are one plain string.",
+    "Texts are set on the first text child of the clip the build creates for each text element."
   ]
 }

@@ -6,7 +6,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMBitmapInstance selected="true" libraryItemName="quiz_library/quiz_quiz_next_page"/>
+                <DOMBitmapInstance libraryItemName="quiz_library/quiz_quiz_next_page"/>
               </elements>
             </DOMFrame>
           </frames>

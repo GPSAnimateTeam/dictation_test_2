@@ -14,7 +14,7 @@
                     <DOMTextRun>
                       <characters>صندوق الأحلام</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="231.35" size="126.55" bitmapSize="2531" face="PlaypenSansArabic-Regular" fillColor="#F5F2E8"/>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="141.35" size="126.55" bitmapSize="2531" face="PlaypenSansArabic-Regular" fillColor="#F5F2E8"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>

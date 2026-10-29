@@ -1,0 +1,276 @@
+{
+  "screen": {
+    "id": "intro",
+    "label": "intro",
+    "sourceLocation": {
+      "file": "web_source/activity.js",
+      "line": 671
+    },
+    "firstFrameAction": "stop();"
+  },
+  "interactiveElements": [
+    {
+      "instanceId": "intro_start",
+      "event": "click",
+      "handler": "onIntroStartClick",
+      "guard": "introStartLocked prevents repeat activation; lock immediately before effects.",
+      "stateChanges": [
+        "Set introStartLocked=true.",
+        "Disable intro_start mouse input.",
+        "Play sfx_pin_press at volume 0.6.",
+        "After intro-out hook, stop global voice/effects and navigate to quiz."
+      ],
+      "visualChanges": [
+        "After intro-out hook, hide title, underline, start button/label, stars, and kite."
+      ],
+      "sounds": [
+        {
+          "id": "sfx_pin_press",
+          "volume": 0.6
+        }
+      ],
+      "destination": "quiz",
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 772
+      }
+    },
+    {
+      "instanceId": "shared_mute_on",
+      "event": "click",
+      "handler": "onIntroMuteClick",
+      "guard": "Timeline-level duplicate-listener guard.",
+      "stateChanges": [
+        "Toggle global mute state using activitySetMuted."
+      ],
+      "visualChanges": [
+        "Show shared_mute_on when unmuted; show shared_mute_off when muted."
+      ],
+      "sounds": [],
+      "destination": null,
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 165
+      }
+    },
+    {
+      "instanceId": "shared_mute_off",
+      "event": "click",
+      "handler": "onIntroMuteClick",
+      "guard": "Timeline-level duplicate-listener guard.",
+      "stateChanges": [
+        "Toggle global mute state using activitySetMuted."
+      ],
+      "visualChanges": [
+        "Show shared_mute_on when unmuted; show shared_mute_off when muted."
+      ],
+      "sounds": [],
+      "destination": null,
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 165
+      }
+    }
+  ],
+  "overlays": {
+    "opened": [],
+    "sourceLocation": {
+      "file": "web_source/index.html",
+      "line": 23
+    },
+    "note": "No overlay-opening control exists on the intro screen."
+  },
+  "variantGroups": [
+    {
+      "role": "box view",
+      "instances": [
+        "intro_box_front",
+        "intro_box_angled"
+      ],
+      "stateOf": "intro_box_front",
+      "positions": "Same box slot; intro source selects the front view.",
+      "visibility": {
+        "intro_box_front": "visible",
+        "intro_box_angled": "hidden"
+      },
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 354
+      }
+    },
+    {
+      "role": "mute icon",
+      "instances": [
+        "shared_mute_on",
+        "shared_mute_off"
+      ],
+      "stateOf": "shared_mute_on",
+      "positions": "Same shared UI slot.",
+      "visibility": {
+        "shared_mute_on": "visible when activityState.muted is false",
+        "shared_mute_off": "visible when activityState.muted is true"
+      },
+      "sourceLocation": {
+        "file": "web_source/index.html",
+        "line": 81
+      }
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "instanceId": "intro_title",
+      "dataPath": "ui.activityTitle",
+      "fillingRule": "Assign the loaded scalar string exactly to the Animate text instance.",
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 1746
+      }
+    },
+    {
+      "instanceId": "intro_start_label",
+      "dataPath": "ui.buttons.start",
+      "fillingRule": "Assign the loaded scalar string exactly; this label instance is declared in build_intro.jsfl from the button textKey.",
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 1747
+      }
+    }
+  ],
+  "flow": [
+    {
+      "order": 1,
+      "phase": "enter",
+      "behavior": "Stop this frame; initialize intro visibility and synchronize mute variants from global state.",
+      "hooks": [],
+      "sounds": [],
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 671
+      }
+    },
+    {
+      "order": 2,
+      "phase": "first enter",
+      "behavior": "Play box-drop sound and invoke the box-drop hook.",
+      "hooks": [
+        "animateIntroBoxDrop"
+      ],
+      "sounds": [
+        {
+          "id": "sfx_box_drop",
+          "volume": 0.9
+        }
+      ],
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 734
+      }
+    },
+    {
+      "order": 3,
+      "phase": "return enter",
+      "behavior": "On subsequent entries, invoke camera and box placement hooks together.",
+      "hooks": [
+        "animateCameraTo",
+        "animateBoxTo"
+      ],
+      "sounds": [],
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 671
+      }
+    },
+    {
+      "order": 4,
+      "phase": "kite and title",
+      "behavior": "Start the kite hook, play chalk-write sound before the title hook, then await the same kite promise before continuing. Source waits 3000ms before title writing and waits for flight completion; global hooks resolve immediately, so no delay is reproduced.",
+      "hooks": [
+        "animateIntroKite",
+        "animateIntroTitle"
+      ],
+      "sounds": [
+        {
+          "id": "sfx_paper_whoosh",
+          "volume": 0.6
+        },
+        {
+          "id": "sfx_chalk_write",
+          "volume": 0.6
+        }
+      ],
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 671
+      }
+    },
+    {
+      "order": 5,
+      "phase": "decoration and start control",
+      "behavior": "Invoke decoration hook then show six stars; invoke start-button hook then show and enable the button and label.",
+      "hooks": [
+        "animateIntroDecoIn",
+        "animateIntroStartButtonIn"
+      ],
+      "sounds": [],
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 752
+      }
+    },
+    {
+      "order": 6,
+      "phase": "start and exit",
+      "behavior": "Guard repeat clicks, play pin-press sound, invoke intro-out hook, stop global voice/effects, then navigate to quiz.",
+      "hooks": [
+        "animateIntroOut"
+      ],
+      "sounds": [
+        {
+          "id": "sfx_pin_press",
+          "volume": 0.6
+        }
+      ],
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 772
+      }
+    }
+  ],
+  "duplicateListenerGuard": {
+    "property": "__introLogicHandlersBound",
+    "behavior": "Bind each listener only once on the main timeline despite frame-script re-entry.",
+    "sourceLocation": {
+      "file": "web_source/activity.js",
+      "line": 1757
+    }
+  },
+  "globalApiUsage": {
+    "functions": [
+      "activityPlaySound",
+      "activityGoToScreen",
+      "activitySetMuted",
+      "activityRunHook",
+      "activityStopVoice",
+      "activityStopAllSfx"
+    ],
+    "hooks": [
+      "animateCameraTo",
+      "animateBoxTo",
+      "animateIntroBoxDrop",
+      "animateIntroKite",
+      "animateIntroTitle",
+      "animateIntroDecoIn",
+      "animateIntroStartButtonIn",
+      "animateIntroOut"
+    ],
+    "sourceLocation": {
+      "file": "output/logic-spec_global.json",
+      "line": 1
+    }
+  },
+  "warnings": [
+    "The intro screen does not open an overlay; quiz-only shared_close and shared_info instances are hidden and have no intro handlers.",
+    "The global animation hooks resolve immediately and do nothing. Source timing waits (300ms before intro continuation, 3000ms before title, and 350ms before start) and delayed sound timing are not reproduced; hook and visibility order is retained.",
+    "build_intro.jsfl synthesizes intro_start_label as the button text instance; it is present in BUILD_DATA though not a separate manifest element."
+  ]
+}

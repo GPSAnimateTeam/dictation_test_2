@@ -16,7 +16,7 @@
                   <members>
                     <DOMShape selected="true" isDrawingObject="true">
                       <matrix>
-                        <Matrix a="0.649429321289062" d="0.649429321289062" tx="-340.45" ty="-521.8"/>
+                        <Matrix a="0.649444580078125" d="0.649444580078125" tx="-340.45" ty="-521.8"/>
                       </matrix>
                       <fills>
                         <FillStyle index="1">
@@ -34,7 +34,7 @@
                     </DOMShape>
                     <DOMShape selected="true" isDrawingObject="true">
                       <matrix>
-                        <Matrix a="0.649429321289062" d="0.649429321289062" tx="-340.45" ty="-521.8"/>
+                        <Matrix a="0.649444580078125" d="0.649444580078125" tx="-340.45" ty="-521.8"/>
                       </matrix>
                       <fills>
                         <FillStyle index="1">
@@ -53,7 +53,7 @@
                     </DOMShape>
                     <DOMShape selected="true" isDrawingObject="true">
                       <matrix>
-                        <Matrix a="0.649429321289062" d="0.649429321289062" tx="-340.45" ty="-521.8"/>
+                        <Matrix a="0.649444580078125" d="0.649444580078125" tx="-340.45" ty="-521.8"/>
                       </matrix>
                       <fills>
                         <FillStyle index="1">
@@ -71,10 +71,10 @@
                     </DOMShape>
                     <DOMSymbolInstance libraryItemName="Duplicate Items Folder/&amp;#060Path&amp;#062_21" selected="true" centerPoint3DX="32.55" centerPoint3DY="9">
                       <matrix>
-                        <Matrix a="0.649429321289062" d="0.649429321289062" tx="26.8" ty="4.25"/>
+                        <Matrix a="0.649444580078125" d="0.649444580078125" tx="26.9" ty="4.3"/>
                       </matrix>
                       <transformationPoint>
-                        <Point x="15.15" y="12.85"/>
+                        <Point x="15" y="12.8"/>
                       </transformationPoint>
                       <color>
                         <Color alphaMultiplier="0.46875"/>

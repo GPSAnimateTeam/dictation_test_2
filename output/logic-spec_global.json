@@ -1,0 +1,1128 @@
+{
+  "activity": {
+    "id": "g4_u1_l2",
+    "firstScreenLabel": "intro",
+    "sourceFiles": [
+      "web_source/activity.js",
+      "web_source/animate-data.js",
+      "output/questions.json",
+      "output/screens-manifest.json"
+    ],
+    "screenLabels": [
+      "intro",
+      "quiz",
+      "result"
+    ]
+  },
+  "state": [
+    {
+      "name": "SOUND_SRC",
+      "initialValue": "{}",
+      "writers": "sound setup",
+      "readers": "startAudio",
+      "scope": "global_logic",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 110
+      }
+    },
+    {
+      "name": "soundBank",
+      "initialValue": "{}",
+      "writers": "preloadSounds",
+      "readers": "no later reads",
+      "scope": "global_logic",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 112
+      }
+    },
+    {
+      "name": "muted",
+      "initialValue": "false",
+      "writers": "setMuted",
+      "readers": "startAudio/playVoice",
+      "scope": "global_logic",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 113
+      }
+    },
+    {
+      "name": "activeSfx",
+      "initialValue": "[]",
+      "writers": "playSfx/completion handler",
+      "readers": "stopAllSfx",
+      "scope": "global_logic",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 114
+      }
+    },
+    {
+      "name": "activeVoice",
+      "initialValue": "null",
+      "writers": "playVoice/stopVoice",
+      "readers": "stopVoice",
+      "scope": "global_logic",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 115
+      }
+    },
+    {
+      "name": "voiceToken",
+      "initialValue": "0",
+      "writers": "playVoice/stopVoice",
+      "readers": "voice callbacks",
+      "scope": "global_logic",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 116
+      }
+    },
+    {
+      "name": "currentScreen",
+      "initialValue": "null",
+      "writers": "goToScreen",
+      "readers": "goToScreen/onOptionChosen",
+      "scope": "screen_owned",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 175
+      }
+    },
+    {
+      "name": "score",
+      "initialValue": "{ total: 0, max: 0 }",
+      "writers": "updateScore/resetActivity",
+      "readers": "buildResultSummary/result display",
+      "scope": "global_logic",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 176
+      }
+    },
+    {
+      "name": "questionIndex",
+      "initialValue": "0",
+      "writers": "renderQuestion/animateAdvance/resetActivity",
+      "readers": "renderQuestion/onOptionChosen",
+      "scope": "global_logic",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 177
+      }
+    },
+    {
+      "name": "attemptsUsed",
+      "initialValue": "0",
+      "writers": "renderQuestion/onOptionChosen",
+      "readers": "onOptionChosen",
+      "scope": "global_logic",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 178
+      }
+    },
+    {
+      "name": "answerLocked",
+      "initialValue": "true",
+      "writers": "renderQuestion/answer flow",
+      "readers": "onOptionChosen",
+      "scope": "screen_owned",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 179
+      }
+    },
+    {
+      "name": "flowBusy",
+      "initialValue": "false",
+      "writers": "quiz flow handlers",
+      "readers": "onOptionChosen/onNextClicked",
+      "scope": "screen_owned",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 180
+      }
+    },
+    {
+      "name": "questionSettled",
+      "initialValue": "false",
+      "writers": "settleQuestion/renderQuestion/resetActivity",
+      "readers": "onNextClicked",
+      "scope": "global_logic",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 181
+      }
+    },
+    {
+      "name": "questionResults",
+      "initialValue": "[]",
+      "writers": "settleQuestion/resetActivity",
+      "readers": "buildResultSummary/openAnswers",
+      "scope": "global_logic",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 182
+      }
+    },
+    {
+      "name": "questionPoints",
+      "initialValue": "[]",
+      "writers": "settleQuestion/resetActivity",
+      "readers": "buildResultSummary/openAnswers",
+      "scope": "global_logic",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 183
+      }
+    },
+    {
+      "name": "notesInBox",
+      "initialValue": "0",
+      "writers": "animateAdvance/resetActivity",
+      "readers": "animateAdvance",
+      "scope": "screen_owned",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 184
+      }
+    },
+    {
+      "name": "resultSummary",
+      "initialValue": "null",
+      "writers": "onQuizFinished/resetActivity",
+      "readers": "resultEnter/openAnswers",
+      "scope": "global_logic",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 185
+      }
+    },
+    {
+      "name": "runToken",
+      "initialValue": "0",
+      "writers": "screen enter/exit and answer flow",
+      "readers": "guardToken",
+      "scope": "screen_owned",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 186
+      }
+    },
+    {
+      "name": "skipping",
+      "initialValue": "false",
+      "writers": "skipAllAnimations/resetActivity",
+      "readers": "waitMs/animateEl/tween/playSfx",
+      "scope": "screen_owned",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 187
+      }
+    },
+    {
+      "name": "winSequenceActive",
+      "initialValue": "false",
+      "writers": "answer flow/resetActivity",
+      "readers": "playSfx/pointer handler",
+      "scope": "screen_owned",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 188
+      }
+    },
+    {
+      "name": "timeScale",
+      "initialValue": "1",
+      "writers": "test/debug overrides",
+      "readers": "later/animateEl/tween",
+      "scope": "screen_owned",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 189
+      }
+    },
+    {
+      "name": "reducedMotion",
+      "initialValue": "prefers-reduced-motion query",
+      "writers": "initialization",
+      "readers": "waitMs/animateEl/tween",
+      "scope": "screen_owned",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 190
+      }
+    },
+    {
+      "name": "liveAnimations",
+      "initialValue": "[]",
+      "writers": "animateEl/completion",
+      "readers": "skipAllAnimations/cancelAllAnimations",
+      "scope": "screen_owned",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 191
+      }
+    },
+    {
+      "name": "pendingTimers",
+      "initialValue": "[]",
+      "writers": "later/timer callback",
+      "readers": "clearPendingTimers",
+      "scope": "screen_owned",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 192
+      }
+    },
+    {
+      "name": "imageCache",
+      "initialValue": "{}",
+      "writers": "preloadImages callbacks",
+      "readers": "imageHeight/boxAspect/note layout",
+      "scope": "screen_owned",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 193
+      }
+    },
+    {
+      "name": "cameraState",
+      "initialValue": "{ zoom: 1, originX: 0, originY: 0 }",
+      "writers": "setCamera/animateCameraTo",
+      "readers": "applyCamera/boxRect",
+      "scope": "screen_owned",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 290
+      }
+    },
+    {
+      "name": "boxState",
+      "initialValue": "{ centerX: 900, bottom: 1003, height: 348, view: 0 }",
+      "writers": "setBox/animateBoxTo",
+      "readers": "applyBox/boxRect",
+      "scope": "screen_owned",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 315
+      }
+    },
+    {
+      "name": "noteKinds",
+      "initialValue": "[]",
+      "writers": "boxClearNotes/animateAdvance",
+      "readers": "boxRebuildNotes",
+      "scope": "screen_owned",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 316
+      }
+    },
+    {
+      "name": "kite",
+      "initialValue": "{ visible: false, opacity: 0, x: 0, y: 0, rot: KITE_NOSE_ANGLE, size: 68, wobble: 1, hover: null, loopRunning: false, last: 0 }",
+      "writers": "kite movement/reset functions",
+      "readers": "kiteFrame/kiteUpdateSprite/trails",
+      "scope": "screen_owned",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 458
+      }
+    },
+    {
+      "name": "kiteTrails",
+      "initialValue": "[]",
+      "writers": "kiteTrailNew/kiteReset",
+      "readers": "kiteFrame/kiteDrawTrails/kiteEraseSolidTrails",
+      "scope": "screen_owned",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 459
+      }
+    },
+    {
+      "name": "chalkPattern",
+      "initialValue": "null",
+      "writers": "kiteTrailStyle",
+      "readers": "kiteTrailStyle",
+      "scope": "screen_owned",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 464
+      }
+    },
+    {
+      "name": "introStarting",
+      "initialValue": "false",
+      "writers": "introEnter/onStartClicked",
+      "readers": "onStartClicked",
+      "scope": "screen_owned",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 669
+      }
+    },
+    {
+      "name": "quizPapers",
+      "initialValue": "[]",
+      "writers": "buildPapers/clearQuizBoard",
+      "readers": "answer and paper animations",
+      "scope": "screen_owned",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 783
+      }
+    },
+    {
+      "name": "stemPaper",
+      "initialValue": "null",
+      "writers": "clearQuizBoard/animateCorrectSequence/animateAdvance",
+      "readers": "animateAdvance",
+      "scope": "screen_owned",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 784
+      }
+    },
+    {
+      "name": "blankElement",
+      "initialValue": "null",
+      "writers": "buildSentence",
+      "readers": "animateCorrectSequence",
+      "scope": "screen_owned",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 785
+      }
+    },
+    {
+      "name": "sentenceFontSize",
+      "initialValue": "0",
+      "writers": "ensureSentenceFont",
+      "readers": "buildSentence/renderQuestion",
+      "scope": "screen_owned",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 786
+      }
+    },
+    {
+      "name": "crumpledCount",
+      "initialValue": "0",
+      "writers": "clearQuizBoard/animatePaperCrumple",
+      "readers": "animatePaperCrumple",
+      "scope": "screen_owned",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 787
+      }
+    },
+    {
+      "name": "stickyVisible",
+      "initialValue": "false",
+      "writers": "animateStickyIn/animateStickyOut",
+      "readers": "setStickyText",
+      "scope": "screen_owned",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 788
+      }
+    },
+    {
+      "name": "nextOpen",
+      "initialValue": "false",
+      "writers": "resetNextCalendar/setNextReady",
+      "readers": "setNextReady",
+      "scope": "screen_owned",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 959
+      }
+    },
+    {
+      "name": "pieceFontSize",
+      "initialValue": "0",
+      "writers": "ensurePieceFont",
+      "readers": "rule piece rendering",
+      "scope": "screen_owned",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 1279
+      }
+    },
+    {
+      "name": "activeOverlay",
+      "initialValue": "null",
+      "writers": "showOverlay/hideOverlay",
+      "readers": "overlay handlers",
+      "scope": "screen_owned",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 1645
+      }
+    }
+  ],
+  "pureLogic": [
+    {
+      "name": "activityCheckAnswer",
+      "sourceFunction": "checkAnswer",
+      "behavior": "True only when selected option.correct === true.",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 791
+      }
+    },
+    {
+      "name": "activityCorrectOptionIndex",
+      "sourceFunction": "correctOptionIndex",
+      "behavior": "Return last correct option index; retain source fallback 0.",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 792
+      }
+    },
+    {
+      "name": "activityPointsForKind",
+      "sourceFunction": "pointsForKind",
+      "behavior": "Map first/second/miss to matching scoring points.",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 793
+      }
+    },
+    {
+      "name": "activityUpdateScore",
+      "sourceFunction": "updateScore",
+      "behavior": "Add earned and maximum points.",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 794
+      }
+    },
+    {
+      "name": "activitySettleQuestion",
+      "sourceFunction": "settleQuestion",
+      "behavior": "Store result and points; add firstTry to maximum; mark settled.",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 795
+      }
+    },
+    {
+      "name": "activityComputeStars",
+      "sourceFunction": "computeStars",
+      "behavior": "Three threshold, then two threshold, else one.",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 801
+      }
+    },
+    {
+      "name": "activityBuildResultSummary",
+      "sourceFunction": "buildResultSummary",
+      "behavior": "Return total/max/rounded percent/stars/title/reminder and copied result/point arrays.",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 802
+      }
+    },
+    {
+      "name": "activityFillText",
+      "sourceFunction": "fillText",
+      "behavior": "Substitute {word}; retain unmatched placeholders.",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 199
+      }
+    },
+    {
+      "name": "activityToArabicDigits",
+      "sourceFunction": "toArabicDigits",
+      "behavior": "Convert ASCII digits to Arabic-Indic digits.",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 198
+      }
+    },
+    {
+      "name": "activityNextLabelFor",
+      "sourceFunction": "nextLabelFor",
+      "behavior": "Choose next or nextLast by zero-based question index.",
+      "source": {
+        "file": "web_source/activity.js",
+        "line": 1002
+      }
+    }
+  ],
+  "dataLoading": {
+    "method": "fetch",
+    "path": "questions.json",
+    "holdFrame": "Stop main timeline before fetch; on success initialize data and gotoAndStop the first manifest screen label; on failure remain stopped and warn.",
+    "firstScreenLabel": "intro",
+    "dataPathsUsed": [
+      "meta.path",
+      "scoring.firstTry",
+      "scoring.secondTry",
+      "scoring.missed",
+      "scoring.stars.three",
+      "scoring.stars.two",
+      "questions",
+      "ui.buttons.next",
+      "ui.buttons.nextLast",
+      "sounds"
+    ],
+    "sourceLocations": [
+      {
+        "file": "web_source/activity.js",
+        "line": 1789
+      },
+      {
+        "file": "web_source/index.html",
+        "line": 93
+      },
+      {
+        "file": "output/questions.json",
+        "line": 1
+      }
+    ]
+  },
+  "soundSystem": {
+    "api": "createjs.Sound",
+    "features": [
+      "play by library id",
+      "stop tracked effects",
+      "sequence voice playback on completion",
+      "mute stops voice and effects"
+    ],
+    "soundIds": [
+      "sfx_box_drop",
+      "sfx_chalk_write",
+      "sfx_gold_glow",
+      "sfx_jingle_end",
+      "sfx_paper_crumple",
+      "sfx_paper_fold",
+      "sfx_paper_slide",
+      "sfx_paper_tear",
+      "sfx_paper_whoosh",
+      "sfx_pin_press",
+      "sfx_star_chalk",
+      "sfx_sticky_place",
+      "sfx_tape_stick",
+      "vo_q0_prompt",
+      "vo_q1_sentence",
+      "vo_q1_word",
+      "vo_q1_slow",
+      "vo_q2_sentence",
+      "vo_q2_word",
+      "vo_q2_slow",
+      "vo_q3_sentence",
+      "vo_q3_word",
+      "vo_q3_slow",
+      "vo_q4_sentence",
+      "vo_q4_word",
+      "vo_q4_slow",
+      "vo_q5_sentence",
+      "vo_q5_word",
+      "vo_q5_slow"
+    ],
+    "sourceLocations": [
+      {
+        "file": "web_source/activity.js",
+        "line": 123
+      },
+      {
+        "file": "web_source/activity.js",
+        "line": 135
+      },
+      {
+        "file": "web_source/activity.js",
+        "line": 143
+      },
+      {
+        "file": "web_source/activity.js",
+        "line": 147
+      },
+      {
+        "file": "web_source/activity.js",
+        "line": 152
+      },
+      {
+        "file": "web_source/activity.js",
+        "line": 165
+      }
+    ],
+    "libraryCheck": "Use createjs.Sound.loadComplete(id); missing or not-loaded IDs warn and are skipped."
+  },
+  "navigationReset": {
+    "navigationFunction": "activityGoToScreen(label)",
+    "behavior": "Validate manifest screen ID then call main timeline gotoAndStop(label); no per-screen enter/exit code.",
+    "resetFunction": "activityReset()",
+    "resetBehavior": "Reset score/question/result data and stop voice/effects; screen-owned display and animation state is left to screen logic.",
+    "sourceLocations": [
+      {
+        "file": "web_source/activity.js",
+        "line": 266
+      },
+      {
+        "file": "web_source/activity.js",
+        "line": 278
+      }
+    ]
+  },
+  "hooks": [
+    {
+      "name": "hook_animateEl",
+      "sourceFunction": "animateEl",
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 222
+      },
+      "behavior": "Return Promise.resolve() immediately with no side effects."
+    },
+    {
+      "name": "hook_tween",
+      "sourceFunction": "tween",
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 236
+      },
+      "behavior": "Return Promise.resolve() immediately with no side effects."
+    },
+    {
+      "name": "hook_animateCameraTo",
+      "sourceFunction": "animateCameraTo",
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 300
+      },
+      "behavior": "Return Promise.resolve() immediately with no side effects."
+    },
+    {
+      "name": "hook_animateBoxTo",
+      "sourceFunction": "animateBoxTo",
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 386
+      },
+      "behavior": "Return Promise.resolve() immediately with no side effects."
+    },
+    {
+      "name": "hook_spawnFx",
+      "sourceFunction": "spawnFx",
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 423
+      },
+      "behavior": "Return Promise.resolve() immediately with no side effects."
+    },
+    {
+      "name": "hook_spawnDust",
+      "sourceFunction": "spawnDust",
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 438
+      },
+      "behavior": "Return Promise.resolve() immediately with no side effects."
+    },
+    {
+      "name": "hook_spawnSparkle",
+      "sourceFunction": "spawnSparkle",
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 439
+      },
+      "behavior": "Return Promise.resolve() immediately with no side effects."
+    },
+    {
+      "name": "hook_spawnConfetti",
+      "sourceFunction": "spawnConfetti",
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 440
+      },
+      "behavior": "Return Promise.resolve() immediately with no side effects."
+    },
+    {
+      "name": "hook_kiteFlyRoute",
+      "sourceFunction": "kiteFlyRoute",
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 613
+      },
+      "behavior": "Return Promise.resolve() immediately with no side effects."
+    },
+    {
+      "name": "hook_kiteFlyBetween",
+      "sourceFunction": "kiteFlyBetween",
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 631
+      },
+      "behavior": "Return Promise.resolve() immediately with no side effects."
+    },
+    {
+      "name": "hook_animateIntroBoxDrop",
+      "sourceFunction": "animateIntroBoxDrop",
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 734
+      },
+      "behavior": "Return Promise.resolve() immediately with no side effects."
+    },
+    {
+      "name": "hook_animateIntroKite",
+      "sourceFunction": "animateIntroKite",
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 743
+      },
+      "behavior": "Return Promise.resolve() immediately with no side effects."
+    },
+    {
+      "name": "hook_animateIntroTitle",
+      "sourceFunction": "animateIntroTitle",
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 748
+      },
+      "behavior": "Return Promise.resolve() immediately with no side effects."
+    },
+    {
+      "name": "hook_animateIntroDecoIn",
+      "sourceFunction": "animateIntroDecoIn",
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 752
+      },
+      "behavior": "Return Promise.resolve() immediately with no side effects."
+    },
+    {
+      "name": "hook_animateIntroStartButtonIn",
+      "sourceFunction": "animateIntroStartButtonIn",
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 759
+      },
+      "behavior": "Return Promise.resolve() immediately with no side effects."
+    },
+    {
+      "name": "hook_animateIntroOut",
+      "sourceFunction": "animateIntroOut",
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 764
+      },
+      "behavior": "Return Promise.resolve() immediately with no side effects."
+    },
+    {
+      "name": "hook_animateProgressStarResult",
+      "sourceFunction": "animateProgressStarResult",
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 884
+      },
+      "behavior": "Return Promise.resolve() immediately with no side effects."
+    },
+    {
+      "name": "hook_animateProgressIn",
+      "sourceFunction": "animateProgressIn",
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 897
+      },
+      "behavior": "Return Promise.resolve() immediately with no side effects."
+    },
+    {
+      "name": "hook_animateKiteToStar",
+      "sourceFunction": "animateKiteToStar",
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 906
+      },
+      "behavior": "Return Promise.resolve() immediately with no side effects."
+    },
+    {
+      "name": "hook_animateStickyIn",
+      "sourceFunction": "animateStickyIn",
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 936
+      },
+      "behavior": "Return Promise.resolve() immediately with no side effects."
+    },
+    {
+      "name": "hook_animateStickyOut",
+      "sourceFunction": "animateStickyOut",
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 947
+      },
+      "behavior": "Return Promise.resolve() immediately with no side effects."
+    },
+    {
+      "name": "hook_animateStickyWobble",
+      "sourceFunction": "animateStickyWobble",
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 954
+      },
+      "behavior": "Return Promise.resolve() immediately with no side effects."
+    },
+    {
+      "name": "hook_animateNextFlip",
+      "sourceFunction": "animateNextFlip",
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 968
+      },
+      "behavior": "Return Promise.resolve() immediately with no side effects."
+    },
+    {
+      "name": "hook_animateChalkWrite",
+      "sourceFunction": "animateChalkWrite",
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 1041
+      },
+      "behavior": "Return Promise.resolve() immediately with no side effects."
+    },
+    {
+      "name": "hook_animatePaperCrumple",
+      "sourceFunction": "animatePaperCrumple",
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 1173
+      },
+      "behavior": "Return Promise.resolve() immediately with no side effects."
+    },
+    {
+      "name": "hook_animateReflowPapers",
+      "sourceFunction": "animateReflowPapers",
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 1196
+      },
+      "behavior": "Return Promise.resolve() immediately with no side effects."
+    },
+    {
+      "name": "hook_animateWrongAnswer",
+      "sourceFunction": "animateWrongAnswer",
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 1205
+      },
+      "behavior": "Return Promise.resolve() immediately with no side effects."
+    },
+    {
+      "name": "hook_animateMissedQuestion",
+      "sourceFunction": "animateMissedQuestion",
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 1217
+      },
+      "behavior": "Return Promise.resolve() immediately with no side effects."
+    },
+    {
+      "name": "hook_animateCorrectSequence",
+      "sourceFunction": "animateCorrectSequence",
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 1240
+      },
+      "behavior": "Return Promise.resolve() immediately with no side effects."
+    },
+    {
+      "name": "hook_animateRulePieces",
+      "sourceFunction": "animateRulePieces",
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 1313
+      },
+      "behavior": "Return Promise.resolve() immediately with no side effects."
+    },
+    {
+      "name": "hook_animateAdvance",
+      "sourceFunction": "animateAdvance",
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 1355
+      },
+      "behavior": "Return Promise.resolve() immediately with no side effects."
+    },
+    {
+      "name": "hook_animateQuizOut",
+      "sourceFunction": "animateQuizOut",
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 1432
+      },
+      "behavior": "Return Promise.resolve() immediately with no side effects."
+    },
+    {
+      "name": "hook_animateResultKiteLegOne",
+      "sourceFunction": "animateResultKiteLegOne",
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 1525
+      },
+      "behavior": "Return Promise.resolve() immediately with no side effects."
+    },
+    {
+      "name": "hook_animateResultKiteLegTwo",
+      "sourceFunction": "animateResultKiteLegTwo",
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 1531
+      },
+      "behavior": "Return Promise.resolve() immediately with no side effects."
+    },
+    {
+      "name": "hook_animateBoxSealAndSticker",
+      "sourceFunction": "animateBoxSealAndSticker",
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 1536
+      },
+      "behavior": "Return Promise.resolve() immediately with no side effects."
+    },
+    {
+      "name": "hook_animateResultTitleIn",
+      "sourceFunction": "animateResultTitleIn",
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 1545
+      },
+      "behavior": "Return Promise.resolve() immediately with no side effects."
+    },
+    {
+      "name": "hook_animateResultStarsIn",
+      "sourceFunction": "animateResultStarsIn",
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 1546
+      },
+      "behavior": "Return Promise.resolve() immediately with no side effects."
+    },
+    {
+      "name": "hook_animateResultStarLit",
+      "sourceFunction": "animateResultStarLit",
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 1547
+      },
+      "behavior": "Return Promise.resolve() immediately with no side effects."
+    },
+    {
+      "name": "hook_animateScoreCountUp",
+      "sourceFunction": "animateScoreCountUp",
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 1556
+      },
+      "behavior": "Return Promise.resolve() immediately with no side effects."
+    },
+    {
+      "name": "hook_animateResultReminderIn",
+      "sourceFunction": "animateResultReminderIn",
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 1563
+      },
+      "behavior": "Return Promise.resolve() immediately with no side effects."
+    },
+    {
+      "name": "hook_animateResultButtonsIn",
+      "sourceFunction": "animateResultButtonsIn",
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 1564
+      },
+      "behavior": "Return Promise.resolve() immediately with no side effects."
+    },
+    {
+      "name": "hook_animateResultOut",
+      "sourceFunction": "animateResultOut",
+      "sourceLocation": {
+        "file": "web_source/activity.js",
+        "line": 1571
+      },
+      "behavior": "Return Promise.resolve() immediately with no side effects."
+    }
+  ],
+  "generatedCode": {
+    "encoding": "ASCII",
+    "style": "ES5; no screen-specific handlers; no animation calls",
+    "functions": [
+      "activityCheckAnswer",
+      "activityCorrectOptionIndex",
+      "activityPointsForKind",
+      "activityUpdateScore",
+      "activitySettleQuestion",
+      "activityComputeStars",
+      "activityBuildResultSummary",
+      "activityFillText",
+      "activityToArabicDigits",
+      "activityNextLabelFor",
+      "activityReset",
+      "activityPlaySound",
+      "activityStopAllSfx",
+      "activityStopVoice",
+      "activityPlayVoice",
+      "activitySetMuted",
+      "activityGoToScreen",
+      "activityLoadData",
+      "activityRunHook",
+      "hook_animateEl",
+      "hook_tween",
+      "hook_animateCameraTo",
+      "hook_animateBoxTo",
+      "hook_spawnFx",
+      "hook_spawnDust",
+      "hook_spawnSparkle",
+      "hook_spawnConfetti",
+      "hook_kiteFlyRoute",
+      "hook_kiteFlyBetween",
+      "hook_animateIntroBoxDrop",
+      "hook_animateIntroKite",
+      "hook_animateIntroTitle",
+      "hook_animateIntroDecoIn",
+      "hook_animateIntroStartButtonIn",
+      "hook_animateIntroOut",
+      "hook_animateProgressStarResult",
+      "hook_animateProgressIn",
+      "hook_animateKiteToStar",
+      "hook_animateStickyIn",
+      "hook_animateStickyOut",
+      "hook_animateStickyWobble",
+      "hook_animateNextFlip",
+      "hook_animateChalkWrite",
+      "hook_animatePaperCrumple",
+      "hook_animateReflowPapers",
+      "hook_animateWrongAnswer",
+      "hook_animateMissedQuestion",
+      "hook_animateCorrectSequence",
+      "hook_animateRulePieces",
+      "hook_animateAdvance",
+      "hook_animateQuizOut",
+      "hook_animateResultKiteLegOne",
+      "hook_animateResultKiteLegTwo",
+      "hook_animateBoxSealAndSticker",
+      "hook_animateResultTitleIn",
+      "hook_animateResultStarsIn",
+      "hook_animateResultStarLit",
+      "hook_animateScoreCountUp",
+      "hook_animateResultReminderIn",
+      "hook_animateResultButtonsIn",
+      "hook_animateResultOut"
+    ]
+  },
+  "warnings": [
+    "Animate library items cannot be inspected statically. Runtime createjs.Sound.loadComplete(id) checks all 29 sound IDs from questions.json; missing or not-yet-loaded IDs are reported and skipped.",
+    "Screen-owned mutable state is inventoried but not reset here because per-screen flow and display logic are excluded from this global layer."
+  ]
+}

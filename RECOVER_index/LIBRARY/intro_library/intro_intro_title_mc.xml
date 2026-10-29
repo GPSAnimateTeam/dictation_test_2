@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="intro_library/intro_intro_title_mc" itemID="6ae1d20d-00001837" lastModified="1793184269">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="intro_library/intro_intro_title_mc" itemID="6ae25ba3-00003eec" lastModified="1793219491">
   <timeline>
     <DOMTimeline name="intro_intro_title_mc" layerDepthEnabled="true">
       <layers>
@@ -6,15 +6,15 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMDynamicText selected="true" fontRenderingMode="standard" width="1093" height="274.5" isSelectable="false" lineType="multiline">
+                <DOMDynamicText selected="true" fontRenderingMode="standard" width="1093" height="270" isSelectable="false" lineType="multiline">
                   <matrix>
-                    <Matrix a="0.999984741210938" d="0.983810424804688" tx="2" ty="1.95"/>
+                    <Matrix tx="2" ty="2"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
                       <characters>صندوق الأحلام</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" alpha="0" lineHeight="274.5" size="126.55" bitmapSize="2531" face="NotoSansArabic-Bold" fillColor="#AC0000"/>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="231.35" size="126.55" bitmapSize="2531" face="PlaypenSansArabic-Regular" fillColor="#F5F2E8"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>

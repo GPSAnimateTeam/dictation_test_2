@@ -68,12 +68,12 @@ if (window.onEntryAnimDone) {
                   <members>
                     <DOMGroup selected="true">
                       <matrix>
-                        <Matrix a="1.19981384277344" d="1.19981384277344" tx="-9.75" ty="135.75"/>
+                        <Matrix a="1.19984436035156" d="1.19984436035156" tx="-9.85" ty="135.7"/>
                       </matrix>
                       <members>
                         <DOMShape selected="true" isDrawingObject="true">
                           <matrix>
-                            <Matrix a="1.19967651367188" d="1.19967651367188" tx="-9.75" ty="135.75"/>
+                            <Matrix a="1.19973754882812" d="1.19973754882812" tx="-9.85" ty="135.7"/>
                           </matrix>
                           <fills>
                             <FillStyle index="1">
@@ -111,12 +111,12 @@ if (window.onEntryAnimDone) {
                     </DOMGroup>
                     <DOMGroup selected="true">
                       <matrix>
-                        <Matrix a="1.19981384277344" d="1.19981384277344" tx="-9.75" ty="135.75"/>
+                        <Matrix a="1.19984436035156" d="1.19984436035156" tx="-9.85" ty="135.7"/>
                       </matrix>
                       <members>
                         <DOMShape selected="true" isDrawingObject="true">
                           <matrix>
-                            <Matrix a="1.19967651367188" d="1.19967651367188" tx="-9.75" ty="135.75"/>
+                            <Matrix a="1.19973754882812" d="1.19973754882812" tx="-9.85" ty="135.7"/>
                           </matrix>
                           <fills>
                             <FillStyle index="1">
@@ -153,12 +153,12 @@ if (window.onEntryAnimDone) {
                         </DOMShape>
                         <DOMGroup selected="true">
                           <matrix>
-                            <Matrix a="1.19967651367188" d="1.19967651367188" tx="-9.75" ty="135.75"/>
+                            <Matrix a="1.19973754882812" d="1.19973754882812" tx="-9.85" ty="135.7"/>
                           </matrix>
                           <members>
                             <DOMShape selected="true" isDrawingObject="true">
                               <matrix>
-                                <Matrix a="1.19949340820312" d="1.19949340820312" tx="-9.75" ty="135.75"/>
+                                <Matrix a="1.1995849609375" d="1.1995849609375" tx="-9.85" ty="135.7"/>
                               </matrix>
                               <fills>
                                 <FillStyle index="1">
@@ -177,7 +177,7 @@ if (window.onEntryAnimDone) {
                             </DOMShape>
                             <DOMShape selected="true" isDrawingObject="true">
                               <matrix>
-                                <Matrix a="1.19949340820312" d="1.19949340820312" tx="-9.75" ty="135.75"/>
+                                <Matrix a="1.1995849609375" d="1.1995849609375" tx="-9.85" ty="135.7"/>
                               </matrix>
                               <fills>
                                 <FillStyle index="1">
@@ -200,7 +200,7 @@ if (window.onEntryAnimDone) {
                             </DOMShape>
                             <DOMShape selected="true" isDrawingObject="true">
                               <matrix>
-                                <Matrix a="1.19949340820312" d="1.19949340820312" tx="-9.75" ty="135.75"/>
+                                <Matrix a="1.1995849609375" d="1.1995849609375" tx="-9.85" ty="135.7"/>
                               </matrix>
                               <fills>
                                 <FillStyle index="1">
@@ -223,7 +223,7 @@ if (window.onEntryAnimDone) {
                             </DOMShape>
                             <DOMShape selected="true" isDrawingObject="true">
                               <matrix>
-                                <Matrix a="1.19949340820312" d="1.19949340820312" tx="-9.75" ty="135.75"/>
+                                <Matrix a="1.1995849609375" d="1.1995849609375" tx="-9.85" ty="135.7"/>
                               </matrix>
                               <fills>
                                 <FillStyle index="1">
@@ -245,10 +245,10 @@ if (window.onEntryAnimDone) {
                     </DOMGroup>
                     <DOMSymbolInstance libraryItemName="flash0.ai Assets_59/04/&amp;#060Path&amp;#062" selected="true" centerPoint3DX="24.75" centerPoint3DY="166.35">
                       <matrix>
-                        <Matrix a="1.19981384277344" d="1.19981384277344" tx="-9.75" ty="135.75"/>
+                        <Matrix a="1.19984436035156" d="1.19984436035156" tx="-9.85" ty="135.7"/>
                       </matrix>
                       <transformationPoint>
-                        <Point x="28.75" y="25.5"/>
+                        <Point x="28.85" y="25.55"/>
                       </transformationPoint>
                       <color>
                         <Color alphaMultiplier="0.390625"/>
@@ -507,12 +507,12 @@ if (window.onEntryAnimDone) {
                   <members>
                     <DOMGroup selected="true">
                       <matrix>
-                        <Matrix a="1.19981384277344" d="1.19981384277344" tx="608.4" ty="-13"/>
+                        <Matrix a="1.19984436035156" d="1.19984436035156" tx="608.4" ty="-13.1"/>
                       </matrix>
                       <members>
                         <DOMShape selected="true" isDrawingObject="true">
                           <matrix>
-                            <Matrix a="1.19967651367188" d="1.19967651367188" tx="608.4" ty="-13"/>
+                            <Matrix a="1.19973754882812" d="1.19973754882812" tx="608.4" ty="-13.1"/>
                           </matrix>
                           <fills>
                             <FillStyle index="1">
@@ -551,12 +551,12 @@ if (window.onEntryAnimDone) {
                     </DOMGroup>
                     <DOMGroup selected="true">
                       <matrix>
-                        <Matrix a="1.19981384277344" d="1.19981384277344" tx="608.4" ty="-13"/>
+                        <Matrix a="1.19984436035156" d="1.19984436035156" tx="608.4" ty="-13.1"/>
                       </matrix>
                       <members>
                         <DOMShape selected="true" isDrawingObject="true">
                           <matrix>
-                            <Matrix a="1.19967651367188" d="1.19967651367188" tx="608.4" ty="-13"/>
+                            <Matrix a="1.19973754882812" d="1.19973754882812" tx="608.4" ty="-13.1"/>
                           </matrix>
                           <fills>
                             <FillStyle index="1">
@@ -593,12 +593,12 @@ if (window.onEntryAnimDone) {
                         </DOMShape>
                         <DOMGroup selected="true">
                           <matrix>
-                            <Matrix a="1.19967651367188" d="1.19967651367188" tx="608.4" ty="-13"/>
+                            <Matrix a="1.19973754882812" d="1.19973754882812" tx="608.4" ty="-13.1"/>
                           </matrix>
                           <members>
                             <DOMShape selected="true" isDrawingObject="true">
                               <matrix>
-                                <Matrix a="1.19949340820312" d="1.19949340820312" tx="608.4" ty="-13"/>
+                                <Matrix a="1.1995849609375" d="1.1995849609375" tx="608.4" ty="-13.1"/>
                               </matrix>
                               <fills>
                                 <FillStyle index="1">
@@ -617,7 +617,7 @@ if (window.onEntryAnimDone) {
                             </DOMShape>
                             <DOMShape selected="true" isDrawingObject="true">
                               <matrix>
-                                <Matrix a="1.19949340820312" d="1.19949340820312" tx="608.4" ty="-13"/>
+                                <Matrix a="1.1995849609375" d="1.1995849609375" tx="608.4" ty="-13.1"/>
                               </matrix>
                               <fills>
                                 <FillStyle index="1">
@@ -640,7 +640,7 @@ if (window.onEntryAnimDone) {
                             </DOMShape>
                             <DOMShape selected="true" isDrawingObject="true">
                               <matrix>
-                                <Matrix a="1.19949340820312" d="1.19949340820312" tx="608.4" ty="-13"/>
+                                <Matrix a="1.1995849609375" d="1.1995849609375" tx="608.4" ty="-13.1"/>
                               </matrix>
                               <fills>
                                 <FillStyle index="1">
@@ -663,7 +663,7 @@ if (window.onEntryAnimDone) {
                             </DOMShape>
                             <DOMShape selected="true" isDrawingObject="true">
                               <matrix>
-                                <Matrix a="1.19949340820312" d="1.19949340820312" tx="608.4" ty="-13"/>
+                                <Matrix a="1.1995849609375" d="1.1995849609375" tx="608.4" ty="-13.1"/>
                               </matrix>
                               <fills>
                                 <FillStyle index="1">
@@ -685,10 +685,10 @@ if (window.onEntryAnimDone) {
                     </DOMGroup>
                     <DOMSymbolInstance libraryItemName="flash0.ai Assets_59/04/&amp;#060Path&amp;#062" selected="true" centerPoint3DX="643.35" centerPoint3DY="17.25">
                       <matrix>
-                        <Matrix a="1.19981384277344" d="1.19981384277344" tx="608.4" ty="-13"/>
+                        <Matrix a="1.19984436035156" d="1.19984436035156" tx="608.4" ty="-13.1"/>
                       </matrix>
                       <transformationPoint>
-                        <Point x="29.15" y="25.25"/>
+                        <Point x="29.15" y="25.35"/>
                       </transformationPoint>
                       <color>
                         <Color alphaMultiplier="0.390625"/>
@@ -944,12 +944,12 @@ if (window.onEntryAnimDone) {
                   <members>
                     <DOMGroup selected="true">
                       <matrix>
-                        <Matrix a="1.19981384277344" d="1.19981384277344" tx="446.4" ty="-13"/>
+                        <Matrix a="1.19984436035156" d="1.19984436035156" tx="446.4" ty="-13.1"/>
                       </matrix>
                       <members>
                         <DOMShape selected="true" isDrawingObject="true">
                           <matrix>
-                            <Matrix a="1.19967651367188" d="1.19967651367188" tx="446.4" ty="-13"/>
+                            <Matrix a="1.19973754882812" d="1.19973754882812" tx="446.4" ty="-13.1"/>
                           </matrix>
                           <fills>
                             <FillStyle index="1">
@@ -988,12 +988,12 @@ if (window.onEntryAnimDone) {
                     </DOMGroup>
                     <DOMGroup selected="true">
                       <matrix>
-                        <Matrix a="1.19981384277344" d="1.19981384277344" tx="446.4" ty="-13"/>
+                        <Matrix a="1.19984436035156" d="1.19984436035156" tx="446.4" ty="-13.1"/>
                       </matrix>
                       <members>
                         <DOMShape selected="true" isDrawingObject="true">
                           <matrix>
-                            <Matrix a="1.19967651367188" d="1.19967651367188" tx="446.4" ty="-13"/>
+                            <Matrix a="1.19973754882812" d="1.19973754882812" tx="446.4" ty="-13.1"/>
                           </matrix>
                           <fills>
                             <FillStyle index="1">
@@ -1030,12 +1030,12 @@ if (window.onEntryAnimDone) {
                         </DOMShape>
                         <DOMGroup selected="true">
                           <matrix>
-                            <Matrix a="1.19967651367188" d="1.19967651367188" tx="446.4" ty="-13"/>
+                            <Matrix a="1.19973754882812" d="1.19973754882812" tx="446.4" ty="-13.1"/>
                           </matrix>
                           <members>
                             <DOMShape selected="true" isDrawingObject="true">
                               <matrix>
-                                <Matrix a="1.19949340820312" d="1.19949340820312" tx="446.4" ty="-13"/>
+                                <Matrix a="1.1995849609375" d="1.1995849609375" tx="446.4" ty="-13.1"/>
                               </matrix>
                               <fills>
                                 <FillStyle index="1">
@@ -1054,7 +1054,7 @@ if (window.onEntryAnimDone) {
                             </DOMShape>
                             <DOMShape selected="true" isDrawingObject="true">
                               <matrix>
-                                <Matrix a="1.19949340820312" d="1.19949340820312" tx="446.4" ty="-13"/>
+                                <Matrix a="1.1995849609375" d="1.1995849609375" tx="446.4" ty="-13.1"/>
                               </matrix>
                               <fills>
                                 <FillStyle index="1">
@@ -1077,7 +1077,7 @@ if (window.onEntryAnimDone) {
                             </DOMShape>
                             <DOMShape selected="true" isDrawingObject="true">
                               <matrix>
-                                <Matrix a="1.19949340820312" d="1.19949340820312" tx="446.4" ty="-13"/>
+                                <Matrix a="1.1995849609375" d="1.1995849609375" tx="446.4" ty="-13.1"/>
                               </matrix>
                               <fills>
                                 <FillStyle index="1">
@@ -1100,7 +1100,7 @@ if (window.onEntryAnimDone) {
                             </DOMShape>
                             <DOMShape selected="true" isDrawingObject="true">
                               <matrix>
-                                <Matrix a="1.19949340820312" d="1.19949340820312" tx="446.4" ty="-13"/>
+                                <Matrix a="1.1995849609375" d="1.1995849609375" tx="446.4" ty="-13.1"/>
                               </matrix>
                               <fills>
                                 <FillStyle index="1">
@@ -1122,10 +1122,10 @@ if (window.onEntryAnimDone) {
                     </DOMGroup>
                     <DOMSymbolInstance libraryItemName="flash0.ai Assets_59/04/&amp;#060Path&amp;#062" selected="true" centerPoint3DX="481.4" centerPoint3DY="17.25">
                       <matrix>
-                        <Matrix a="1.19981384277344" d="1.19981384277344" tx="446.4" ty="-13"/>
+                        <Matrix a="1.19984436035156" d="1.19984436035156" tx="446.4" ty="-13.1"/>
                       </matrix>
                       <transformationPoint>
-                        <Point x="29.15" y="25.25"/>
+                        <Point x="29.15" y="25.35"/>
                       </transformationPoint>
                       <color>
                         <Color alphaMultiplier="0.390625"/>
@@ -1381,12 +1381,12 @@ if (window.onEntryAnimDone) {
                   <members>
                     <DOMGroup selected="true">
                       <matrix>
-                        <Matrix a="1.19981384277344" d="1.19981384277344" tx="298.95" ty="-13"/>
+                        <Matrix a="1.19984436035156" d="1.19984436035156" tx="298.9" ty="-13.1"/>
                       </matrix>
                       <members>
                         <DOMShape selected="true" isDrawingObject="true">
                           <matrix>
-                            <Matrix a="1.19967651367188" d="1.19967651367188" tx="298.95" ty="-13"/>
+                            <Matrix a="1.19973754882812" d="1.19973754882812" tx="298.9" ty="-13.1"/>
                           </matrix>
                           <fills>
                             <FillStyle index="1">
@@ -1425,12 +1425,12 @@ if (window.onEntryAnimDone) {
                     </DOMGroup>
                     <DOMGroup selected="true">
                       <matrix>
-                        <Matrix a="1.19981384277344" d="1.19981384277344" tx="298.95" ty="-13"/>
+                        <Matrix a="1.19984436035156" d="1.19984436035156" tx="298.9" ty="-13.1"/>
                       </matrix>
                       <members>
                         <DOMShape selected="true" isDrawingObject="true">
                           <matrix>
-                            <Matrix a="1.19967651367188" d="1.19967651367188" tx="298.95" ty="-13"/>
+                            <Matrix a="1.19973754882812" d="1.19973754882812" tx="298.9" ty="-13.1"/>
                           </matrix>
                           <fills>
                             <FillStyle index="1">
@@ -1467,12 +1467,12 @@ if (window.onEntryAnimDone) {
                         </DOMShape>
                         <DOMGroup selected="true">
                           <matrix>
-                            <Matrix a="1.19967651367188" d="1.19967651367188" tx="298.95" ty="-13"/>
+                            <Matrix a="1.19973754882812" d="1.19973754882812" tx="298.9" ty="-13.1"/>
                           </matrix>
                           <members>
                             <DOMShape selected="true" isDrawingObject="true">
                               <matrix>
-                                <Matrix a="1.19949340820312" d="1.19949340820312" tx="298.95" ty="-13"/>
+                                <Matrix a="1.1995849609375" d="1.1995849609375" tx="298.9" ty="-13.1"/>
                               </matrix>
                               <fills>
                                 <FillStyle index="1">
@@ -1491,7 +1491,7 @@ if (window.onEntryAnimDone) {
                             </DOMShape>
                             <DOMShape selected="true" isDrawingObject="true">
                               <matrix>
-                                <Matrix a="1.19949340820312" d="1.19949340820312" tx="298.95" ty="-13"/>
+                                <Matrix a="1.1995849609375" d="1.1995849609375" tx="298.9" ty="-13.1"/>
                               </matrix>
                               <fills>
                                 <FillStyle index="1">
@@ -1514,7 +1514,7 @@ if (window.onEntryAnimDone) {
                             </DOMShape>
                             <DOMShape selected="true" isDrawingObject="true">
                               <matrix>
-                                <Matrix a="1.19949340820312" d="1.19949340820312" tx="298.95" ty="-13"/>
+                                <Matrix a="1.1995849609375" d="1.1995849609375" tx="298.9" ty="-13.1"/>
                               </matrix>
                               <fills>
                                 <FillStyle index="1">
@@ -1537,7 +1537,7 @@ if (window.onEntryAnimDone) {
                             </DOMShape>
                             <DOMShape selected="true" isDrawingObject="true">
                               <matrix>
-                                <Matrix a="1.19949340820312" d="1.19949340820312" tx="298.95" ty="-13"/>
+                                <Matrix a="1.1995849609375" d="1.1995849609375" tx="298.9" ty="-13.1"/>
                               </matrix>
                               <fills>
                                 <FillStyle index="1">
@@ -1559,10 +1559,10 @@ if (window.onEntryAnimDone) {
                     </DOMGroup>
                     <DOMSymbolInstance libraryItemName="flash0.ai Assets_59/04/&amp;#060Path&amp;#062" selected="true" centerPoint3DX="333.75" centerPoint3DY="17.25">
                       <matrix>
-                        <Matrix a="1.19981384277344" d="1.19981384277344" tx="298.95" ty="-13"/>
+                        <Matrix a="1.19984436035156" d="1.19984436035156" tx="298.9" ty="-13.1"/>
                       </matrix>
                       <transformationPoint>
-                        <Point x="29" y="25.25"/>
+                        <Point x="29.05" y="25.35"/>
                       </transformationPoint>
                       <color>
                         <Color alphaMultiplier="0.390625"/>
@@ -1818,12 +1818,12 @@ if (window.onEntryAnimDone) {
                   <members>
                     <DOMGroup selected="true">
                       <matrix>
-                        <Matrix a="1.19981384277344" d="1.19981384277344" tx="144.35" ty="-13"/>
+                        <Matrix a="1.19984436035156" d="1.19984436035156" tx="144.35" ty="-13.1"/>
                       </matrix>
                       <members>
                         <DOMShape selected="true" isDrawingObject="true">
                           <matrix>
-                            <Matrix a="1.19967651367188" d="1.19967651367188" tx="144.35" ty="-13"/>
+                            <Matrix a="1.19973754882812" d="1.19973754882812" tx="144.35" ty="-13.1"/>
                           </matrix>
                           <fills>
                             <FillStyle index="1">
@@ -1862,12 +1862,12 @@ if (window.onEntryAnimDone) {
                     </DOMGroup>
                     <DOMGroup selected="true">
                       <matrix>
-                        <Matrix a="1.19981384277344" d="1.19981384277344" tx="144.35" ty="-13"/>
+                        <Matrix a="1.19984436035156" d="1.19984436035156" tx="144.35" ty="-13.1"/>
                       </matrix>
                       <members>
                         <DOMShape selected="true" isDrawingObject="true">
                           <matrix>
-                            <Matrix a="1.19967651367188" d="1.19967651367188" tx="144.35" ty="-13"/>
+                            <Matrix a="1.19973754882812" d="1.19973754882812" tx="144.35" ty="-13.1"/>
                           </matrix>
                           <fills>
                             <FillStyle index="1">
@@ -1904,12 +1904,12 @@ if (window.onEntryAnimDone) {
                         </DOMShape>
                         <DOMGroup selected="true">
                           <matrix>
-                            <Matrix a="1.19967651367188" d="1.19967651367188" tx="144.35" ty="-13"/>
+                            <Matrix a="1.19973754882812" d="1.19973754882812" tx="144.35" ty="-13.1"/>
                           </matrix>
                           <members>
                             <DOMShape selected="true" isDrawingObject="true">
                               <matrix>
-                                <Matrix a="1.19949340820312" d="1.19949340820312" tx="144.35" ty="-13"/>
+                                <Matrix a="1.1995849609375" d="1.1995849609375" tx="144.35" ty="-13.1"/>
                               </matrix>
                               <fills>
                                 <FillStyle index="1">
@@ -1928,7 +1928,7 @@ if (window.onEntryAnimDone) {
                             </DOMShape>
                             <DOMShape selected="true" isDrawingObject="true">
                               <matrix>
-                                <Matrix a="1.19949340820312" d="1.19949340820312" tx="144.35" ty="-13"/>
+                                <Matrix a="1.1995849609375" d="1.1995849609375" tx="144.35" ty="-13.1"/>
                               </matrix>
                               <fills>
                                 <FillStyle index="1">
@@ -1951,7 +1951,7 @@ if (window.onEntryAnimDone) {
                             </DOMShape>
                             <DOMShape selected="true" isDrawingObject="true">
                               <matrix>
-                                <Matrix a="1.19949340820312" d="1.19949340820312" tx="144.35" ty="-13"/>
+                                <Matrix a="1.1995849609375" d="1.1995849609375" tx="144.35" ty="-13.1"/>
                               </matrix>
                               <fills>
                                 <FillStyle index="1">
@@ -1974,7 +1974,7 @@ if (window.onEntryAnimDone) {
                             </DOMShape>
                             <DOMShape selected="true" isDrawingObject="true">
                               <matrix>
-                                <Matrix a="1.19949340820312" d="1.19949340820312" tx="144.35" ty="-13"/>
+                                <Matrix a="1.1995849609375" d="1.1995849609375" tx="144.35" ty="-13.1"/>
                               </matrix>
                               <fills>
                                 <FillStyle index="1">
@@ -1996,10 +1996,10 @@ if (window.onEntryAnimDone) {
                     </DOMGroup>
                     <DOMSymbolInstance libraryItemName="flash0.ai Assets_59/04/&amp;#060Path&amp;#062" selected="true" centerPoint3DX="179.3" centerPoint3DY="17.25">
                       <matrix>
-                        <Matrix a="1.19981384277344" d="1.19981384277344" tx="144.35" ty="-13"/>
+                        <Matrix a="1.19984436035156" d="1.19984436035156" tx="144.35" ty="-13.1"/>
                       </matrix>
                       <transformationPoint>
-                        <Point x="29.15" y="25.25"/>
+                        <Point x="29.15" y="25.35"/>
                       </transformationPoint>
                       <color>
                         <Color alphaMultiplier="0.390625"/>
@@ -2252,12 +2252,12 @@ if (window.onEntryAnimDone) {
                   <members>
                     <DOMGroup selected="true">
                       <matrix>
-                        <Matrix a="1.19985961914062" d="1.19985961914062" tx="-9.95" ty="-13.2"/>
+                        <Matrix a="1.19990539550781" d="1.19990539550781" tx="-10.05" ty="-13.3"/>
                       </matrix>
                       <members>
                         <DOMShape selected="true" isDrawingObject="true">
                           <matrix>
-                            <Matrix a="1.19978332519531" d="1.19978332519531" tx="-9.95" ty="-13.2"/>
+                            <Matrix a="1.19984436035156" d="1.19984436035156" tx="-10.05" ty="-13.3"/>
                           </matrix>
                           <fills>
                             <FillStyle index="1">
@@ -2296,12 +2296,12 @@ if (window.onEntryAnimDone) {
                     </DOMGroup>
                     <DOMGroup selected="true">
                       <matrix>
-                        <Matrix a="1.19985961914062" d="1.19985961914062" tx="-9.95" ty="-13.2"/>
+                        <Matrix a="1.19990539550781" d="1.19990539550781" tx="-10.05" ty="-13.3"/>
                       </matrix>
                       <members>
                         <DOMShape selected="true" isDrawingObject="true">
                           <matrix>
-                            <Matrix a="1.19978332519531" d="1.19978332519531" tx="-9.95" ty="-13.2"/>
+                            <Matrix a="1.19984436035156" d="1.19984436035156" tx="-10.05" ty="-13.3"/>
                           </matrix>
                           <fills>
                             <FillStyle index="1">
@@ -2338,12 +2338,12 @@ if (window.onEntryAnimDone) {
                         </DOMShape>
                         <DOMGroup selected="true">
                           <matrix>
-                            <Matrix a="1.19978332519531" d="1.19978332519531" tx="-9.95" ty="-13.2"/>
+                            <Matrix a="1.19984436035156" d="1.19984436035156" tx="-10.05" ty="-13.3"/>
                           </matrix>
                           <members>
                             <DOMShape selected="true" isDrawingObject="true">
                               <matrix>
-                                <Matrix a="1.19969177246094" d="1.19969177246094" tx="-9.95" ty="-13.2"/>
+                                <Matrix a="1.19975280761719" d="1.19975280761719" tx="-10.05" ty="-13.3"/>
                               </matrix>
                               <fills>
                                 <FillStyle index="1">
@@ -2362,7 +2362,7 @@ if (window.onEntryAnimDone) {
                             </DOMShape>
                             <DOMShape selected="true" isDrawingObject="true">
                               <matrix>
-                                <Matrix a="1.19969177246094" d="1.19969177246094" tx="-9.95" ty="-13.2"/>
+                                <Matrix a="1.19975280761719" d="1.19975280761719" tx="-10.05" ty="-13.3"/>
                               </matrix>
                               <fills>
                                 <FillStyle index="1">
@@ -2385,7 +2385,7 @@ if (window.onEntryAnimDone) {
                             </DOMShape>
                             <DOMShape selected="true" isDrawingObject="true">
                               <matrix>
-                                <Matrix a="1.19969177246094" d="1.19969177246094" tx="-9.95" ty="-13.2"/>
+                                <Matrix a="1.19975280761719" d="1.19975280761719" tx="-10.05" ty="-13.3"/>
                               </matrix>
                               <fills>
                                 <FillStyle index="1">
@@ -2408,7 +2408,7 @@ if (window.onEntryAnimDone) {
                             </DOMShape>
                             <DOMShape selected="true" isDrawingObject="true">
                               <matrix>
-                                <Matrix a="1.19969177246094" d="1.19969177246094" tx="-9.95" ty="-13.2"/>
+                                <Matrix a="1.19975280761719" d="1.19975280761719" tx="-10.05" ty="-13.3"/>
                               </matrix>
                               <fills>
                                 <FillStyle index="1">
@@ -2430,10 +2430,10 @@ if (window.onEntryAnimDone) {
                     </DOMGroup>
                     <DOMSymbolInstance libraryItemName="flash0.ai Assets_59/04/&amp;#060Path&amp;#062" selected="true" centerPoint3DX="24.75" centerPoint3DY="17.25">
                       <matrix>
-                        <Matrix a="1.19985961914062" d="1.19985961914062" tx="-9.95" ty="-13.2"/>
+                        <Matrix a="1.19990539550781" d="1.19990539550781" tx="-10.05" ty="-13.3"/>
                       </matrix>
                       <transformationPoint>
-                        <Point x="28.9" y="25.4"/>
+                        <Point x="29" y="25.45"/>
                       </transformationPoint>
                       <color>
                         <Color alphaMultiplier="0.390625"/>

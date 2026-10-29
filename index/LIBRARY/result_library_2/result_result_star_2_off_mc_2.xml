@@ -1,0 +1,21 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="result_library_2/result_result_star_2_off_mc_2" itemID="6ae2954b-00007728" lastModified="1793234251">
+  <timeline>
+    <DOMTimeline name="result_result_star_2_off_mc_2" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance selected="true" libraryItemName="result_library_2/result_shared_star_off_2">
+                  <matrix>
+                    <Matrix a="0.91583251953125" d="0.915863037109375"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

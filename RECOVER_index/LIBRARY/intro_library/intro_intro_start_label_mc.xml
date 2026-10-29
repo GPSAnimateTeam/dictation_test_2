@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="intro_library/intro_intro_start_label_mc" itemID="6ae1d20d-0000183b" lastModified="1793184269">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="intro_library/intro_intro_start_label_mc" itemID="6ae25ba4-00003ef0" lastModified="1793219492">
   <timeline>
     <DOMTimeline name="intro_intro_start_label_mc" layerDepthEnabled="true">
       <layers>
@@ -14,7 +14,7 @@
                     <DOMTextRun>
                       <characters>ابدأ</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="95.4" size="44" bitmapSize="880" face="NotoSansArabic-Bold" fillColor="#4A2208"/>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="77.2" size="44" bitmapSize="880" face="ReadexPro-Regular" fillColor="#4A2208"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>

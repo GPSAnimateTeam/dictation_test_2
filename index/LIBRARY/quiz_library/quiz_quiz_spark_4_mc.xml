@@ -1,0 +1,21 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="quiz_library/quiz_quiz_spark_4_mc" itemID="6ae29444-00006f2d" lastModified="1793233988">
+  <timeline>
+    <DOMTimeline name="quiz_quiz_spark_4_mc" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance selected="true" libraryItemName="quiz_library/quiz_shared_fx_spark4">
+                  <matrix>
+                    <Matrix a="0.507904052734375" d="0.507904052734375"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

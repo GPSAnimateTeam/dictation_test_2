@@ -16,12 +16,12 @@
                   <members>
                     <DOMGroup selected="true">
                       <matrix>
-                        <Matrix a="0.634368896484375" d="0.634368896484375" tx="-793.45" ty="-583.9"/>
+                        <Matrix a="0.634384155273438" d="0.634384155273438" tx="-793.45" ty="-583.9"/>
                       </matrix>
                       <members>
                         <DOMShape selected="true" isDrawingObject="true">
                           <matrix>
-                            <Matrix a="0.634124755859375" d="0.634124755859375" tx="-793.45" ty="-583.9"/>
+                            <Matrix a="0.6341552734375" d="0.6341552734375" tx="-793.45" ty="-583.9"/>
                           </matrix>
                           <fills>
                             <FillStyle index="1">
@@ -68,7 +68,7 @@
                         </DOMShape>
                         <DOMShape selected="true" isDrawingObject="true">
                           <matrix>
-                            <Matrix a="0.634124755859375" d="0.634124755859375" tx="-793.45" ty="-583.9"/>
+                            <Matrix a="0.6341552734375" d="0.6341552734375" tx="-793.45" ty="-583.9"/>
                           </matrix>
                           <fills>
                             <FillStyle index="1">
@@ -102,7 +102,7 @@
                         </DOMShape>
                         <DOMShape selected="true" isDrawingObject="true">
                           <matrix>
-                            <Matrix a="0.634124755859375" d="0.634124755859375" tx="-793.45" ty="-583.9"/>
+                            <Matrix a="0.6341552734375" d="0.6341552734375" tx="-793.45" ty="-583.9"/>
                           </matrix>
                           <fills>
                             <FillStyle index="1">
@@ -148,12 +148,12 @@
                     </DOMGroup>
                     <DOMGroup selected="true">
                       <matrix>
-                        <Matrix a="0.634368896484375" d="0.634368896484375" tx="-793.45" ty="-583.9"/>
+                        <Matrix a="0.634384155273438" d="0.634384155273438" tx="-793.45" ty="-583.9"/>
                       </matrix>
                       <members>
                         <DOMShape selected="true" isDrawingObject="true">
                           <matrix>
-                            <Matrix a="0.634124755859375" d="0.634124755859375" tx="-793.45" ty="-583.9"/>
+                            <Matrix a="0.6341552734375" d="0.6341552734375" tx="-793.45" ty="-583.9"/>
                           </matrix>
                           <fills>
                             <FillStyle index="1">
@@ -201,7 +201,7 @@
                         </DOMShape>
                         <DOMShape selected="true" isDrawingObject="true">
                           <matrix>
-                            <Matrix a="0.634124755859375" d="0.634124755859375" tx="-793.45" ty="-583.9"/>
+                            <Matrix a="0.6341552734375" d="0.6341552734375" tx="-793.45" ty="-583.9"/>
                           </matrix>
                           <fills>
                             <FillStyle index="1">
@@ -235,7 +235,7 @@
                         </DOMShape>
                         <DOMShape selected="true" isDrawingObject="true">
                           <matrix>
-                            <Matrix a="0.634124755859375" d="0.634124755859375" tx="-793.45" ty="-583.9"/>
+                            <Matrix a="0.6341552734375" d="0.6341552734375" tx="-793.45" ty="-583.9"/>
                           </matrix>
                           <fills>
                             <FillStyle index="1">
